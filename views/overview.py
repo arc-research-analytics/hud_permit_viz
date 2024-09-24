@@ -172,7 +172,7 @@ hide_default_format = """
         <style>
           
             [data-testid="stAppViewBlockContainer"] {
-                margin-top: 0px;
+                margin-top: -30px;
                 padding-left: 40px;
                 padding-right: 50px;
             }
