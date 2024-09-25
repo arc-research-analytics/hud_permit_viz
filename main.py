@@ -67,9 +67,6 @@ hide_default_format = """
             [class="stDeployButton"] {
                 display: none;
             } 
-            [data-testid="manage-app-button"] {
-                display: none;
-            }
             div.stActionButton{visibility: hidden;}
         </style>
        """
