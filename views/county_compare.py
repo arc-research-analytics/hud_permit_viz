@@ -306,7 +306,7 @@ hide_default_format = """
                 margin-bottom: 10px;
             }
             [data-testid="stAppViewBlockContainer"] {
-                padding-top: 55px;
+                padding-top: 40px;
                 padding-left: 30px;
                 padding-right: 30px;
             }
