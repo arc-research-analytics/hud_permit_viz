@@ -214,6 +214,8 @@ fig.update_layout(
         ),
         tickformat=','
     ),
+    plot_bgcolor='#292929',
+    paper_bgcolor='#292929'
 )
 
 # configure tooltip
