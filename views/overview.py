@@ -164,27 +164,19 @@ st.plotly_chart(
 # the custom CSS lives here:
 hide_default_format = """
         <style>
-          
-            [data-testid="stAppViewBlockContainer"] {
-                margin-top: -30px;
-                padding-left: 40px;
-                padding-right: 50px;
-            }
-            [data-testid="stHeader"] {
-                color: #292929;
-            }
-            [data-testid="stDownloadButton"] {
-                position: absolute;
-                left: 1050px;
-                top: -695px;
-            }
-            [data-testid=manage-app-button] {
-                display: none;
-                visibility: hidden;
-            }
-            .main {
-                overflow: hidden
-            }
+        [data-testid="stAppViewBlockContainer"] {
+            margin-top: -30px;
+            padding-left: 40px;
+            padding-right: 50px;
+        }
+        [data-testid="stDownloadButton"] {
+            position: absolute;
+            left: 1050px;
+            top: -695px;
+        }
+        .main {
+            overflow: hidden
+        }
         </style>
        """
 

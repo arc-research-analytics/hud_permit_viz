@@ -79,9 +79,8 @@ with col5:
 
 st.query_params["year"] = slider
 
+
 # cache function to read in CSV data for Explore page
-
-
 @st.cache_data
 def read_drilldown_data():
     drilldown_df = pd.read_csv('Data/annual_file_county.csv')
@@ -301,19 +300,13 @@ hide_default_format = """
                 margin-bottom: 10px;
             }
             [data-testid="stAppViewBlockContainer"] {
-                margin-top: -50px;
+                padding-top: 55px;
                 padding-left: 30px;
                 padding-right: 30px;
             }
             [data-testid="stDownloadButton"] {
                 position: absolute;
                 bottom: 10px;
-            }
-            [data-testid="stHeader"] {
-                color: #292929;
-            }
-            .main {
-                overflow: hidden
             }
         </style>
        """

@@ -52,9 +52,15 @@ pg.run()
 # the custom CSS lives here:
 hide_default_format = """
         <style>
-            .reportview-container .main footer {visibility: hidden;}    
+            .main {
+                overflow: hidden
+            }
             MainMenu, footer {
                 visibility: hidden;
+                height: 0%;
+            }
+            [data-testid="stHeader"] {
+                display: none;
             }
             section.main > div:has(~ footer ) {
                 padding-bottom: 1px;
@@ -63,9 +69,6 @@ hide_default_format = """
             [data-testid="stDecoration"] {
                 display: none;
                 }
-            [data-testid="stHeader"] {
-                display: none;
-            }
             [class="stDeployButton"] {
                 display: none;
             }
