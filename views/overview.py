@@ -184,8 +184,8 @@ hide_default_format = """
                 left: 1050px;
                 top: -695px;
             }
-            [data-testid="manage-app-button"] {
-                color: #FFFFFF;
+            .styles_terminalButton__JBj5T [data-testid=manage-app-button] {
+                display: none;
             }
             .main {
                 overflow: hidden
