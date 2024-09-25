@@ -9,5 +9,4 @@ font = 'monospace'
 headless = true
 enableCORS = false
 port = $PORT
-runOnSave = true
 " > ~/.streamlit/config.toml
