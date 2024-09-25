@@ -193,8 +193,8 @@ if screen_width >= 500:  # what to do if on desktop / tablet view
     st.markdown(hide_default_format, unsafe_allow_html=True)
 
 else:  # everything here is for mobile view
-    st.write(
-        '<b>Note:</b> This application is not optimized for mobile screens. For the best user experience, open this on a desktop screen!')
+    st.markdown(
+        '<b>Note:</b> This application is not optimized for mobile screens. For the best user experience, open this on a desktop screen!', unsafe_allow_html=True)
 
     # the custom CSS for mobile lives here:
     hide_default_format = """
