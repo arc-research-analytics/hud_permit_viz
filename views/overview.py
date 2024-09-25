@@ -184,9 +184,8 @@ hide_default_format = """
                 left: 1050px;
                 top: -695px;
             }
-            [data-testid="manage-app-button"] > div {
-                display: none;
-                visibility: hidden;
+            [data-testid="manage-app-button"] {
+                color: #FFFFFF;
             }
             .main {
                 overflow: hidden
