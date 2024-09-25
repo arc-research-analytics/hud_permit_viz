@@ -53,7 +53,9 @@ pg.run()
 hide_default_format = """
         <style>
             .reportview-container .main footer {visibility: hidden;}    
-            #MainMenu, footer {visibility: hidden;}
+            MainMenu, footer {
+                visibility: hidden;
+            }
             section.main > div:has(~ footer ) {
                 padding-bottom: 1px;
                 padding-top: 2px;
@@ -66,8 +68,10 @@ hide_default_format = """
             }
             [class="stDeployButton"] {
                 display: none;
-            } 
-            div.stActionButton{visibility: hidden;}
+            }
+            .stActionButton {
+                visibility: hidden;
+            }
         </style>
        """
 
