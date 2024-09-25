@@ -180,18 +180,20 @@ hide_default_format = """
             margin-top: -50px;
             padding-left: 40px;
             padding-right: 50px;
+            height: 100%;
+            width: 100%;
         }
         [data-testid="stDownloadButton"] {
             position: absolute;
             left: 1050px;
             top: -695px;
         }
+        .main {
+            overflow: hidden
+        }
         </style>
        """
 
-# .main {
-#     overflow: hidden
-# }
 
 # inject the CSS
 st.markdown(hide_default_format, unsafe_allow_html=True)
