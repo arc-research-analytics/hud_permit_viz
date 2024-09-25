@@ -14,8 +14,5 @@ textColor = "#d9d9d9"
 # Font family for all text in the app, except code blocks. One of "sans serif", "serif", or "monospace".
 font = "monospace"
 
-[server]
-runOnSave = true
-
 [client]
 toolbarMode = "minimal"
