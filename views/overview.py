@@ -74,6 +74,9 @@ fig = px.line(
 # update fig layout
 fig.update_layout(
     hovermode='x unified',
+    hoverlabel=dict(
+        font_size=16  # this changes the font size of the tooltip
+    ),
     title={
         'font': {
             'color': font_color,
@@ -100,7 +103,7 @@ fig.update_layout(
 # customize line trace
 line_color = '#FF6F61'
 fig.update_traces(
-    hovertemplate='%{y}',
+    hovertemplate='%{y:,.0f}',
     mode='lines',
     line=dict(
         color=line_color,
@@ -157,15 +160,6 @@ st.plotly_chart(
     theme='streamlit',
     use_container_width=True
 )
-
-# # download dataframe as CSV
-# df_download = df.to_csv(index='False').encode('utf-8')
-# st.download_button(
-#     label=":material/download:",
-#     data=df_download,
-#     file_name='overview_data.csv',
-#     help='Download the data on this page'
-# )
 
 # the custom CSS lives here:
 hide_default_format = """
