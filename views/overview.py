@@ -174,7 +174,7 @@ if screen_width >= 500:
     hide_default_format = """
         <style>
         [data-testid="stAppViewBlockContainer"] {
-            margin-top: -30px;
+            margin-top: -50px;
             padding-left: 40px;
             padding-right: 50px;
         }
