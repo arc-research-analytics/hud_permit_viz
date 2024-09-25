@@ -136,7 +136,7 @@ fig.add_annotation(
     yshift=10,  # Shift text upwards by 10 pixels to avoid overlapping with the line
     font=dict(
         color=annotation_color,
-        size=14,
+        size=16,
         weight='bold'
     )
 )
@@ -178,8 +178,9 @@ hide_default_format = """
                 left: 1050px;
                 top: -695px;
             }
-            .styles_terminalButton__JBj5T [data-testid=manage-app-button] {
+            [data-testid=manage-app-button] {
                 display: none;
+                visibility: hidden;
             }
             .main {
                 overflow: hidden
