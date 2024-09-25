@@ -174,7 +174,7 @@ if screen_width >= 500:
     hide_default_format = """
         <style>
         [data-testid="stAppViewBlockContainer"] {
-            margin-top: -50px;
+            margin-top: -30px;
             padding-left: 40px;
             padding-right: 50px;
         }
@@ -194,7 +194,7 @@ if screen_width >= 500:
 
 else:
     st.write(
-        'You are viewing this app on a mobile screen. For the best results, view on desktop!')
+        'You are viewing this app on a mobile screen. For the best user experience, open this on a desktop screen!')
 
     # the custom CSS for mobile lives here:
     hide_default_format = """
