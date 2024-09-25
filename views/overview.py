@@ -169,12 +169,35 @@ if screen_width >= 500:
         theme='streamlit',
         use_container_width=True
     )
+
+    # the custom CSS for desktop lives here:
+    hide_default_format = """
+        <style>
+        [data-testid="stAppViewBlockContainer"] {
+            margin-top: -50px;
+            padding-left: 40px;
+            padding-right: 50px;
+        }
+        [data-testid="stDownloadButton"] {
+            position: absolute;
+            left: 1050px;
+            top: -695px;
+        }
+        .main {
+            overflow: hidden
+        }
+        </style>
+       """
+
+    # inject the CSS
+    st.markdown(hide_default_format, unsafe_allow_html=True)
+
 else:
     st.write(
         'You are viewing this app on a mobile screen. For the best results, view on desktop!')
 
-# the custom CSS lives here:
-hide_default_format = """
+    # the custom CSS for mobile lives here:
+    hide_default_format = """
         <style>
         [data-testid="stAppViewBlockContainer"] {
             margin-top: -50px;
@@ -193,6 +216,5 @@ hide_default_format = """
         </style>
        """
 
-
-# inject the CSS
-st.markdown(hide_default_format, unsafe_allow_html=True)
+    # inject the CSS
+    st.markdown(hide_default_format, unsafe_allow_html=True)
