@@ -314,6 +314,9 @@ hide_default_format = """
                 position: absolute;
                 bottom: 10px;
             }
+            .main {
+                overflow: hidden
+            }
         </style>
        """
 
