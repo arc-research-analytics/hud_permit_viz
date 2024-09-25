@@ -231,7 +231,6 @@ value_font_color = font_color
 
 
 col2.write("")
-col2.write("")
 
 # Create a list of counties and their total permits
 county_totals = [(county, df_chart[df_chart['county_name'] == county]['Permits'].sum())
