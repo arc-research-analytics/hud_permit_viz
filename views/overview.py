@@ -15,7 +15,7 @@ screenD = ScreenData(setTimeout=200)
 screen_d = screenD.st_screen_data()
 screen_width = screen_d['innerWidth']
 
-if screen_width >= 500:
+if screen_width >= 500:  # what to do if on desktop / tablet view
     # cache function to read in CSV data for Overview page
     @ st.cache_data
     def read_overview_data():
@@ -192,9 +192,9 @@ if screen_width >= 500:
     # inject the CSS
     st.markdown(hide_default_format, unsafe_allow_html=True)
 
-else:
+else:  # everything here is for mobile view
     st.write(
-        'You are viewing this app on a mobile screen. For the best user experience, open this on a desktop screen!')
+        '<b>Note:</b> This application is not optimized for mobile screens. For the best user experience, open this on a desktop screen!')
 
     # the custom CSS for mobile lives here:
     hide_default_format = """
