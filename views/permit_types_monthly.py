@@ -4,6 +4,12 @@ import plotly.express as px
 from utils import county_color_map
 from pandas.tseries.offsets import DateOffset
 
+# set page configurations
+st.set_page_config(
+    layout="wide",
+    initial_sidebar_state="expanded"  # 'collapsed' or 'expanded'
+)
+
 
 # function definitions to set state variables and query parameters on change
 def update_geography():

@@ -3,6 +3,12 @@ import pandas as pd
 import plotly.express as px
 from utils import colorize_multiselect_options, county_color_map, update_permit_type, update_county, update_starting_year
 
+# set page configurations
+st.set_page_config(
+    layout="wide",
+    initial_sidebar_state="expanded"  # 'collapsed' or 'expanded'
+)
+
 # Initialize session state for the widgets, if not already set
 if 'permit_type' not in st.session_state:
     st.session_state['permit_type'] = "All"

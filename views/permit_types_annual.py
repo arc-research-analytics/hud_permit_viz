@@ -3,6 +3,12 @@ import pandas as pd
 import plotly.express as px
 from utils import county_color_map
 
+# set page configurations
+st.set_page_config(
+    layout="wide",
+    initial_sidebar_state="expanded"  # 'collapsed' or 'expanded'
+)
+
 
 # 3 function definitions to set state variables and query parameters on change
 def update_geography():

@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+from st_screen_stats import ScreenData
 
 # set page configurations
 st.set_page_config(
@@ -9,8 +10,14 @@ st.set_page_config(
 )
 
 
+# using react component
+screenD = ScreenData(setTimeout=200)
+screen_d = screenD.st_screen_data()
+screen_width = screen_d['innerWidth']
+
+
 # cache function to read in CSV data for Overview page
-@st.cache_data
+@ st.cache_data
 def read_overview_data():
     overview_df = pd.read_csv('Data/metro_total_annual.csv')
     return overview_df
@@ -42,6 +49,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
 # dashboard paragraph variables
 paragraph_font_size = 18
@@ -75,7 +83,9 @@ fig = px.line(
 fig.update_layout(
     hovermode='x unified',
     hoverlabel=dict(
-        font_size=16  # this changes the font size of the tooltip
+        font_size=16,  # this changes the font size of the tooltip
+        bgcolor='#292929',
+        font_color=font_color
     ),
     title={
         'font': {
@@ -97,7 +107,9 @@ fig.update_layout(
             size=16,
             color=font_color
         )
-    )
+    ),
+    plot_bgcolor='#292929',
+    paper_bgcolor='#292929'
 )
 
 # customize line trace
@@ -161,11 +173,13 @@ st.plotly_chart(
     use_container_width=True
 )
 
+st.write(screen_width)
+
 # the custom CSS lives here:
 hide_default_format = """
         <style>
         [data-testid="stAppViewBlockContainer"] {
-            margin-top: -30px;
+            margin-top: -50px;
             padding-left: 40px;
             padding-right: 50px;
         }
@@ -174,12 +188,12 @@ hide_default_format = """
             left: 1050px;
             top: -695px;
         }
-        .main {
-            overflow: hidden
-        }
         </style>
        """
 
+# .main {
+#     overflow: hidden
+# }
 
 # inject the CSS
 st.markdown(hide_default_format, unsafe_allow_html=True)

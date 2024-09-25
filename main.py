@@ -2,27 +2,27 @@ import streamlit as st
 from utils import *
 
 # - - - PAGE SETUP - - -
-overview_page = st.Page(
+overview = st.Page(
     page='views/overview.py',
     title='Overview',
     icon=':material/home:',
     default=True
 )
 
-county_drilldown = st.Page(
-    page='views/county_drilldown.py',
+county_compare = st.Page(
+    page='views/county_compare.py',
     title='County Compare',
     icon=':material/stacked_line_chart:'
 )
 
-type_drilldown = st.Page(
-    page='views/permit_type_drilldown.py',
+permit_types_annual = st.Page(
+    page='views/permit_types_annual.py',
     title='Permit Types (Annual)',
     icon=':material/area_chart:'
 )
 
-trailing_lookback = st.Page(
-    page='views/lookback_monthly.py',
+permit_types_monthly = st.Page(
+    page='views/permit_types_monthly.py',
     title='Permit Types (Monthly)',
     icon=':material/area_chart:'
 )
@@ -33,13 +33,14 @@ about_page = st.Page(
     icon=':material/info:'
 )
 
+
 # - - - NAVIGATION SETUP - - -
 pg = st.navigation(
     pages=[
-        overview_page,
-        county_drilldown,
-        type_drilldown,
-        trailing_lookback,
+        overview,
+        county_compare,
+        permit_types_annual,
+        permit_types_monthly,
         about_page
     ])
 
@@ -52,8 +53,8 @@ pg.run()
 # the custom CSS lives here:
 hide_default_format = """
         <style>
-            .main {
-                overflow: hidden
+            [data-testid="stAppViewBlockContainer"] {
+                background-color: #292929;
             }
             MainMenu, footer {
                 visibility: hidden;

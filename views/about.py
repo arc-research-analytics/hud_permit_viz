@@ -38,3 +38,23 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
+# the custom CSS lives here:
+hide_default_format = """
+        <style>
+            [data-testid="stAppViewBlockContainer"] {
+                padding-top: 100px;
+                padding-left: 50px;
+                padding-right: 50px;
+                height: 100%;
+                width: 100%;
+            }
+            .main {
+                overflow: hidden
+            }
+        </style>
+       """
+
+
+# inject the CSS
+st.markdown(hide_default_format, unsafe_allow_html=True)
