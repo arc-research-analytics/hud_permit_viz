@@ -181,7 +181,6 @@ hide_default_format = """
             padding-left: 40px;
             padding-right: 50px;
             height: 100%;
-            width: 100%;
         }
         [data-testid="stDownloadButton"] {
             position: absolute;
