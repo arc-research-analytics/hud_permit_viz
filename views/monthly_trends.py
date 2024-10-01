@@ -136,7 +136,6 @@ elif st.session_state['geo_level'] == 'Region':
     title = 'Permits Issued in the 11-County ARC Region, Trailing 18 Months'
 elif st.session_state['geo_level'] == 'County':
     df = read_county_data()
-    st.write(selected_county)
     df = df[df['county_name'] == selected_county]
     title = f'Permits Issued in {selected_county} County, Trailing 18 Months'
 
