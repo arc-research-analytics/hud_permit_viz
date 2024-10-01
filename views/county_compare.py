@@ -26,7 +26,7 @@ st.query_params["county"] = ",".join(st.session_state['county'])
 font_color = "#d9d9d9"
 
 # dashboard title variables
-title_font_size = 32
+title_font_size = 24
 title_margin_top = 0
 title_margin_bottom = 15
 title_font_weight = 700
@@ -89,35 +89,34 @@ st.query_params["year"] = slider
 # cache function to read in CSV data for Explore page
 @st.cache_data
 def read_drilldown_data():
-    drilldown_df = pd.read_csv('Data/annual_file_county.csv')
+    drilldown_df = pd.read_csv('Data/annual_county.csv')
     return drilldown_df
 
 
 # read in data
 df = read_drilldown_data()
 
-# filter data by permit type
-permit_type_dict = {
-    "Single-family": "All Single-Family Permits",
-    "Multi-family": "All Multi-Family Permits",
-    "All": "Total Permits"
-}
+# # filter data by permit type
+# permit_type_dict = {
+#     "Single-family": "All Single-Family Permits",
+#     "Multi-family": "All Multi-Family Permits",
+#     "All": "Total Permits"
+# }
 
-df_chart = df[df['Series'].str.contains(
-    permit_type_dict[st.session_state['permit_type']])]
-
-# filter data by county select
-df_chart = df_chart[df_chart['county_name'].isin(st.session_state['county'])]
-
-# filter data by starting year
+# apply filters
+df_chart = df[df['county_name'].isin(st.session_state['county'])]
 df_chart = df_chart[df_chart['Year'] >= slider]
+df_chart = df_chart[df_chart['Series'] == st.session_state['permit_type']]
+
+# st.write(st.session_state['permit_type'])
+# st.dataframe(df_chart, use_container_width=True)
+
 
 # set chart title based on multiselect
 if (len(st.session_state['county']) == 1):
     chart_title = f"{st.session_state['permit_type']} permits issued for {st.session_state['county'][0]} County since {slider}"
 else:
     chart_title = f"{st.session_state['permit_type']} permits issued for selected counties since {slider}"
-
 
 # create fig object
 fig = px.line(

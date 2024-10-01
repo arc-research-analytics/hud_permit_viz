@@ -56,11 +56,11 @@ if screen_width >= 500:  # what to do if on desktop / tablet view
     paragraph_font_weight = 100
     paragraph_font_color = font_color
 
-    # set paragraph
+    # set paragraph text
     st.markdown(
         f"""
         <div style='margin-top: {paragraph_margin_top}px; margin-bottom: {paragraph_margin_bottom}px; margin-left: {paragraph_margin_left}px;'>
-            <span style='font-size: {paragraph_font_size}px; font-weight: {paragraph_font_weight}; color: {paragraph_font_color}'>Since 1980, the 11-county metro Atlanta region has permitted a total of <b>{permits_total:,.0f}</b> residential building permits, which includes single- and multi-family permit types. Explore trends in the data using the side panel navigation.</span>
+            <span style='font-size: {paragraph_font_size}px; font-weight: {paragraph_font_weight}; color: {paragraph_font_color}'>Like many cities across the nation, Atlanta lacks affordable housing. One primary means to address this shortage is by building more housing units! To provide greater transparency in the crucial permitting process, we have built a tracker for residential building permits issued across the 11-county metro Atlanta region. Since 1980, the region has permitted a total of <b>{permits_total:,.0f}</b> residential building permits, inclusive of single- and multi-family units. Explore trends in the data using the side panel navigation.</span>
         </div>
         """,
         unsafe_allow_html=True
@@ -71,8 +71,8 @@ if screen_width >= 500:  # what to do if on desktop / tablet view
         df,
         x='Year',
         y='Permits',
-        title='Annual Building Permits Issued in 11-County ARC Region, All Series Included',
-        height=525
+        title='Annual Building Permits Issued in 11-County Metro Region (All Types)',
+        height=500
     )
 
     # update fig layout
@@ -174,7 +174,7 @@ if screen_width >= 500:  # what to do if on desktop / tablet view
     hide_default_format = """
         <style>
         [data-testid="stAppViewBlockContainer"] {
-            margin-top: -50px;
+            margin-top: -70px;
             padding-left: 40px;
             padding-right: 50px;
         }

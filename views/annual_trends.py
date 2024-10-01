@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-from utils import county_color_map
+from utils import county_color_map, city_list
 
 # set page configurations
 st.set_page_config(
@@ -10,36 +10,35 @@ st.set_page_config(
 )
 
 
-# 3 function definitions to set state variables and query parameters on change
-def update_geography():
-    st.session_state['geography_type2'] = st.session_state['geography_type_input2']
-    st.query_params["geo"] = st.session_state['geography_type2']
-
-
-def update_county():
-    st.session_state['county_permitType'] = st.session_state['county_input2']
-    st.query_params["county"] = st.session_state['county_permitType']
-
-
-# def update_starting_year():
-#     st.session_state['starting_year_type'] = st.session_state['starting_year_input']
-#     st.query_params["year"] = st.session_state['starting_year_type']
-
-
 # Initialize session state for the widgets, if not already set
-if 'geography_type2' not in st.session_state:
-    st.session_state['geography_type2'] = 'Region'
-if 'county_permitType' not in st.session_state:
-    st.session_state['county_permitType'] = 'Cobb'
-if 'starting_year_type' not in st.session_state:
-    st.session_state['starting_year_type'] = 1985
+if 'geography_2' not in st.session_state:
+    st.session_state['geography_2'] = 'Region'
+if 'geo_level_2' not in st.session_state:
+    st.session_state['geo_level_2'] = 'Region'
+
+st.query_params['geo'] = st.session_state['geography_2']
+
+# function definitions to set state variables and query parameters on change
+
+
+def update_geography():
+    st.session_state['geo_level_2'] = st.session_state['geography_type_input2']
+    if st.session_state['geo_level_2'] == 'Region':
+        st.session_state['geography_2'] = 'Region'
+    elif st.session_state['geo_level_2'] == 'County':
+        st.session_state['geography_2'] = list(county_color_map.keys())[7]
+    elif st.session_state['geo_level_2'] == 'City':
+        st.session_state['geography_2'] = city_list[2]
+
+    # update only 'geo' query param to reflect selected geography
+    st.query_params['geo'] = st.session_state['geography_2']
 
 
 # set font color that will be applied to all text on the page
 font_color = "#d9d9d9"
 
 # dashboard title variables
-title_font_size = 32
+title_font_size = 24
 title_margin_top = 0
 title_margin_bottom = 15
 title_font_weight = 700
@@ -60,39 +59,52 @@ col1, col2, col3, col4, col5 = st.columns(
     [3, column_spacer, 3, column_spacer, 3])
 
 # permit type select
-options = ["Region", "Single county"]
+options = ["Region", "County", "City"]
 
 with col1:
-    st.radio(
+    geo_level = st.radio(
         label="Geography level:",
         options=options,
-        index=options.index(
-            st.session_state['geography_type2']),
+        index=options.index(st.session_state['geo_level_2']),
         key="geography_type_input2",
         on_change=update_geography,
-        horizontal=False,
+        horizontal=True,
     )
 
 # county select, if applicable
 with col3:
-    if st.session_state['geography_type2'] == 'Region':
+    if st.session_state['geo_level_2'] == 'Region':
         st.selectbox(
             label='County:',
-            options=['Region', 'other'],
+            options=['N/A', 'other'],
             placeholder='N/A',
             disabled=True
         )
-        st.query_params["county"] = 'Null'
-    else:
-        st.selectbox(
+    elif st.session_state['geo_level_2'] == 'County':
+        county_index = list(county_color_map.keys()).index(
+            st.session_state['geography_2']
+        )
+        selected_county = st.selectbox(
             label='County:',
             options=list(county_color_map.keys()),
-            index=list(county_color_map.keys()).index(
-                st.session_state['county_permitType']),
+            index=county_index,
             placeholder="Choose a county",
-            key="county_input2",
-            on_change=update_county,
-            disabled=False
+            key="county2",
+            on_change=lambda: st.session_state.update({
+                'geography_2': st.session_state['county2'],
+            })
+        )
+    elif st.session_state['geo_level_2'] == 'City':
+        city_index = city_list.index(st.session_state['geography_2'])
+        selected_city = st.selectbox(
+            label='City:',
+            options=city_list,
+            index=city_index,
+            placeholder="Choose a city",
+            key="city2",
+            on_change=lambda: st.session_state.update({
+                'geography_2': st.session_state['city2'],
+            })
         )
 
 
@@ -103,67 +115,56 @@ with col5:
         min_value=1980,
         max_value=2023,
         value=1985,
-        key="starting_year_input",
-        # on_change=update_starting_year
+        # key="starting_year_input",
     )
 
-st.query_params["geo"] = st.session_state['geography_type2']
 
-# st.session_state['starting_year_type'] = slider_value
 st.query_params["year"] = slider_value
 
 
 # cache function to read in CSV data for Explore page
 @st.cache_data
-def read_drilldown_data():
-    drilldown_df = pd.read_csv('Data/annual_file_county.csv')
+def read_county_data():
+    drilldown_df = pd.read_csv('Data/annual_county.csv')
 
-    metro_data_annual = drilldown_df.groupby(['Year', 'Series']).agg(
-        {'Permits': 'sum'}).reset_index()
-
-    metro_data_annual['county_name'] = 'Metro'
-
-    # concatenate the metro-wide aggregations with the county data
-    annual_final = pd.concat(
-        [drilldown_df, metro_data_annual], ignore_index=True)
-
-    # don't need small-mf, large-mf or total permits
-    annual_final = annual_final[(annual_final['Series'] == 'All Single-Family Permits')
-                                | (annual_final['Series'] == 'All Multi-Family Permits')]
-
-    # Dictionary for replacements
-    replacements = {
-        "All Single-Family Permits": "Single-Family",
-        "All Multi-Family Permits": "Multi-Family",
-    }
-
-    # Replace substrings using the dictionary
-    annual_final["Series"] = annual_final["Series"].replace(replacements)
+    # don't need the 'All' totals for the annual trends page
+    drilldown_df = drilldown_df[drilldown_df['Series'] != 'All']
 
     # sort the dataframe
-    annual_final = annual_final.sort_values(by='Series', ascending=False)
+    drilldown_df = drilldown_df.sort_values(by='Series', ascending=False)
 
-    return annual_final
+    return drilldown_df
 
 
-# read in, filter data
-df = read_drilldown_data()
+@st.cache_data
+def read_city_data():
+    drilldown_df = pd.read_csv('Data/annual_city.csv')
 
-if st.session_state['geography_type2'] == 'Region':
+    # sort the dataframe
+    drilldown_df = drilldown_df.sort_values(by='Series', ascending=False)
+
+    return drilldown_df
+
+
+if st.session_state['geo_level_2'] == 'Region':
+    df = read_county_data()
     df = df[df['county_name'] == 'Metro']
-    title = f'Permits Issued in the Atlanta Region since {slider_value}'
-    st.query_params["county"] = 'Null'
-else:
-    df = df[df['county_name'] == st.session_state['county_permitType']]
-    title = f'Permits Issued in {st.session_state["county_permitType"]} County since {slider_value}'
-    st.query_params["county"] = st.session_state['county_permitType']
+    title = f'Permits Issued in the 11-County ARC Region Since {slider_value}'
+elif st.session_state['geo_level_2'] == 'County':
+    df = read_county_data()
+    df = df[df['county_name'] == selected_county]
+    title = f'Permits Issued in {selected_county} County Since {slider_value}'
+elif st.session_state['geo_level_2'] == 'City':
+    df = read_city_data()
+    df = df[df['City'] == selected_city]
+    title = f'Permits Issued in City of {selected_city} Since {slider_value}'
 
 df = df[df['Year'] >= slider_value]
 
 # color map
 color_discrete_map = {
-    'Single-Family': '#00BFFF',
-    'Multi-Family': '#FF6F61'
+    'Single-family': '#00BFFF',
+    'Multi-family': '#FF6F61'
 }
 
 # create chart object
@@ -285,7 +286,7 @@ hide_default_format = """
                 margin-bottom: 10px;
             }
             .stRadio [role=radiogroup]{
-                align-items: center;
+                justify-content: center;
                 background-color: #171717;
                 border-radius: 7px;
                 padding-top: 5px;

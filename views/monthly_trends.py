@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-from utils import county_color_map
+from utils import county_color_map, city_list
 from pandas.tseries.offsets import DateOffset
 
 # set page configurations
@@ -10,29 +10,34 @@ st.set_page_config(
     initial_sidebar_state="expanded"  # 'collapsed' or 'expanded'
 )
 
-
-# function definitions to set state variables and query parameters on change
-def update_geography():
-    st.session_state['geography_3'] = st.session_state['geography_type_input3']
-    st.query_params["geo"] = st.session_state['geography_3']
-
-
-def update_county():
-    st.session_state['county3'] = st.session_state['county_input3']
-    st.query_params["county"] = st.session_state['county3']
-
-
 # Initialize session state for the widgets, if not already set
 if 'geography_3' not in st.session_state:
     st.session_state['geography_3'] = 'Region'
-if 'county3' not in st.session_state:
-    st.session_state['county3'] = 'Cobb'
+if 'geo_level' not in st.session_state:
+    st.session_state['geo_level'] = 'Region'
+
+st.query_params['geo'] = st.session_state['geography_3']
+
+
+# function definitions to set state variables and query parameters on change
+def update_geography():
+    st.session_state['geo_level'] = st.session_state['geography_type_input3']
+    if st.session_state['geo_level'] == 'Region':
+        st.session_state['geography_3'] = 'Region'
+    elif st.session_state['geo_level'] == 'County':
+        st.session_state['geography_3'] = list(county_color_map.keys())[7]
+    elif st.session_state['geo_level'] == 'City':
+        st.session_state['geography_3'] = city_list[2]
+
+    # update only 'geo' query param to reflect selected geography
+    st.query_params["geo"] = st.session_state['geography_3']
+
 
 # set font color that will be applied to all text on the page
 font_color = "#d9d9d9"
 
 # dashboard title variables
-title_font_size = 32
+title_font_size = 24
 title_margin_top = 0
 title_margin_bottom = 15
 title_font_weight = 700
@@ -52,97 +57,87 @@ column_spacer = 0.001
 col1, col2, col3 = st.columns([3, column_spacer, 3])
 
 # permit type select
-options = ["Region", "Single county"]
+options = ["Region", "County", "City"]
 
-# geography select
+# First input: geography level
 with col1:
-    st.radio(
+    geo_level = st.radio(
         label="Geography level:",
         options=options,
-        index=options.index(
-            st.session_state['geography_3']),
+        index=options.index(st.session_state['geo_level']),
         key="geography_type_input3",
         on_change=update_geography,
-        horizontal=False,
+        horizontal=True,
     )
 
-# county select, if applicable
+# county/city select, if applicable
 with col3:
-    if st.session_state['geography_3'] == 'Region':
+    if st.session_state['geo_level'] == 'Region':
         st.selectbox(
             label='County:',
-            options=['Region', 'other'],
+            options=['Region'],
             placeholder='N/A',
             disabled=True
         )
-        st.query_params["county"] = 'Null'
-    else:
-        st.selectbox(
+    elif st.session_state['geo_level'] == 'County':
+        county_index = list(county_color_map.keys()).index(
+            st.session_state['geography_3']
+        )
+        selected_county = st.selectbox(
             label='County:',
             options=list(county_color_map.keys()),
-            index=list(county_color_map.keys()).index(
-                st.session_state['county3']),
+            index=county_index,
+            key="county",
             placeholder="Choose a county",
-            key="county_input3",
-            on_change=update_county,
-            disabled=False
+            on_change=lambda: st.session_state.update({
+                'geography_3': st.session_state['county'],
+            })
+        )
+    elif st.session_state['geo_level'] == 'City':
+        city_index = city_list.index(st.session_state['geography_3'])
+        selected_city = st.selectbox(
+            label='City:',
+            options=city_list,
+            index=city_index,
+            placeholder="Choose a city",
+            key="city",
+            on_change=lambda: st.session_state.update({
+                'geography_3': st.session_state['city'],
+            })
         )
 
 st.write('')
 
-st.query_params["geo"] = st.session_state['geography_3']
-
 
 # cache function to read in CSV data for Explore page
 @st.cache_data
-def read_data():
-    monthly_data = pd.read_csv('Data/monthly_file.csv')
-
-    # don't need small-mf, large-mf or total permits
-    monthly_data = monthly_data[(monthly_data['Series'] == 'All Single-Family Permits')
-                                | (monthly_data['Series'] == 'All Multi-Family Permits')]
-
-    # Dictionary for replacements
-    replacements = {
-        "All Single-Family Permits": "Single-Family",
-        "All Multi-Family Permits": "Multi-Family",
-    }
-
-    # Replace substrings using the dictionary
-    monthly_data["Series"] = monthly_data["Series"].replace(replacements)
-
-    # cast date column to datetime object
-    monthly_data['date'] = pd.to_datetime(monthly_data['date'])
-
-    # Find the most recent date in the dataset
-    most_recent_date = monthly_data['date'].max()
-
-    # Subtract 18 months from the most recent date
-    eighteen_months_ago = most_recent_date - DateOffset(months=18)
-
-    # Filter the DataFrame for the most recent 18 months
-    monthly_filtered = monthly_data[monthly_data['date']
-                                    >= eighteen_months_ago]
-
-    # sort the dataframe
-    monthly_filtered = monthly_filtered.sort_values(
-        by='Series', ascending=False)
-
-    return monthly_filtered
+def read_county_data():
+    monthly_county = pd.read_csv('Data/monthly_county.csv')
+    monthly_county = monthly_county.sort_values(
+        by=['Series', 'date'], ascending=False)
+    return monthly_county
 
 
-# read in, filter data
-df = read_data()
+def read_city_data():
+    monthly_city = pd.read_csv('Data/monthly_city.csv')
+    monthly_city = monthly_city.sort_values(
+        by=['Series', 'date'], ascending=False)
+    return monthly_city
 
-if st.session_state['geography_3'] == 'Region':
+
+# conditionally read in data based on user input
+if st.session_state['geo_level'] == 'City':
+    df = read_city_data()
+    df = df[df['city'] == selected_city]
+    title = f'Permits Issued in City of {selected_city}, Trailing 18 Months'
+elif st.session_state['geo_level'] == 'Region':
+    df = read_county_data()
     df = df[df['county_name'] == 'Metro']
-    title = f'Permits Issued in the 11-County ARC Region, Trailing 18 Months'
-    st.query_params["county"] = 'Null'
-else:
-    df = df[df['county_name'] == st.session_state['county3']]
-    title = f'Permits Issued in {st.session_state["county3"]} County, Trailing 18 Months'
-    st.query_params["county"] = st.session_state['county3']
-
+    title = 'Permits Issued in the 11-County ARC Region, Trailing 18 Months'
+elif st.session_state['geo_level'] == 'County':
+    df = read_county_data()
+    df = df[df['county_name'] == selected_county]
+    title = f'Permits Issued in {selected_county} County, Trailing 18 Months'
 
 # color map
 color_discrete_map = {
@@ -180,8 +175,9 @@ fig.update_layout(
         r=0
     ),
     legend=dict(
+        font_size=16,
         orientation='h',
-        entrywidth=100,
+        entrywidth=120,
         title_text="",
         yanchor="bottom",
         y=0.97,
@@ -265,7 +261,7 @@ multiFamily_total = df[df['Series'] ==
                        'Multi-Family']['Permits'].sum()
 
 # KPI font variables
-heading_font_size = 14
+heading_font_size = 16
 heading_font_weight = 200
 heading_font_color = font_color
 
@@ -276,6 +272,9 @@ value_margin_left = 10
 value_font_weight = 700
 value_font_color = font_color
 
+border_thickness = 3
+top_bottom_padding = 28
+
 col2.write("")
 col2.write("")
 col2.write("")
@@ -286,8 +285,8 @@ col2.write("")
 
 col2.markdown(
     f"""
-            <div style='text-align: center; border:2px solid #FF6F61; padding: 6px; padding-bottom: 10px; border-radius: 7px; line-height: 110%;'>
-                <span style='font-size: {heading_font_size}px; font-weight: {heading_font_weight}; color: {title_font_color}; line-height: 0.5;'>Multi-Family Permits, Trailing 18 Months:</span><br/><br/>
+            <div style='text-align: center; border:{border_thickness}px solid #FF6F61; padding: 6px; padding-bottom: {top_bottom_padding}px; padding-top: {top_bottom_padding}px; border-radius: 8px; line-height: 110%;'>
+                <span style='font-size: {heading_font_size}px; font-weight: {heading_font_weight}; color: {title_font_color}; line-height: 0.5;'>Multi-Family Permits:</span><br/><br/>
                 <span style='font-size: {value_font_size}px; font-weight: {value_font_weight}; color: {value_font_color}; margin-top: 0;'>
                 {multiFamily_total:,.0f}</span>
             </div>
@@ -297,11 +296,12 @@ col2.markdown(
 
 col2.write("")
 col2.write("")
+col2.write("")
 
 col2.markdown(
     f"""
-            <div style='text-align: center; border:2px solid #00BFFF; padding: 6px; padding-bottom: 10px; border-radius: 7px; line-height: 110%;'>
-                <span style='font-size: {heading_font_size}px; font-weight: {heading_font_weight}; color: {title_font_color}'>Single-Family Permits, Trailing 18 Months:</span><br/><br/>
+            <div style='text-align: center; border:{border_thickness}px solid #00BFFF; padding: 6px; padding-bottom: {top_bottom_padding}px; padding-top: {top_bottom_padding}px; border-radius: 8px; line-height: 110%;'>
+                <span style='font-size: {heading_font_size}px; font-weight: {heading_font_weight}; color: {title_font_color};'>Single-Family Permits:</span><br/><br/>
                 <span style='font-size: {value_font_size}px; font-weight: {value_font_weight}; color: {value_font_color};'>
                 {singleFamily_total:,.0f}</span>
             </div>
@@ -332,7 +332,7 @@ hide_default_format = """
                 margin-bottom: 10px;
             }
             .stRadio [role=radiogroup]{
-                align-items: center;
+                justify-content: center;
                 background-color: #171717;
                 border-radius: 7px;
                 padding-top: 5px;
@@ -341,6 +341,8 @@ hide_default_format = """
             div[data-baseweb="select"] > div {
                 width: 100%;
                 background-color: #171717;
+                justify-content: center;
+                text-align: center;
             }
             .stSelectbox [data-testid=stWidgetLabel] p {
                 font-size: 18px;
@@ -358,15 +360,15 @@ hide_default_format = """
                 padding-left: 30px;
                 padding-right: 30px;
             }
-            .main {
-                overflow: hidden
-            }
             [data-testid="stHeader"] {
                 color: #292929;
             }
             [data-testid="stDownloadButton"] {
                 position: absolute;
                 bottom: 10px;
+            }
+            .main {
+                overflow: hidden
             }
         </style>
        """

@@ -16,14 +16,14 @@ county_compare = st.Page(
 )
 
 permit_types_annual = st.Page(
-    page='views/permit_types_annual.py',
-    title='Permit Types (Annual)',
+    page='views/annual_trends.py',
+    title='Annual Trends',
     icon=':material/area_chart:'
 )
 
 permit_types_monthly = st.Page(
-    page='views/permit_types_monthly.py',
-    title='Permit Types (Monthly)',
+    page='views/monthly_trends.py',
+    title='Monthly Trends',
     icon=':material/area_chart:'
 )
 
