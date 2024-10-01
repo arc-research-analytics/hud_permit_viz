@@ -174,7 +174,7 @@ if screen_width >= 500:  # what to do if on desktop / tablet view
     hide_default_format = """
         <style>
         [data-testid="stAppViewBlockContainer"] {
-            margin-top: -70px;
+            margin-top: -80px;
             padding-left: 40px;
             padding-right: 50px;
         }
