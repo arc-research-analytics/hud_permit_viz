@@ -12,7 +12,7 @@ county_color_map = {
     "Fulton": "#FF6F61",
     "Gwinnett": "#32CD32",
     "Henry": "#FF1493",
-    "Rockdale": "#87CEEB"
+    "Rockdale": "#87CEEB",
 }
 
 city_list = [

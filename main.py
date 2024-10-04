@@ -11,7 +11,7 @@ overview = st.Page(
 
 county_compare = st.Page(
     page='views/county_compare.py',
-    title='County Compare',
+    title='Compare',
     icon=':material/stacked_line_chart:'
 )
 

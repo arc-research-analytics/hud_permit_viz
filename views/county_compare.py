@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-from utils import colorize_multiselect_options, county_color_map, update_permit_type, update_county, update_starting_year
+from utils import update_permit_type, update_county
 
 # set page configurations
 st.set_page_config(
@@ -9,17 +9,60 @@ st.set_page_config(
     initial_sidebar_state="expanded"  # 'collapsed' or 'expanded'
 )
 
+# set color map
+county_color_map = {
+    "Atlanta": "#8A2BE2",
+    "Cherokee": "#FF4500",
+    "Clayton": "#9370DB",
+    "Cobb": "#00BFFF",
+    "DeKalb": "#FFD700",
+    "Douglas": "#008000",
+    "Fayette": "#00FFFF",
+    "Forsyth": "#FF8C00",
+    "Fulton": "#FF6F61",
+    "Fulton less Atlanta": "#FF69B4",
+    "Gwinnett": "#32CD32",
+    "Henry": "#FF1493",
+    "Rockdale": "#87CEEB",
+}
+
+county_title_map = {
+    "Atlanta": "City of Atlanta",
+    "Cherokee": "Cherokee County",
+    "Clayton": "Clayton County",
+    "Cobb": "Cobb County",
+    "DeKalb": "DeKalb County",
+    "Douglas": "Douglas County",
+    "Fayette": "Fayette County",
+    "Forsyth": "Forsyth County",
+    "Fulton": "Fulton County",
+    "Fulton less Atlanta": "Fulton (less Atlanta)",
+    "Gwinnett": "Gwinnett County",
+    "Henry": "Henry County",
+    "Rockdale": "Rockdale County",
+}
+
+
+# Function to apply the text color to selected multiselect options
+def colorize_multiselect_options(selected_counties: list[str]) -> None:
+    rules = ""
+    for i, county in enumerate(selected_counties):
+        # Default to black if county not in map
+        color = county_color_map.get(county, "#000000")
+        rules += f""".stMultiSelect div[data-baseweb="select"] span[data-baseweb="tag"]:nth-child({i + 1}){{color: {color};}}"""
+
+    st.markdown(f"<style>{rules}</style>", unsafe_allow_html=True)
+
+
 # Initialize session state for the widgets, if not already set
 if 'permit_type' not in st.session_state:
     st.session_state['permit_type'] = "All"
 if 'county' not in st.session_state:
     st.session_state['county'] = ["Fulton"]
-# if 'starting_year' not in st.session_state:
-#     st.session_state['starting_year'] = 2000
 
 # Use session state variables to populate query parameters not just on widget change
 st.query_params["permit_type"] = st.session_state['permit_type']
-st.query_params["county"] = ",".join(st.session_state['county'])
+st.query_params["geo"] = ",".join(st.session_state['county'])
 
 
 # set font color that will be applied to all text on the page
@@ -61,11 +104,11 @@ with col1:
 # county select
 with col3:
     st.multiselect(
-        label="County (up to 5):",
+        label="Jurisdiction:",
         options=list(county_color_map.keys()),
         default=st.session_state['county'],
         max_selections=5,
-        placeholder="Choose a county",
+        placeholder="Choose up to 5",
         key="county_input",
         on_change=update_county
     )
@@ -80,7 +123,6 @@ with col5:
         max_value=2023,
         value=1990,
         key="starting_year_input",
-        # on_change=update_starting_year
     )
 
 st.query_params["year"] = slider
@@ -96,28 +138,20 @@ def read_drilldown_data():
 # read in data
 df = read_drilldown_data()
 
-# # filter data by permit type
-# permit_type_dict = {
-#     "Single-family": "All Single-Family Permits",
-#     "Multi-family": "All Multi-Family Permits",
-#     "All": "Total Permits"
-# }
 
 # apply filters
 df_chart = df[df['county_name'].isin(st.session_state['county'])]
 df_chart = df_chart[df_chart['Year'] >= slider]
 df_chart = df_chart[df_chart['Series'] == st.session_state['permit_type']]
 
-# st.write(st.session_state['permit_type'])
-# st.dataframe(df_chart, use_container_width=True)
-
 
 # set chart title based on multiselect
 if (len(st.session_state['county']) == 1):
-    chart_title = f"{st.session_state['permit_type']} permits issued for {st.session_state['county'][0]} County since {slider}"
+    chart_title = f"{st.session_state['permit_type']} permits issued for {county_title_map[st.session_state['county'][0]]} County since {slider}"
 else:
-    chart_title = f"{st.session_state['permit_type']} permits issued for selected counties since {slider}"
+    chart_title = f"{st.session_state['permit_type']} permits issued for selected jurisdictions since {slider}"
 
+st.write(county_title_map[st.session_state['county'][0]])
 # create fig object
 fig = px.line(
     df_chart,
@@ -139,7 +173,6 @@ fig.update_layout(
     ),
     legend=dict(
         orientation='h',
-        entrywidth=75,
         title_text="",
         yanchor="bottom",
         y=0.97,
@@ -244,7 +277,7 @@ with col2:
         st.markdown(
             f"""
             <div style='text-align: center; border:2px solid {county_color_map[county]}; padding: 6px; border-radius: 7px;'>
-                <span style='margin-top: {heading_margin_top}px; margin-bottom: {heading_margin_bottom}px; font-size: {heading_font_size}px; font-weight: {heading_font_weight}; color: {title_font_color}'>{county} County Total:</span><br/>
+                <span style='margin-top: {heading_margin_top}px; margin-bottom: {heading_margin_bottom}px; font-size: {heading_font_size}px; font-weight: {heading_font_weight}; color: {title_font_color}'>{county_title_map[county]} Total:</span><br/>
                 <span style='font-size: {value_font_size}px; font-weight: {value_font_weight}; color: {value_font_color}'>
                 {permit_total:,.0f}</span>
             </div>
@@ -295,6 +328,9 @@ hide_default_format = """
             .stMultiSelect div[data-baseweb="select"] span[data-baseweb="tag"]{
                 background-color: #292929;
             }
+            .stMultiSelect [data-baseweb="select"] span {
+                max-width: 280px;
+            }
             .stSlider [data-testid=stWidgetLabel] p {
                 font-size: 18px;
             }
@@ -312,11 +348,13 @@ hide_default_format = """
                 position: absolute;
                 bottom: 10px;
             }
-            .main {
-                overflow: hidden
-            }
+
         </style>
        """
+
+# .main {
+#     overflow: hidden
+# }
 
 # inject the CSS
 st.markdown(hide_default_format, unsafe_allow_html=True)
