@@ -151,7 +151,6 @@ if (len(st.session_state['county']) == 1):
 else:
     chart_title = f"{st.session_state['permit_type']} permits issued for selected jurisdictions since {slider}"
 
-st.write(county_title_map[st.session_state['county'][0]])
 # create fig object
 fig = px.line(
     df_chart,
