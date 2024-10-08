@@ -72,14 +72,14 @@ with col1:
 
 # county/city select, if applicable
 with col2:
-    if st.session_state['geo_level'] == 'Region':
+    if geo_level == 'Region':
         st.selectbox(
             label='County:',
             options=['Region'],
             placeholder='N/A',
             disabled=True
         )
-    elif st.session_state['geo_level'] == 'County':
+    elif geo_level == 'County':
         county_index = list(county_color_map.keys()).index(
             st.session_state['geography_3']
         )
@@ -93,7 +93,8 @@ with col2:
                 'geography_3': st.session_state['county'],
             })
         )
-    elif st.session_state['geo_level'] == 'City':
+        st.write(selected_county)
+    elif geo_level == 'City':
         city_index = city_list.index(st.session_state['geography_3'])
         selected_city = st.selectbox(
             label='City:',
@@ -105,6 +106,7 @@ with col2:
                 'geography_3': st.session_state['city'],
             })
         )
+        st.write(selected_city)
 
 st.write('')
 
