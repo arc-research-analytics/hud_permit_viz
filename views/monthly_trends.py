@@ -93,7 +93,6 @@ with col2:
                 'geography_3': st.session_state['county'],
             })
         )
-        st.write(selected_county)
     elif geo_level == 'City':
         city_index = city_list.index(st.session_state['geography_3'])
         selected_city = st.selectbox(
@@ -106,7 +105,6 @@ with col2:
                 'geography_3': st.session_state['city'],
             })
         )
-        st.write(selected_city)
 
 st.write('')
 
@@ -130,6 +128,8 @@ def read_city_data():
 # conditionally read in data based on user input
 if geo_level == 'City':
     df = read_city_data()
+    if isinstance(selected_city, list):
+        selected_city = selected_city[0]
     df = df[df['city'] == selected_city]
     title = f'Permits Issued in City of {selected_city}, Trailing 18 Months'
 elif geo_level == 'Region':
@@ -138,6 +138,8 @@ elif geo_level == 'Region':
     title = 'Permits Issued in the 11-County ARC Region, Trailing 18 Months'
 elif geo_level == 'County':
     df = read_county_data()
+    if isinstance(selected_county, list):
+        selected_county = selected_county[0]
     df = df[df['county_name'] == selected_county]
     title = f'Permits Issued in {selected_county} County, Trailing 18 Months'
 
