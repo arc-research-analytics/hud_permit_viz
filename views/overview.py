@@ -194,7 +194,7 @@ if screen_width >= 500:  # what to do if on desktop / tablet view
 
 else:  # everything here is for mobile view
     st.markdown(
-        '<b>Note:</b> This data exploration app is not optimized for mobile screens. For the best user experience, open on a desktop screen!', unsafe_allow_html=True)
+        '<b>Note:</b> This data exploration app is not optimized for mobile screens. For the best user experience, please use open on a desktop or tablet!', unsafe_allow_html=True)
 
     # the custom CSS for mobile lives here:
     hide_default_format = """
