@@ -132,16 +132,19 @@ if geo_level == 'City':
         selected_city = selected_city[0]
     df = df[df['city'] == selected_city]
     title = f'Permits Issued in City of {selected_city}, Trailing 18 Months'
+    download_file_name = f'{selected_city}_monthly_trends.csv'
 elif geo_level == 'Region':
     df = read_county_data()
     df = df[df['county_name'] == 'Metro']
     title = 'Permits Issued in the 11-County ARC Region, Trailing 18 Months'
+    download_file_name = 'Regional_monthly_trends.csv'
 elif geo_level == 'County':
     df = read_county_data()
     if isinstance(selected_county, list):
         selected_county = selected_county[0]
     df = df[df['county_name'] == selected_county]
     title = f'Permits Issued in {selected_county} County, Trailing 18 Months'
+    download_file_name = f'{selected_county}County_monthly_trends.csv'
 
 # color map
 color_discrete_map = {
@@ -320,8 +323,8 @@ df_download = df.to_csv(index='False').encode('utf-8')
 st.download_button(
     label=":material/download:",
     data=df_download,
-    file_name='permit_types_monthly.csv',
-    help='Download the filtered data'
+    file_name=download_file_name,
+    help='Download filtered data to CSV'
 )
 
 # the custom CSS lives here:

@@ -150,14 +150,17 @@ if geo_level == 'Region':
     df = read_county_data()
     df = df[df['county_name'] == 'Metro']
     title = f'Permits Issued in the 11-County ARC Region Since {slider_value}'
+    download_file_name = 'Regional_monthly_trends.csv'
 elif geo_level == 'County':
     df = read_county_data()
     df = df[df['county_name'] == selected_county]
     title = f'Permits Issued in {selected_county} County Since {slider_value}'
+    download_file_name = f'{selected_county}County_annual_trends.csv'
 elif geo_level == 'City':
     df = read_city_data()
     df = df[df['City'] == selected_city]
     title = f'Permits Issued in City of {selected_city} Since {slider_value}'
+    download_file_name = f'{selected_city}County_annual_trends.csv'
 
 df = df[df['Year'] >= slider_value]
 
@@ -270,8 +273,8 @@ df_download = df.to_csv(index='False').encode('utf-8')
 st.download_button(
     label=":material/download:",
     data=df_download,
-    file_name='permit_types_annual.csv',
-    help='Download the filtered data'
+    file_name=download_file_name,
+    help='Download filtered data to CSV'
 )
 
 # the custom CSS lives here:

@@ -290,8 +290,8 @@ df_download = df_chart.to_csv(index='False').encode('utf-8')
 st.download_button(
     label=":material/download:",
     data=df_download,
-    file_name='county_compare.csv',
-    help='Download the filtered data',
+    file_name='jurisdiction_compare.csv',
+    help='Download filtered data to CSV',
 )
 
 # the custom CSS lives here:
