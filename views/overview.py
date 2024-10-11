@@ -6,7 +6,7 @@ from st_screen_stats import ScreenData
 # set page configurations
 st.set_page_config(
     layout="wide",
-    initial_sidebar_state="expanded"  # 'collapsed' or 'expanded'
+    initial_sidebar_state="expanded"
 )
 
 
@@ -15,20 +15,24 @@ screenD = ScreenData(setTimeout=200)
 screen_d = screenD.st_screen_data()
 screen_width = screen_d['innerWidth']
 
+
+# cache function to read in CSV data for Overview page
+@ st.cache_data
+def read_overview_data():
+    overview_df = pd.read_csv('Data/metro_total_annual.csv')
+    return overview_df
+
+
+# read in CSV
+df = read_overview_data()
+permits_avg = df['Permits'].mean()
+# permits_total = df['Permits'].sum()
+
+# set font color that will be applied to all text on the page
+font_color = "#d9d9d9"
+
+
 if screen_width >= 500:  # what to do if on desktop / tablet view
-    # cache function to read in CSV data for Overview page
-    @ st.cache_data
-    def read_overview_data():
-        overview_df = pd.read_csv('Data/metro_total_annual.csv')
-        return overview_df
-
-    # read in CSV
-    df = read_overview_data()
-    permits_avg = df['Permits'].mean()
-    permits_total = df['Permits'].sum()
-
-    # set font color that will be applied to all text on the page
-    font_color = "#d9d9d9"
 
     # dashboard title variables
     title_font_size = 32
@@ -183,18 +187,46 @@ if screen_width >= 500:  # what to do if on desktop / tablet view
             left: 1050px;
             top: -695px;
         }
-        .main {
-            overflow: hidden
-        }
+
         </style>
        """
+
+    # .main {
+    #     overflow: hidden
+    # }
 
     # inject the CSS
     st.markdown(hide_default_format, unsafe_allow_html=True)
 
+# -^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^
+# -^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^
+# -^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^
 else:  # everything here is for mobile view
     st.markdown(
-        '<b>Note:</b> This data exploration app is not optimized for mobile screens. For the best user experience, please use open on a desktop or tablet!', unsafe_allow_html=True)
+        'Welcome to the Atlanta Building Permit Dashboard! <br/><br/>\
+        Explore trends in single- and multi-family building permits issued over\
+        time in Atlanta-area jurisdictions. </br>', unsafe_allow_html=True)
+
+    # create fig object
+    fig = px.line(
+        df,
+        x='Year',
+        y='Permits',
+        title='Building Permits <br>Issued in 11-County<br> Region (All Types)',
+        height=200
+    )
+
+    config = {'displayModeBar': False}
+    st.plotly_chart(
+        fig,
+        config=config,
+        theme='streamlit',
+        use_container_width=True
+    )
+
+    # closing remarks
+    st.markdown(
+        '<b>Note:</b> This app is not optimized for mobile screens. For the best user experience, please use on a desktop or tablet!', unsafe_allow_html=True)
 
     # the custom CSS for mobile lives here:
     hide_default_format = """
@@ -209,9 +241,6 @@ else:  # everything here is for mobile view
             position: absolute;
             left: 1050px;
             top: -695px;
-        }
-        .main {
-            overflow: hidden
         }
         </style>
        """
