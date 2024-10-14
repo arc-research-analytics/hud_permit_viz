@@ -1,6 +1,4 @@
 county_name,date,month_year,year,Series,Permits
-Cherokee,2023-02-01,Feb 2023,2023,Single-Family,140.0
-Cherokee,2023-02-01,Feb 2023,2023,Multi-Family,6.0
 Cherokee,2023-03-01,Mar 2023,2023,Single-Family,189.0
 Cherokee,2023-03-01,Mar 2023,2023,Multi-Family,8.0
 Cherokee,2023-04-01,Apr 2023,2023,Single-Family,245.0
@@ -37,8 +35,6 @@ Cherokee,2024-07-01,Jul 2024,2024,Single-Family,149.0
 Cherokee,2024-07-01,Jul 2024,2024,Multi-Family,0.0
 Cherokee,2024-08-01,Aug 2024,2024,Single-Family,136.0
 Cherokee,2024-08-01,Aug 2024,2024,Multi-Family,308.0
-Clayton,2023-02-01,Feb 2023,2023,Single-Family,39.0
-Clayton,2023-02-01,Feb 2023,2023,Multi-Family,0.0
 Clayton,2023-03-01,Mar 2023,2023,Single-Family,36.0
 Clayton,2023-03-01,Mar 2023,2023,Multi-Family,0.0
 Clayton,2023-04-01,Apr 2023,2023,Single-Family,25.0
@@ -75,8 +71,6 @@ Clayton,2024-07-01,Jul 2024,2024,Single-Family,3.0
 Clayton,2024-07-01,Jul 2024,2024,Multi-Family,0.0
 Clayton,2024-08-01,Aug 2024,2024,Single-Family,44.0
 Clayton,2024-08-01,Aug 2024,2024,Multi-Family,0.0
-Cobb,2023-02-01,Feb 2023,2023,Single-Family,56.0
-Cobb,2023-02-01,Feb 2023,2023,Multi-Family,608.0
 Cobb,2023-03-01,Mar 2023,2023,Single-Family,87.0
 Cobb,2023-03-01,Mar 2023,2023,Multi-Family,16.0
 Cobb,2023-04-01,Apr 2023,2023,Single-Family,68.0
@@ -113,8 +107,6 @@ Cobb,2024-07-01,Jul 2024,2024,Single-Family,99.0
 Cobb,2024-07-01,Jul 2024,2024,Multi-Family,31.0
 Cobb,2024-08-01,Aug 2024,2024,Single-Family,99.0
 Cobb,2024-08-01,Aug 2024,2024,Multi-Family,8.0
-DeKalb,2023-02-01,Feb 2023,2023,Single-Family,59.0
-DeKalb,2023-02-01,Feb 2023,2023,Multi-Family,0.0
 DeKalb,2023-03-01,Mar 2023,2023,Single-Family,48.0
 DeKalb,2023-03-01,Mar 2023,2023,Multi-Family,0.0
 DeKalb,2023-04-01,Apr 2023,2023,Single-Family,57.0
@@ -151,8 +143,6 @@ DeKalb,2024-07-01,Jul 2024,2024,Single-Family,117.0
 DeKalb,2024-07-01,Jul 2024,2024,Multi-Family,0.0
 DeKalb,2024-08-01,Aug 2024,2024,Single-Family,53.0
 DeKalb,2024-08-01,Aug 2024,2024,Multi-Family,0.0
-Douglas,2023-02-01,Feb 2023,2023,Single-Family,24.0
-Douglas,2023-02-01,Feb 2023,2023,Multi-Family,394.0
 Douglas,2023-03-01,Mar 2023,2023,Single-Family,39.0
 Douglas,2023-03-01,Mar 2023,2023,Multi-Family,0.0
 Douglas,2023-04-01,Apr 2023,2023,Single-Family,53.0
@@ -189,8 +179,6 @@ Douglas,2024-07-01,Jul 2024,2024,Single-Family,35.0
 Douglas,2024-07-01,Jul 2024,2024,Multi-Family,0.0
 Douglas,2024-08-01,Aug 2024,2024,Single-Family,26.0
 Douglas,2024-08-01,Aug 2024,2024,Multi-Family,0.0
-Fayette,2023-02-01,Feb 2023,2023,Single-Family,19.0
-Fayette,2023-02-01,Feb 2023,2023,Multi-Family,0.0
 Fayette,2023-03-01,Mar 2023,2023,Single-Family,31.0
 Fayette,2023-03-01,Mar 2023,2023,Multi-Family,0.0
 Fayette,2023-04-01,Apr 2023,2023,Single-Family,31.0
@@ -227,8 +215,6 @@ Fayette,2024-07-01,Jul 2024,2024,Single-Family,18.0
 Fayette,2024-07-01,Jul 2024,2024,Multi-Family,0.0
 Fayette,2024-08-01,Aug 2024,2024,Single-Family,41.0
 Fayette,2024-08-01,Aug 2024,2024,Multi-Family,0.0
-Forsyth,2023-02-01,Feb 2023,2023,Single-Family,80.0
-Forsyth,2023-02-01,Feb 2023,2023,Multi-Family,0.0
 Forsyth,2023-03-01,Mar 2023,2023,Single-Family,128.0
 Forsyth,2023-03-01,Mar 2023,2023,Multi-Family,0.0
 Forsyth,2023-04-01,Apr 2023,2023,Single-Family,86.0
@@ -265,8 +251,6 @@ Forsyth,2024-07-01,Jul 2024,2024,Single-Family,124.0
 Forsyth,2024-07-01,Jul 2024,2024,Multi-Family,0.0
 Forsyth,2024-08-01,Aug 2024,2024,Single-Family,274.0
 Forsyth,2024-08-01,Aug 2024,2024,Multi-Family,455.0
-Fulton,2023-02-01,Feb 2023,2023,Single-Family,192.0
-Fulton,2023-02-01,Feb 2023,2023,Multi-Family,678.0
 Fulton,2023-03-01,Mar 2023,2023,Single-Family,253.0
 Fulton,2023-03-01,Mar 2023,2023,Multi-Family,403.0
 Fulton,2023-04-01,Apr 2023,2023,Single-Family,224.0
@@ -303,8 +287,6 @@ Fulton,2024-07-01,Jul 2024,2024,Single-Family,309.0
 Fulton,2024-07-01,Jul 2024,2024,Multi-Family,572.0
 Fulton,2024-08-01,Aug 2024,2024,Single-Family,299.0
 Fulton,2024-08-01,Aug 2024,2024,Multi-Family,370.0
-Gwinnett,2023-02-01,Feb 2023,2023,Single-Family,241.0
-Gwinnett,2023-02-01,Feb 2023,2023,Multi-Family,280.0
 Gwinnett,2023-03-01,Mar 2023,2023,Single-Family,423.0
 Gwinnett,2023-03-01,Mar 2023,2023,Multi-Family,0.0
 Gwinnett,2023-04-01,Apr 2023,2023,Single-Family,452.0
@@ -341,8 +323,6 @@ Gwinnett,2024-07-01,Jul 2024,2024,Single-Family,359.0
 Gwinnett,2024-07-01,Jul 2024,2024,Multi-Family,8.0
 Gwinnett,2024-08-01,Aug 2024,2024,Single-Family,319.0
 Gwinnett,2024-08-01,Aug 2024,2024,Multi-Family,10.0
-Henry,2023-02-01,Feb 2023,2023,Single-Family,133.0
-Henry,2023-02-01,Feb 2023,2023,Multi-Family,0.0
 Henry,2023-03-01,Mar 2023,2023,Single-Family,202.0
 Henry,2023-03-01,Mar 2023,2023,Multi-Family,0.0
 Henry,2023-04-01,Apr 2023,2023,Single-Family,112.0
@@ -379,8 +359,6 @@ Henry,2024-07-01,Jul 2024,2024,Single-Family,159.0
 Henry,2024-07-01,Jul 2024,2024,Multi-Family,0.0
 Henry,2024-08-01,Aug 2024,2024,Single-Family,177.0
 Henry,2024-08-01,Aug 2024,2024,Multi-Family,0.0
-Metro,2023-02-01,Feb 2023,2023,Multi-Family,1966.0
-Metro,2023-02-01,Feb 2023,2023,Single-Family,998.0
 Metro,2023-03-01,Mar 2023,2023,Multi-Family,427.0
 Metro,2023-03-01,Mar 2023,2023,Single-Family,1470.0
 Metro,2023-04-01,Apr 2023,2023,Multi-Family,849.0
@@ -417,8 +395,6 @@ Metro,2024-07-01,Jul 2024,2024,Multi-Family,611.0
 Metro,2024-07-01,Jul 2024,2024,Single-Family,1479.0
 Metro,2024-08-01,Aug 2024,2024,Multi-Family,1151.0
 Metro,2024-08-01,Aug 2024,2024,Single-Family,1513.0
-Rockdale,2023-02-01,Feb 2023,2023,Single-Family,15.0
-Rockdale,2023-02-01,Feb 2023,2023,Multi-Family,0.0
 Rockdale,2023-03-01,Mar 2023,2023,Single-Family,34.0
 Rockdale,2023-03-01,Mar 2023,2023,Multi-Family,0.0
 Rockdale,2023-04-01,Apr 2023,2023,Single-Family,10.0
