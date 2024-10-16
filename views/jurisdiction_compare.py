@@ -112,8 +112,8 @@ with col3:
         key="county_input",
         on_change=update_county
     )
+    colorize_multiselect_options(st.session_state['county'])
 
-colorize_multiselect_options(st.session_state['county'])
 
 # year select
 with col5:
