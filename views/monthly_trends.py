@@ -118,6 +118,7 @@ def read_county_data():
     return monthly_county
 
 
+@st.cache_data
 def read_city_data():
     monthly_city = pd.read_csv('Data/monthly_city.csv')
     monthly_city = monthly_city.sort_values(
