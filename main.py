@@ -10,8 +10,8 @@ overview = st.Page(
     default=True
 )
 
-county_compare = st.Page(
-    page='views/county_compare.py',
+jurisdiction_compare = st.Page(
+    page='views/jurisdiction_compare.py',
     title='Compare',
     icon=':material/stacked_line_chart:'
 )
@@ -39,7 +39,7 @@ about_page = st.Page(
 pg = st.navigation(
     pages=[
         overview,
-        county_compare,
+        jurisdiction_compare,
         permit_types_annual,
         permit_types_monthly,
         about_page
