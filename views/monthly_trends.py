@@ -80,13 +80,13 @@ with col2:
             disabled=True
         )
     elif geo_level == 'County':
-        county_index = list(county_color_map.keys()).index(
-            st.session_state['geography_3']
-        )
+        # county_index = list(county_color_map.keys()).index(
+        #     st.session_state['geography_3']
+        # )
         selected_county = st.selectbox(
             label='County:',
             options=list(county_color_map.keys()),
-            index=county_index,
+            index=7,
             key="county",
             placeholder="Choose a county",
             on_change=lambda: st.session_state.update({
@@ -94,11 +94,11 @@ with col2:
             })
         )
     elif geo_level == 'City':
-        city_index = city_list.index(st.session_state['geography_3'])
+        # city_index = city_list.index(st.session_state['geography_3'])
         selected_city = st.selectbox(
             label='City:',
             options=city_list,
-            index=city_index,
+            index=2,
             placeholder="Choose a city",
             key="city",
             on_change=lambda: st.session_state.update({

@@ -116,7 +116,6 @@ def update_permit_type():
 
 def update_county():
     st.session_state['county'] = st.session_state['county_input']
-    # st.query_params["county"] = ",".join(st.session_state['county'])
 
 
 def update_starting_year():

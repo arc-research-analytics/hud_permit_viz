@@ -91,7 +91,7 @@ col1, col2, col3, col4, col5 = st.columns(
 
 # permit type select
 with col1:
-    st.radio(
+    permit_type = st.radio(
         label="Permit type:",
         options=("Single-family", "Multi-family", "All"),
         index=("Single-family", "Multi-family",
@@ -101,9 +101,9 @@ with col1:
         horizontal=False,
     )
 
-# county select
+# jurisdiction select
 with col3:
-    st.multiselect(
+    juris_select = st.multiselect(
         label="Jurisdiction:",
         options=list(county_color_map.keys()),
         default=st.session_state['county'],
@@ -127,8 +127,11 @@ with col5:
 
 st.query_params["year"] = slider
 
+st.write(juris_select)
 
 # cache function to read in CSV data for Explore page
+
+
 @st.cache_data
 def read_drilldown_data():
     drilldown_df = pd.read_csv('Data/annual_county.csv')
@@ -142,14 +145,14 @@ df = read_drilldown_data()
 # apply filters
 df_chart = df[df['county_name'].isin(st.session_state['county'])]
 df_chart = df_chart[df_chart['Year'] >= slider]
-df_chart = df_chart[df_chart['Series'] == st.session_state['permit_type']]
+df_chart = df_chart[df_chart['Series'] == permit_type]
 
 
 # set chart title based on multiselect
 if (len(st.session_state['county']) == 1):
-    chart_title = f"{st.session_state['permit_type']} permits issued for {county_title_map[st.session_state['county'][0]]} County since {slider}"
+    chart_title = f"{permit_type} permits issued for {county_title_map[st.session_state['county'][0]]} County since {slider}"
 else:
-    chart_title = f"{st.session_state['permit_type']} permits issued for selected jurisdictions since {slider}"
+    chart_title = f"{permit_type} permits issued for selected jurisdictions since {slider}"
 
 # create fig object
 fig = px.line(
