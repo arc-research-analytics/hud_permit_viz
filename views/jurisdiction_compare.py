@@ -127,11 +127,8 @@ with col5:
 
 st.query_params["year"] = slider
 
-st.write(juris_select)
 
 # cache function to read in CSV data for Explore page
-
-
 @st.cache_data
 def read_drilldown_data():
     drilldown_df = pd.read_csv('Data/annual_county.csv')
