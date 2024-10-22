@@ -203,7 +203,7 @@ if screen_width >= 500:  # what to do if on desktop / tablet view
 # -^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^-^
 else:  # everything here is for mobile view
     st.markdown(
-        'Welcome to the Atlanta Building Permit Dashboard! <br/><br/>\
+        'Welcome to the Atlanta Building Permit Explorer! <br/><br/>\
         Explore trends in single- and multi-family building permits issued over\
         time in Atlanta-area jurisdictions. </br>', unsafe_allow_html=True)
 
