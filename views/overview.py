@@ -46,7 +46,7 @@ if screen_width >= 500:  # what to do if on desktop / tablet view
     st.markdown(
         f"""
         <div style='margin-top: {title_margin_top}px; margin-bottom: {title_margin_bottom}px; margin-left: {title_margin_left}px'>
-            <span style='font-size: {title_font_size}px; font-weight: {title_font_weight}; color: {title_font_color}'>Welcome to the Atlanta Building Permit Dashboard!</span>
+            <span style='font-size: {title_font_size}px; font-weight: {title_font_weight}; color: {title_font_color}'>Welcome to the Atlanta Building Permit Explorer!</span>
         </div>
         """,
         unsafe_allow_html=True
