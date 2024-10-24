@@ -1,11 +1,24 @@
 import streamlit as st
+from st_screen_stats import ScreenData
 
-# dashboard heading variables
+# using react component
+screenD = ScreenData(setTimeout=200)
+screen_d = screenD.st_screen_data()
+screen_width = screen_d['innerWidth']
+
+
+# heading variables
 heading_font_size = 25
-heading_margin_top = 0
 heading_margin_bottom = 15
 heading_font_weight = 700
 heading_font_color = '#00BFFF'
+
+# desktop / tablet view
+if screen_width >= 500:
+    heading_margin_top = 0
+# mobile view
+else:
+    heading_margin_top = -40
 
 paragraph_font_size = 16
 paragraph_font_weight = 100
@@ -39,22 +52,35 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# the custom CSS lives here:
-hide_default_format = """
-        <style>
-            [data-testid="stAppViewBlockContainer"] {
-                padding-top: 100px;
-                padding-left: 50px;
-                padding-right: 50px;
-                height: 100%;
-                width: 100%;
-            }
-            .main {
-                overflow: hidden
-            }
-        </style>
-       """
-
+# desktop / tablet view
+if screen_width >= 500:
+    hide_default_format = """
+            <style>
+                [data-testid="stAppViewBlockContainer"] {
+                    padding-top: 100px;
+                    padding-left: 50px;
+                    padding-right: 50px;
+                    height: 100%;
+                    width: 100%;
+                }
+                .main {
+                    overflow: hidden
+                }
+            </style>
+        """
+# mobile view
+else:
+    hide_default_format = """
+            <style>
+                [data-testid="stAppViewBlockContainer"] {
+                    padding-top: 100px;
+                    padding-left: 50px;
+                    padding-right: 50px;
+                    height: 100%;
+                    width: 100%;
+                }
+            </style>
+        """
 
 # inject the CSS
 st.markdown(hide_default_format, unsafe_allow_html=True)
