@@ -37,7 +37,7 @@ if screen_width >= 500:  # desktop / tablet view
 
     # dashboard title variables
     title_font_size = 32
-    title_margin_top = 0
+    title_margin_top = 40
     title_margin_bottom = 5
     title_margin_left = 10
     title_font_weight = 700
@@ -202,7 +202,7 @@ if screen_width >= 500:  # desktop / tablet view
 # mobile view
 else:
     st.markdown(
-        '<div style="text-align: center; margin-bottom: -40px;"><p>Welcome to the Atlanta Building Permit Explorer!</p></div>', unsafe_allow_html=True)
+        '<div style="text-align: center; margin-top: 0px; margin-bottom: -40px;"><p>Welcome to the Atlanta Building Permit Explorer!</p></div>', unsafe_allow_html=True)
 
     # create fig object
     fig = px.line(

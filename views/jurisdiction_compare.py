@@ -54,15 +54,15 @@ def colorize_multiselect_options(selected_counties: list[str]) -> None:
     st.markdown(f"<style>{rules}</style>", unsafe_allow_html=True)
 
 
-# Initialize session state for the widgets, if not already set
-if 'permit_type' not in st.session_state:
-    st.session_state['permit_type'] = "All"
-if 'county' not in st.session_state:
-    st.session_state['county'] = ["Fulton"]
+# # Initialize session state for the widgets, if not already set
+# if 'permit_type' not in st.session_state:
+#     st.session_state['permit_type'] = "All"
+# if 'county' not in st.session_state:
+#     st.session_state['county'] = ["Fulton"]
 
-# Use session state variables to populate query parameters not just on widget change
-st.query_params["permit_type"] = st.session_state['permit_type']
-st.query_params["geo"] = ",".join(st.session_state['county'])
+# # Use session state variables to populate query parameters not just on widget change
+# st.query_params["permit_type"] = st.session_state['permit_type']
+# st.query_params["geo"] = ",".join(st.session_state['county'])
 
 
 # set font color that will be applied to all text on the page
@@ -94,25 +94,28 @@ with col1:
     permit_type = st.radio(
         label="Permit type:",
         options=("Single-family", "Multi-family", "All"),
-        index=("Single-family", "Multi-family",
-               "All").index(st.session_state['permit_type']),
+        # index=("Single-family", "Multi-family",
+        #        "All").index(st.session_state['permit_type']),
+        index=2,
         key="permit_type_input",
         on_change=update_permit_type,
         horizontal=False,
     )
+    st.query_params["permit_type"] = permit_type
 
 # jurisdiction select
 with col3:
     juris_select = st.multiselect(
         label="Jurisdiction:",
         options=list(county_color_map.keys()),
-        default=st.session_state['county'],
+        default='Fulton',
         max_selections=5,
         placeholder="Choose up to 5",
         key="county_input",
         on_change=update_county
     )
-    colorize_multiselect_options(st.session_state['county'])
+    colorize_multiselect_options(juris_select)
+    st.query_params["geo"] = ",".join(juris_select)
 
 
 # year select
@@ -140,14 +143,14 @@ df = read_drilldown_data()
 
 
 # apply filters
-df_chart = df[df['county_name'].isin(st.session_state['county'])]
+df_chart = df[df['county_name'].isin(juris_select)]
 df_chart = df_chart[df_chart['Year'] >= slider]
 df_chart = df_chart[df_chart['Series'] == permit_type]
 
 
 # set chart title based on multiselect
-if (len(st.session_state['county']) == 1):
-    chart_title = f"{permit_type} permits issued for {county_title_map[st.session_state['county'][0]]} County since {slider}"
+if (len(juris_select) == 1):
+    chart_title = f"{permit_type} permits issued for {county_title_map[juris_select[0]]} County since {slider}"
 else:
     chart_title = f"{permit_type} permits issued for selected jurisdictions since {slider}"
 
