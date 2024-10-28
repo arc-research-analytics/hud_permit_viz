@@ -178,23 +178,16 @@ if screen_width >= 500:
     # the custom CSS for desktop lives here:
     hide_default_format = """
         <style>
-        [data-testid="stAppViewBlockContainer"] {
-            margin-top: -80px;
-            padding-left: 40px;
-            padding-right: 50px;
-        }
-        [data-testid="stDownloadButton"] {
-            position: absolute;
-            left: 1050px;
-            top: -695px;
-        }
-
+            [data-testid="stAppViewBlockContainer"] {
+                margin-top: -100px;
+                padding-left: 40px;
+                padding-right: 50px;
+            }
+            .main {
+                overflow: hidden;
+            }
         </style>
        """
-
-    # .main {
-    #     overflow: hidden
-    # }
 
     # inject the CSS
     st.markdown(hide_default_format, unsafe_allow_html=True)
@@ -279,17 +272,17 @@ else:
     # the custom CSS for mobile lives here:
     hide_default_format = """
         <style>
-        [data-testid="stAppViewBlockContainer"] {
-            margin-top: -50px;
-            padding-left: 40px;
-            padding-right: 50px;
-            height: 100%;
-        }
-        [data-testid="stDownloadButton"] {
-            position: absolute;
-            left: 1050px;
-            top: -695px;
-        }
+            [data-testid="stAppViewBlockContainer"] {
+                margin-top: -50px;
+                padding-left: 40px;
+                padding-right: 50px;
+                height: 100%;
+            }
+            [data-testid="stDownloadButton"] {
+                position: absolute;
+                left: 1050px;
+                top: -695px;
+            }
         </style>
        """
 
