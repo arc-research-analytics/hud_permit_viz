@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 
-# using react component
+# using react component to get screen width
 screenD = ScreenData(setTimeout=200)
 screen_d = screenD.st_screen_data()
 screen_width = screen_d['innerWidth']
@@ -33,7 +33,7 @@ font_color = "#d9d9d9"
 
 
 # desktop / tablet view
-if screen_width >= 500:  # desktop / tablet view
+if screen_width >= 500:
 
     # dashboard title variables
     title_font_size = 32
