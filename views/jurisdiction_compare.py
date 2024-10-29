@@ -89,8 +89,6 @@ with col1:
     permit_type = st.radio(
         label="Permit type:",
         options=("Single-family", "Multi-family", "All"),
-        # index=("Single-family", "Multi-family",
-        #        "All").index(st.session_state['permit_type']),
         index=2,
         key="permit_type_input",
         on_change=update_permit_type,
@@ -112,8 +110,20 @@ if screen_width >= 500:
         )
         colorize_multiselect_options(juris_select)
         st.query_params["geo"] = ",".join(juris_select)
+    # year select
+    with col5:
+        slider = st.slider(
+            label="Issued since:",
+            min_value=1980,
+            max_value=2023,
+            value=1990,
+            key="starting_year_input",
+        )
+
+# mobile view
 else:
-    with col3:
+    # jurisdiction select
+    with col5:
         juris_select = st.multiselect(
             label="Jurisdiction:",
             options=list(county_color_map.keys()),
@@ -125,18 +135,17 @@ else:
         )
         colorize_multiselect_options(juris_select)
         st.query_params["geo"] = ",".join(juris_select)
+    # year select
+    with col3:
+        slider = st.slider(
+            label="Issued since:",
+            min_value=1980,
+            max_value=2023,
+            value=1990,
+            key="starting_year_input",
+        )
 
-
-# year select
-with col5:
-    slider = st.slider(
-        label="Issued since:",
-        min_value=1980,
-        max_value=2023,
-        value=1990,
-        key="starting_year_input",
-    )
-
+# make the year selection part of the URL
 st.query_params["year"] = slider
 
 
@@ -158,6 +167,8 @@ df_chart = df_chart[df_chart['Series'] == permit_type]
 
 # chart config
 config = {'displayModeBar': False}
+
+st.write(screen_width)
 
 # desktop / tablet view
 if screen_width >= 500:
