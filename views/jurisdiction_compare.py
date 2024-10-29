@@ -168,7 +168,11 @@ df_chart = df_chart[df_chart['Series'] == permit_type]
 # chart config
 config = {'displayModeBar': False}
 
-st.write(screen_width)
+# set the scrolling behavior based on screen width
+if screen_width < 1375:
+    overflow = 'scroll'
+else:
+    overflow = 'hidden'
 
 # desktop / tablet view
 if screen_width >= 500:
@@ -322,61 +326,61 @@ if screen_width >= 500:
     )
 
     # the custom CSS lives here:
-    hide_default_format = """
+    hide_default_format = f"""
             <style>
-                .stRadio [data-testid=stWidgetLabel] p {
+                .stRadio [data-testid=stWidgetLabel] p {{
                     font-size: 18px;
-                }
-                .stRadio [data-testid=stWidgetLabel]{
+                }}
+                .stRadio [data-testid=stWidgetLabel] {{
                     justify-content: center;
                     text-decoration: underline;
                     margin-bottom: 10px;
-                }
-                .stRadio [role=radiogroup]{
+                }}
+                .stRadio [role=radiogroup] {{
                     align-items: center;
                     background-color: #171717;
                     border-radius: 7px;
                     padding-top: 5px;
                     padding-bottom: 5px;
-                }
-                div[data-baseweb="select"] > div {
+                }}
+                div[data-baseweb="select"] > div {{
                     width: 100%;
                     background-color: #171717;
-                }
-                .stMultiSelect [data-testid=stWidgetLabel] p {
+                }}
+                .stMultiSelect [data-testid=stWidgetLabel] p {{
                     font-size: 18px;
-                }
-                .stMultiSelect [data-testid=stWidgetLabel]{
+                }}
+                .stMultiSelect [data-testid=stWidgetLabel] {{
                     justify-content: center;
                     text-decoration: underline;
                     margin-bottom: 10px;
-                }
-                .stMultiSelect div[data-baseweb="select"] span[data-baseweb="tag"]{
+                }}
+                .stMultiSelect div[data-baseweb="select"] span[data-baseweb="tag"] {{
                     background-color: #292929;
-                }
-                .stMultiSelect [data-baseweb="select"] span {
+                }}
+                .stMultiSelect [data-baseweb="select"] span {{
                     max-width: 280px;
-                }
-                .stSlider [data-testid=stWidgetLabel] p {
+                }}
+                .stSlider [data-testid=stWidgetLabel] p {{
                     font-size: 18px;
-                }
-                .stSlider [data-testid=stWidgetLabel]{
+                }}
+                .stSlider [data-testid=stWidgetLabel] {{
                     justify-content: center;
                     text-decoration: underline;
                     margin-bottom: 10px;
-                }
-                [data-testid="stAppViewBlockContainer"] {
+                }}
+                [data-testid="stAppViewBlockContainer"] {{
                     padding-top: 20px;
                     padding-left: 30px;
                     padding-right: 30px;
-                }
-                [data-testid="stDownloadButton"] {
+                }}
+                [data-testid="stDownloadButton"] {{
                     position: absolute;
                     bottom: 10px;
-                }
-                .main {
-                    overflow: hidden
-                }
+                }}
+                .main {{
+                    overflow: {overflow}
+                }}
             </style>
         """
 
