@@ -303,6 +303,8 @@ if screen_width >= 500:
                     border-radius: 7px;
                     padding-top: 5px;
                     padding-bottom: 5px;
+                    padding-left: 9px;
+                    width: 100%;
                 }
                 div[data-baseweb="select"] > div {
                     width: 100%;
