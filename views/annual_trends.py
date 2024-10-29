@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 from utils import county_color_map, city_list
+from st_screen_stats import ScreenData
 
 # set page configurations
 st.set_page_config(
@@ -9,6 +10,10 @@ st.set_page_config(
     initial_sidebar_state="expanded"  # 'collapsed' or 'expanded'
 )
 
+# using react component to get screen width
+screenD = ScreenData(setTimeout=200)
+screen_d = screenD.st_screen_data()
+screen_width = screen_d['innerWidth']
 
 # Initialize session state for the widgets, if not already set
 if 'geography_2' not in st.session_state:
@@ -18,9 +23,8 @@ if 'geo_level_2' not in st.session_state:
 
 st.query_params['geo'] = st.session_state['geography_2']
 
+
 # function definitions to set state variables and query parameters on change
-
-
 def update_geography():
     st.session_state['geo_level_2'] = st.session_state['geography_type_input2']
     if st.session_state['geo_level_2'] == 'Region':
@@ -170,172 +174,324 @@ color_discrete_map = {
     'Multi-family': '#FF6F61'
 }
 
-# create chart object
-fig = px.area(
-    df,
-    x='Year',
-    y='Permits',
-    title=title,
-    line_group='Series',
-    color='Series',
-    labels={
-        'county_name': 'County',
-    },
-    color_discrete_map=color_discrete_map,
-    height=545
-)
-
-# update fig layout
-fig.update_layout(
-    hovermode='x',
-    margin=dict(
-        t=60,
-    ),
-    legend=dict(
-        orientation='h',
-        entrywidth=100,
-        title_text="",
-        yanchor="bottom",
-        y=0.97,
-        xanchor="left",
-        bgcolor="rgba(41,41,41,0)"
-    ),
-    legend_traceorder="reversed",
-    title={
-        'font': {
-            'color': font_color,
-            'size': 18
-        }
-    },
-    xaxis=dict(
-        title='',
-        tickfont=dict(
-            size=16,
-            color=font_color
-        ),
-        gridcolor='#FFFFFF',
-    ),
-    yaxis=dict(
-        title='',
-        tickfont=dict(
-            size=16,
-            color=font_color
-        ),
-        tickformat=','
-    ),
-    plot_bgcolor='#292929',
-    paper_bgcolor='#292929'
-)
-
-# configure tooltip
-fig.update_traces(
-    hovertemplate='<b>%{y}</b>',
-    mode='lines',
-    line=dict(
-        width=2,
-        dash='solid'
-    ),
-    hoverlabel=dict(
-        font_color='#171717'
-    )
-)
-
-
-for trace in fig.data:
-    trace.hoverlabel.bgcolor = color_discrete_map[trace.name]
-
-fig.update_xaxes(
-    showline=True,
-    linewidth=1,
-    linecolor=font_color,
-    showgrid=False,
-)
-fig.update_yaxes(
-    showline=True,
-    linewidth=1,
-    linecolor=font_color,
-    showgrid=False,
-    zeroline=False
-)
-
-st.write("")
+# chart config, same for desktop and mobile
 config = {'displayModeBar': False}
-st.plotly_chart(
-    fig,
-    config=config,
-    theme='streamlit',
-    use_container_width=True
-)
 
-# download dataframe as CSV
-df = df.sort_values(by='Year', ascending=True)
-df_download = df.to_csv(index='False').encode('utf-8')
-st.download_button(
-    label=":material/download:",
-    data=df_download,
-    file_name=download_file_name,
-    help='Download filtered data to CSV'
-)
+# desktop / tablet view
+if screen_width >= 500:
 
-# the custom CSS lives here:
-hide_default_format = """
-        <style>
-            .stRadio [data-testid=stWidgetLabel] p {
-                font-size: 18px;
-            }
-            .stRadio [data-testid=stWidgetLabel]{
-                justify-content: center;
-                text-decoration: underline;
-                margin-bottom: 10px;
-            }
-            .stRadio [role=radiogroup]{
-                justify-content: center;
-                background-color: #171717;
-                border-radius: 7px;
-                padding-top: 5px;
-                padding-bottom: 5px;
-            }
-            div[data-baseweb="select"] > div {
-                width: 100%;
-                background-color: #171717;
-            }
-            .stSelectbox [data-testid=stWidgetLabel] p {
-                font-size: 18px;
-            }
-            .stSelectbox [data-testid=stWidgetLabel]{
-                justify-content: center;
-                text-decoration: underline;
-                margin-bottom: 10px;
-            }
-            .stSelectbox div[data-baseweb="select"] span[data-baseweb="tag"]{
-                background-color: #292929;
-            }
-            .stSlider [data-testid=stWidgetLabel] p {
-                font-size: 18px;
-            }
-            .stSlider [data-testid=stWidgetLabel]{
-                justify-content: center;
-                text-decoration: underline;
-                margin-bottom: 10px;
-            }
-            [data-testid="stAppViewBlockContainer"] {
-                margin-top: -50px;
-                padding-left: 30px;
-                padding-right: 30px;
-            }
-            .main {
-                overflow: hidden
-            }
-            [data-testid="stHeader"] {
-                color: #292929;
-            }
-            [data-testid="stDownloadButton"] {
-                position: absolute;
-                bottom: 10px;
-            }
-        </style>
-       """
+    # create chart object
+    fig = px.area(
+        df,
+        x='Year',
+        y='Permits',
+        title=title,
+        line_group='Series',
+        color='Series',
+        labels={
+            'county_name': 'County',
+        },
+        color_discrete_map=color_discrete_map,
+        height=545
+    )
 
+    # update fig layout
+    fig.update_layout(
+        hovermode='x',
+        margin=dict(
+            t=60,
+        ),
+        legend=dict(
+            orientation='h',
+            entrywidth=100,
+            title_text="",
+            yanchor="bottom",
+            y=0.97,
+            xanchor="left",
+            bgcolor="rgba(41,41,41,0)"
+        ),
+        legend_traceorder="reversed",
+        title={
+            'font': {
+                'color': font_color,
+                'size': 18
+            }
+        },
+        xaxis=dict(
+            title='',
+            tickfont=dict(
+                size=16,
+                color=font_color
+            ),
+            gridcolor='#FFFFFF',
+        ),
+        yaxis=dict(
+            title='',
+            tickfont=dict(
+                size=16,
+                color=font_color
+            ),
+            tickformat=','
+        ),
+        plot_bgcolor='#292929',
+        paper_bgcolor='#292929'
+    )
 
-# inject the CSS
-st.markdown(hide_default_format, unsafe_allow_html=True)
+    # configure tooltip
+    fig.update_traces(
+        hovertemplate='<b>%{y}</b>',
+        mode='lines',
+        line=dict(
+            width=2,
+            dash='solid'
+        ),
+        hoverlabel=dict(
+            font_color='#171717'
+        )
+    )
+
+    for trace in fig.data:
+        trace.hoverlabel.bgcolor = color_discrete_map[trace.name]
+
+    fig.update_xaxes(
+        showline=True,
+        linewidth=1,
+        linecolor=font_color,
+        showgrid=False,
+    )
+    fig.update_yaxes(
+        showline=True,
+        linewidth=1,
+        linecolor=font_color,
+        showgrid=False,
+        zeroline=False
+    )
+
+    st.write("")
+
+    st.plotly_chart(
+        fig,
+        config=config,
+        theme='streamlit',
+        use_container_width=True
+    )
+
+    # download dataframe as CSV
+    df = df.sort_values(by='Year', ascending=True)
+    df_download = df.to_csv(index='False').encode('utf-8')
+    st.download_button(
+        label=":material/download:",
+        data=df_download,
+        file_name=download_file_name,
+        help='Download filtered data to CSV'
+    )
+
+    # the custom CSS lives here:
+    hide_default_format = """
+            <style>
+                .stRadio [data-testid=stWidgetLabel] p {
+                    font-size: 18px;
+                }
+                .stRadio [data-testid=stWidgetLabel]{
+                    justify-content: center;
+                    text-decoration: underline;
+                    margin-bottom: 10px;
+                }
+                .stRadio [role=radiogroup]{
+                    justify-content: center;
+                    background-color: #171717;
+                    border-radius: 7px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                }
+                div[data-baseweb="select"] > div {
+                    width: 100%;
+                    background-color: #171717;
+                }
+                .stSelectbox [data-testid=stWidgetLabel] p {
+                    font-size: 18px;
+                }
+                .stSelectbox [data-testid=stWidgetLabel]{
+                    justify-content: center;
+                    text-decoration: underline;
+                    margin-bottom: 10px;
+                }
+                .stSelectbox div[data-baseweb="select"] span[data-baseweb="tag"]{
+                    background-color: #292929;
+                }
+                .stSlider [data-testid=stWidgetLabel] p {
+                    font-size: 18px;
+                }
+                .stSlider [data-testid=stWidgetLabel]{
+                    justify-content: center;
+                    text-decoration: underline;
+                    margin-bottom: 10px;
+                }
+                [data-testid="stAppViewBlockContainer"] {
+                    margin-top: -90px;
+                    padding-left: 40px;
+                    padding-right: 40px;
+                }
+                .main {
+                    overflow: hidden
+                }
+                [data-testid="stHeader"] {
+                    color: #292929;
+                }
+                [data-testid="stDownloadButton"] {
+                    position: absolute;
+                    bottom: 10px;
+                }
+            </style>
+        """
+
+    # inject the CSS
+    st.markdown(hide_default_format, unsafe_allow_html=True)
+
+# mobile view
+else:
+
+    # create chart object
+    fig = px.area(
+        df,
+        x='Year',
+        y='Permits',
+        line_group='Series',
+        color='Series',
+        labels={
+            'county_name': 'County',
+        },
+        color_discrete_map=color_discrete_map,
+        height=300
+    )
+
+    # update fig layout
+    fig.update_layout(
+        hovermode='x',
+        margin=dict(
+            t=60,
+            l=0,
+            r=10
+        ),
+        legend=dict(
+            orientation='h',
+            entrywidth=100,
+            title_text="",
+            yanchor="bottom",
+            y=0.07,
+            xanchor="left",
+            bgcolor="rgba(41,41,41,0)"
+        ),
+        legend_traceorder="reversed",
+        xaxis=dict(
+            title='',
+            tickfont=dict(
+                size=16,
+                color=font_color
+            ),
+            dtick=15,
+            gridcolor='#FFFFFF',
+        ),
+        yaxis=dict(
+            title='',
+            tickfont=dict(
+                size=16,
+                color=font_color
+            ),
+            tickformat=',',
+        ),
+        plot_bgcolor='#292929',
+        paper_bgcolor='#292929'
+    )
+
+    # configure tooltip
+    fig.update_traces(
+        hovertemplate='<b>%{y}</b>',
+        mode='lines',
+        line=dict(
+            width=2,
+            dash='solid'
+        ),
+        hoverlabel=dict(
+            font_color='#171717'
+        )
+    )
+
+    for trace in fig.data:
+        trace.hoverlabel.bgcolor = color_discrete_map[trace.name]
+
+    fig.update_xaxes(
+        showline=True,
+        linewidth=1,
+        linecolor=font_color,
+        showgrid=False,
+    )
+    fig.update_yaxes(
+        showline=True,
+        linewidth=1,
+        linecolor=font_color,
+        showgrid=False,
+        zeroline=False
+    )
+
+    st.plotly_chart(
+        fig,
+        config=config,
+        theme='streamlit',
+        use_container_width=True
+    )
+
+    # the custom CSS lives here:
+    hide_default_format = """
+            <style>
+                .stRadio [data-testid=stWidgetLabel] p {
+                    font-size: 18px;
+                }
+                .stRadio [data-testid=stWidgetLabel]{
+                    justify-content: center;
+                    text-decoration: underline;
+                    margin-bottom: 10px;
+                }
+                .stRadio [role=radiogroup]{
+                    justify-content: right;
+                    background-color: #171717;
+                    border-radius: 7px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                }
+                div[data-baseweb="select"] > div {
+                    width: 100%;
+                    background-color: #171717;
+                }
+                .stSelectbox [data-testid=stWidgetLabel] p {
+                    font-size: 18px;
+                }
+                .stSelectbox [data-testid=stWidgetLabel]{
+                    justify-content: center;
+                    text-decoration: underline;
+                    margin-bottom: 10px;
+                }
+                .stSelectbox div[data-baseweb="select"] span[data-baseweb="tag"]{
+                    background-color: #292929;
+                }
+                .stSlider [data-testid=stWidgetLabel] p {
+                    font-size: 18px;
+                }
+                .stSlider [data-testid=stWidgetLabel]{
+                    justify-content: center;
+                    text-decoration: underline;
+                    margin-bottom: 10px;
+                }
+                [data-testid="stAppViewBlockContainer"] {
+                    margin-top: -50px;
+                    padding-left: 40px;
+                    padding-right: 40px;
+                }
+                [data-testid="stHeader"] {
+                    color: #292929;
+                }
+            </style>
+        """
+
+    # inject the CSS
+    st.markdown(hide_default_format, unsafe_allow_html=True)

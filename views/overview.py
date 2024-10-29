@@ -65,7 +65,7 @@ if screen_width >= 500:
     st.markdown(
         f"""
         <div style='margin-top: {paragraph_margin_top}px; margin-bottom: {paragraph_margin_bottom}px; margin-left: {paragraph_margin_left}px;'>
-            <span style='font-size: {paragraph_font_size}px; font-weight: {paragraph_font_weight}; color: {paragraph_font_color}'>Like many cities across the nation, Atlanta lacks affordable housing. One primary means to address this shortage is by building more housing units! To provide greater transparency in the crucial permitting process, we have built a tracker for residential building permits issued across the 11-county metro Atlanta region. Explore trend data using the side panel navigation.</span>
+            <span style='font-size: {paragraph_font_size}px; font-weight: {paragraph_font_weight}; color: {paragraph_font_color}'>Like many cities across the nation, Atlanta lacks affordable housing. One primary means to address this shortage is by building more housing units. To provide greater transparency in the crucial permitting process, we have built a tracker, updated monthly, for residential building permits issued across the 11-county metro Atlanta region. Explore and download trend data via side-panel navigation.</span>
         </div>
         """,
         unsafe_allow_html=True
@@ -179,7 +179,7 @@ if screen_width >= 500:
     hide_default_format = """
         <style>
             [data-testid="stAppViewBlockContainer"] {
-                margin-top: -100px;
+                margin-top: -120px;
                 padding-left: 40px;
                 padding-right: 50px;
             }

@@ -3,12 +3,18 @@ import pandas as pd
 import plotly.express as px
 from utils import county_color_map, city_list
 from pandas.tseries.offsets import DateOffset
+from st_screen_stats import ScreenData
 
 # set page configurations
 st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"  # 'collapsed' or 'expanded'
 )
+
+# using react component to get screen width
+screenD = ScreenData(setTimeout=200)
+screen_d = screenD.st_screen_data()
+screen_width = screen_d['innerWidth']
 
 # Initialize session state for the widgets, if not already set
 if 'geography_3' not in st.session_state:

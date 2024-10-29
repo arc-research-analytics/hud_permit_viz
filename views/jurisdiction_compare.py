@@ -355,7 +355,7 @@ if screen_width >= 500:
                     margin-bottom: 10px;
                 }
                 [data-testid="stAppViewBlockContainer"] {
-                    padding-top: 40px;
+                    padding-top: 20px;
                     padding-left: 30px;
                     padding-right: 30px;
                 }
