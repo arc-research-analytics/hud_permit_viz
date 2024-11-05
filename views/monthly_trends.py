@@ -21,8 +21,11 @@ if 'geography_3' not in st.session_state:
     st.session_state['geography_3'] = 'Region'
 if 'geo_level' not in st.session_state:
     st.session_state['geo_level'] = 'Region'
+if 'chart_var' not in st.session_state:
+    st.session_state['chart_var'] = 'count'
 
 st.query_params['geo'] = st.session_state['geography_3']
+st.query_params['var'] = st.session_state['chart_var']
 
 
 # function definitions to set state variables and query parameters on change
@@ -59,8 +62,9 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-column_spacer = 0.001
-col1, col_spacer, col2 = st.columns([3, column_spacer, 3])
+column_spacer = .1
+col1, col_spacer, col2, = st.columns(
+    [3, column_spacer, 3])
 
 # permit type select
 options = ["Region", "County", "City"]
@@ -86,9 +90,6 @@ with col2:
             disabled=True
         )
     elif geo_level == 'County':
-        # county_index = list(county_color_map.keys()).index(
-        #     st.session_state['geography_3']
-        # )
         selected_county = st.selectbox(
             label='County:',
             options=list(county_color_map.keys()),
@@ -100,7 +101,6 @@ with col2:
             })
         )
     elif geo_level == 'City':
-        # city_index = city_list.index(st.session_state['geography_3'])
         selected_city = st.selectbox(
             label='City:',
             options=city_list,
@@ -115,42 +115,34 @@ with col2:
 st.write('')
 
 
-# cache function to read in CSV data for Explore page
 @st.cache_data
-def read_county_data():
-    monthly_county = pd.read_csv('Data/monthly_county.csv')
-    monthly_county = monthly_county.sort_values(
-        by=['Series', 'date'], ascending=False)
-    return monthly_county
+def read_master_data():
+    master_data = pd.read_csv('Data/monthly_master.csv')
+    return master_data
 
 
-@st.cache_data
-def read_city_data():
-    monthly_city = pd.read_csv('Data/monthly_city.csv')
-    monthly_city = monthly_city.sort_values(
-        by=['Series', 'date'], ascending=False)
-    return monthly_city
-
+df = read_master_data()
+df = df.sort_values(by='Series', ascending=False)
+df = df.sort_values(by=['year_month', 'Name'], ascending=True)
 
 # conditionally read in data based on user input
 if geo_level == 'City':
-    df = read_city_data()
+    df = df[df['Level'] == 'City']
     if isinstance(selected_city, list):
         selected_city = selected_city[0]
-    df = df[df['city'] == selected_city]
+    df = df[df['Name'] == selected_city]
     title = f'Permits Issued in City of {selected_city}, Trailing 18 Months'
     download_file_name = f'{selected_city}_monthly_trends.csv'
 elif geo_level == 'Region':
-    df = read_county_data()
-    df = df[df['county_name'] == 'Metro']
+    df = df[df['Name'] == 'Metro']
     title = 'Permits Issued in the 11-County ARC Region, Trailing 18 Months'
     download_file_name = 'Regional_monthly_trends.csv'
 elif geo_level == 'County':
-    df = read_county_data()
+    df = df[df['Level'] == 'County']
     if isinstance(selected_county, list):
         selected_county = selected_county[0]
-    df = df[df['county_name'] == selected_county]
-    title = f'Permits Issued in {selected_county} County, Trailing 18 Months'
+    df = df[df['Name'] == selected_county]
+    title = title = f'Permits Issued in {selected_county} County, Trailing 18 Months'
     download_file_name = f'{selected_county}County_monthly_trends.csv'
 
 # color map
@@ -159,46 +151,54 @@ color_discrete_map = {
     'Multi-Family': '#FF6F61'
 }
 
-# make sure data is sorted chronologically
-df = df.sort_values(by='date', ascending=True)
+# KPI font variables
+heading_font_size = 16
+heading_font_weight = 200
+heading_font_color = font_color
+
+value_font_size = 22
+value_margin_top = 40
+value_margin_bottom = 15
+value_margin_left = 10
+value_font_weight = 700
+value_font_color = font_color
+
+border_thickness = 3
+top_bottom_padding = 28
+
+# Get every nth label from the x values
+x_labels = df['date'].unique()
+tickvals = x_labels[::3]
 
 # create chart object
 fig = px.area(
     df,
-    x='month_year',
-    y='Permits',
+    x='date',
+    y='Units',
     title=title,
     line_group='Series',
     color='Series',
-    labels={
-        'county_name': 'County',
-    },
     color_discrete_map=color_discrete_map,
     height=545
 )
-
-# Get every 3rd label from the 'month_year' column
-x_labels = df['month_year'].unique()
-tickvals = x_labels[::3]  # Show every 3rd label
 
 # update fig layout
 fig.update_layout(
     hovermode='x',
     margin=dict(
         t=60,
-        r=0
+        r=15
     ),
     legend=dict(
-        font_size=16,
+        font_size=14,
         orientation='h',
-        entrywidth=120,
         title_text="",
         yanchor="bottom",
         y=0.97,
         xanchor="left",
-        bgcolor="rgba(41,41,41,0)"
+        bgcolor="rgba(41,41,41,0)",
+        traceorder="reversed"
     ),
-    legend_traceorder="reversed",
     title={
         'font': {
             'color': font_color,
@@ -214,7 +214,7 @@ fig.update_layout(
             color=font_color
         ),
         gridcolor='#FFFFFF',
-        tickangle=90
+        tickangle=0
     ),
     yaxis=dict(
         title='',
@@ -270,24 +270,12 @@ col1.plotly_chart(
 
 # KPI section
 singleFamily_total = df[df['Series'] ==
-                        'Single-Family']['Permits'].sum()
+                        'Single-Family']['Units'].sum()
 multiFamily_total = df[df['Series'] ==
-                       'Multi-Family']['Permits'].sum()
+                       'Multi-Family']['Units'].sum()
 
-# KPI font variables
-heading_font_size = 16
-heading_font_weight = 200
-heading_font_color = font_color
-
-value_font_size = 22
-value_margin_top = 40
-value_margin_bottom = 15
-value_margin_left = 10
-value_font_weight = 700
-value_font_color = font_color
-
-border_thickness = 3
-top_bottom_padding = 28
+mf_kpi_title = "Multi-Family Permits:"
+sf_kpi_title = "Single-Family Permits:"
 
 col2.write("")
 col2.write("")
@@ -300,7 +288,7 @@ col2.write("")
 col2.markdown(
     f"""
             <div style='text-align: center; border:{border_thickness}px solid #FF6F61; padding: 6px; padding-bottom: {top_bottom_padding}px; padding-top: {top_bottom_padding}px; border-radius: 8px; line-height: 110%;'>
-                <span style='font-size: {heading_font_size}px; font-weight: {heading_font_weight}; color: {title_font_color}; line-height: 0.5;'>Multi-Family Permits:</span><br/><br/>
+                <span style='font-size: {heading_font_size}px; font-weight: {heading_font_weight}; color: {title_font_color}; line-height: 0.5;'>{mf_kpi_title}</span><br/><br/>
                 <span style='font-size: {value_font_size}px; font-weight: {value_font_weight}; color: {value_font_color}; margin-top: 0;'>
                 {multiFamily_total:,.0f}</span>
             </div>
@@ -315,7 +303,7 @@ col2.write("")
 col2.markdown(
     f"""
             <div style='text-align: center; border:{border_thickness}px solid #00BFFF; padding: 6px; padding-bottom: {top_bottom_padding}px; padding-top: {top_bottom_padding}px; border-radius: 8px; line-height: 110%;'>
-                <span style='font-size: {heading_font_size}px; font-weight: {heading_font_weight}; color: {title_font_color};'>Single-Family Permits:</span><br/><br/>
+                <span style='font-size: {heading_font_size}px; font-weight: {heading_font_weight}; color: {title_font_color};'>{sf_kpi_title}</span><br/><br/>
                 <span style='font-size: {value_font_size}px; font-weight: {value_font_weight}; color: {value_font_color};'>
                 {singleFamily_total:,.0f}</span>
             </div>
@@ -323,8 +311,16 @@ col2.markdown(
     unsafe_allow_html=True
 )
 
+
 # download dataframe as CSV
 df = df.sort_values(by='date', ascending=True)
+df = df[[
+    'year_month',
+    'Name',
+    'Series',
+    'Units'
+]]
+
 df_download = df.to_csv(index='False').encode('utf-8')
 
 st.download_button(
@@ -352,7 +348,7 @@ hide_default_format = """
                 padding-top: 5px;
                 padding-bottom: 5px;
             }
-            div[data-baseweb="select"] > div {
+            [data-baseweb="select"] > div {
                 width: 100%;
                 background-color: #171717;
                 justify-content: center;
@@ -366,11 +362,8 @@ hide_default_format = """
                 text-decoration: underline;
                 margin-bottom: 10px;
             }
-            .stSelectbox div[data-baseweb="select"] span[data-baseweb="tag"]{
-                background-color: #292929;
-            }
             [data-testid="stAppViewBlockContainer"] {
-                margin-top: -50px;
+                margin-top: -75px;
                 padding-left: 30px;
                 padding-right: 30px;
             }
@@ -386,6 +379,7 @@ hide_default_format = """
             }
         </style>
        """
+
 
 # inject the CSS
 st.markdown(hide_default_format, unsafe_allow_html=True)

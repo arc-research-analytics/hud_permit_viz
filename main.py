@@ -19,13 +19,13 @@ jurisdiction_compare = st.Page(
 permit_types_annual = st.Page(
     page='views/annual_trends.py',
     title='Annual Trends',
-    icon=':material/area_chart:'
+    icon=':material/calendar_today:'
 )
 
 permit_types_monthly = st.Page(
     page='views/monthly_trends.py',
     title='Monthly Trends',
-    icon=':material/area_chart:'
+    icon=':material/timer:'
 )
 
 about_page = st.Page(

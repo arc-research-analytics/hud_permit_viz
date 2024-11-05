@@ -1,6 +1,4 @@
 city,month_year,date,Series,Permits
-Acworth,Mar 2023,2023-03-01,Multi-Family,0.0
-Acworth,Mar 2023,2023-03-01,Single-Family,6.0
 Acworth,Apr 2023,2023-04-01,Multi-Family,0.0
 Acworth,Apr 2023,2023-04-01,Single-Family,1.0
 Acworth,May 2023,2023-05-01,Multi-Family,0.0
@@ -35,8 +33,8 @@ Acworth,Jul 2024,2024-07-01,Multi-Family,0.0
 Acworth,Jul 2024,2024-07-01,Single-Family,31.0
 Acworth,Aug 2024,2024-08-01,Multi-Family,0.0
 Acworth,Aug 2024,2024-08-01,Single-Family,5.0
-Alpharetta,Mar 2023,2023-03-01,Multi-Family,0.0
-Alpharetta,Mar 2023,2023-03-01,Single-Family,6.0
+Acworth,Sep 2024,2024-09-01,Multi-Family,0.0
+Acworth,Sep 2024,2024-09-01,Single-Family,1.0
 Alpharetta,Apr 2023,2023-04-01,Multi-Family,0.0
 Alpharetta,Apr 2023,2023-04-01,Single-Family,19.0
 Alpharetta,May 2023,2023-05-01,Multi-Family,0.0
@@ -71,8 +69,8 @@ Alpharetta,Jul 2024,2024-07-01,Multi-Family,0.0
 Alpharetta,Jul 2024,2024-07-01,Single-Family,32.0
 Alpharetta,Aug 2024,2024-08-01,Multi-Family,0.0
 Alpharetta,Aug 2024,2024-08-01,Single-Family,39.0
-Atlanta,Mar 2023,2023-03-01,Multi-Family,403.0
-Atlanta,Mar 2023,2023-03-01,Single-Family,148.0
+Alpharetta,Sep 2024,2024-09-01,Multi-Family,0.0
+Alpharetta,Sep 2024,2024-09-01,Single-Family,15.0
 Atlanta,Apr 2023,2023-04-01,Multi-Family,706.0
 Atlanta,Apr 2023,2023-04-01,Single-Family,60.0
 Atlanta,May 2023,2023-05-01,Multi-Family,672.0
@@ -107,8 +105,8 @@ Atlanta,Jul 2024,2024-07-01,Multi-Family,566.0
 Atlanta,Jul 2024,2024-07-01,Single-Family,64.0
 Atlanta,Aug 2024,2024-08-01,Multi-Family,363.0
 Atlanta,Aug 2024,2024-08-01,Single-Family,80.0
-Austell,Mar 2023,2023-03-01,Multi-Family,0.0
-Austell,Mar 2023,2023-03-01,Single-Family,0.0
+Atlanta,Sep 2024,2024-09-01,Multi-Family,953.0
+Atlanta,Sep 2024,2024-09-01,Single-Family,37.0
 Austell,Apr 2023,2023-04-01,Multi-Family,0.0
 Austell,Apr 2023,2023-04-01,Single-Family,3.0
 Austell,May 2023,2023-05-01,Multi-Family,0.0
@@ -143,8 +141,8 @@ Austell,Jul 2024,2024-07-01,Multi-Family,0.0
 Austell,Jul 2024,2024-07-01,Single-Family,0.0
 Austell,Aug 2024,2024-08-01,Multi-Family,0.0
 Austell,Aug 2024,2024-08-01,Single-Family,0.0
-Avondale Estates,Mar 2023,2023-03-01,Multi-Family,0.0
-Avondale Estates,Mar 2023,2023-03-01,Single-Family,0.0
+Austell,Sep 2024,2024-09-01,Multi-Family,0.0
+Austell,Sep 2024,2024-09-01,Single-Family,15.0
 Avondale Estates,Apr 2023,2023-04-01,Multi-Family,0.0
 Avondale Estates,Apr 2023,2023-04-01,Single-Family,0.0
 Avondale Estates,May 2023,2023-05-01,Multi-Family,0.0
@@ -179,8 +177,8 @@ Avondale Estates,Jul 2024,2024-07-01,Multi-Family,0.0
 Avondale Estates,Jul 2024,2024-07-01,Single-Family,0.0
 Avondale Estates,Aug 2024,2024-08-01,Multi-Family,0.0
 Avondale Estates,Aug 2024,2024-08-01,Single-Family,0.0
-Ball Ground,Mar 2023,2023-03-01,Multi-Family,0.0
-Ball Ground,Mar 2023,2023-03-01,Single-Family,20.0
+Avondale Estates,Sep 2024,2024-09-01,Multi-Family,0.0
+Avondale Estates,Sep 2024,2024-09-01,Single-Family,0.0
 Ball Ground,Apr 2023,2023-04-01,Multi-Family,0.0
 Ball Ground,Apr 2023,2023-04-01,Single-Family,0.0
 Ball Ground,May 2023,2023-05-01,Multi-Family,0.0
@@ -215,8 +213,8 @@ Ball Ground,Jul 2024,2024-07-01,Multi-Family,0.0
 Ball Ground,Jul 2024,2024-07-01,Single-Family,4.0
 Ball Ground,Aug 2024,2024-08-01,Multi-Family,0.0
 Ball Ground,Aug 2024,2024-08-01,Single-Family,9.0
-Berkeley Lake,Mar 2023,2023-03-01,Multi-Family,0.0
-Berkeley Lake,Mar 2023,2023-03-01,Single-Family,0.0
+Ball Ground,Sep 2024,2024-09-01,Multi-Family,0.0
+Ball Ground,Sep 2024,2024-09-01,Single-Family,19.0
 Berkeley Lake,Apr 2023,2023-04-01,Multi-Family,0.0
 Berkeley Lake,Apr 2023,2023-04-01,Single-Family,0.0
 Berkeley Lake,May 2023,2023-05-01,Multi-Family,0.0
@@ -251,8 +249,8 @@ Berkeley Lake,Jul 2024,2024-07-01,Multi-Family,0.0
 Berkeley Lake,Jul 2024,2024-07-01,Single-Family,0.0
 Berkeley Lake,Aug 2024,2024-08-01,Multi-Family,0.0
 Berkeley Lake,Aug 2024,2024-08-01,Single-Family,0.0
-Brookhaven,Mar 2023,2023-03-01,Multi-Family,0.0
-Brookhaven,Mar 2023,2023-03-01,Single-Family,4.0
+Berkeley Lake,Sep 2024,2024-09-01,Multi-Family,0.0
+Berkeley Lake,Sep 2024,2024-09-01,Single-Family,0.0
 Brookhaven,Apr 2023,2023-04-01,Multi-Family,0.0
 Brookhaven,Apr 2023,2023-04-01,Single-Family,1.0
 Brookhaven,May 2023,2023-05-01,Multi-Family,630.0
@@ -287,8 +285,8 @@ Brookhaven,Jul 2024,2024-07-01,Multi-Family,0.0
 Brookhaven,Jul 2024,2024-07-01,Single-Family,28.0
 Brookhaven,Aug 2024,2024-08-01,Multi-Family,0.0
 Brookhaven,Aug 2024,2024-08-01,Single-Family,10.0
-Buford,Mar 2023,2023-03-01,Multi-Family,0.0
-Buford,Mar 2023,2023-03-01,Single-Family,0.0
+Brookhaven,Sep 2024,2024-09-01,Multi-Family,0.0
+Brookhaven,Sep 2024,2024-09-01,Single-Family,2.0
 Buford,Apr 2023,2023-04-01,Multi-Family,0.0
 Buford,Apr 2023,2023-04-01,Single-Family,4.0
 Buford,May 2023,2023-05-01,Multi-Family,73.0
@@ -323,8 +321,8 @@ Buford,Jul 2024,2024-07-01,Multi-Family,0.0
 Buford,Jul 2024,2024-07-01,Single-Family,3.0
 Buford,Aug 2024,2024-08-01,Multi-Family,0.0
 Buford,Aug 2024,2024-08-01,Single-Family,12.0
-Canton,Mar 2023,2023-03-01,Multi-Family,8.0
-Canton,Mar 2023,2023-03-01,Single-Family,11.0
+Buford,Sep 2024,2024-09-01,Multi-Family,0.0
+Buford,Sep 2024,2024-09-01,Single-Family,4.0
 Canton,Apr 2023,2023-04-01,Multi-Family,2.0
 Canton,Apr 2023,2023-04-01,Single-Family,33.0
 Canton,May 2023,2023-05-01,Multi-Family,6.0
@@ -359,8 +357,8 @@ Canton,Jul 2024,2024-07-01,Multi-Family,0.0
 Canton,Jul 2024,2024-07-01,Single-Family,17.0
 Canton,Aug 2024,2024-08-01,Multi-Family,308.0
 Canton,Aug 2024,2024-08-01,Single-Family,12.0
-Chamblee,Mar 2023,2023-03-01,Multi-Family,0.0
-Chamblee,Mar 2023,2023-03-01,Single-Family,1.0
+Canton,Sep 2024,2024-09-01,Multi-Family,0.0
+Canton,Sep 2024,2024-09-01,Single-Family,8.0
 Chamblee,Apr 2023,2023-04-01,Multi-Family,0.0
 Chamblee,Apr 2023,2023-04-01,Single-Family,3.0
 Chamblee,May 2023,2023-05-01,Multi-Family,0.0
@@ -395,8 +393,8 @@ Chamblee,Jul 2024,2024-07-01,Multi-Family,0.0
 Chamblee,Jul 2024,2024-07-01,Single-Family,1.0
 Chamblee,Aug 2024,2024-08-01,Multi-Family,0.0
 Chamblee,Aug 2024,2024-08-01,Single-Family,1.0
-Chattahoochee Hills,Mar 2023,2023-03-01,Multi-Family,0.0
-Chattahoochee Hills,Mar 2023,2023-03-01,Single-Family,1.0
+Chamblee,Sep 2024,2024-09-01,Multi-Family,0.0
+Chamblee,Sep 2024,2024-09-01,Single-Family,3.0
 Chattahoochee Hills,Apr 2023,2023-04-01,Multi-Family,0.0
 Chattahoochee Hills,Apr 2023,2023-04-01,Single-Family,3.0
 Chattahoochee Hills,May 2023,2023-05-01,Multi-Family,0.0
@@ -431,8 +429,8 @@ Chattahoochee Hills,Jul 2024,2024-07-01,Multi-Family,0.0
 Chattahoochee Hills,Jul 2024,2024-07-01,Single-Family,4.0
 Chattahoochee Hills,Aug 2024,2024-08-01,Multi-Family,0.0
 Chattahoochee Hills,Aug 2024,2024-08-01,Single-Family,2.0
-Clarkston,Mar 2023,2023-03-01,Multi-Family,0.0
-Clarkston,Mar 2023,2023-03-01,Single-Family,0.0
+Chattahoochee Hills,Sep 2024,2024-09-01,Multi-Family,0.0
+Chattahoochee Hills,Sep 2024,2024-09-01,Single-Family,3.0
 Clarkston,Apr 2023,2023-04-01,Multi-Family,0.0
 Clarkston,Apr 2023,2023-04-01,Single-Family,0.0
 Clarkston,May 2023,2023-05-01,Multi-Family,0.0
@@ -467,8 +465,8 @@ Clarkston,Jul 2024,2024-07-01,Multi-Family,0.0
 Clarkston,Jul 2024,2024-07-01,Single-Family,8.0
 Clarkston,Aug 2024,2024-08-01,Multi-Family,0.0
 Clarkston,Aug 2024,2024-08-01,Single-Family,5.0
-College Park,Mar 2023,2023-03-01,Multi-Family,0.0
-College Park,Mar 2023,2023-03-01,Single-Family,1.0
+Clarkston,Sep 2024,2024-09-01,Multi-Family,0.0
+Clarkston,Sep 2024,2024-09-01,Single-Family,0.0
 College Park,Apr 2023,2023-04-01,Multi-Family,0.0
 College Park,Apr 2023,2023-04-01,Single-Family,14.0
 College Park,May 2023,2023-05-01,Multi-Family,0.0
@@ -503,8 +501,8 @@ College Park,Jul 2024,2024-07-01,Multi-Family,0.0
 College Park,Jul 2024,2024-07-01,Single-Family,0.0
 College Park,Aug 2024,2024-08-01,Multi-Family,0.0
 College Park,Aug 2024,2024-08-01,Single-Family,0.0
-Conyers,Mar 2023,2023-03-01,Multi-Family,0.0
-Conyers,Mar 2023,2023-03-01,Single-Family,17.0
+College Park,Sep 2024,2024-09-01,Multi-Family,0.0
+College Park,Sep 2024,2024-09-01,Single-Family,0.0
 Conyers,Apr 2023,2023-04-01,Multi-Family,0.0
 Conyers,Apr 2023,2023-04-01,Single-Family,9.0
 Conyers,May 2023,2023-05-01,Multi-Family,0.0
@@ -539,8 +537,8 @@ Conyers,Jul 2024,2024-07-01,Multi-Family,0.0
 Conyers,Jul 2024,2024-07-01,Single-Family,18.0
 Conyers,Aug 2024,2024-08-01,Multi-Family,0.0
 Conyers,Aug 2024,2024-08-01,Single-Family,6.0
-Cumming,Mar 2023,2023-03-01,Multi-Family,0.0
-Cumming,Mar 2023,2023-03-01,Single-Family,11.0
+Conyers,Sep 2024,2024-09-01,Multi-Family,0.0
+Conyers,Sep 2024,2024-09-01,Single-Family,1.0
 Cumming,Apr 2023,2023-04-01,Multi-Family,0.0
 Cumming,Apr 2023,2023-04-01,Single-Family,11.0
 Cumming,May 2023,2023-05-01,Multi-Family,19.0
@@ -575,8 +573,8 @@ Cumming,Jul 2024,2024-07-01,Multi-Family,0.0
 Cumming,Jul 2024,2024-07-01,Single-Family,5.0
 Cumming,Aug 2024,2024-08-01,Multi-Family,428.0
 Cumming,Aug 2024,2024-08-01,Single-Family,129.0
-Dacula,Mar 2023,2023-03-01,Multi-Family,0.0
-Dacula,Mar 2023,2023-03-01,Single-Family,10.0
+Cumming,Sep 2024,2024-09-01,Multi-Family,0.0
+Cumming,Sep 2024,2024-09-01,Single-Family,30.0
 Dacula,Apr 2023,2023-04-01,Multi-Family,0.0
 Dacula,Apr 2023,2023-04-01,Single-Family,24.0
 Dacula,May 2023,2023-05-01,Multi-Family,0.0
@@ -611,8 +609,8 @@ Dacula,Jul 2024,2024-07-01,Multi-Family,0.0
 Dacula,Jul 2024,2024-07-01,Single-Family,14.0
 Dacula,Aug 2024,2024-08-01,Multi-Family,0.0
 Dacula,Aug 2024,2024-08-01,Single-Family,24.0
-Decatur,Mar 2023,2023-03-01,Multi-Family,0.0
-Decatur,Mar 2023,2023-03-01,Single-Family,2.0
+Dacula,Sep 2024,2024-09-01,Multi-Family,0.0
+Dacula,Sep 2024,2024-09-01,Single-Family,29.0
 Decatur,Apr 2023,2023-04-01,Multi-Family,0.0
 Decatur,Apr 2023,2023-04-01,Single-Family,6.0
 Decatur,May 2023,2023-05-01,Multi-Family,0.0
@@ -647,8 +645,8 @@ Decatur,Jul 2024,2024-07-01,Multi-Family,0.0
 Decatur,Jul 2024,2024-07-01,Single-Family,0.0
 Decatur,Aug 2024,2024-08-01,Multi-Family,0.0
 Decatur,Aug 2024,2024-08-01,Single-Family,0.0
-Doraville,Mar 2023,2023-03-01,Multi-Family,0.0
-Doraville,Mar 2023,2023-03-01,Single-Family,0.0
+Decatur,Sep 2024,2024-09-01,Multi-Family,0.0
+Decatur,Sep 2024,2024-09-01,Single-Family,1.0
 Doraville,Apr 2023,2023-04-01,Multi-Family,0.0
 Doraville,Apr 2023,2023-04-01,Single-Family,0.0
 Doraville,May 2023,2023-05-01,Multi-Family,0.0
@@ -683,8 +681,8 @@ Doraville,Jul 2024,2024-07-01,Multi-Family,0.0
 Doraville,Jul 2024,2024-07-01,Single-Family,5.0
 Doraville,Aug 2024,2024-08-01,Multi-Family,0.0
 Doraville,Aug 2024,2024-08-01,Single-Family,0.0
-Douglasville,Mar 2023,2023-03-01,Multi-Family,0.0
-Douglasville,Mar 2023,2023-03-01,Single-Family,1.0
+Doraville,Sep 2024,2024-09-01,Multi-Family,0.0
+Doraville,Sep 2024,2024-09-01,Single-Family,0.0
 Douglasville,Apr 2023,2023-04-01,Multi-Family,90.0
 Douglasville,Apr 2023,2023-04-01,Single-Family,0.0
 Douglasville,May 2023,2023-05-01,Multi-Family,0.0
@@ -719,8 +717,8 @@ Douglasville,Jul 2024,2024-07-01,Multi-Family,0.0
 Douglasville,Jul 2024,2024-07-01,Single-Family,8.0
 Douglasville,Aug 2024,2024-08-01,Multi-Family,0.0
 Douglasville,Aug 2024,2024-08-01,Single-Family,18.0
-Duluth,Mar 2023,2023-03-01,Multi-Family,0.0
-Duluth,Mar 2023,2023-03-01,Single-Family,29.0
+Douglasville,Sep 2024,2024-09-01,Multi-Family,0.0
+Douglasville,Sep 2024,2024-09-01,Single-Family,25.0
 Duluth,Apr 2023,2023-04-01,Multi-Family,0.0
 Duluth,Apr 2023,2023-04-01,Single-Family,19.0
 Duluth,May 2023,2023-05-01,Multi-Family,0.0
@@ -755,8 +753,8 @@ Duluth,Jul 2024,2024-07-01,Multi-Family,0.0
 Duluth,Jul 2024,2024-07-01,Single-Family,22.0
 Duluth,Aug 2024,2024-08-01,Multi-Family,0.0
 Duluth,Aug 2024,2024-08-01,Single-Family,22.0
-Dunwoody,Mar 2023,2023-03-01,Multi-Family,0.0
-Dunwoody,Mar 2023,2023-03-01,Single-Family,2.0
+Duluth,Sep 2024,2024-09-01,Multi-Family,0.0
+Duluth,Sep 2024,2024-09-01,Single-Family,18.0
 Dunwoody,Apr 2023,2023-04-01,Multi-Family,0.0
 Dunwoody,Apr 2023,2023-04-01,Single-Family,0.0
 Dunwoody,May 2023,2023-05-01,Multi-Family,0.0
@@ -791,8 +789,8 @@ Dunwoody,Jul 2024,2024-07-01,Multi-Family,0.0
 Dunwoody,Jul 2024,2024-07-01,Single-Family,4.0
 Dunwoody,Aug 2024,2024-08-01,Multi-Family,0.0
 Dunwoody,Aug 2024,2024-08-01,Single-Family,3.0
-East Point,Mar 2023,2023-03-01,Multi-Family,0.0
-East Point,Mar 2023,2023-03-01,Single-Family,10.0
+Dunwoody,Sep 2024,2024-09-01,Multi-Family,0.0
+Dunwoody,Sep 2024,2024-09-01,Single-Family,0.0
 East Point,Apr 2023,2023-04-01,Multi-Family,10.0
 East Point,Apr 2023,2023-04-01,Single-Family,8.0
 East Point,May 2023,2023-05-01,Multi-Family,11.0
@@ -827,8 +825,8 @@ East Point,Jul 2024,2024-07-01,Multi-Family,6.0
 East Point,Jul 2024,2024-07-01,Single-Family,9.0
 East Point,Aug 2024,2024-08-01,Multi-Family,7.0
 East Point,Aug 2024,2024-08-01,Single-Family,9.0
-Fairburn,Mar 2023,2023-03-01,Multi-Family,0.0
-Fairburn,Mar 2023,2023-03-01,Single-Family,0.0
+East Point,Sep 2024,2024-09-01,Multi-Family,5.0
+East Point,Sep 2024,2024-09-01,Single-Family,7.0
 Fairburn,Apr 2023,2023-04-01,Multi-Family,0.0
 Fairburn,Apr 2023,2023-04-01,Single-Family,1.0
 Fairburn,May 2023,2023-05-01,Multi-Family,0.0
@@ -863,8 +861,8 @@ Fairburn,Jul 2024,2024-07-01,Multi-Family,0.0
 Fairburn,Jul 2024,2024-07-01,Single-Family,3.0
 Fairburn,Aug 2024,2024-08-01,Multi-Family,0.0
 Fairburn,Aug 2024,2024-08-01,Single-Family,4.0
-Fayetteville,Mar 2023,2023-03-01,Multi-Family,0.0
-Fayetteville,Mar 2023,2023-03-01,Single-Family,7.0
+Fairburn,Sep 2024,2024-09-01,Multi-Family,0.0
+Fairburn,Sep 2024,2024-09-01,Single-Family,4.0
 Fayetteville,Apr 2023,2023-04-01,Multi-Family,0.0
 Fayetteville,Apr 2023,2023-04-01,Single-Family,13.0
 Fayetteville,May 2023,2023-05-01,Multi-Family,0.0
@@ -899,8 +897,8 @@ Fayetteville,Jul 2024,2024-07-01,Multi-Family,0.0
 Fayetteville,Jul 2024,2024-07-01,Single-Family,2.0
 Fayetteville,Aug 2024,2024-08-01,Multi-Family,0.0
 Fayetteville,Aug 2024,2024-08-01,Single-Family,25.0
-Forest Park,Mar 2023,2023-03-01,Multi-Family,0.0
-Forest Park,Mar 2023,2023-03-01,Single-Family,0.0
+Fayetteville,Sep 2024,2024-09-01,Multi-Family,0.0
+Fayetteville,Sep 2024,2024-09-01,Single-Family,1.0
 Forest Park,Apr 2023,2023-04-01,Multi-Family,0.0
 Forest Park,Apr 2023,2023-04-01,Single-Family,0.0
 Forest Park,May 2023,2023-05-01,Multi-Family,0.0
@@ -935,8 +933,8 @@ Forest Park,Jul 2024,2024-07-01,Multi-Family,0.0
 Forest Park,Jul 2024,2024-07-01,Single-Family,1.0
 Forest Park,Aug 2024,2024-08-01,Multi-Family,0.0
 Forest Park,Aug 2024,2024-08-01,Single-Family,2.0
-Grayson,Mar 2023,2023-03-01,Multi-Family,0.0
-Grayson,Mar 2023,2023-03-01,Single-Family,23.0
+Forest Park,Sep 2024,2024-09-01,Multi-Family,0.0
+Forest Park,Sep 2024,2024-09-01,Single-Family,2.0
 Grayson,Apr 2023,2023-04-01,Multi-Family,0.0
 Grayson,Apr 2023,2023-04-01,Single-Family,11.0
 Grayson,May 2023,2023-05-01,Multi-Family,0.0
@@ -971,8 +969,8 @@ Grayson,Jul 2024,2024-07-01,Multi-Family,0.0
 Grayson,Jul 2024,2024-07-01,Single-Family,0.0
 Grayson,Aug 2024,2024-08-01,Multi-Family,0.0
 Grayson,Aug 2024,2024-08-01,Single-Family,0.0
-Hampton,Mar 2023,2023-03-01,Multi-Family,0.0
-Hampton,Mar 2023,2023-03-01,Single-Family,0.0
+Grayson,Sep 2024,2024-09-01,Multi-Family,0.0
+Grayson,Sep 2024,2024-09-01,Single-Family,0.0
 Hampton,Apr 2023,2023-04-01,Multi-Family,0.0
 Hampton,Apr 2023,2023-04-01,Single-Family,0.0
 Hampton,May 2023,2023-05-01,Multi-Family,0.0
@@ -1007,8 +1005,8 @@ Hampton,Jul 2024,2024-07-01,Multi-Family,0.0
 Hampton,Jul 2024,2024-07-01,Single-Family,2.0
 Hampton,Aug 2024,2024-08-01,Multi-Family,0.0
 Hampton,Aug 2024,2024-08-01,Single-Family,2.0
-Hapeville,Mar 2023,2023-03-01,Multi-Family,0.0
-Hapeville,Mar 2023,2023-03-01,Single-Family,0.0
+Hampton,Sep 2024,2024-09-01,Multi-Family,0.0
+Hampton,Sep 2024,2024-09-01,Single-Family,2.0
 Hapeville,Apr 2023,2023-04-01,Multi-Family,0.0
 Hapeville,Apr 2023,2023-04-01,Single-Family,8.0
 Hapeville,May 2023,2023-05-01,Multi-Family,0.0
@@ -1043,8 +1041,8 @@ Hapeville,Jul 2024,2024-07-01,Multi-Family,0.0
 Hapeville,Jul 2024,2024-07-01,Single-Family,14.0
 Hapeville,Aug 2024,2024-08-01,Multi-Family,0.0
 Hapeville,Aug 2024,2024-08-01,Single-Family,0.0
-Holly Springs,Mar 2023,2023-03-01,Multi-Family,0.0
-Holly Springs,Mar 2023,2023-03-01,Single-Family,12.0
+Hapeville,Sep 2024,2024-09-01,Multi-Family,0.0
+Hapeville,Sep 2024,2024-09-01,Single-Family,1.0
 Holly Springs,Apr 2023,2023-04-01,Multi-Family,0.0
 Holly Springs,Apr 2023,2023-04-01,Single-Family,36.0
 Holly Springs,May 2023,2023-05-01,Multi-Family,0.0
@@ -1079,8 +1077,8 @@ Holly Springs,Jul 2024,2024-07-01,Multi-Family,0.0
 Holly Springs,Jul 2024,2024-07-01,Single-Family,8.0
 Holly Springs,Aug 2024,2024-08-01,Multi-Family,0.0
 Holly Springs,Aug 2024,2024-08-01,Single-Family,9.0
-Johns Creek,Mar 2023,2023-03-01,Multi-Family,0.0
-Johns Creek,Mar 2023,2023-03-01,Single-Family,8.0
+Holly Springs,Sep 2024,2024-09-01,Multi-Family,0.0
+Holly Springs,Sep 2024,2024-09-01,Single-Family,10.0
 Johns Creek,Apr 2023,2023-04-01,Multi-Family,0.0
 Johns Creek,Apr 2023,2023-04-01,Single-Family,0.0
 Johns Creek,May 2023,2023-05-01,Multi-Family,0.0
@@ -1115,8 +1113,8 @@ Johns Creek,Jul 2024,2024-07-01,Multi-Family,0.0
 Johns Creek,Jul 2024,2024-07-01,Single-Family,12.0
 Johns Creek,Aug 2024,2024-08-01,Multi-Family,0.0
 Johns Creek,Aug 2024,2024-08-01,Single-Family,6.0
-Jonesboro,Mar 2023,2023-03-01,Multi-Family,0.0
-Jonesboro,Mar 2023,2023-03-01,Single-Family,0.0
+Johns Creek,Sep 2024,2024-09-01,Multi-Family,0.0
+Johns Creek,Sep 2024,2024-09-01,Single-Family,7.0
 Jonesboro,Apr 2023,2023-04-01,Multi-Family,0.0
 Jonesboro,Apr 2023,2023-04-01,Single-Family,0.0
 Jonesboro,May 2023,2023-05-01,Multi-Family,0.0
@@ -1151,8 +1149,8 @@ Jonesboro,Jul 2024,2024-07-01,Multi-Family,0.0
 Jonesboro,Jul 2024,2024-07-01,Single-Family,0.0
 Jonesboro,Aug 2024,2024-08-01,Multi-Family,0.0
 Jonesboro,Aug 2024,2024-08-01,Single-Family,2.0
-Kennesaw,Mar 2023,2023-03-01,Multi-Family,0.0
-Kennesaw,Mar 2023,2023-03-01,Single-Family,18.0
+Jonesboro,Sep 2024,2024-09-01,Multi-Family,0.0
+Jonesboro,Sep 2024,2024-09-01,Single-Family,0.0
 Kennesaw,Apr 2023,2023-04-01,Multi-Family,0.0
 Kennesaw,Apr 2023,2023-04-01,Single-Family,12.0
 Kennesaw,May 2023,2023-05-01,Multi-Family,0.0
@@ -1187,8 +1185,8 @@ Kennesaw,Jul 2024,2024-07-01,Multi-Family,0.0
 Kennesaw,Jul 2024,2024-07-01,Single-Family,6.0
 Kennesaw,Aug 2024,2024-08-01,Multi-Family,0.0
 Kennesaw,Aug 2024,2024-08-01,Single-Family,0.0
-Lake City,Mar 2023,2023-03-01,Multi-Family,0.0
-Lake City,Mar 2023,2023-03-01,Single-Family,0.0
+Kennesaw,Sep 2024,2024-09-01,Multi-Family,0.0
+Kennesaw,Sep 2024,2024-09-01,Single-Family,0.0
 Lake City,Apr 2023,2023-04-01,Multi-Family,0.0
 Lake City,Apr 2023,2023-04-01,Single-Family,1.0
 Lake City,May 2023,2023-05-01,Multi-Family,0.0
@@ -1223,8 +1221,8 @@ Lake City,Jul 2024,2024-07-01,Multi-Family,0.0
 Lake City,Jul 2024,2024-07-01,Single-Family,0.0
 Lake City,Aug 2024,2024-08-01,Multi-Family,0.0
 Lake City,Aug 2024,2024-08-01,Single-Family,0.0
-Lawrenceville,Mar 2023,2023-03-01,Multi-Family,0.0
-Lawrenceville,Mar 2023,2023-03-01,Single-Family,2.0
+Lake City,Sep 2024,2024-09-01,Multi-Family,0.0
+Lake City,Sep 2024,2024-09-01,Single-Family,0.0
 Lawrenceville,Apr 2023,2023-04-01,Multi-Family,0.0
 Lawrenceville,Apr 2023,2023-04-01,Single-Family,4.0
 Lawrenceville,May 2023,2023-05-01,Multi-Family,148.0
@@ -1259,8 +1257,8 @@ Lawrenceville,Jul 2024,2024-07-01,Multi-Family,0.0
 Lawrenceville,Jul 2024,2024-07-01,Single-Family,8.0
 Lawrenceville,Aug 2024,2024-08-01,Multi-Family,10.0
 Lawrenceville,Aug 2024,2024-08-01,Single-Family,12.0
-Lilburn,Mar 2023,2023-03-01,Multi-Family,0.0
-Lilburn,Mar 2023,2023-03-01,Single-Family,25.0
+Lawrenceville,Sep 2024,2024-09-01,Multi-Family,0.0
+Lawrenceville,Sep 2024,2024-09-01,Single-Family,0.0
 Lilburn,Apr 2023,2023-04-01,Multi-Family,0.0
 Lilburn,Apr 2023,2023-04-01,Single-Family,0.0
 Lilburn,May 2023,2023-05-01,Multi-Family,0.0
@@ -1295,8 +1293,8 @@ Lilburn,Jul 2024,2024-07-01,Multi-Family,0.0
 Lilburn,Jul 2024,2024-07-01,Single-Family,1.0
 Lilburn,Aug 2024,2024-08-01,Multi-Family,0.0
 Lilburn,Aug 2024,2024-08-01,Single-Family,4.0
-Lithonia,Mar 2023,2023-03-01,Multi-Family,0.0
-Lithonia,Mar 2023,2023-03-01,Single-Family,0.0
+Lilburn,Sep 2024,2024-09-01,Multi-Family,0.0
+Lilburn,Sep 2024,2024-09-01,Single-Family,4.0
 Lithonia,Apr 2023,2023-04-01,Multi-Family,0.0
 Lithonia,Apr 2023,2023-04-01,Single-Family,0.0
 Lithonia,May 2023,2023-05-01,Multi-Family,0.0
@@ -1331,8 +1329,8 @@ Lithonia,Jul 2024,2024-07-01,Multi-Family,0.0
 Lithonia,Jul 2024,2024-07-01,Single-Family,0.0
 Lithonia,Aug 2024,2024-08-01,Multi-Family,0.0
 Lithonia,Aug 2024,2024-08-01,Single-Family,0.0
-Locust Grove,Mar 2023,2023-03-01,Multi-Family,0.0
-Locust Grove,Mar 2023,2023-03-01,Single-Family,12.0
+Lithonia,Sep 2024,2024-09-01,Multi-Family,0.0
+Lithonia,Sep 2024,2024-09-01,Single-Family,0.0
 Locust Grove,Apr 2023,2023-04-01,Multi-Family,0.0
 Locust Grove,Apr 2023,2023-04-01,Single-Family,19.0
 Locust Grove,May 2023,2023-05-01,Multi-Family,0.0
@@ -1367,8 +1365,8 @@ Locust Grove,Jul 2024,2024-07-01,Multi-Family,0.0
 Locust Grove,Jul 2024,2024-07-01,Single-Family,39.0
 Locust Grove,Aug 2024,2024-08-01,Multi-Family,0.0
 Locust Grove,Aug 2024,2024-08-01,Single-Family,20.0
-Lovejoy,Mar 2023,2023-03-01,Multi-Family,0.0
-Lovejoy,Mar 2023,2023-03-01,Single-Family,32.0
+Locust Grove,Sep 2024,2024-09-01,Multi-Family,0.0
+Locust Grove,Sep 2024,2024-09-01,Single-Family,18.0
 Lovejoy,Apr 2023,2023-04-01,Multi-Family,0.0
 Lovejoy,Apr 2023,2023-04-01,Single-Family,20.0
 Lovejoy,May 2023,2023-05-01,Multi-Family,0.0
@@ -1403,8 +1401,8 @@ Lovejoy,Jul 2024,2024-07-01,Multi-Family,0.0
 Lovejoy,Jul 2024,2024-07-01,Single-Family,2.0
 Lovejoy,Aug 2024,2024-08-01,Multi-Family,0.0
 Lovejoy,Aug 2024,2024-08-01,Single-Family,14.0
-Marietta,Mar 2023,2023-03-01,Multi-Family,0.0
-Marietta,Mar 2023,2023-03-01,Single-Family,1.0
+Lovejoy,Sep 2024,2024-09-01,Multi-Family,0.0
+Lovejoy,Sep 2024,2024-09-01,Single-Family,13.0
 Marietta,Apr 2023,2023-04-01,Multi-Family,0.0
 Marietta,Apr 2023,2023-04-01,Single-Family,1.0
 Marietta,May 2023,2023-05-01,Multi-Family,0.0
@@ -1439,8 +1437,8 @@ Marietta,Jul 2024,2024-07-01,Multi-Family,0.0
 Marietta,Jul 2024,2024-07-01,Single-Family,3.0
 Marietta,Aug 2024,2024-08-01,Multi-Family,0.0
 Marietta,Aug 2024,2024-08-01,Single-Family,0.0
-McDonough,Mar 2023,2023-03-01,Multi-Family,0.0
-McDonough,Mar 2023,2023-03-01,Single-Family,39.0
+Marietta,Sep 2024,2024-09-01,Multi-Family,0.0
+Marietta,Sep 2024,2024-09-01,Single-Family,1.0
 McDonough,Apr 2023,2023-04-01,Multi-Family,0.0
 McDonough,Apr 2023,2023-04-01,Single-Family,7.0
 McDonough,May 2023,2023-05-01,Multi-Family,294.0
@@ -1475,8 +1473,8 @@ McDonough,Jul 2024,2024-07-01,Multi-Family,0.0
 McDonough,Jul 2024,2024-07-01,Single-Family,15.0
 McDonough,Aug 2024,2024-08-01,Multi-Family,0.0
 McDonough,Aug 2024,2024-08-01,Single-Family,10.0
-Milton,Mar 2023,2023-03-01,Multi-Family,0.0
-Milton,Mar 2023,2023-03-01,Single-Family,8.0
+McDonough,Sep 2024,2024-09-01,Multi-Family,22.0
+McDonough,Sep 2024,2024-09-01,Single-Family,12.0
 Milton,Apr 2023,2023-04-01,Multi-Family,0.0
 Milton,Apr 2023,2023-04-01,Single-Family,8.0
 Milton,May 2023,2023-05-01,Multi-Family,0.0
@@ -1511,8 +1509,8 @@ Milton,Jul 2024,2024-07-01,Multi-Family,0.0
 Milton,Jul 2024,2024-07-01,Single-Family,6.0
 Milton,Aug 2024,2024-08-01,Multi-Family,0.0
 Milton,Aug 2024,2024-08-01,Single-Family,5.0
-Morrow,Mar 2023,2023-03-01,Multi-Family,0.0
-Morrow,Mar 2023,2023-03-01,Single-Family,0.0
+Milton,Sep 2024,2024-09-01,Multi-Family,0.0
+Milton,Sep 2024,2024-09-01,Single-Family,4.0
 Morrow,Apr 2023,2023-04-01,Multi-Family,0.0
 Morrow,Apr 2023,2023-04-01,Single-Family,0.0
 Morrow,May 2023,2023-05-01,Multi-Family,0.0
@@ -1547,8 +1545,8 @@ Morrow,Jul 2024,2024-07-01,Multi-Family,0.0
 Morrow,Jul 2024,2024-07-01,Single-Family,0.0
 Morrow,Aug 2024,2024-08-01,Multi-Family,0.0
 Morrow,Aug 2024,2024-08-01,Single-Family,0.0
-Mountain Park,Mar 2023,2023-03-01,Multi-Family,0.0
-Mountain Park,Mar 2023,2023-03-01,Single-Family,0.0
+Morrow,Sep 2024,2024-09-01,Multi-Family,0.0
+Morrow,Sep 2024,2024-09-01,Single-Family,0.0
 Mountain Park,Apr 2023,2023-04-01,Multi-Family,0.0
 Mountain Park,Apr 2023,2023-04-01,Single-Family,0.0
 Mountain Park,May 2023,2023-05-01,Multi-Family,0.0
@@ -1583,8 +1581,8 @@ Mountain Park,Jul 2024,2024-07-01,Multi-Family,0.0
 Mountain Park,Jul 2024,2024-07-01,Single-Family,0.0
 Mountain Park,Aug 2024,2024-08-01,Multi-Family,0.0
 Mountain Park,Aug 2024,2024-08-01,Single-Family,0.0
-Mountain View,Mar 2023,2023-03-01,Multi-Family,0.0
-Mountain View,Mar 2023,2023-03-01,Single-Family,0.0
+Mountain Park,Sep 2024,2024-09-01,Multi-Family,0.0
+Mountain Park,Sep 2024,2024-09-01,Single-Family,0.0
 Mountain View,Apr 2023,2023-04-01,Multi-Family,0.0
 Mountain View,Apr 2023,2023-04-01,Single-Family,0.0
 Mountain View,May 2023,2023-05-01,Multi-Family,0.0
@@ -1619,8 +1617,8 @@ Mountain View,Jul 2024,2024-07-01,Multi-Family,0.0
 Mountain View,Jul 2024,2024-07-01,Single-Family,0.0
 Mountain View,Aug 2024,2024-08-01,Multi-Family,0.0
 Mountain View,Aug 2024,2024-08-01,Single-Family,0.0
-Nelson,Mar 2023,2023-03-01,Multi-Family,0.0
-Nelson,Mar 2023,2023-03-01,Single-Family,0.0
+Mountain View,Sep 2024,2024-09-01,Multi-Family,0.0
+Mountain View,Sep 2024,2024-09-01,Single-Family,0.0
 Nelson,Apr 2023,2023-04-01,Multi-Family,0.0
 Nelson,Apr 2023,2023-04-01,Single-Family,0.0
 Nelson,May 2023,2023-05-01,Multi-Family,0.0
@@ -1655,8 +1653,8 @@ Nelson,Jul 2024,2024-07-01,Multi-Family,0.0
 Nelson,Jul 2024,2024-07-01,Single-Family,0.0
 Nelson,Aug 2024,2024-08-01,Multi-Family,0.0
 Nelson,Aug 2024,2024-08-01,Single-Family,0.0
-Norcross,Mar 2023,2023-03-01,Multi-Family,0.0
-Norcross,Mar 2023,2023-03-01,Single-Family,0.0
+Nelson,Sep 2024,2024-09-01,Multi-Family,0.0
+Nelson,Sep 2024,2024-09-01,Single-Family,0.0
 Norcross,Apr 2023,2023-04-01,Multi-Family,0.0
 Norcross,Apr 2023,2023-04-01,Single-Family,0.0
 Norcross,May 2023,2023-05-01,Multi-Family,0.0
@@ -1691,8 +1689,8 @@ Norcross,Jul 2024,2024-07-01,Multi-Family,0.0
 Norcross,Jul 2024,2024-07-01,Single-Family,1.0
 Norcross,Aug 2024,2024-08-01,Multi-Family,0.0
 Norcross,Aug 2024,2024-08-01,Single-Family,0.0
-Palmetto,Mar 2023,2023-03-01,Multi-Family,0.0
-Palmetto,Mar 2023,2023-03-01,Single-Family,0.0
+Norcross,Sep 2024,2024-09-01,Multi-Family,0.0
+Norcross,Sep 2024,2024-09-01,Single-Family,0.0
 Palmetto,Apr 2023,2023-04-01,Multi-Family,0.0
 Palmetto,Apr 2023,2023-04-01,Single-Family,0.0
 Palmetto,May 2023,2023-05-01,Multi-Family,0.0
@@ -1727,8 +1725,8 @@ Palmetto,Jul 2024,2024-07-01,Multi-Family,0.0
 Palmetto,Jul 2024,2024-07-01,Single-Family,8.0
 Palmetto,Aug 2024,2024-08-01,Multi-Family,0.0
 Palmetto,Aug 2024,2024-08-01,Single-Family,8.0
-Peachtree City,Mar 2023,2023-03-01,Multi-Family,0.0
-Peachtree City,Mar 2023,2023-03-01,Single-Family,18.0
+Palmetto,Sep 2024,2024-09-01,Multi-Family,0.0
+Palmetto,Sep 2024,2024-09-01,Single-Family,7.0
 Peachtree City,Apr 2023,2023-04-01,Multi-Family,0.0
 Peachtree City,Apr 2023,2023-04-01,Single-Family,7.0
 Peachtree City,May 2023,2023-05-01,Multi-Family,0.0
@@ -1763,8 +1761,8 @@ Peachtree City,Jul 2024,2024-07-01,Multi-Family,0.0
 Peachtree City,Jul 2024,2024-07-01,Single-Family,10.0
 Peachtree City,Aug 2024,2024-08-01,Multi-Family,0.0
 Peachtree City,Aug 2024,2024-08-01,Single-Family,11.0
-Peachtree Corners,Mar 2023,2023-03-01,Multi-Family,0.0
-Peachtree Corners,Mar 2023,2023-03-01,Single-Family,9.0
+Peachtree City,Sep 2024,2024-09-01,Multi-Family,0.0
+Peachtree City,Sep 2024,2024-09-01,Single-Family,9.0
 Peachtree Corners,Apr 2023,2023-04-01,Multi-Family,0.0
 Peachtree Corners,Apr 2023,2023-04-01,Single-Family,4.0
 Peachtree Corners,May 2023,2023-05-01,Multi-Family,0.0
@@ -1798,9 +1796,9 @@ Peachtree Corners,Jun 2024,2024-06-01,Single-Family,1.0
 Peachtree Corners,Jul 2024,2024-07-01,Multi-Family,0.0
 Peachtree Corners,Jul 2024,2024-07-01,Single-Family,1.0
 Peachtree Corners,Aug 2024,2024-08-01,Multi-Family,0.0
-Peachtree Corners,Aug 2024,2024-08-01,Single-Family,11.0
-Pine Lake,Mar 2023,2023-03-01,Multi-Family,0.0
-Pine Lake,Mar 2023,2023-03-01,Single-Family,1.0
+Peachtree Corners,Aug 2024,2024-08-01,Single-Family,2.0
+Peachtree Corners,Sep 2024,2024-09-01,Multi-Family,0.0
+Peachtree Corners,Sep 2024,2024-09-01,Single-Family,0.0
 Pine Lake,Apr 2023,2023-04-01,Multi-Family,0.0
 Pine Lake,Apr 2023,2023-04-01,Single-Family,0.0
 Pine Lake,May 2023,2023-05-01,Multi-Family,0.0
@@ -1835,8 +1833,8 @@ Pine Lake,Jul 2024,2024-07-01,Multi-Family,0.0
 Pine Lake,Jul 2024,2024-07-01,Single-Family,0.0
 Pine Lake,Aug 2024,2024-08-01,Multi-Family,0.0
 Pine Lake,Aug 2024,2024-08-01,Single-Family,0.0
-Powder Springs,Mar 2023,2023-03-01,Multi-Family,0.0
-Powder Springs,Mar 2023,2023-03-01,Single-Family,15.0
+Pine Lake,Sep 2024,2024-09-01,Multi-Family,0.0
+Pine Lake,Sep 2024,2024-09-01,Single-Family,0.0
 Powder Springs,Apr 2023,2023-04-01,Multi-Family,0.0
 Powder Springs,Apr 2023,2023-04-01,Single-Family,9.0
 Powder Springs,May 2023,2023-05-01,Multi-Family,4.0
@@ -1871,8 +1869,8 @@ Powder Springs,Jul 2024,2024-07-01,Multi-Family,6.0
 Powder Springs,Jul 2024,2024-07-01,Single-Family,17.0
 Powder Springs,Aug 2024,2024-08-01,Multi-Family,8.0
 Powder Springs,Aug 2024,2024-08-01,Single-Family,13.0
-Riverdale,Mar 2023,2023-03-01,Multi-Family,0.0
-Riverdale,Mar 2023,2023-03-01,Single-Family,0.0
+Powder Springs,Sep 2024,2024-09-01,Multi-Family,5.0
+Powder Springs,Sep 2024,2024-09-01,Single-Family,11.0
 Riverdale,Apr 2023,2023-04-01,Multi-Family,0.0
 Riverdale,Apr 2023,2023-04-01,Single-Family,0.0
 Riverdale,May 2023,2023-05-01,Multi-Family,0.0
@@ -1907,8 +1905,8 @@ Riverdale,Jul 2024,2024-07-01,Multi-Family,0.0
 Riverdale,Jul 2024,2024-07-01,Single-Family,0.0
 Riverdale,Aug 2024,2024-08-01,Multi-Family,0.0
 Riverdale,Aug 2024,2024-08-01,Single-Family,0.0
-Roswell,Mar 2023,2023-03-01,Multi-Family,0.0
-Roswell,Mar 2023,2023-03-01,Single-Family,2.0
+Riverdale,Sep 2024,2024-09-01,Multi-Family,0.0
+Riverdale,Sep 2024,2024-09-01,Single-Family,0.0
 Roswell,Apr 2023,2023-04-01,Multi-Family,0.0
 Roswell,Apr 2023,2023-04-01,Single-Family,8.0
 Roswell,May 2023,2023-05-01,Multi-Family,0.0
@@ -1943,8 +1941,8 @@ Roswell,Jul 2024,2024-07-01,Multi-Family,0.0
 Roswell,Jul 2024,2024-07-01,Single-Family,40.0
 Roswell,Aug 2024,2024-08-01,Multi-Family,0.0
 Roswell,Aug 2024,2024-08-01,Single-Family,14.0
-Sandy Springs,Mar 2023,2023-03-01,Multi-Family,0.0
-Sandy Springs,Mar 2023,2023-03-01,Single-Family,12.0
+Roswell,Sep 2024,2024-09-01,Multi-Family,0.0
+Roswell,Sep 2024,2024-09-01,Single-Family,4.0
 Sandy Springs,Apr 2023,2023-04-01,Multi-Family,0.0
 Sandy Springs,Apr 2023,2023-04-01,Single-Family,14.0
 Sandy Springs,May 2023,2023-05-01,Multi-Family,0.0
@@ -1979,8 +1977,8 @@ Sandy Springs,Jul 2024,2024-07-01,Multi-Family,0.0
 Sandy Springs,Jul 2024,2024-07-01,Single-Family,7.0
 Sandy Springs,Aug 2024,2024-08-01,Multi-Family,0.0
 Sandy Springs,Aug 2024,2024-08-01,Single-Family,7.0
-Smyrna,Mar 2023,2023-03-01,Multi-Family,0.0
-Smyrna,Mar 2023,2023-03-01,Single-Family,8.0
+Sandy Springs,Sep 2024,2024-09-01,Multi-Family,0.0
+Sandy Springs,Sep 2024,2024-09-01,Single-Family,4.0
 Smyrna,Apr 2023,2023-04-01,Multi-Family,0.0
 Smyrna,Apr 2023,2023-04-01,Single-Family,21.0
 Smyrna,May 2023,2023-05-01,Multi-Family,0.0
@@ -2015,8 +2013,8 @@ Smyrna,Jul 2024,2024-07-01,Multi-Family,0.0
 Smyrna,Jul 2024,2024-07-01,Single-Family,2.0
 Smyrna,Aug 2024,2024-08-01,Multi-Family,0.0
 Smyrna,Aug 2024,2024-08-01,Single-Family,12.0
-Snellville,Mar 2023,2023-03-01,Multi-Family,0.0
-Snellville,Mar 2023,2023-03-01,Single-Family,0.0
+Smyrna,Sep 2024,2024-09-01,Multi-Family,0.0
+Smyrna,Sep 2024,2024-09-01,Single-Family,5.0
 Snellville,Apr 2023,2023-04-01,Multi-Family,0.0
 Snellville,Apr 2023,2023-04-01,Single-Family,0.0
 Snellville,May 2023,2023-05-01,Multi-Family,0.0
@@ -2051,8 +2049,8 @@ Snellville,Jul 2024,2024-07-01,Multi-Family,0.0
 Snellville,Jul 2024,2024-07-01,Single-Family,3.0
 Snellville,Aug 2024,2024-08-01,Multi-Family,0.0
 Snellville,Aug 2024,2024-08-01,Single-Family,1.0
-South Fulton,Mar 2023,2023-03-01,Multi-Family,0.0
-South Fulton,Mar 2023,2023-03-01,Single-Family,39.0
+Snellville,Sep 2024,2024-09-01,Multi-Family,0.0
+Snellville,Sep 2024,2024-09-01,Single-Family,1.0
 South Fulton,Apr 2023,2023-04-01,Multi-Family,0.0
 South Fulton,Apr 2023,2023-04-01,Single-Family,65.0
 South Fulton,May 2023,2023-05-01,Multi-Family,0.0
@@ -2087,8 +2085,8 @@ South Fulton,Jul 2024,2024-07-01,Multi-Family,0.0
 South Fulton,Jul 2024,2024-07-01,Single-Family,87.0
 South Fulton,Aug 2024,2024-08-01,Multi-Family,0.0
 South Fulton,Aug 2024,2024-08-01,Single-Family,100.0
-Stockbridge,Mar 2023,2023-03-01,Multi-Family,0.0
-Stockbridge,Mar 2023,2023-03-01,Single-Family,9.0
+South Fulton,Sep 2024,2024-09-01,Multi-Family,0.0
+South Fulton,Sep 2024,2024-09-01,Single-Family,66.0
 Stockbridge,Apr 2023,2023-04-01,Multi-Family,0.0
 Stockbridge,Apr 2023,2023-04-01,Single-Family,3.0
 Stockbridge,May 2023,2023-05-01,Multi-Family,0.0
@@ -2123,8 +2121,8 @@ Stockbridge,Jul 2024,2024-07-01,Multi-Family,0.0
 Stockbridge,Jul 2024,2024-07-01,Single-Family,7.0
 Stockbridge,Aug 2024,2024-08-01,Multi-Family,0.0
 Stockbridge,Aug 2024,2024-08-01,Single-Family,19.0
-Stone Mountain,Mar 2023,2023-03-01,Multi-Family,0.0
-Stone Mountain,Mar 2023,2023-03-01,Single-Family,0.0
+Stockbridge,Sep 2024,2024-09-01,Multi-Family,0.0
+Stockbridge,Sep 2024,2024-09-01,Single-Family,13.0
 Stone Mountain,Apr 2023,2023-04-01,Multi-Family,0.0
 Stone Mountain,Apr 2023,2023-04-01,Single-Family,0.0
 Stone Mountain,May 2023,2023-05-01,Multi-Family,0.0
@@ -2159,8 +2157,8 @@ Stone Mountain,Jul 2024,2024-07-01,Multi-Family,0.0
 Stone Mountain,Jul 2024,2024-07-01,Single-Family,1.0
 Stone Mountain,Aug 2024,2024-08-01,Multi-Family,0.0
 Stone Mountain,Aug 2024,2024-08-01,Single-Family,0.0
-Stonecrest,Mar 2023,2023-03-01,Multi-Family,0.0
-Stonecrest,Mar 2023,2023-03-01,Single-Family,15.0
+Stone Mountain,Sep 2024,2024-09-01,Multi-Family,0.0
+Stone Mountain,Sep 2024,2024-09-01,Single-Family,0.0
 Stonecrest,Apr 2023,2023-04-01,Multi-Family,0.0
 Stonecrest,Apr 2023,2023-04-01,Single-Family,0.0
 Stonecrest,May 2023,2023-05-01,Multi-Family,0.0
@@ -2195,8 +2193,8 @@ Stonecrest,Jul 2024,2024-07-01,Multi-Family,0.0
 Stonecrest,Jul 2024,2024-07-01,Single-Family,1.0
 Stonecrest,Aug 2024,2024-08-01,Multi-Family,0.0
 Stonecrest,Aug 2024,2024-08-01,Single-Family,20.0
-Sugar Hill,Mar 2023,2023-03-01,Multi-Family,0.0
-Sugar Hill,Mar 2023,2023-03-01,Single-Family,4.0
+Stonecrest,Sep 2024,2024-09-01,Multi-Family,0.0
+Stonecrest,Sep 2024,2024-09-01,Single-Family,3.0
 Sugar Hill,Apr 2023,2023-04-01,Multi-Family,0.0
 Sugar Hill,Apr 2023,2023-04-01,Single-Family,9.0
 Sugar Hill,May 2023,2023-05-01,Multi-Family,178.0
@@ -2231,8 +2229,8 @@ Sugar Hill,Jul 2024,2024-07-01,Multi-Family,0.0
 Sugar Hill,Jul 2024,2024-07-01,Single-Family,3.0
 Sugar Hill,Aug 2024,2024-08-01,Multi-Family,0.0
 Sugar Hill,Aug 2024,2024-08-01,Single-Family,11.0
-Suwanee,Mar 2023,2023-03-01,Multi-Family,0.0
-Suwanee,Mar 2023,2023-03-01,Single-Family,7.0
+Sugar Hill,Sep 2024,2024-09-01,Multi-Family,12.0
+Sugar Hill,Sep 2024,2024-09-01,Single-Family,9.0
 Suwanee,Apr 2023,2023-04-01,Multi-Family,0.0
 Suwanee,Apr 2023,2023-04-01,Single-Family,0.0
 Suwanee,May 2023,2023-05-01,Multi-Family,0.0
@@ -2267,8 +2265,8 @@ Suwanee,Jul 2024,2024-07-01,Multi-Family,6.0
 Suwanee,Jul 2024,2024-07-01,Single-Family,7.0
 Suwanee,Aug 2024,2024-08-01,Multi-Family,0.0
 Suwanee,Aug 2024,2024-08-01,Single-Family,0.0
-Tucker,Mar 2023,2023-03-01,Multi-Family,0.0
-Tucker,Mar 2023,2023-03-01,Single-Family,1.0
+Suwanee,Sep 2024,2024-09-01,Multi-Family,0.0
+Suwanee,Sep 2024,2024-09-01,Single-Family,1.0
 Tucker,Apr 2023,2023-04-01,Multi-Family,0.0
 Tucker,Apr 2023,2023-04-01,Single-Family,0.0
 Tucker,May 2023,2023-05-01,Multi-Family,0.0
@@ -2303,8 +2301,8 @@ Tucker,Jul 2024,2024-07-01,Multi-Family,0.0
 Tucker,Jul 2024,2024-07-01,Single-Family,3.0
 Tucker,Aug 2024,2024-08-01,Multi-Family,0.0
 Tucker,Aug 2024,2024-08-01,Single-Family,2.0
-Tyrone,Mar 2023,2023-03-01,Multi-Family,0.0
-Tyrone,Mar 2023,2023-03-01,Single-Family,0.0
+Tucker,Sep 2024,2024-09-01,Multi-Family,0.0
+Tucker,Sep 2024,2024-09-01,Single-Family,1.0
 Tyrone,Apr 2023,2023-04-01,Multi-Family,0.0
 Tyrone,Apr 2023,2023-04-01,Single-Family,1.0
 Tyrone,May 2023,2023-05-01,Multi-Family,0.0
@@ -2339,8 +2337,8 @@ Tyrone,Jul 2024,2024-07-01,Multi-Family,0.0
 Tyrone,Jul 2024,2024-07-01,Single-Family,1.0
 Tyrone,Aug 2024,2024-08-01,Multi-Family,0.0
 Tyrone,Aug 2024,2024-08-01,Single-Family,1.0
-Union City,Mar 2023,2023-03-01,Multi-Family,0.0
-Union City,Mar 2023,2023-03-01,Single-Family,18.0
+Tyrone,Sep 2024,2024-09-01,Multi-Family,0.0
+Tyrone,Sep 2024,2024-09-01,Single-Family,1.0
 Union City,Apr 2023,2023-04-01,Multi-Family,0.0
 Union City,Apr 2023,2023-04-01,Single-Family,16.0
 Union City,May 2023,2023-05-01,Multi-Family,0.0
@@ -2375,8 +2373,8 @@ Union City,Jul 2024,2024-07-01,Multi-Family,0.0
 Union City,Jul 2024,2024-07-01,Single-Family,23.0
 Union City,Aug 2024,2024-08-01,Multi-Family,0.0
 Union City,Aug 2024,2024-08-01,Single-Family,25.0
-Woodstock,Mar 2023,2023-03-01,Multi-Family,0.0
-Woodstock,Mar 2023,2023-03-01,Single-Family,25.0
+Union City,Sep 2024,2024-09-01,Multi-Family,0.0
+Union City,Sep 2024,2024-09-01,Single-Family,16.0
 Woodstock,Apr 2023,2023-04-01,Multi-Family,0.0
 Woodstock,Apr 2023,2023-04-01,Single-Family,29.0
 Woodstock,May 2023,2023-05-01,Multi-Family,0.0
@@ -2411,3 +2409,5 @@ Woodstock,Jul 2024,2024-07-01,Multi-Family,0.0
 Woodstock,Jul 2024,2024-07-01,Single-Family,6.0
 Woodstock,Aug 2024,2024-08-01,Multi-Family,0.0
 Woodstock,Aug 2024,2024-08-01,Single-Family,23.0
+Woodstock,Sep 2024,2024-09-01,Multi-Family,0.0
+Woodstock,Sep 2024,2024-09-01,Single-Family,13.0

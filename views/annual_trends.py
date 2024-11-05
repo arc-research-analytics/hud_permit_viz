@@ -202,8 +202,8 @@ if screen_width >= 500:
             t=60,
         ),
         legend=dict(
+            font_size=14,
             orientation='h',
-            entrywidth=100,
             title_text="",
             yanchor="bottom",
             y=0.97,
