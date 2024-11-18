@@ -267,7 +267,7 @@ else:
 
     # closing remarks
     st.markdown(
-        '<div style="text-align: left; margin-top: 5px;"><p><b>Note:</b> This app is not optimized for mobile screens. For the best user experience, please use on a desktop or tablet!</p></div>', unsafe_allow_html=True)
+        '<div style="text-align: left; margin-top: 5px;"><p><b>Note:</b> This app is not optimized for mobile screens. For the best user experience, please open on a desktop or tablet!</p></div>', unsafe_allow_html=True)
 
     # the custom CSS for mobile lives here:
     hide_default_format = """
