@@ -179,7 +179,7 @@ if screen_width >= 500:
 
     # set chart title based on multiselect
     if (len(juris_select) == 1):
-        chart_title = f"{permit_type} permits issued for {county_title_map[juris_select[0]]} County since {slider}"
+        chart_title = f"{permit_type} permits issued for {county_title_map[juris_select[0]]} since {slider}"
     else:
         chart_title = f"{permit_type} permits issued for selected jurisdictions since {slider}"
 
