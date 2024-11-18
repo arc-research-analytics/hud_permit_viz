@@ -174,7 +174,7 @@ tickvals = x_labels[::3]
 fig = px.area(
     df,
     x='date',
-    y='Units',
+    y='Permits',
     title=title,
     line_group='Series',
     color='Series',
@@ -270,9 +270,9 @@ col1.plotly_chart(
 
 # KPI section
 singleFamily_total = df[df['Series'] ==
-                        'Single-Family']['Units'].sum()
+                        'Single-Family']['Permits'].sum()
 multiFamily_total = df[df['Series'] ==
-                       'Multi-Family']['Units'].sum()
+                       'Multi-Family']['Permits'].sum()
 
 mf_kpi_title = "Multi-Family Permits:"
 sf_kpi_title = "Single-Family Permits:"
@@ -318,7 +318,7 @@ df = df[[
     'year_month',
     'Name',
     'Series',
-    'Units'
+    'Permits'
 ]]
 
 df_download = df.to_csv(index='False').encode('utf-8')
