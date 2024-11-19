@@ -46,7 +46,7 @@ st.markdown(
     f"""
     <div style='margin-top: {heading_margin_top}px; margin-bottom: {heading_margin_bottom}px; text-align: left;'>
         <span style='font-size: {heading_font_size}px; font-weight: {heading_font_weight}; color: {heading_font_color}'>Source</span><br/>
-        <span style='font-size: {paragraph_font_size}px; font-weight: {paragraph_font_weight}; color: {paragraph_font_color}'>The data for this dashboard were collected from the State of the Cities Data Systems (SOCDS) which is maintained by the Office of Policy Development and Research. Click <b><a href="https://socds.huduser.gov/permits/index.html?" style="text-decoration: underline; color: {paragraph_font_color}">here</a></b> to access this data source.</span>
+        <span style='font-size: {paragraph_font_size}px; font-weight: {paragraph_font_weight}; color: {paragraph_font_color}'>The data for this dashboard were collected from the U.S. Census Building Permits Survey. Click <b><a href="https://www2.census.gov/econ/bps/" style="text-decoration: underline; color: {paragraph_font_color}">here</a></b> to access this data source.</span>
     </div>
     """,
     unsafe_allow_html=True
