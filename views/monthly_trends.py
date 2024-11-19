@@ -127,7 +127,7 @@ df = df.sort_values(by=['year_month', 'Name'], ascending=True)
 
 # conditionally read in data based on user input
 if geo_level == 'City':
-    df = df[df['Level'] == 'City']
+    df = df[df['Level'] == 'City/Other']
     if isinstance(selected_city, list):
         selected_city = selected_city[0]
     df = df[df['Name'] == selected_city]
