@@ -4,32 +4,32 @@ from utils import *
 
 # - - - PAGE SETUP - - -
 overview = st.Page(
-    page='views/overview.py',
+    page='views/1_overview.py',
     title='Overview',
     icon=':material/home:',
     default=True
 )
 
 jurisdiction_compare = st.Page(
-    page='views/jurisdiction_compare.py',
+    page='views/2_jurisdiction_compare.py',
     title='Compare',
     icon=':material/stacked_line_chart:'
 )
 
 permit_types_annual = st.Page(
-    page='views/annual_trends.py',
+    page='views/3_annual_trends.py',
     title='Annual Trends',
     icon=':material/calendar_today:'
 )
 
 permit_types_monthly = st.Page(
-    page='views/monthly_trends.py',
+    page='views/4_monthly_trends.py',
     title='Monthly Trends',
     icon=':material/timer:'
 )
 
 about_page = st.Page(
-    page='views/about.py',
+    page='views/5_about.py',
     title='About',
     icon=':material/info:'
 )
