@@ -329,7 +329,7 @@ if screen_width >= 500:
                     text-decoration: underline;
                     margin-bottom: 10px;
                 }
-                [data-testid="stAppViewBlockContainer"] {
+                [data-testid="stMainBlockContainer"] {
                     margin-top: -90px;
                     padding-left: 40px;
                     padding-right: 40px;
@@ -353,95 +353,164 @@ if screen_width >= 500:
 # mobile view
 else:
 
-    # create chart object
-    fig = px.area(
-        df,
-        x='Year',
-        y='Permits',
-        line_group='Series',
-        color='Series',
-        labels={
-            'county_name': 'County',
-        },
-        color_discrete_map=color_discrete_map,
-        height=300
-    )
+    # # create chart object
+    # fig = px.area(
+    #     df,
+    #     x='Year',
+    #     y='Permits',
+    #     line_group='Series',
+    #     color='Series',
+    #     labels={
+    #         'county_name': 'County',
+    #     },
+    #     color_discrete_map=color_discrete_map,
+    #     height=300
+    # )
 
-    # update fig layout
-    fig.update_layout(
-        hovermode='x',
-        margin=dict(
-            t=60,
-            l=0,
-            r=10
-        ),
-        legend=dict(
-            orientation='h',
-            entrywidth=100,
-            title_text="",
-            yanchor="bottom",
-            y=0.07,
-            xanchor="left",
-            bgcolor="rgba(41,41,41,0)"
-        ),
-        legend_traceorder="reversed",
-        xaxis=dict(
-            title='',
-            tickfont=dict(
-                size=16,
-                color=font_color
-            ),
-            dtick=15,
-            gridcolor='#FFFFFF',
-        ),
-        yaxis=dict(
-            title='',
-            tickfont=dict(
-                size=16,
-                color=font_color
-            ),
-            tickformat=',',
-        ),
-        plot_bgcolor='#292929',
-        paper_bgcolor='#292929'
-    )
+    # # update fig layout
+    # fig.update_layout(
+    #     hovermode='x',
+    #     margin=dict(
+    #         t=60,
+    #         l=0,
+    #         r=10
+    #     ),
+    #     legend=dict(
+    #         orientation='h',
+    #         entrywidth=100,
+    #         title_text="",
+    #         yanchor="bottom",
+    #         y=0.07,
+    #         xanchor="left",
+    #         bgcolor="rgba(41,41,41,0)"
+    #     ),
+    #     legend_traceorder="reversed",
+    #     xaxis=dict(
+    #         title='',
+    #         tickfont=dict(
+    #             size=16,
+    #             color=font_color
+    #         ),
+    #         dtick=15,
+    #         gridcolor='#FFFFFF',
+    #     ),
+    #     yaxis=dict(
+    #         title='',
+    #         tickfont=dict(
+    #             size=16,
+    #             color=font_color
+    #         ),
+    #         tickformat=',',
+    #     ),
+    #     plot_bgcolor='#292929',
+    #     paper_bgcolor='#292929'
+    # )
 
-    # configure tooltip
-    fig.update_traces(
-        hovertemplate='<b>%{y}</b>',
-        mode='lines',
-        line=dict(
-            width=2,
-            dash='solid'
-        ),
-        hoverlabel=dict(
-            font_color='#171717'
-        )
-    )
+    # # configure tooltip
+    # fig.update_traces(
+    #     hovertemplate='<b>%{y}</b>',
+    #     mode='lines',
+    #     line=dict(
+    #         width=2,
+    #         dash='solid'
+    #     ),
+    #     hoverlabel=dict(
+    #         font_color='#171717'
+    #     )
+    # )
 
-    for trace in fig.data:
-        trace.hoverlabel.bgcolor = color_discrete_map[trace.name]
+    # for trace in fig.data:
+    #     trace.hoverlabel.bgcolor = color_discrete_map[trace.name]
 
-    fig.update_xaxes(
-        showline=True,
-        linewidth=1,
-        linecolor=font_color,
-        showgrid=False,
-    )
-    fig.update_yaxes(
-        showline=True,
-        linewidth=1,
-        linecolor=font_color,
-        showgrid=False,
-        zeroline=False
-    )
+    # fig.update_xaxes(
+    #     showline=True,
+    #     linewidth=1,
+    #     linecolor=font_color,
+    #     showgrid=False,
+    # )
+    # fig.update_yaxes(
+    #     showline=True,
+    #     linewidth=1,
+    #     linecolor=font_color,
+    #     showgrid=False,
+    #     zeroline=False
+    # )
 
-    st.plotly_chart(
-        fig,
-        config=config,
-        theme='streamlit',
-        use_container_width=True
-    )
+    # st.plotly_chart(
+    #     fig,
+    #     config=config,
+    #     theme='streamlit',
+    #     use_container_width=True
+    # )
+
+    # For mobile, will only be showing the KPI boxes
+    st.divider()
+
+    mf_total = df[df['Series'] == 'Multi-family']['Permits'].sum()
+    sf_total = df[df['Series'] == 'Single-family']['Permits'].sum()
+
+    # KPI font variables
+    heading_font_size = 16
+    heading_font_weight = 200
+    heading_font_color = font_color
+
+    value_font_size = 22
+    value_margin_top = 40
+    value_margin_bottom = 15
+    value_margin_left = 10
+    value_font_weight = 700
+    value_font_color = font_color
+
+    border_thickness = 3
+    top_bottom_padding = 19
+
+    if geo_level == 'City':
+        kpi_geo = f'the City of {selected_city}'
+    elif geo_level == 'County':
+        kpi_geo = f'{selected_county} County'
+    else:
+        kpi_geo = 'the Metro Region'
+
+    # Multi-Family Permit Historic KPI
+    st.markdown(f'''
+        <p style="font-size: 20px; font-weight: 900; text-align: center;">
+            <span style="color: #FF6F61;">Multi-Family</span> Permits Issued in {kpi_geo} Since {slider_value}:
+        </p>
+    ''', unsafe_allow_html=True)
+
+    st.markdown(f'''
+        <p style='font-size: 22px; font-weight: 900; color: #d9d9d9; text-align: center;'>
+            {mf_total:,.0f}
+        </p>
+        ''', unsafe_allow_html=True)
+
+    st.write('')
+    st.write('')
+
+    # Single-Family Permit Historic KPI
+    st.markdown(f'''
+        <p style="font-size: 20px; font-weight: 900; text-align: center;">
+            <span style="color: #00BFFF;">Single-Family</span> Permits Issued in {kpi_geo} Since {slider_value}:
+        </p>
+    ''', unsafe_allow_html=True)
+
+    st.markdown(f'''
+        <p style='font-size: 22px; font-weight: 900; color: #d9d9d9; text-align: center;'>
+            {sf_total:,.0f}
+        </p>
+        ''', unsafe_allow_html=True)
+
+    # # Single-Family Permit KPI box
+    # st.markdown(
+    #     f"""
+    #         <div style='text-align: center; border:{border_thickness}px solid #00BFFF;        padding: 6px; padding-bottom: {top_bottom_padding}px; padding-top: {top_bottom_padding}px; border-radius: 8px; line-height: 110%;'>
+    #             <span style='font-size: {heading_font_size}px; font-weight: {heading_font_weight}; color: {title_font_color}; line-height: 25px;'>Single-Family<br/> Permits Issued:</span><br/><br/>
+    #             <span style='font-size: {value_font_size}px; font-weight: {value_font_weight}; color: {value_font_color};'>
+    #             {sf_total:,.0f}</span>
+    #         </div>
+    #         """,
+    #     unsafe_allow_html=True
+    # )
 
     # the custom CSS lives here:
     hide_default_format = """
@@ -484,7 +553,7 @@ else:
                     text-decoration: underline;
                     margin-bottom: 10px;
                 }
-                [data-testid="stAppViewBlockContainer"] {
+                [data-testid="stMainBlockContainer"] {
                     margin-top: -50px;
                     padding-left: 40px;
                     padding-right: 40px;

@@ -29,7 +29,7 @@ st.markdown(
     f"""
     <div style='margin-top: {heading_margin_top}px; margin-bottom: {heading_margin_bottom}px; text-align: left;'>
         <span style='font-size: {heading_font_size}px; font-weight: {heading_font_weight}; color: {heading_font_color}'>About us</span><br/>
-        <span style='font-size: {paragraph_font_size}px; font-weight: {paragraph_font_weight}; color: {paragraph_font_color}'>The Research & Analytics Department (RAD) of the Atlanta Regional Commission developed and maintains this dashboard. RAD additionally provides bespoke data tools to support informed decision-making by local governments and leaders around the metro Atlanta region. For more analysis and visuals, please visit our 33N blog <b><a href="https://33n.atlantaregional.com/" style="text-decoration: underline; color: inherit;">here</a></b>.  
+        <span style='font-size: {paragraph_font_size}px; font-weight: {paragraph_font_weight}; color: {paragraph_font_color}'>The Research & Analytics Department (RAD) of the Atlanta Regional Commission developed and maintains this web application. RAD additionally provides bespoke data tools to support informed decision-making by local governments and leaders around the metro Atlanta region. For more analysis and visuals, please visit our 33N blog <b><a href="https://33n.atlantaregional.com/" style="text-decoration: underline; color: inherit;">here</a></b>.  
         <br/><br/> 
         RAD not only produces “the numbers” but also curates current and historical information necessary for accurate representation of the past and reasonable assessments of the future. The department focuses on leveraging partnerships in the development and deployment of online tools, developing innovative and interactive visualizations to facilitate understanding of the data, and performing detailed custom analyses that include narrative “storytelling” to inform application of the data.
 </span>
@@ -56,7 +56,7 @@ st.markdown(
 if screen_width >= 500:
     hide_default_format = """
             <style>
-                [data-testid="stAppViewBlockContainer"] {
+                [data-testid="stMainBlockContainer"] {
                     padding-top: 100px;
                     padding-left: 50px;
                     padding-right: 50px;
@@ -72,7 +72,7 @@ if screen_width >= 500:
 else:
     hide_default_format = """
             <style>
-                [data-testid="stAppViewBlockContainer"] {
+                [data-testid="stMainBlockContainer"] {
                     padding-top: 100px;
                     padding-left: 50px;
                     padding-right: 50px;

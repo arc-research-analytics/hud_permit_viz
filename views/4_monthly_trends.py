@@ -170,165 +170,313 @@ top_bottom_padding = 28
 x_labels = df['date'].unique()
 tickvals = x_labels[::3]
 
-# create chart object
-fig = px.area(
-    df,
-    x='date',
-    y='Permits',
-    title=title,
-    line_group='Series',
-    color='Series',
-    color_discrete_map=color_discrete_map,
-    height=545
-)
+# desktop / tablet view
+if screen_width >= 500:
 
-# update fig layout
-fig.update_layout(
-    hovermode='x',
-    margin=dict(
-        t=60,
-        r=15
-    ),
-    legend=dict(
-        font_size=14,
-        orientation='h',
-        title_text="",
-        yanchor="bottom",
-        y=0.97,
-        xanchor="left",
-        bgcolor="rgba(41,41,41,0)",
-        traceorder="reversed"
-    ),
-    title={
-        'font': {
-            'color': font_color,
-            'size': 18
-        }
-    },
-    xaxis=dict(
-        title='',
-        tickmode='array',
-        tickvals=tickvals,
-        tickfont=dict(
-            size=16,
-            color=font_color
-        ),
-        gridcolor='#FFFFFF',
-        tickangle=0
-    ),
-    yaxis=dict(
-        title='',
-        tickfont=dict(
-            size=16,
-            color=font_color
-        ),
-        tickformat=','
-    ),
-    plot_bgcolor='#292929',
-    paper_bgcolor='#292929'
-)
-
-# configure tooltip
-fig.update_traces(
-    hovertemplate='<b>%{y}</b>',
-    mode='lines',
-    line=dict(
-        width=2,
-        dash='solid'
-    ),
-    hoverlabel=dict(
-        font_color='#171717'
+    # create chart object
+    fig = px.area(
+        df,
+        x='date',
+        y='Permits',
+        title=title,
+        line_group='Series',
+        color='Series',
+        color_discrete_map=color_discrete_map,
+        height=545
     )
-)
 
-for trace in fig.data:
-    trace.hoverlabel.bgcolor = color_discrete_map[trace.name]
+    # update fig layout
+    fig.update_layout(
+        hovermode='x',
+        margin=dict(
+            t=60,
+            r=15
+        ),
+        legend=dict(
+            font_size=14,
+            orientation='h',
+            title_text="",
+            yanchor="bottom",
+            y=0.97,
+            xanchor="left",
+            bgcolor="rgba(41,41,41,0)",
+            traceorder="reversed"
+        ),
+        title={
+            'font': {
+                'color': font_color,
+                'size': 18
+            }
+        },
+        xaxis=dict(
+            title='',
+            tickmode='array',
+            tickvals=tickvals,
+            tickfont=dict(
+                size=16,
+                color=font_color
+            ),
+            gridcolor='#FFFFFF',
+            tickangle=0
+        ),
+        yaxis=dict(
+            title='',
+            tickfont=dict(
+                size=16,
+                color=font_color
+            ),
+            tickformat=','
+        ),
+        plot_bgcolor='#292929',
+        paper_bgcolor='#292929'
+    )
 
-fig.update_xaxes(
-    showline=True,
-    linewidth=1,
-    linecolor=font_color,
-    showgrid=False,
-)
-fig.update_yaxes(
-    showline=True,
-    linewidth=1,
-    linecolor=font_color,
-    showgrid=False,
-    zeroline=False
-)
+    # configure tooltip
+    fig.update_traces(
+        hovertemplate='<b>%{y}</b>',
+        mode='lines',
+        line=dict(
+            width=2,
+            dash='solid'
+        ),
+        hoverlabel=dict(
+            font_color='#171717'
+        )
+    )
 
-col1, col2 = st.columns([5, 1])
+    for trace in fig.data:
+        trace.hoverlabel.bgcolor = color_discrete_map[trace.name]
 
-config = {'displayModeBar': False}
-col1.plotly_chart(
-    fig,
-    config=config,
-    theme='streamlit',
-    use_container_width=True
-)
+    fig.update_xaxes(
+        showline=True,
+        linewidth=1,
+        linecolor=font_color,
+        showgrid=False,
+    )
+    fig.update_yaxes(
+        showline=True,
+        linewidth=1,
+        linecolor=font_color,
+        showgrid=False,
+        zeroline=False
+    )
 
-# KPI section
-singleFamily_total = df[df['Series'] ==
-                        'Single-Family']['Permits'].sum()
-multiFamily_total = df[df['Series'] ==
-                       'Multi-Family']['Permits'].sum()
+    col1, col2 = st.columns([5, 1])
 
-mf_kpi_title = "Multi-Family Permits:"
-sf_kpi_title = "Single-Family Permits:"
+    config = {'displayModeBar': False}
+    col1.plotly_chart(
+        fig,
+        config=config,
+        theme='streamlit',
+        use_container_width=True
+    )
 
-col2.write("")
-col2.write("")
-col2.write("")
-col2.write("")
-col2.write("")
-col2.write("")
-col2.write("")
+    # KPI section
+    singleFamily_total = df[df['Series'] ==
+                            'Single-Family']['Permits'].sum()
+    multiFamily_total = df[df['Series'] ==
+                           'Multi-Family']['Permits'].sum()
 
-col2.markdown(
-    f"""
-            <div style='text-align: center; border:{border_thickness}px solid #FF6F61; padding: 6px; padding-bottom: {top_bottom_padding}px; padding-top: {top_bottom_padding}px; border-radius: 8px; line-height: 110%;'>
-                <span style='font-size: {heading_font_size}px; font-weight: {heading_font_weight}; color: {title_font_color}; line-height: 0.5;'>{mf_kpi_title}</span><br/><br/>
-                <span style='font-size: {value_font_size}px; font-weight: {value_font_weight}; color: {value_font_color}; margin-top: 0;'>
-                {multiFamily_total:,.0f}</span>
-            </div>
-            """,
-    unsafe_allow_html=True
-)
+    mf_kpi_title = "Multi-Family Permits:"
+    sf_kpi_title = "Single-Family Permits:"
 
-col2.write("")
-col2.write("")
-col2.write("")
+    col2.write("")
+    col2.write("")
+    col2.write("")
+    col2.write("")
+    col2.write("")
+    col2.write("")
+    col2.write("")
 
-col2.markdown(
-    f"""
-            <div style='text-align: center; border:{border_thickness}px solid #00BFFF; padding: 6px; padding-bottom: {top_bottom_padding}px; padding-top: {top_bottom_padding}px; border-radius: 8px; line-height: 110%;'>
-                <span style='font-size: {heading_font_size}px; font-weight: {heading_font_weight}; color: {title_font_color};'>{sf_kpi_title}</span><br/><br/>
-                <span style='font-size: {value_font_size}px; font-weight: {value_font_weight}; color: {value_font_color};'>
-                {singleFamily_total:,.0f}</span>
-            </div>
-            """,
-    unsafe_allow_html=True
-)
+    col2.markdown(
+        f"""
+                <div style='text-align: center; border:{border_thickness}px solid #FF6F61; padding: 6px; padding-bottom: {top_bottom_padding}px; padding-top: {top_bottom_padding}px; border-radius: 8px; line-height: 110%;'>
+                    <span style='font-size: {heading_font_size}px; font-weight: {heading_font_weight}; color: {title_font_color}; line-height: 0.5;'>{mf_kpi_title}</span><br/><br/>
+                    <span style='font-size: {value_font_size}px; font-weight: {value_font_weight}; color: {value_font_color}; margin-top: 0;'>
+                    {multiFamily_total:,.0f}</span>
+                </div>
+                """,
+        unsafe_allow_html=True
+    )
+
+    col2.write("")
+    col2.write("")
+    col2.write("")
+
+    col2.markdown(
+        f"""
+                <div style='text-align: center; border:{border_thickness}px solid #00BFFF; padding: 6px; padding-bottom: {top_bottom_padding}px; padding-top: {top_bottom_padding}px; border-radius: 8px; line-height: 110%;'>
+                    <span style='font-size: {heading_font_size}px; font-weight: {heading_font_weight}; color: {title_font_color};'>{sf_kpi_title}</span><br/><br/>
+                    <span style='font-size: {value_font_size}px; font-weight: {value_font_weight}; color: {value_font_color};'>
+                    {singleFamily_total:,.0f}</span>
+                </div>
+                """,
+        unsafe_allow_html=True
+    )
+
+    # download dataframe as CSV
+    df = df.sort_values(by='date', ascending=True)
+    df = df[[
+        'year_month',
+        'Name',
+        'Series',
+        'Permits'
+    ]]
+
+    df_download = df.to_csv(index='False').encode('utf-8')
+
+    st.download_button(
+        label=":material/download:",
+        data=df_download,
+        file_name=download_file_name,
+        help='Download filtered data to CSV'
+    )
+
+    # the custom CSS lives here:
+    hide_default_format_desktop = """
+            <style>
+                [data-testid="stMainBlockContainer"] {
+                    margin-top: -70px;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                }
+                .main {
+                    overflow: hidden
+                }
+            </style>
+        """
+
+    # inject the CSS
+    st.markdown(hide_default_format_desktop, unsafe_allow_html=True)
 
 
-# download dataframe as CSV
-df = df.sort_values(by='date', ascending=True)
-df = df[[
-    'year_month',
-    'Name',
-    'Series',
-    'Permits'
-]]
+# mobile view
+else:
+    df_sf = df[df['Series'] == 'Single-Family']
+    df_mf = df[df['Series'] == 'Multi-Family']
 
-df_download = df.to_csv(index='False').encode('utf-8')
+    total_mf_permits = df_mf['Permits'].sum()
+    total_sf_permits = df_sf['Permits'].sum()
 
-st.download_button(
-    label=":material/download:",
-    data=df_download,
-    file_name=download_file_name,
-    help='Download filtered data to CSV'
-)
+    # get data for most recent month
+    max_date = df['year_month'].max()
+    max_date_label = df.loc[df['year_month'] == max_date, 'date'].iloc[0]
+    max_date_SFpermits = df_sf.loc[df_sf['year_month']
+                                   == max_date, 'Permits'].iloc[0]
+    max_date_MFpermits = df_mf.loc[df_mf['year_month']
+                                   == max_date, 'Permits'].iloc[0]
+
+    # get data for 1 year ago
+    min_date = df_sf.sort_values(by='year_month', ascending=False)[
+        'year_month'].iloc[12]
+    min_date_label = df_sf.loc[df_sf['year_month'] == min_date, 'date'].iloc[0]
+    min_date_SFpermits = df_sf.loc[df_sf['year_month']
+                                   == min_date, 'Permits'].iloc[0]
+    min_date_MFpermits = df_mf.loc[df_mf['year_month']
+                                   == min_date, 'Permits'].iloc[0]
+
+    # calculate YoY values for multi-family
+    if max_date_MFpermits > 0 and min_date_MFpermits > 0:
+        YoYchange_MF = ((max_date_MFpermits-min_date_MFpermits) /
+                        min_date_MFpermits)*100
+    else:
+        YoYchange_MF = "I am a string value!"
+
+    # calculate YoY values for single-family
+    if max_date_SFpermits > 0 and min_date_SFpermits > 0:
+        YoYchange_SF = ((max_date_SFpermits-min_date_SFpermits) /
+                        min_date_SFpermits)*100
+    else:
+        YoYchange_SF = "I am a string value!"
+
+    st.divider()
+
+    # MF heading
+    st.markdown(f'''
+        <p style="font-size: 20px; font-weight: 600; text-align: center; color: #FF6F61">
+            Multi-Family Permits
+        </p>
+    ''', unsafe_allow_html=True)
+
+    # 18-month total
+    st.markdown(f'''
+        <p style="font-size: 16px; font-weight: 100; text-align: center;">
+            Trailing 18-Month Total: {total_mf_permits:,.0f}
+        </p>
+    ''', unsafe_allow_html=True)
+
+    # monthly for most recent date
+    st.markdown(f'''
+        <p style="font-size: 16px; font-weight: 100; text-align: center;">
+            {max_date_label} Total: {max_date_MFpermits:,.0f}
+        </p>
+    ''', unsafe_allow_html=True)
+
+    if isinstance(YoYchange_MF, float):
+        direction = "downward" if YoYchange_MF < 0 else "upward"
+        color = "red" if YoYchange_MF < 0 else "green"
+        upward_arrow = st.markdown(
+            f"12-Month YoY Change: {YoYchange_MF:.1f}% :{color}[:material/arrow_{direction}:]")
+
+    elif isinstance(YoYchange_MF, str):
+        st.markdown(f'''
+            <p style="font-size: 16px; font-weight: 100; text-align: center;">
+                Insufficient data to calculate YoY change.
+            </p>
+    ''', unsafe_allow_html=True)
+
+    st.divider()
+
+    # SF heading
+    st.markdown(f'''
+        <p style="font-size: 20px; font-weight: 600; text-align: center; color: #00BFFF">
+            Single-Family Permits
+        </p>
+    ''', unsafe_allow_html=True)
+
+    # 18-month total
+    st.markdown(f'''
+        <p style="font-size: 16px; font-weight: 100; text-align: center;">
+            Trailing 18-Month Total: {total_sf_permits:,.0f}
+        </p>
+    ''', unsafe_allow_html=True)
+
+    # monthly for most recent date
+    st.markdown(f'''
+        <p style="font-size: 16px; font-weight: 100; text-align: center;">
+            {max_date_label} Total: {max_date_SFpermits:,.0f}
+        </p>
+    ''', unsafe_allow_html=True)
+
+    if isinstance(YoYchange_SF, float):
+        direction = "downward" if YoYchange_SF < 0 else "upward"
+        color = "red" if YoYchange_SF < 0 else "green"
+        upward_arrow = st.markdown(
+            f"12-Month YoY Change: {YoYchange_SF:.1f}% :{color}[:material/arrow_{direction}:]")
+
+    elif isinstance(YoYchange_SF, str):
+        st.markdown(f'''
+            <p style="font-size: 16px; font-weight: 100; text-align: center;">
+                Insufficient data to calculate YoY change.
+            </p>
+    ''', unsafe_allow_html=True)
+
+    # the custom CSS lives here:
+    hide_default_format_mobile = """
+            <style>
+                [data-testid="stMainBlockContainer"] {
+                    margin-top: -30px;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                }
+                [data-testid="stMarkdown"] {
+                    text-align: center;
+                }
+            </style>
+        """
+
+    # inject the CSS
+    st.markdown(hide_default_format_mobile, unsafe_allow_html=True)
 
 # the custom CSS lives here:
 hide_default_format = """
@@ -362,11 +510,6 @@ hide_default_format = """
                 text-decoration: underline;
                 margin-bottom: 10px;
             }
-            [data-testid="stAppViewBlockContainer"] {
-                margin-top: -75px;
-                padding-left: 30px;
-                padding-right: 30px;
-            }
             [data-testid="stHeader"] {
                 color: #292929;
             }
@@ -374,12 +517,8 @@ hide_default_format = """
                 position: absolute;
                 bottom: 10px;
             }
-            .main {
-                overflow: hidden
-            }
         </style>
-       """
-
+    """
 
 # inject the CSS
 st.markdown(hide_default_format, unsafe_allow_html=True)

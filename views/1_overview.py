@@ -178,7 +178,7 @@ if screen_width >= 500:
     # the custom CSS for desktop lives here:
     hide_default_format = """
         <style>
-            [data-testid="stAppViewBlockContainer"] {
+            [data-testid="stMainBlockContainer"] {
                 margin-top: -120px;
                 padding-left: 40px;
                 padding-right: 50px;
@@ -195,7 +195,7 @@ if screen_width >= 500:
 # mobile view
 else:
     st.markdown(
-        '<div style="text-align: center; margin-top: 0px; margin-bottom: -40px;"><p>Welcome to the Atlanta Building Permit Explorer!</p></div>', unsafe_allow_html=True)
+        '<div style="text-align: center; margin-top: 0px; margin-bottom: 50px;"><p style="font-weight: 900; font-size: 18px;">Welcome to the Atlanta Building Permit Explorer!</p></div>', unsafe_allow_html=True)
 
     # create fig object
     fig = px.line(
@@ -250,29 +250,35 @@ else:
         )
     )
 
-    # draw fig object
-    config = {'displayModeBar': False}
-    st.plotly_chart(
-        fig,
-        config=config,
-        theme='streamlit',
-        use_container_width=True
-    )
+    # # draw fig object
+    # config = {'displayModeBar': False}
+    # st.plotly_chart(
+    #     fig,
+    #     config=config,
+    #     theme='streamlit',
+    #     use_container_width=True
+    # )
+
+    # st.markdown(
+    #     f'<div style="text-align: left; margin-top: -65px;"><p style="color:{annotation_color}; font-size: 14px;"><b>Blue line</b> = historic average of permits issued since 1980.</p></div>', unsafe_allow_html=True)
 
     st.markdown(
-        f'<div style="text-align: left; margin-top: -65px;"><p style="color:{annotation_color}; font-size: 14px;"><b>Blue line</b> = historic average of permits issued since 1980.</p></div>', unsafe_allow_html=True)
-
-    st.markdown(
-        '<div style="text-align: left; margin-top: -20px;"><p>Explore trends in single- and multi-family building permits issued in Atlanta-area jurisdictions by using expandable side-panel navigation menu.</p></div>', unsafe_allow_html=True)
+        '<div style="text-align: left; margin-top: -20px;"><p>Explore trends in single- and multi-family building permits issued in regional cities and counties by using the navigation menu in the side panel.</p></div>', unsafe_allow_html=True)
 
     # closing remarks
     st.markdown(
-        '<div style="text-align: left; margin-top: 5px;"><p><b>Note:</b> This app is not optimized for mobile screens. For the best user experience, please open on a desktop or tablet!</p></div>', unsafe_allow_html=True)
+        '''<div style="text-align: left; margin-top: 5px;">
+        <p>
+            <span style="font-weight: 900; text-decoration: underline;">
+            Note
+            </span>: While functional, this app is not optimized for mobile screens. To see comprehensive time series trends and download the source data, please open on a desktop or tablet. 
+        </p>
+        </div>''', unsafe_allow_html=True)
 
     # the custom CSS for mobile lives here:
     hide_default_format = """
         <style>
-            [data-testid="stAppViewBlockContainer"] {
+            [data-testid="stMainBlockContainer"] {
                 margin-top: -50px;
                 padding-left: 40px;
                 padding-right: 50px;

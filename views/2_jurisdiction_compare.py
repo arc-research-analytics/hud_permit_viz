@@ -369,7 +369,7 @@ if screen_width >= 500:
                     text-decoration: underline;
                     margin-bottom: 10px;
                 }}
-                [data-testid="stAppViewBlockContainer"] {{
+                [data-testid="stMainBlockContainer"] {{
                     padding-top: 20px;
                     padding-left: 30px;
                     padding-right: 30px;
@@ -489,7 +489,7 @@ else:
                     text-decoration: underline;
                     margin-bottom: 10px;
                 }
-                [data-testid="stAppViewBlockContainer"] {
+                [data-testid="stMainBlockContainer"] {
                     padding-top: 40px;
                     padding-left: 30px;
                     padding-right: 30px;
