@@ -49,7 +49,7 @@ title_font_color = font_color
 
 # desktop
 if screen_width >= 500:
-    title_margin_top = -70
+    title_margin_top = -40
 
 # mobile
 else:
@@ -562,7 +562,7 @@ else:
                     margin-bottom: 10px;
                 }
                 [data-testid="stAppViewBlockContainer"] {
-                    margin-top: -10px;
+                    margin-top: -50px;
                     padding-left: 40px;
                     padding-right: 40px;
                 }
