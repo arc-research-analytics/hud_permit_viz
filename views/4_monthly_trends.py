@@ -335,8 +335,7 @@ if screen_width >= 500:
     # the custom CSS lives here:
     hide_default_format_desktop = """
             <style>
-                [data-testid="stMainBlockContainer"] {
-                    margin-top: -70px;
+                [data-testid="stAppViewBlockContainer"] {
                     padding-left: 30px;
                     padding-right: 30px;
                 }
