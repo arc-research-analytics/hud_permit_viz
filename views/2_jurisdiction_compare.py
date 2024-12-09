@@ -65,10 +65,17 @@ font_color = "#d9d9d9"
 
 # dashboard title variables
 title_font_size = 24
-title_margin_top = 0
 title_margin_bottom = 15
 title_font_weight = 700
 title_font_color = font_color
+
+# desktop
+if screen_width >= 500:
+    title_margin_top = -60
+
+# mobile
+else:
+    title_margin_top = 20
 
 # set title
 st.markdown(
@@ -326,6 +333,7 @@ if screen_width >= 500:
     )
 
     # the custom CSS lives here:
+    widget_top_margin = -30
     hide_default_format = f"""
             <style>
                 .stRadio [data-testid=stWidgetLabel] p {{
@@ -335,6 +343,7 @@ if screen_width >= 500:
                     justify-content: center;
                     text-decoration: underline;
                     margin-bottom: 10px;
+                    margin-top: {widget_top_margin}px;
                 }}
                 .stRadio [role=radiogroup] {{
                     align-items: center;
@@ -354,6 +363,7 @@ if screen_width >= 500:
                     justify-content: center;
                     text-decoration: underline;
                     margin-bottom: 10px;
+                    margin-top: {widget_top_margin}px;
                 }}
                 .stMultiSelect div[data-baseweb="select"] span[data-baseweb="tag"] {{
                     background-color: #292929;
@@ -368,12 +378,13 @@ if screen_width >= 500:
                     justify-content: center;
                     text-decoration: underline;
                     margin-bottom: 10px;
+                    margin-top: {widget_top_margin}px;
                 }}
-                [data-testid="stMainBlockContainer"] {{
-                    padding-top: 20px;
-                    padding-left: 30px;
-                    padding-right: 30px;
-                }}
+                # [data-testid="stMainBlockContainer"] {{
+                #     padding-top: 20px;
+                #     padding-left: 30px;
+                #     padding-right: 30px;
+                # }}
                 [data-testid="stDownloadButton"] {{
                     position: absolute;
                     bottom: 10px;

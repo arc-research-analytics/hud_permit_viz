@@ -262,18 +262,3 @@ else:
                 <p><span style="font-weight: 900; text-decoration: underline;">Note:</span>
             While functional, this app is not optimized for mobile screens. To see comprehensive time series trends and download the source data, please open on a desktop or tablet.</p>
             </div>''', unsafe_allow_html=True)
-
-    # # the custom CSS for mobile lives here:
-    # hide_default_format = """
-    #     <style>
-    #         [data-testid="stMainBlockContainer"] {
-    #             margin-top: -50px;
-    #             padding-left: 40px;
-    #             padding-right: 50px;
-    #             height: 100%;
-    #         }
-    #     </style>
-    #    """
-
-    # # inject the CSS
-    # st.markdown(hide_default_format, unsafe_allow_html=True)
