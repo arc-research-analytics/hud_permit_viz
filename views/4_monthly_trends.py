@@ -333,7 +333,7 @@ if screen_width >= 500:
     )
 
     # the custom CSS lives here:
-    hide_default_format_desktop = """
+    hide_default_format = """
             <style>
                 [data-testid="stAppViewBlockContainer"] {
                     padding-top: 30px;
@@ -347,7 +347,7 @@ if screen_width >= 500:
         """
 
     # inject the CSS
-    st.markdown(hide_default_format_desktop, unsafe_allow_html=True)
+    st.markdown(hide_default_format, unsafe_allow_html=True)
 
 
 # mobile view
@@ -464,7 +464,7 @@ else:
     # the custom CSS lives here:
     hide_default_format_mobile = """
             <style>
-                [data-testid="stMainBlockContainer"] {
+                [data-testid="stAppViewBlockContainer"] {
                     margin-top: -30px;
                     padding-left: 30px;
                     padding-right: 30px;
