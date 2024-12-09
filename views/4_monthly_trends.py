@@ -336,6 +336,7 @@ if screen_width >= 500:
     hide_default_format_desktop = """
             <style>
                 [data-testid="stAppViewBlockContainer"] {
+                    padding-top: 30px;
                     padding-left: 30px;
                     padding-right: 30px;
                 }
