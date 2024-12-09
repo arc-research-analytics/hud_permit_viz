@@ -562,7 +562,7 @@ else:
                     margin-bottom: 10px;
                 }
                 [data-testid="stAppViewBlockContainer"] {
-                    margin-top: -50px;
+                    margin-top: -10px;
                     padding-left: 40px;
                     padding-right: 40px;
                 }
