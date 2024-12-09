@@ -501,8 +501,8 @@ else:
                 }
                 [data-testid="stAppViewContainer"] {
                     margin-top: -50px;
-                    margin-left: 50px;
-                    margin-right: 50px;
+                    margin-left: 35px;
+                    margin-right: 35px;
                 }
                 [data-testid="stDownloadButton"] {
                     position: absolute;
