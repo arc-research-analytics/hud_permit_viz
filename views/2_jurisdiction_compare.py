@@ -500,7 +500,7 @@ else:
                     margin-bottom: 10px;
                 }
                 [data-testid="stAppViewContainer"] {
-                    padding-top: 10px;
+                    margin-top: -50px;
                     padding-left: 50px;
                     padding-right: 50px;
                 }
