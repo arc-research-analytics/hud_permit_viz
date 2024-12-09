@@ -380,11 +380,10 @@ if screen_width >= 500:
                     margin-bottom: 10px;
                     margin-top: {widget_top_margin}px;
                 }}
-                # [data-testid="stMainBlockContainer"] {{
-                #     padding-top: 20px;
-                #     padding-left: 30px;
-                #     padding-right: 30px;
-                # }}
+                [data-testid="stAppViewBlockContainer"] {{
+                    padding-left: 30px;
+                    padding-right: 30px;
+                }}
                 [data-testid="stDownloadButton"] {{
                     position: absolute;
                     bottom: 10px;

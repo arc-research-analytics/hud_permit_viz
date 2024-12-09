@@ -336,8 +336,7 @@ if screen_width >= 500:
                     text-decoration: underline;
                     margin-bottom: 10px;
                 }
-                [data-testid="stMainBlockContainer"] {
-                    margin-top: -90px;
+                [data-testid="stAppViewBlockContainer"] {
                     padding-left: 40px;
                     padding-right: 40px;
                 }
