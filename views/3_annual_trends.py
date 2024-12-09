@@ -43,10 +43,17 @@ font_color = "#d9d9d9"
 
 # dashboard title variables
 title_font_size = 24
-title_margin_top = 0
 title_margin_bottom = 15
 title_font_weight = 700
 title_font_color = font_color
+
+# desktop
+if screen_width >= 500:
+    title_margin_top = -10
+
+# mobile
+else:
+    title_margin_top = 20
 
 # set title
 st.markdown(
