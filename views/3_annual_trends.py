@@ -49,7 +49,7 @@ title_font_color = font_color
 
 # desktop
 if screen_width >= 500:
-    title_margin_top = -10
+    title_margin_top = -70
 
 # mobile
 else:
@@ -294,6 +294,7 @@ if screen_width >= 500:
     )
 
     # the custom CSS lives here:
+    widget_top_margin = -30
     hide_default_format = """
             <style>
                 .stRadio [data-testid=stWidgetLabel] p {
@@ -560,7 +561,7 @@ else:
                     text-decoration: underline;
                     margin-bottom: 10px;
                 }
-                [data-testid="stMainBlockContainer"] {
+                [data-testid="stAppViewBlockContainer"] {
                     margin-top: -50px;
                     padding-left: 40px;
                     padding-right: 40px;

@@ -499,7 +499,7 @@ else:
                     text-decoration: underline;
                     margin-bottom: 10px;
                 }
-                [data-testid="stMainBlockContainer"] {
+                [data-testid="stAppViewContainer"] {
                     padding-top: 40px;
                     padding-left: 30px;
                     padding-right: 30px;
