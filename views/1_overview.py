@@ -182,7 +182,7 @@ else:
 
     st.markdown(f'''
         <div style="text-align: left; margin-top: -20px; margin-bottom: 50px; padding-left: {side_margin}px; padding-right: {side_margin}px;">
-                <p style="font-weight: 900; font-size: 18px;">Metro Atlanta Building Permit Explorer 📈</p>
+                <p style="font-weight: 700; font-size: 21px; color: #00BFFF;">Metro Atlanta Building Permit Explorer 📈</p>
         </div>''', unsafe_allow_html=True)
 
     # # create fig object
