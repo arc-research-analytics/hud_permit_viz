@@ -178,61 +178,66 @@ if screen_width >= 500:
 
 # mobile view
 else:
-    st.markdown(
-        '<div style="text-align: center; margin-top: 0px; margin-bottom: 50px;"><p style="font-weight: 900; font-size: 18px;">Welcome to the Atlanta Building Permit Explorer!</p></div>', unsafe_allow_html=True)
+    side_margin = 20
 
-    # create fig object
-    fig = px.line(
-        df,
-        x='Year',
-        y='Permits',
-        title='Building Permits <br>Issued in 11-County<br> Region (All Types)',
-        height=300
-    )
+    st.markdown(f'''
+        <div style="text-align: left; margin-top: -20px; margin-bottom: 50px; padding-left: {side_margin}px; padding-right: {side_margin}px;">
+                <p style="font-weight: 900; font-size: 18px;">Metro Atlanta Building Permit Explorer</p>
+        </div>''',
+                unsafe_allow_html=True)
 
-    # update fig object
-    fig.update_layout(
-        title={
-            'text': 'Building Permits Issued in 11-<br>County Region (All Types)',
-            'x': 0.5,  # Center the title
-            'xanchor': 'center',
-            'yanchor': 'top',
-            'font': {'size': 13}
-        },
-        xaxis_title=None,
-        yaxis={
-            'dtick': 20000
-        },
-        yaxis_title=None
-    )
+    # # create fig object
+    # fig = px.line(
+    #     df,
+    #     x='Year',
+    #     y='Permits',
+    #     title='Building Permits <br>Issued in 11-County<br> Region (All Types)',
+    #     height=300
+    # )
 
-    # customize line trace
-    line_color = '#FF6F61'
-    fig.update_traces(
-        hovertemplate='%{y:,.0f}',
-        mode='lines',
-        line=dict(
-            color=line_color,
-            width=2,
-            dash='solid'
-        )
-    )
+    # # update fig object
+    # fig.update_layout(
+    #     title={
+    #         'text': 'Building Permits Issued in 11-<br>County Region (All Types)',
+    #         'x': 0.5,  # Center the title
+    #         'xanchor': 'center',
+    #         'yanchor': 'top',
+    #         'font': {'size': 13}
+    #     },
+    #     xaxis_title=None,
+    #     yaxis={
+    #         'dtick': 20000
+    #     },
+    #     yaxis_title=None
+    # )
 
-    # Add a horizontal line at the average value of 'Permits'
-    annotation_color = '#00BFFF'
-    fig.add_shape(
-        type='line',
-        x0=df['Year'].min(),
-        x1=df['Year'].max(),
-        # Position of the line on the y-axis (average 'Permits')
-        y0=permits_avg,
-        y1=permits_avg,  # Same y0 and y1 to create a horizontal line
-        line=dict(
-            color=annotation_color,
-            width=1,
-            dash='dash'
-        )
-    )
+    # # customize line trace
+    # line_color = '#FF6F61'
+    # fig.update_traces(
+    #     hovertemplate='%{y:,.0f}',
+    #     mode='lines',
+    #     line=dict(
+    #         color=line_color,
+    #         width=2,
+    #         dash='solid'
+    #     )
+    # )
+
+    # # Add a horizontal line at the average value of 'Permits'
+    # annotation_color = '#00BFFF'
+    # fig.add_shape(
+    #     type='line',
+    #     x0=df['Year'].min(),
+    #     x1=df['Year'].max(),
+    #     # Position of the line on the y-axis (average 'Permits')
+    #     y0=permits_avg,
+    #     y1=permits_avg,  # Same y0 and y1 to create a horizontal line
+    #     line=dict(
+    #         color=annotation_color,
+    #         width=1,
+    #         dash='dash'
+    #     )
+    # )
 
     # # draw fig object
     # config = {'displayModeBar': False}
@@ -246,29 +251,29 @@ else:
     # st.markdown(
     #     f'<div style="text-align: left; margin-top: -65px;"><p style="color:{annotation_color}; font-size: 14px;"><b>Blue line</b> = historic average of permits issued since 1980.</p></div>', unsafe_allow_html=True)
 
-    st.markdown(
-        '<div style="text-align: left; margin-top: -20px;"><p>Explore trends in single- and multi-family building permits issued in regional cities and counties by using the navigation menu in the side panel.</p></div>', unsafe_allow_html=True)
+    st.markdown(f'''
+                <div style="text-align: left; margin-top: -20px; padding-left: {side_margin}px; padding-right: {side_margin}px">
+                    <p>Welcome! This data visualization app allows for exploration of trends in single- and multi-family building permits issued in cities and counties around the metro Atlanta area. Use the side-panel menu for navigation.</p>
+                </div>''', unsafe_allow_html=True)
 
     # closing remarks
-    st.markdown(
-        '''<div style="text-align: left; margin-top: 5px;">
-        <p>
-            <span style="font-weight: 900; text-decoration: underline;">Note:</span>
-            While functional, this app is not optimized for mobile screens. To see comprehensive time series trends and download the source data, please open on a desktop or tablet. 
-        </p>
-        </div>''', unsafe_allow_html=True)
+    st.markdown(f'''
+                <div style="text-align: left; margin-top: 5px; padding-left: {side_margin}px; padding-right: {side_margin}px;">
+                <p><span style="font-weight: 900; text-decoration: underline;">Note:</span>
+            While functional, this app is not optimized for mobile screens. To see comprehensive time series trends and download the source data, please open on a desktop or tablet.</p>
+            </div>''', unsafe_allow_html=True)
 
-    # the custom CSS for mobile lives here:
-    hide_default_format = """
-        <style>
-            [data-testid="stMainBlockContainer"] {
-                margin-top: -50px;
-                padding-left: 40px;
-                padding-right: 50px;
-                height: 100%;
-            }
-        </style>
-       """
+    # # the custom CSS for mobile lives here:
+    # hide_default_format = """
+    #     <style>
+    #         [data-testid="stMainBlockContainer"] {
+    #             margin-top: -50px;
+    #             padding-left: 40px;
+    #             padding-right: 50px;
+    #             height: 100%;
+    #         }
+    #     </style>
+    #    """
 
-    # inject the CSS
-    st.markdown(hide_default_format, unsafe_allow_html=True)
+    # # inject the CSS
+    # st.markdown(hide_default_format, unsafe_allow_html=True)
