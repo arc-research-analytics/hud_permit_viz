@@ -182,9 +182,8 @@ else:
 
     st.markdown(f'''
         <div style="text-align: left; margin-top: -20px; margin-bottom: 50px; padding-left: {side_margin}px; padding-right: {side_margin}px;">
-                <p style="font-weight: 900; font-size: 18px;">Metro Atlanta Building Permit Explorer</p>
-        </div>''',
-                unsafe_allow_html=True)
+                <p style="font-weight: 900; font-size: 18px;">Metro Atlanta Building Permit Explorer 📈</p>
+        </div>''', unsafe_allow_html=True)
 
     # # create fig object
     # fig = px.line(
