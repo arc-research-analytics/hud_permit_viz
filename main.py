@@ -54,9 +54,6 @@ pg.run()
 # the custom CSS lives here:
 hide_default_format = """
         <style>
-            [data-testid="stAppViewBlockContainer"] {
-                background-color: #292929;
-            }
             MainMenu, footer {
                 visibility: hidden;
                 height: 0%;

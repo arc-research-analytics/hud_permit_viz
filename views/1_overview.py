@@ -37,7 +37,7 @@ if screen_width >= 500:
 
     # dashboard title variables
     title_font_size = 32
-    title_margin_top = 40
+    title_margin_top = -50
     title_margin_bottom = 5
     title_margin_left = 10
     title_font_weight = 700
@@ -47,7 +47,7 @@ if screen_width >= 500:
     st.markdown(
         f"""
         <div style='margin-top: {title_margin_top}px; margin-bottom: {title_margin_bottom}px; margin-left: {title_margin_left}px'>
-            <span style='font-size: {title_font_size}px; font-weight: {title_font_weight}; color: {title_font_color}'>Welcome to the Atlanta Building Permit Explorer!</span>
+            <span style='font-size: {title_font_size}px; font-weight: {title_font_weight}; color: {title_font_color}'>Metro Atlanta Building Permit Explorer</span>
         </div>
         """,
         unsafe_allow_html=True
@@ -55,7 +55,7 @@ if screen_width >= 500:
 
     # dashboard paragraph variables
     paragraph_font_size = 18
-    paragraph_margin_top = 0
+    paragraph_margin_top = -10
     paragraph_margin_bottom = 20
     paragraph_margin_left = 10
     paragraph_font_weight = 100
@@ -65,7 +65,7 @@ if screen_width >= 500:
     st.markdown(
         f"""
         <div style='margin-top: {paragraph_margin_top}px; margin-bottom: {paragraph_margin_bottom}px; margin-left: {paragraph_margin_left}px;'>
-            <span style='font-size: {paragraph_font_size}px; font-weight: {paragraph_font_weight}; color: {paragraph_font_color}'>Like many cities across the nation, Atlanta lacks affordable housing. One primary means to address this shortage is by building more housing units. To provide greater transparency in the crucial permitting process, we have built a tracker, updated monthly, for residential building permits issued across the 11-county metro Atlanta region. Explore and download trend data via side-panel navigation.</span>
+            <span style='font-size: {paragraph_font_size}px; font-weight: {paragraph_font_weight}; color: {paragraph_font_color}'>Welcome to this data explorer! Like many metro areas across the nation, the Atlanta region lacks affordable housing. One primary means to address this shortage is by building more housing units. To provide greater transparency in the crucial permitting process, we have built a tracker, updated monthly, for residential building permits issued across the 11-county metro Atlanta region. Explore and download trend data via side-panel navigation. See the About page for more information.</span>
         </div>
         """,
         unsafe_allow_html=True
@@ -76,8 +76,8 @@ if screen_width >= 500:
         df,
         x='Year',
         y='Permits',
-        title='Annual Building Permits Issued in 11-County Metro Region (All Types)',
-        height=500
+        title='Historic Residential Building Permits Issued in Atlanta Region (Single- & Multi-Family)',
+        height=460
     )
 
     # update fig layout
@@ -175,22 +175,6 @@ if screen_width >= 500:
         use_container_width=True
     )
 
-    # the custom CSS for desktop lives here:
-    hide_default_format = """
-        <style>
-            [data-testid="stMainBlockContainer"] {
-                margin-top: -120px;
-                padding-left: 40px;
-                padding-right: 50px;
-            }
-            .main {
-                overflow: hidden;
-            }
-        </style>
-       """
-
-    # inject the CSS
-    st.markdown(hide_default_format, unsafe_allow_html=True)
 
 # mobile view
 else:
@@ -269,9 +253,8 @@ else:
     st.markdown(
         '''<div style="text-align: left; margin-top: 5px;">
         <p>
-            <span style="font-weight: 900; text-decoration: underline;">
-            Note
-            </span>: While functional, this app is not optimized for mobile screens. To see comprehensive time series trends and download the source data, please open on a desktop or tablet. 
+            <span style="font-weight: 900; text-decoration: underline;">Note:</span>
+            While functional, this app is not optimized for mobile screens. To see comprehensive time series trends and download the source data, please open on a desktop or tablet. 
         </p>
         </div>''', unsafe_allow_html=True)
 
@@ -283,11 +266,6 @@ else:
                 padding-left: 40px;
                 padding-right: 50px;
                 height: 100%;
-            }
-            [data-testid="stDownloadButton"] {
-                position: absolute;
-                left: 1050px;
-                top: -695px;
             }
         </style>
        """
