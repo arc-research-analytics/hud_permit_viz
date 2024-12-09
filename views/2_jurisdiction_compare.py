@@ -405,7 +405,7 @@ else:
 
     # set chart title based on multiselect
     st.markdown(
-        f'<div style="text-align: center; margin-top: 10px; margin-bottom: 0px;"><p style="font-size: 20px;"><b>{permit_type} permits issued since {slider}</b></p></div>', unsafe_allow_html=True)
+        f'<div style="text-align: center; margin-top: 0px; margin-bottom: 0px;"><p style="font-size: 20px;"><b>{permit_type} permits issued since {slider}</b></p></div>', unsafe_allow_html=True)
 
     # aggregate the filtered data for the horizontal bar chart
     df_chart_agg = df_chart.groupby('county_name')[
@@ -500,9 +500,9 @@ else:
                     margin-bottom: 10px;
                 }
                 [data-testid="stAppViewContainer"] {
-                    padding-top: 40px;
-                    padding-left: 30px;
-                    padding-right: 30px;
+                    padding-top: 10px;
+                    padding-left: 50px;
+                    padding-right: 50px;
                 }
                 [data-testid="stDownloadButton"] {
                     position: absolute;
