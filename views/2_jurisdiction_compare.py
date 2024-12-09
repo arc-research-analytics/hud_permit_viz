@@ -71,7 +71,7 @@ title_font_color = font_color
 
 # desktop
 if screen_width >= 500:
-    title_margin_top = -70
+    title_margin_top = -20
 
 # mobile
 else:
