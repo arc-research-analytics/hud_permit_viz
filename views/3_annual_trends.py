@@ -160,7 +160,7 @@ def read_city_data():
 if geo_level == 'Region':
     df = read_county_data()
     df = df[df['county_name'] == 'Metro']
-    title = f'Permits Issued in the 11-County ARC Region Since {slider_value}'
+    title = f'Permits Issued in the 11-County Region Since {slider_value}'
     download_file_name = 'Regional_monthly_trends.csv'
 elif geo_level == 'County':
     df = read_county_data()
