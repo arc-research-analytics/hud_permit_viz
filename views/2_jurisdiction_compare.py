@@ -333,7 +333,7 @@ if screen_width >= 500:
     )
 
     # the custom CSS lives here:
-    widget_top_margin = -10
+    widget_top_margin = 0
     hide_default_format = f"""
             <style>
                 .stRadio [data-testid=stWidgetLabel] p {{
@@ -502,8 +502,8 @@ else:
                 }
                 [data-testid="stAppViewContainer"] {
                     margin-top: -50px;
-                    margin-left: 35px;
-                    margin-right: 35px;
+                    margin-left: 30px;
+                    margin-right: 30px;
                 }
                 [data-testid="stDownloadButton"] {
                     position: absolute;
