@@ -333,7 +333,7 @@ if screen_width >= 500:
     )
 
     # the custom CSS lives here:
-    widget_top_margin = -30
+    widget_top_margin = -10
     hide_default_format = f"""
             <style>
                 .stRadio [data-testid=stWidgetLabel] p {{
