@@ -517,6 +517,11 @@ hide_default_format = """
                 text-decoration: underline;
                 margin-bottom: 10px;
             }
+            [data-testid="stAppViewBlockContainer"] {
+                    margin-top: -50px;
+                    padding-left: 40px;
+                    padding-right: 40px;
+                }
             [data-testid="stHeader"] {
                 color: #292929;
             }

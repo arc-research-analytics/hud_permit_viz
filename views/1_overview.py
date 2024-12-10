@@ -47,7 +47,7 @@ if screen_width >= 500:
     st.markdown(
         f"""
         <div style='margin-top: {title_margin_top}px; margin-bottom: {title_margin_bottom}px; margin-left: {title_margin_left}px'>
-            <span style='font-size: {title_font_size}px; font-weight: {title_font_weight}; color: {title_font_color}'>Metro Atlanta Building Permit Explorer</span>
+            <span style='font-size: {title_font_size}px; font-weight: {title_font_weight}; color: {title_font_color}'>Metro Atlanta Building Permit Tracker</span>
         </div>
         """,
         unsafe_allow_html=True
@@ -182,7 +182,7 @@ else:
 
     st.markdown(f'''
         <div style="text-align: left; margin-top: -20px; margin-bottom: 50px; padding-left: {side_margin}px; padding-right: {side_margin}px;">
-                <p style="font-weight: 700; font-size: 21px; color: #00BFFF;">Metro Atlanta Building Permit Explorer 📈</p>
+                <p style="font-weight: 700; font-size: 21px; color: #00BFFF;">Metro Atlanta Building Permit Tracker 📈</p>
         </div>''', unsafe_allow_html=True)
 
     # # create fig object
