@@ -265,6 +265,7 @@ if screen_width >= 500:
         linewidth=1,
         linecolor=font_color,
         showgrid=False,
+        tickformat=".0f"
     )
     fig.update_yaxes(
         showline=True,
