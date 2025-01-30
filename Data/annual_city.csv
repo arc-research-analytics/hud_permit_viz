@@ -4587,94 +4587,96 @@ Powder Springs,2023,Multi-family,83
 Powder Springs,2023,Single-family,140
 Powder Springs,2024,Multi-family,304
 Powder Springs,2024,Single-family,184
-Rest Haven Town,1980,Multi-family,0
-Rest Haven Town,1980,Single-family,0
-Rest Haven Town,1981,Multi-family,0
-Rest Haven Town,1981,Single-family,0
-Rest Haven Town,1982,Multi-family,0
-Rest Haven Town,1982,Single-family,0
-Rest Haven Town,1983,Multi-family,0
-Rest Haven Town,1983,Single-family,1
-Rest Haven Town,1984,Multi-family,0
-Rest Haven Town,1984,Single-family,1
-Rest Haven Town,1985,Multi-family,0
-Rest Haven Town,1985,Single-family,0
-Rest Haven Town,1986,Multi-family,0
-Rest Haven Town,1986,Single-family,0
-Rest Haven Town,1987,Multi-family,0
-Rest Haven Town,1987,Single-family,0
-Rest Haven Town,1988,Multi-family,0
-Rest Haven Town,1988,Single-family,0
-Rest Haven Town,1989,Multi-family,0
-Rest Haven Town,1989,Single-family,0
-Rest Haven Town,1990,Multi-family,0
-Rest Haven Town,1990,Single-family,0
-Rest Haven Town,1991,Multi-family,0
-Rest Haven Town,1991,Single-family,0
-Rest Haven Town,1992,Multi-family,0
-Rest Haven Town,1992,Single-family,0
-Rest Haven Town,1993,Multi-family,0
-Rest Haven Town,1993,Single-family,0
-Rest Haven Town,1994,Multi-family,0
-Rest Haven Town,1994,Single-family,0
-Rest Haven Town,1995,Multi-family,0
-Rest Haven Town,1995,Single-family,1
-Rest Haven Town,1996,Multi-family,0
-Rest Haven Town,1996,Single-family,1
-Rest Haven Town,1997,Multi-family,0
-Rest Haven Town,1997,Single-family,0
-Rest Haven Town,1998,Multi-family,0
-Rest Haven Town,1998,Single-family,0
-Rest Haven Town,1999,Multi-family,0
-Rest Haven Town,1999,Single-family,0
-Rest Haven Town,2000,Multi-family,0
-Rest Haven Town,2000,Single-family,0
-Rest Haven Town,2001,Multi-family,0
-Rest Haven Town,2001,Single-family,0
-Rest Haven Town,2002,Multi-family,0
-Rest Haven Town,2002,Single-family,0
-Rest Haven Town,2003,Multi-family,0
-Rest Haven Town,2003,Single-family,0
-Rest Haven Town,2004,Multi-family,0
-Rest Haven Town,2004,Single-family,0
-Rest Haven Town,2005,Multi-family,0
-Rest Haven Town,2005,Single-family,0
-Rest Haven Town,2006,Multi-family,0
-Rest Haven Town,2006,Single-family,0
-Rest Haven Town,2007,Multi-family,0
-Rest Haven Town,2007,Single-family,0
-Rest Haven Town,2008,Multi-family,0
-Rest Haven Town,2008,Single-family,0
-Rest Haven Town,2009,Multi-family,0
-Rest Haven Town,2009,Single-family,0
-Rest Haven Town,2010,Multi-family,0
-Rest Haven Town,2010,Single-family,0
-Rest Haven Town,2011,Multi-family,0
-Rest Haven Town,2011,Single-family,0
-Rest Haven Town,2012,Multi-family,0
-Rest Haven Town,2012,Single-family,0
-Rest Haven Town,2013,Multi-family,0
-Rest Haven Town,2013,Single-family,0
-Rest Haven Town,2014,Multi-family,0
-Rest Haven Town,2014,Single-family,0
-Rest Haven Town,2015,Multi-family,0
-Rest Haven Town,2015,Single-family,0
-Rest Haven Town,2016,Multi-family,0
-Rest Haven Town,2016,Single-family,0
-Rest Haven Town,2017,Multi-family,0
-Rest Haven Town,2017,Single-family,0
-Rest Haven Town,2018,Multi-family,0
-Rest Haven Town,2018,Single-family,0
-Rest Haven Town,2019,Multi-family,0
-Rest Haven Town,2019,Single-family,0
-Rest Haven Town,2020,Multi-family,0
-Rest Haven Town,2020,Single-family,0
-Rest Haven Town,2021,Multi-family,0
-Rest Haven Town,2021,Single-family,0
-Rest Haven Town,2022,Multi-family,0
-Rest Haven Town,2022,Single-family,0
-Rest Haven Town,2023,Multi-family,0
-Rest Haven Town,2023,Single-family,0
+Rest Haven,1980,Multi-family,0
+Rest Haven,1980,Single-family,0
+Rest Haven,1981,Multi-family,0
+Rest Haven,1981,Single-family,0
+Rest Haven,1982,Multi-family,0
+Rest Haven,1982,Single-family,0
+Rest Haven,1983,Multi-family,0
+Rest Haven,1983,Single-family,1
+Rest Haven,1984,Multi-family,0
+Rest Haven,1984,Single-family,1
+Rest Haven,1985,Multi-family,0
+Rest Haven,1985,Single-family,0
+Rest Haven,1986,Multi-family,0
+Rest Haven,1986,Single-family,0
+Rest Haven,1987,Multi-family,0
+Rest Haven,1987,Single-family,0
+Rest Haven,1988,Multi-family,0
+Rest Haven,1988,Single-family,0
+Rest Haven,1989,Multi-family,0
+Rest Haven,1989,Single-family,0
+Rest Haven,1990,Multi-family,0
+Rest Haven,1990,Single-family,0
+Rest Haven,1991,Multi-family,0
+Rest Haven,1991,Single-family,0
+Rest Haven,1992,Multi-family,0
+Rest Haven,1992,Single-family,0
+Rest Haven,1993,Multi-family,0
+Rest Haven,1993,Single-family,0
+Rest Haven,1994,Multi-family,0
+Rest Haven,1994,Single-family,0
+Rest Haven,1995,Multi-family,0
+Rest Haven,1995,Single-family,1
+Rest Haven,1996,Multi-family,0
+Rest Haven,1996,Single-family,1
+Rest Haven,1997,Multi-family,0
+Rest Haven,1997,Single-family,0
+Rest Haven,1998,Multi-family,0
+Rest Haven,1998,Single-family,0
+Rest Haven,1999,Multi-family,0
+Rest Haven,1999,Single-family,0
+Rest Haven,2000,Multi-family,0
+Rest Haven,2000,Single-family,0
+Rest Haven,2001,Multi-family,0
+Rest Haven,2001,Single-family,0
+Rest Haven,2002,Multi-family,0
+Rest Haven,2002,Single-family,0
+Rest Haven,2003,Multi-family,0
+Rest Haven,2003,Single-family,0
+Rest Haven,2004,Multi-family,0
+Rest Haven,2004,Single-family,0
+Rest Haven,2005,Multi-family,0
+Rest Haven,2005,Single-family,0
+Rest Haven,2006,Multi-family,0
+Rest Haven,2006,Single-family,0
+Rest Haven,2007,Multi-family,0
+Rest Haven,2007,Single-family,0
+Rest Haven,2008,Multi-family,0
+Rest Haven,2008,Single-family,0
+Rest Haven,2009,Multi-family,0
+Rest Haven,2009,Single-family,0
+Rest Haven,2010,Multi-family,0
+Rest Haven,2010,Single-family,0
+Rest Haven,2011,Multi-family,0
+Rest Haven,2011,Single-family,0
+Rest Haven,2012,Multi-family,0
+Rest Haven,2012,Single-family,0
+Rest Haven,2013,Multi-family,0
+Rest Haven,2013,Single-family,0
+Rest Haven,2014,Multi-family,0
+Rest Haven,2014,Single-family,0
+Rest Haven,2015,Multi-family,0
+Rest Haven,2015,Single-family,0
+Rest Haven,2016,Multi-family,0
+Rest Haven,2016,Single-family,0
+Rest Haven,2017,Multi-family,0
+Rest Haven,2017,Single-family,0
+Rest Haven,2018,Multi-family,0
+Rest Haven,2018,Single-family,0
+Rest Haven,2019,Multi-family,0
+Rest Haven,2019,Single-family,0
+Rest Haven,2020,Multi-family,0
+Rest Haven,2020,Single-family,0
+Rest Haven,2021,Multi-family,0
+Rest Haven,2021,Single-family,0
+Rest Haven,2022,Multi-family,0
+Rest Haven,2022,Single-family,0
+Rest Haven,2023,Multi-family,0
+Rest Haven,2023,Single-family,0
+Rest Haven,2024,Multi-family,0
+Rest Haven,2024,Single-family,0
 Riverdale,1980,Multi-family,0
 Riverdale,1980,Single-family,70
 Riverdale,1981,Multi-family,0
