@@ -224,7 +224,8 @@ if screen_width >= 500:
                 color=font_color
             ),
             gridcolor='#FFFFFF',
-            tickangle=0
+            tickangle=0,
+            tickformat="%b %Y"
         ),
         yaxis=dict(
             title='',

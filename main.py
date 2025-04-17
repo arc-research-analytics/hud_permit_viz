@@ -46,7 +46,7 @@ pg = st.navigation(
     ])
 
 # - - - SHARED ON ALL PAGES - - -
-st.logo('assets/arc_bw.png')
+st.logo(image='assets/arc_bw.png')
 
 # - - - RUN NAVIGATION - - -
 pg.run()

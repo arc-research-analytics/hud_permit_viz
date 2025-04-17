@@ -17,7 +17,7 @@ screen_width = screen_d['innerWidth']
 
 
 # cache function to read in CSV data for Overview page
-@ st.cache_data
+@st.cache_data
 def read_overview_data():
     overview_df = pd.read_csv('Data/metro_total_annual.csv')
     return overview_df
