@@ -1,5 +1,4 @@
 year_month,date,Level,Name,Series,Permits
-202406,Jun 2024,City/Other,Acworth,Single-Family,1
 202407,Jul 2024,City/Other,Acworth,Single-Family,31
 202408,Aug 2024,City/Other,Acworth,Single-Family,5
 202409,Sep 2024,City/Other,Acworth,Single-Family,1
@@ -16,7 +15,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Acworth,Single-Family,4
 202509,Sep 2025,City/Other,Acworth,Single-Family,0
 202510,Oct 2025,City/Other,Acworth,Single-Family,4
-202406,Jun 2024,City/Other,Alpharetta,Single-Family,18
+202511,Nov 2025,City/Other,Acworth,Single-Family,13
+202512,Dec 2025,City/Other,Acworth,Single-Family,0
 202407,Jul 2024,City/Other,Alpharetta,Single-Family,32
 202408,Aug 2024,City/Other,Alpharetta,Single-Family,39
 202409,Sep 2024,City/Other,Alpharetta,Single-Family,15
@@ -33,7 +33,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Alpharetta,Single-Family,14
 202509,Sep 2025,City/Other,Alpharetta,Single-Family,32
 202510,Oct 2025,City/Other,Alpharetta,Single-Family,35
-202406,Jun 2024,City/Other,Atlanta,Single-Family,36
+202511,Nov 2025,City/Other,Alpharetta,Single-Family,11
+202512,Dec 2025,City/Other,Alpharetta,Single-Family,13
 202407,Jul 2024,City/Other,Atlanta,Single-Family,64
 202408,Aug 2024,City/Other,Atlanta,Single-Family,80
 202409,Sep 2024,City/Other,Atlanta,Single-Family,37
@@ -50,7 +51,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Atlanta,Single-Family,31
 202509,Sep 2025,City/Other,Atlanta,Single-Family,33
 202510,Oct 2025,City/Other,Atlanta,Single-Family,35
-202406,Jun 2024,City/Other,Austell,Single-Family,0
+202511,Nov 2025,City/Other,Atlanta,Single-Family,31
+202512,Dec 2025,City/Other,Atlanta,Single-Family,34
 202407,Jul 2024,City/Other,Austell,Single-Family,0
 202408,Aug 2024,City/Other,Austell,Single-Family,0
 202409,Sep 2024,City/Other,Austell,Single-Family,15
@@ -67,7 +69,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Austell,Single-Family,9
 202509,Sep 2025,City/Other,Austell,Single-Family,8
 202510,Oct 2025,City/Other,Austell,Single-Family,14
-202406,Jun 2024,City/Other,Avondale Estates,Single-Family,0
+202511,Nov 2025,City/Other,Austell,Single-Family,2
+202512,Dec 2025,City/Other,Austell,Single-Family,2
 202407,Jul 2024,City/Other,Avondale Estates,Single-Family,0
 202408,Aug 2024,City/Other,Avondale Estates,Single-Family,0
 202409,Sep 2024,City/Other,Avondale Estates,Single-Family,0
@@ -84,7 +87,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Avondale Estates,Single-Family,0
 202509,Sep 2025,City/Other,Avondale Estates,Single-Family,0
 202510,Oct 2025,City/Other,Avondale Estates,Single-Family,0
-202406,Jun 2024,City/Other,Ball Ground,Single-Family,8
+202511,Nov 2025,City/Other,Avondale Estates,Single-Family,0
+202512,Dec 2025,City/Other,Avondale Estates,Single-Family,0
 202407,Jul 2024,City/Other,Ball Ground,Single-Family,4
 202408,Aug 2024,City/Other,Ball Ground,Single-Family,9
 202409,Sep 2024,City/Other,Ball Ground,Single-Family,19
@@ -101,7 +105,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Ball Ground,Single-Family,5
 202509,Sep 2025,City/Other,Ball Ground,Single-Family,2
 202510,Oct 2025,City/Other,Ball Ground,Single-Family,12
-202406,Jun 2024,City/Other,Berkeley Lake,Single-Family,1
+202511,Nov 2025,City/Other,Ball Ground,Single-Family,3
+202512,Dec 2025,City/Other,Ball Ground,Single-Family,4
 202407,Jul 2024,City/Other,Berkeley Lake,Single-Family,0
 202408,Aug 2024,City/Other,Berkeley Lake,Single-Family,0
 202409,Sep 2024,City/Other,Berkeley Lake,Single-Family,0
@@ -118,7 +123,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Berkeley Lake,Single-Family,0
 202509,Sep 2025,City/Other,Berkeley Lake,Single-Family,0
 202510,Oct 2025,City/Other,Berkeley Lake,Single-Family,0
-202406,Jun 2024,City/Other,Brookhaven,Single-Family,27
+202511,Nov 2025,City/Other,Berkeley Lake,Single-Family,0
+202512,Dec 2025,City/Other,Berkeley Lake,Single-Family,0
 202407,Jul 2024,City/Other,Brookhaven,Single-Family,28
 202408,Aug 2024,City/Other,Brookhaven,Single-Family,10
 202409,Sep 2024,City/Other,Brookhaven,Single-Family,2
@@ -135,7 +141,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Brookhaven,Single-Family,13
 202509,Sep 2025,City/Other,Brookhaven,Single-Family,23
 202510,Oct 2025,City/Other,Brookhaven,Single-Family,11
-202406,Jun 2024,City/Other,Buford,Single-Family,5
+202511,Nov 2025,City/Other,Brookhaven,Single-Family,7
+202512,Dec 2025,City/Other,Brookhaven,Single-Family,5
 202407,Jul 2024,City/Other,Buford,Single-Family,3
 202408,Aug 2024,City/Other,Buford,Single-Family,12
 202409,Sep 2024,City/Other,Buford,Single-Family,4
@@ -152,7 +159,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Buford,Single-Family,11
 202509,Sep 2025,City/Other,Buford,Single-Family,5
 202510,Oct 2025,City/Other,Buford,Single-Family,3
-202406,Jun 2024,City/Other,Canton,Single-Family,30
+202511,Nov 2025,City/Other,Buford,Single-Family,1
+202512,Dec 2025,City/Other,Buford,Single-Family,1
 202407,Jul 2024,City/Other,Canton,Single-Family,17
 202408,Aug 2024,City/Other,Canton,Single-Family,12
 202409,Sep 2024,City/Other,Canton,Single-Family,8
@@ -169,7 +177,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Canton,Single-Family,2
 202509,Sep 2025,City/Other,Canton,Single-Family,16
 202510,Oct 2025,City/Other,Canton,Single-Family,22
-202406,Jun 2024,City/Other,Chamblee,Single-Family,2
+202511,Nov 2025,City/Other,Canton,Single-Family,13
+202512,Dec 2025,City/Other,Canton,Single-Family,28
 202407,Jul 2024,City/Other,Chamblee,Single-Family,2
 202408,Aug 2024,City/Other,Chamblee,Single-Family,1
 202409,Sep 2024,City/Other,Chamblee,Single-Family,3
@@ -186,7 +195,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Chamblee,Single-Family,2
 202509,Sep 2025,City/Other,Chamblee,Single-Family,6
 202510,Oct 2025,City/Other,Chamblee,Single-Family,1
-202406,Jun 2024,City/Other,Chattahoochee Hills,Single-Family,2
+202511,Nov 2025,City/Other,Chamblee,Single-Family,1
+202512,Dec 2025,City/Other,Chamblee,Single-Family,1
 202407,Jul 2024,City/Other,Chattahoochee Hills,Single-Family,4
 202408,Aug 2024,City/Other,Chattahoochee Hills,Single-Family,2
 202409,Sep 2024,City/Other,Chattahoochee Hills,Single-Family,3
@@ -203,7 +213,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Chattahoochee Hills,Single-Family,3
 202509,Sep 2025,City/Other,Chattahoochee Hills,Single-Family,1
 202510,Oct 2025,City/Other,Chattahoochee Hills,Single-Family,1
-202406,Jun 2024,County,Cherokee,Single-Family,201
+202511,Nov 2025,City/Other,Chattahoochee Hills,Single-Family,1
+202512,Dec 2025,City/Other,Chattahoochee Hills,Single-Family,4
 202407,Jul 2024,County,Cherokee,Single-Family,149
 202408,Aug 2024,County,Cherokee,Single-Family,136
 202409,Sep 2024,County,Cherokee,Single-Family,107
@@ -220,7 +231,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,County,Cherokee,Single-Family,70
 202509,Sep 2025,County,Cherokee,Single-Family,110
 202510,Oct 2025,County,Cherokee,Single-Family,114
-202406,Jun 2024,City/Other,Clarkston,Single-Family,0
+202511,Nov 2025,County,Cherokee,Single-Family,59
+202512,Dec 2025,County,Cherokee,Single-Family,81
 202407,Jul 2024,City/Other,Clarkston,Single-Family,0
 202408,Aug 2024,City/Other,Clarkston,Single-Family,5
 202409,Sep 2024,City/Other,Clarkston,Single-Family,0
@@ -237,7 +249,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Clarkston,Single-Family,0
 202509,Sep 2025,City/Other,Clarkston,Single-Family,1
 202510,Oct 2025,City/Other,Clarkston,Single-Family,0
-202406,Jun 2024,County,Clayton,Single-Family,38
+202511,Nov 2025,City/Other,Clarkston,Single-Family,0
+202512,Dec 2025,City/Other,Clarkston,Single-Family,1
 202407,Jul 2024,County,Clayton,Single-Family,3
 202408,Aug 2024,County,Clayton,Single-Family,44
 202409,Sep 2024,County,Clayton,Single-Family,29
@@ -254,7 +267,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,County,Clayton,Single-Family,38
 202509,Sep 2025,County,Clayton,Single-Family,19
 202510,Oct 2025,County,Clayton,Single-Family,41
-202406,Jun 2024,County,Cobb,Single-Family,68
+202511,Nov 2025,County,Clayton,Single-Family,29
+202512,Dec 2025,County,Clayton,Single-Family,14
 202407,Jul 2024,County,Cobb,Single-Family,99
 202408,Aug 2024,County,Cobb,Single-Family,99
 202409,Sep 2024,County,Cobb,Single-Family,82
@@ -271,7 +285,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,County,Cobb,Single-Family,90
 202509,Sep 2025,County,Cobb,Single-Family,112
 202510,Oct 2025,County,Cobb,Single-Family,72
-202406,Jun 2024,City/Other,College Park,Single-Family,1
+202511,Nov 2025,County,Cobb,Single-Family,54
+202512,Dec 2025,County,Cobb,Single-Family,62
 202407,Jul 2024,City/Other,College Park,Single-Family,0
 202408,Aug 2024,City/Other,College Park,Single-Family,0
 202409,Sep 2024,City/Other,College Park,Single-Family,0
@@ -288,7 +303,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,College Park,Single-Family,0
 202509,Sep 2025,City/Other,College Park,Single-Family,0
 202510,Oct 2025,City/Other,College Park,Single-Family,4
-202406,Jun 2024,City/Other,Conyers,Single-Family,34
+202511,Nov 2025,City/Other,College Park,Single-Family,5
+202512,Dec 2025,City/Other,College Park,Single-Family,7
 202407,Jul 2024,City/Other,Conyers,Single-Family,18
 202408,Aug 2024,City/Other,Conyers,Single-Family,6
 202409,Sep 2024,City/Other,Conyers,Single-Family,1
@@ -305,7 +321,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Conyers,Single-Family,4
 202509,Sep 2025,City/Other,Conyers,Single-Family,2
 202510,Oct 2025,City/Other,Conyers,Single-Family,13
-202406,Jun 2024,City/Other,Cumming,Single-Family,6
+202511,Nov 2025,City/Other,Conyers,Single-Family,10
+202512,Dec 2025,City/Other,Conyers,Single-Family,12
 202407,Jul 2024,City/Other,Cumming,Single-Family,5
 202408,Aug 2024,City/Other,Cumming,Single-Family,129
 202409,Sep 2024,City/Other,Cumming,Single-Family,30
@@ -322,7 +339,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Cumming,Single-Family,6
 202509,Sep 2025,City/Other,Cumming,Single-Family,7
 202510,Oct 2025,City/Other,Cumming,Single-Family,24
-202406,Jun 2024,City/Other,Dacula,Single-Family,23
+202511,Nov 2025,City/Other,Cumming,Single-Family,10
+202512,Dec 2025,City/Other,Cumming,Single-Family,10
 202407,Jul 2024,City/Other,Dacula,Single-Family,14
 202408,Aug 2024,City/Other,Dacula,Single-Family,24
 202409,Sep 2024,City/Other,Dacula,Single-Family,29
@@ -339,7 +357,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Dacula,Single-Family,12
 202509,Sep 2025,City/Other,Dacula,Single-Family,0
 202510,Oct 2025,City/Other,Dacula,Single-Family,0
-202406,Jun 2024,County,DeKalb,Single-Family,64
+202511,Nov 2025,City/Other,Dacula,Single-Family,9
+202512,Dec 2025,City/Other,Dacula,Single-Family,1
 202407,Jul 2024,County,DeKalb,Single-Family,110
 202408,Aug 2024,County,DeKalb,Single-Family,53
 202409,Sep 2024,County,DeKalb,Single-Family,88
@@ -356,7 +375,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,County,DeKalb,Single-Family,74
 202509,Sep 2025,County,DeKalb,Single-Family,49
 202510,Oct 2025,County,DeKalb,Single-Family,129
-202406,Jun 2024,City/Other,Decatur,Single-Family,0
+202511,Nov 2025,County,DeKalb,Single-Family,32
+202512,Dec 2025,County,DeKalb,Single-Family,47
 202407,Jul 2024,City/Other,Decatur,Single-Family,0
 202408,Aug 2024,City/Other,Decatur,Single-Family,0
 202409,Sep 2024,City/Other,Decatur,Single-Family,1
@@ -373,7 +393,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Decatur,Single-Family,1
 202509,Sep 2025,City/Other,Decatur,Single-Family,1
 202510,Oct 2025,City/Other,Decatur,Single-Family,0
-202406,Jun 2024,City/Other,Doraville,Single-Family,0
+202511,Nov 2025,City/Other,Decatur,Single-Family,0
+202512,Dec 2025,City/Other,Decatur,Single-Family,0
 202407,Jul 2024,City/Other,Doraville,Single-Family,5
 202408,Aug 2024,City/Other,Doraville,Single-Family,0
 202409,Sep 2024,City/Other,Doraville,Single-Family,0
@@ -390,7 +411,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Doraville,Single-Family,2
 202509,Sep 2025,City/Other,Doraville,Single-Family,0
 202510,Oct 2025,City/Other,Doraville,Single-Family,0
-202406,Jun 2024,County,Douglas,Single-Family,44
+202511,Nov 2025,City/Other,Doraville,Single-Family,0
+202512,Dec 2025,City/Other,Doraville,Single-Family,0
 202407,Jul 2024,County,Douglas,Single-Family,35
 202408,Aug 2024,County,Douglas,Single-Family,26
 202409,Sep 2024,County,Douglas,Single-Family,31
@@ -407,7 +429,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,County,Douglas,Single-Family,41
 202509,Sep 2025,County,Douglas,Single-Family,34
 202510,Oct 2025,County,Douglas,Single-Family,51
-202406,Jun 2024,City/Other,Douglasville,Single-Family,28
+202511,Nov 2025,County,Douglas,Single-Family,40
+202512,Dec 2025,County,Douglas,Single-Family,30
 202407,Jul 2024,City/Other,Douglasville,Single-Family,8
 202408,Aug 2024,City/Other,Douglasville,Single-Family,18
 202409,Sep 2024,City/Other,Douglasville,Single-Family,25
@@ -424,7 +447,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Douglasville,Single-Family,21
 202509,Sep 2025,City/Other,Douglasville,Single-Family,22
 202510,Oct 2025,City/Other,Douglasville,Single-Family,29
-202406,Jun 2024,City/Other,Duluth,Single-Family,21
+202511,Nov 2025,City/Other,Douglasville,Single-Family,19
+202512,Dec 2025,City/Other,Douglasville,Single-Family,17
 202407,Jul 2024,City/Other,Duluth,Single-Family,22
 202408,Aug 2024,City/Other,Duluth,Single-Family,22
 202409,Sep 2024,City/Other,Duluth,Single-Family,18
@@ -441,7 +465,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Duluth,Single-Family,13
 202509,Sep 2025,City/Other,Duluth,Single-Family,13
 202510,Oct 2025,City/Other,Duluth,Single-Family,13
-202406,Jun 2024,City/Other,Dunwoody,Single-Family,0
+202511,Nov 2025,City/Other,Duluth,Single-Family,11
+202512,Dec 2025,City/Other,Duluth,Single-Family,12
 202407,Jul 2024,City/Other,Dunwoody,Single-Family,4
 202408,Aug 2024,City/Other,Dunwoody,Single-Family,3
 202409,Sep 2024,City/Other,Dunwoody,Single-Family,0
@@ -458,7 +483,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Dunwoody,Single-Family,1
 202509,Sep 2025,City/Other,Dunwoody,Single-Family,0
 202510,Oct 2025,City/Other,Dunwoody,Single-Family,0
-202406,Jun 2024,City/Other,East Point,Single-Family,8
+202511,Nov 2025,City/Other,Dunwoody,Single-Family,2
+202512,Dec 2025,City/Other,Dunwoody,Single-Family,2
 202407,Jul 2024,City/Other,East Point,Single-Family,9
 202408,Aug 2024,City/Other,East Point,Single-Family,9
 202409,Sep 2024,City/Other,East Point,Single-Family,7
@@ -475,7 +501,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,East Point,Single-Family,7
 202509,Sep 2025,City/Other,East Point,Single-Family,7
 202510,Oct 2025,City/Other,East Point,Single-Family,7
-202406,Jun 2024,City/Other,Fairburn,Single-Family,1
+202511,Nov 2025,City/Other,East Point,Single-Family,5
+202512,Dec 2025,City/Other,East Point,Single-Family,7
 202407,Jul 2024,City/Other,Fairburn,Single-Family,3
 202408,Aug 2024,City/Other,Fairburn,Single-Family,4
 202409,Sep 2024,City/Other,Fairburn,Single-Family,4
@@ -492,7 +519,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Fairburn,Single-Family,2
 202509,Sep 2025,City/Other,Fairburn,Single-Family,2
 202510,Oct 2025,City/Other,Fairburn,Single-Family,3
-202406,Jun 2024,County,Fayette,Single-Family,24
+202511,Nov 2025,City/Other,Fairburn,Single-Family,2
+202512,Dec 2025,City/Other,Fairburn,Single-Family,3
 202407,Jul 2024,County,Fayette,Single-Family,18
 202408,Aug 2024,County,Fayette,Single-Family,41
 202409,Sep 2024,County,Fayette,Single-Family,17
@@ -509,7 +537,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,County,Fayette,Single-Family,43
 202509,Sep 2025,County,Fayette,Single-Family,47
 202510,Oct 2025,County,Fayette,Single-Family,59
-202406,Jun 2024,City/Other,Fayetteville,Single-Family,7
+202511,Nov 2025,County,Fayette,Single-Family,50
+202512,Dec 2025,County,Fayette,Single-Family,25
 202407,Jul 2024,City/Other,Fayetteville,Single-Family,2
 202408,Aug 2024,City/Other,Fayetteville,Single-Family,25
 202409,Sep 2024,City/Other,Fayetteville,Single-Family,1
@@ -526,7 +555,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Fayetteville,Single-Family,14
 202509,Sep 2025,City/Other,Fayetteville,Single-Family,25
 202510,Oct 2025,City/Other,Fayetteville,Single-Family,32
-202406,Jun 2024,City/Other,Forest Park,Single-Family,1
+202511,Nov 2025,City/Other,Fayetteville,Single-Family,22
+202512,Dec 2025,City/Other,Fayetteville,Single-Family,12
 202407,Jul 2024,City/Other,Forest Park,Single-Family,1
 202408,Aug 2024,City/Other,Forest Park,Single-Family,2
 202409,Sep 2024,City/Other,Forest Park,Single-Family,2
@@ -543,7 +573,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Forest Park,Single-Family,0
 202509,Sep 2025,City/Other,Forest Park,Single-Family,0
 202510,Oct 2025,City/Other,Forest Park,Single-Family,1
-202406,Jun 2024,County,Forsyth,Single-Family,100
+202511,Nov 2025,City/Other,Forest Park,Single-Family,1
+202512,Dec 2025,City/Other,Forest Park,Single-Family,1
 202407,Jul 2024,County,Forsyth,Single-Family,124
 202408,Aug 2024,County,Forsyth,Single-Family,274
 202409,Sep 2024,County,Forsyth,Single-Family,109
@@ -560,7 +591,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,County,Forsyth,Single-Family,116
 202509,Sep 2025,County,Forsyth,Single-Family,87
 202510,Oct 2025,County,Forsyth,Single-Family,121
-202406,Jun 2024,County,Fulton,Single-Family,211
+202511,Nov 2025,County,Forsyth,Single-Family,82
+202512,Dec 2025,County,Forsyth,Single-Family,90
 202407,Jul 2024,County,Fulton,Single-Family,309
 202408,Aug 2024,County,Fulton,Single-Family,299
 202409,Sep 2024,County,Fulton,Single-Family,175
@@ -577,7 +609,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,County,Fulton,Single-Family,177
 202509,Sep 2025,County,Fulton,Single-Family,178
 202510,Oct 2025,County,Fulton,Single-Family,244
-202406,Jun 2024,City/Other,Grayson,Single-Family,12
+202511,Nov 2025,County,Fulton,Single-Family,116
+202512,Dec 2025,County,Fulton,Single-Family,148
 202407,Jul 2024,City/Other,Grayson,Single-Family,0
 202408,Aug 2024,City/Other,Grayson,Single-Family,0
 202409,Sep 2024,City/Other,Grayson,Single-Family,0
@@ -594,7 +627,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Grayson,Single-Family,0
 202509,Sep 2025,City/Other,Grayson,Single-Family,0
 202510,Oct 2025,City/Other,Grayson,Single-Family,0
-202406,Jun 2024,County,Gwinnett,Single-Family,402
+202511,Nov 2025,City/Other,Grayson,Single-Family,0
+202512,Dec 2025,City/Other,Grayson,Single-Family,0
 202407,Jul 2024,County,Gwinnett,Single-Family,341
 202408,Aug 2024,County,Gwinnett,Single-Family,319
 202409,Sep 2024,County,Gwinnett,Single-Family,238
@@ -611,7 +645,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,County,Gwinnett,Single-Family,312
 202509,Sep 2025,County,Gwinnett,Single-Family,217
 202510,Oct 2025,County,Gwinnett,Single-Family,251
-202406,Jun 2024,City/Other,Hampton,Single-Family,1
+202511,Nov 2025,County,Gwinnett,Single-Family,166
+202512,Dec 2025,County,Gwinnett,Single-Family,168
 202407,Jul 2024,City/Other,Hampton,Single-Family,2
 202408,Aug 2024,City/Other,Hampton,Single-Family,2
 202409,Sep 2024,City/Other,Hampton,Single-Family,2
@@ -628,7 +663,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Hampton,Single-Family,3
 202509,Sep 2025,City/Other,Hampton,Single-Family,0
 202510,Oct 2025,City/Other,Hampton,Single-Family,1
-202406,Jun 2024,City/Other,Hapeville,Single-Family,0
+202511,Nov 2025,City/Other,Hampton,Single-Family,0
+202512,Dec 2025,City/Other,Hampton,Single-Family,2
 202407,Jul 2024,City/Other,Hapeville,Single-Family,14
 202408,Aug 2024,City/Other,Hapeville,Single-Family,0
 202409,Sep 2024,City/Other,Hapeville,Single-Family,1
@@ -645,7 +681,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Hapeville,Single-Family,0
 202509,Sep 2025,City/Other,Hapeville,Single-Family,5
 202510,Oct 2025,City/Other,Hapeville,Single-Family,60
-202406,Jun 2024,County,Henry,Single-Family,145
+202511,Nov 2025,City/Other,Hapeville,Single-Family,0
+202512,Dec 2025,City/Other,Hapeville,Single-Family,0
 202407,Jul 2024,County,Henry,Single-Family,159
 202408,Aug 2024,County,Henry,Single-Family,177
 202409,Sep 2024,County,Henry,Single-Family,107
@@ -662,7 +699,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,County,Henry,Single-Family,118
 202509,Sep 2025,County,Henry,Single-Family,146
 202510,Oct 2025,County,Henry,Single-Family,172
-202406,Jun 2024,City/Other,Holly Springs,Single-Family,8
+202511,Nov 2025,County,Henry,Single-Family,138
+202512,Dec 2025,County,Henry,Single-Family,115
 202407,Jul 2024,City/Other,Holly Springs,Single-Family,8
 202408,Aug 2024,City/Other,Holly Springs,Single-Family,9
 202409,Sep 2024,City/Other,Holly Springs,Single-Family,10
@@ -679,7 +717,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Holly Springs,Single-Family,13
 202509,Sep 2025,City/Other,Holly Springs,Single-Family,3
 202510,Oct 2025,City/Other,Holly Springs,Single-Family,7
-202406,Jun 2024,City/Other,Johns Creek,Single-Family,14
+202511,Nov 2025,City/Other,Holly Springs,Single-Family,1
+202512,Dec 2025,City/Other,Holly Springs,Single-Family,1
 202407,Jul 2024,City/Other,Johns Creek,Single-Family,12
 202408,Aug 2024,City/Other,Johns Creek,Single-Family,6
 202409,Sep 2024,City/Other,Johns Creek,Single-Family,7
@@ -696,7 +735,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Johns Creek,Single-Family,1
 202509,Sep 2025,City/Other,Johns Creek,Single-Family,1
 202510,Oct 2025,City/Other,Johns Creek,Single-Family,12
-202406,Jun 2024,City/Other,Jonesboro,Single-Family,0
+202511,Nov 2025,City/Other,Johns Creek,Single-Family,0
+202512,Dec 2025,City/Other,Johns Creek,Single-Family,1
 202407,Jul 2024,City/Other,Jonesboro,Single-Family,0
 202408,Aug 2024,City/Other,Jonesboro,Single-Family,2
 202409,Sep 2024,City/Other,Jonesboro,Single-Family,0
@@ -713,7 +753,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Jonesboro,Single-Family,0
 202509,Sep 2025,City/Other,Jonesboro,Single-Family,0
 202510,Oct 2025,City/Other,Jonesboro,Single-Family,1
-202406,Jun 2024,City/Other,Kennesaw,Single-Family,14
+202511,Nov 2025,City/Other,Jonesboro,Single-Family,0
+202512,Dec 2025,City/Other,Jonesboro,Single-Family,0
 202407,Jul 2024,City/Other,Kennesaw,Single-Family,6
 202408,Aug 2024,City/Other,Kennesaw,Single-Family,0
 202409,Sep 2024,City/Other,Kennesaw,Single-Family,0
@@ -730,7 +771,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Kennesaw,Single-Family,6
 202509,Sep 2025,City/Other,Kennesaw,Single-Family,0
 202510,Oct 2025,City/Other,Kennesaw,Single-Family,0
-202406,Jun 2024,City/Other,Lake City,Single-Family,0
+202511,Nov 2025,City/Other,Kennesaw,Single-Family,0
+202512,Dec 2025,City/Other,Kennesaw,Single-Family,0
 202407,Jul 2024,City/Other,Lake City,Single-Family,0
 202408,Aug 2024,City/Other,Lake City,Single-Family,0
 202409,Sep 2024,City/Other,Lake City,Single-Family,0
@@ -747,7 +789,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Lake City,Single-Family,0
 202509,Sep 2025,City/Other,Lake City,Single-Family,1
 202510,Oct 2025,City/Other,Lake City,Single-Family,0
-202406,Jun 2024,City/Other,Lawrenceville,Single-Family,0
+202511,Nov 2025,City/Other,Lake City,Single-Family,0
+202512,Dec 2025,City/Other,Lake City,Single-Family,0
 202407,Jul 2024,City/Other,Lawrenceville,Single-Family,8
 202408,Aug 2024,City/Other,Lawrenceville,Single-Family,12
 202409,Sep 2024,City/Other,Lawrenceville,Single-Family,0
@@ -764,7 +807,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Lawrenceville,Single-Family,1
 202509,Sep 2025,City/Other,Lawrenceville,Single-Family,4
 202510,Oct 2025,City/Other,Lawrenceville,Single-Family,0
-202406,Jun 2024,City/Other,Lilburn,Single-Family,0
+202511,Nov 2025,City/Other,Lawrenceville,Single-Family,1
+202512,Dec 2025,City/Other,Lawrenceville,Single-Family,4
 202407,Jul 2024,City/Other,Lilburn,Single-Family,1
 202408,Aug 2024,City/Other,Lilburn,Single-Family,4
 202409,Sep 2024,City/Other,Lilburn,Single-Family,4
@@ -781,7 +825,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Lilburn,Single-Family,2
 202509,Sep 2025,City/Other,Lilburn,Single-Family,9
 202510,Oct 2025,City/Other,Lilburn,Single-Family,7
-202406,Jun 2024,City/Other,Lithonia,Single-Family,2
+202511,Nov 2025,City/Other,Lilburn,Single-Family,8
+202512,Dec 2025,City/Other,Lilburn,Single-Family,1
 202407,Jul 2024,City/Other,Lithonia,Single-Family,0
 202408,Aug 2024,City/Other,Lithonia,Single-Family,0
 202409,Sep 2024,City/Other,Lithonia,Single-Family,0
@@ -798,7 +843,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Lithonia,Single-Family,0
 202509,Sep 2025,City/Other,Lithonia,Single-Family,0
 202510,Oct 2025,City/Other,Lithonia,Single-Family,0
-202406,Jun 2024,City/Other,Locust Grove,Single-Family,27
+202511,Nov 2025,City/Other,Lithonia,Single-Family,0
+202512,Dec 2025,City/Other,Lithonia,Single-Family,0
 202407,Jul 2024,City/Other,Locust Grove,Single-Family,39
 202408,Aug 2024,City/Other,Locust Grove,Single-Family,20
 202409,Sep 2024,City/Other,Locust Grove,Single-Family,18
@@ -815,7 +861,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Locust Grove,Single-Family,14
 202509,Sep 2025,City/Other,Locust Grove,Single-Family,21
 202510,Oct 2025,City/Other,Locust Grove,Single-Family,24
-202406,Jun 2024,City/Other,Lovejoy,Single-Family,19
+202511,Nov 2025,City/Other,Locust Grove,Single-Family,13
+202512,Dec 2025,City/Other,Locust Grove,Single-Family,7
 202407,Jul 2024,City/Other,Lovejoy,Single-Family,2
 202408,Aug 2024,City/Other,Lovejoy,Single-Family,14
 202409,Sep 2024,City/Other,Lovejoy,Single-Family,13
@@ -832,7 +879,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Lovejoy,Single-Family,0
 202509,Sep 2025,City/Other,Lovejoy,Single-Family,11
 202510,Oct 2025,City/Other,Lovejoy,Single-Family,4
-202406,Jun 2024,City/Other,Marietta,Single-Family,1
+202511,Nov 2025,City/Other,Lovejoy,Single-Family,2
+202512,Dec 2025,City/Other,Lovejoy,Single-Family,2
 202407,Jul 2024,City/Other,Marietta,Single-Family,3
 202408,Aug 2024,City/Other,Marietta,Single-Family,0
 202409,Sep 2024,City/Other,Marietta,Single-Family,1
@@ -849,7 +897,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Marietta,Single-Family,9
 202509,Sep 2025,City/Other,Marietta,Single-Family,9
 202510,Oct 2025,City/Other,Marietta,Single-Family,9
-202406,Jun 2024,City/Other,McDonough,Single-Family,14
+202511,Nov 2025,City/Other,Marietta,Single-Family,14
+202512,Dec 2025,City/Other,Marietta,Single-Family,22
 202407,Jul 2024,City/Other,McDonough,Single-Family,15
 202408,Aug 2024,City/Other,McDonough,Single-Family,10
 202409,Sep 2024,City/Other,McDonough,Single-Family,12
@@ -866,7 +915,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,McDonough,Single-Family,13
 202509,Sep 2025,City/Other,McDonough,Single-Family,13
 202510,Oct 2025,City/Other,McDonough,Single-Family,13
-202406,Jun 2024,City/Other,Milton,Single-Family,14
+202511,Nov 2025,City/Other,McDonough,Single-Family,11
+202512,Dec 2025,City/Other,McDonough,Single-Family,12
 202407,Jul 2024,City/Other,Milton,Single-Family,6
 202408,Aug 2024,City/Other,Milton,Single-Family,5
 202409,Sep 2024,City/Other,Milton,Single-Family,4
@@ -883,7 +933,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Milton,Single-Family,16
 202509,Sep 2025,City/Other,Milton,Single-Family,11
 202510,Oct 2025,City/Other,Milton,Single-Family,12
-202406,Jun 2024,City/Other,Morrow,Single-Family,0
+202511,Nov 2025,City/Other,Milton,Single-Family,7
+202512,Dec 2025,City/Other,Milton,Single-Family,17
 202407,Jul 2024,City/Other,Morrow,Single-Family,0
 202408,Aug 2024,City/Other,Morrow,Single-Family,0
 202409,Sep 2024,City/Other,Morrow,Single-Family,0
@@ -900,7 +951,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Morrow,Single-Family,0
 202509,Sep 2025,City/Other,Morrow,Single-Family,0
 202510,Oct 2025,City/Other,Morrow,Single-Family,0
-202406,Jun 2024,City/Other,Mountain Park,Single-Family,0
+202511,Nov 2025,City/Other,Morrow,Single-Family,0
+202512,Dec 2025,City/Other,Morrow,Single-Family,0
 202407,Jul 2024,City/Other,Mountain Park,Single-Family,0
 202408,Aug 2024,City/Other,Mountain Park,Single-Family,0
 202409,Sep 2024,City/Other,Mountain Park,Single-Family,0
@@ -917,7 +969,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Mountain Park,Single-Family,0
 202509,Sep 2025,City/Other,Mountain Park,Single-Family,0
 202510,Oct 2025,City/Other,Mountain Park,Single-Family,0
-202406,Jun 2024,City/Other,Nelson,Single-Family,0
+202511,Nov 2025,City/Other,Mountain Park,Single-Family,0
+202512,Dec 2025,City/Other,Mountain Park,Single-Family,0
 202407,Jul 2024,City/Other,Nelson,Single-Family,0
 202408,Aug 2024,City/Other,Nelson,Single-Family,0
 202409,Sep 2024,City/Other,Nelson,Single-Family,0
@@ -934,7 +987,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Nelson,Single-Family,1
 202509,Sep 2025,City/Other,Nelson,Single-Family,0
 202510,Oct 2025,City/Other,Nelson,Single-Family,0
-202406,Jun 2024,City/Other,Norcross,Single-Family,0
+202511,Nov 2025,City/Other,Nelson,Single-Family,0
+202512,Dec 2025,City/Other,Nelson,Single-Family,0
 202407,Jul 2024,City/Other,Norcross,Single-Family,1
 202408,Aug 2024,City/Other,Norcross,Single-Family,0
 202409,Sep 2024,City/Other,Norcross,Single-Family,0
@@ -951,7 +1005,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Norcross,Single-Family,0
 202509,Sep 2025,City/Other,Norcross,Single-Family,0
 202510,Oct 2025,City/Other,Norcross,Single-Family,1
-202406,Jun 2024,City/Other,Palmetto,Single-Family,0
+202511,Nov 2025,City/Other,Norcross,Single-Family,0
+202512,Dec 2025,City/Other,Norcross,Single-Family,0
 202407,Jul 2024,City/Other,Palmetto,Single-Family,8
 202408,Aug 2024,City/Other,Palmetto,Single-Family,8
 202409,Sep 2024,City/Other,Palmetto,Single-Family,7
@@ -968,7 +1023,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Palmetto,Single-Family,0
 202509,Sep 2025,City/Other,Palmetto,Single-Family,0
 202510,Oct 2025,City/Other,Palmetto,Single-Family,0
-202406,Jun 2024,City/Other,Peachtree City,Single-Family,10
+202511,Nov 2025,City/Other,Palmetto,Single-Family,0
+202512,Dec 2025,City/Other,Palmetto,Single-Family,0
 202407,Jul 2024,City/Other,Peachtree City,Single-Family,10
 202408,Aug 2024,City/Other,Peachtree City,Single-Family,11
 202409,Sep 2024,City/Other,Peachtree City,Single-Family,9
@@ -985,7 +1041,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Peachtree City,Single-Family,12
 202509,Sep 2025,City/Other,Peachtree City,Single-Family,12
 202510,Oct 2025,City/Other,Peachtree City,Single-Family,12
-202406,Jun 2024,City/Other,Peachtree Corners,Single-Family,1
+202511,Nov 2025,City/Other,Peachtree City,Single-Family,0
+202512,Dec 2025,City/Other,Peachtree City,Single-Family,0
 202407,Jul 2024,City/Other,Peachtree Corners,Single-Family,1
 202408,Aug 2024,City/Other,Peachtree Corners,Single-Family,11
 202409,Sep 2024,City/Other,Peachtree Corners,Single-Family,0
@@ -1002,7 +1059,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Peachtree Corners,Single-Family,1
 202509,Sep 2025,City/Other,Peachtree Corners,Single-Family,0
 202510,Oct 2025,City/Other,Peachtree Corners,Single-Family,1
-202406,Jun 2024,City/Other,Pine Lake,Single-Family,0
+202511,Nov 2025,City/Other,Peachtree Corners,Single-Family,1
+202512,Dec 2025,City/Other,Peachtree Corners,Single-Family,1
 202407,Jul 2024,City/Other,Pine Lake,Single-Family,0
 202408,Aug 2024,City/Other,Pine Lake,Single-Family,0
 202409,Sep 2024,City/Other,Pine Lake,Single-Family,0
@@ -1019,7 +1077,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Pine Lake,Single-Family,0
 202509,Sep 2025,City/Other,Pine Lake,Single-Family,0
 202510,Oct 2025,City/Other,Pine Lake,Single-Family,0
-202406,Jun 2024,City/Other,Powder Springs,Single-Family,12
+202511,Nov 2025,City/Other,Pine Lake,Single-Family,0
+202512,Dec 2025,City/Other,Pine Lake,Single-Family,0
 202407,Jul 2024,City/Other,Powder Springs,Single-Family,17
 202408,Aug 2024,City/Other,Powder Springs,Single-Family,13
 202409,Sep 2024,City/Other,Powder Springs,Single-Family,11
@@ -1036,7 +1095,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Powder Springs,Single-Family,14
 202509,Sep 2025,City/Other,Powder Springs,Single-Family,13
 202510,Oct 2025,City/Other,Powder Springs,Single-Family,13
-202406,Jun 2024,City/Other,Riverdale,Single-Family,0
+202511,Nov 2025,City/Other,Powder Springs,Single-Family,10
+202512,Dec 2025,City/Other,Powder Springs,Single-Family,11
 202407,Jul 2024,City/Other,Riverdale,Single-Family,0
 202408,Aug 2024,City/Other,Riverdale,Single-Family,0
 202409,Sep 2024,City/Other,Riverdale,Single-Family,0
@@ -1053,7 +1113,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Riverdale,Single-Family,0
 202509,Sep 2025,City/Other,Riverdale,Single-Family,0
 202510,Oct 2025,City/Other,Riverdale,Single-Family,0
-202406,Jun 2024,County,Rockdale,Single-Family,65
+202511,Nov 2025,City/Other,Riverdale,Single-Family,0
+202512,Dec 2025,City/Other,Riverdale,Single-Family,0
 202407,Jul 2024,County,Rockdale,Single-Family,107
 202408,Aug 2024,County,Rockdale,Single-Family,45
 202409,Sep 2024,County,Rockdale,Single-Family,24
@@ -1070,7 +1131,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,County,Rockdale,Single-Family,59
 202509,Sep 2025,County,Rockdale,Single-Family,2
 202510,Oct 2025,County,Rockdale,Single-Family,45
-202406,Jun 2024,City/Other,Roswell,Single-Family,33
+202511,Nov 2025,County,Rockdale,Single-Family,23
+202512,Dec 2025,County,Rockdale,Single-Family,14
 202407,Jul 2024,City/Other,Roswell,Single-Family,40
 202408,Aug 2024,City/Other,Roswell,Single-Family,14
 202409,Sep 2024,City/Other,Roswell,Single-Family,4
@@ -1087,7 +1149,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Roswell,Single-Family,5
 202509,Sep 2025,City/Other,Roswell,Single-Family,4
 202510,Oct 2025,City/Other,Roswell,Single-Family,3
-202406,Jun 2024,City/Other,Sandy Springs,Single-Family,4
+202511,Nov 2025,City/Other,Roswell,Single-Family,1
+202512,Dec 2025,City/Other,Roswell,Single-Family,7
 202407,Jul 2024,City/Other,Sandy Springs,Single-Family,7
 202408,Aug 2024,City/Other,Sandy Springs,Single-Family,7
 202409,Sep 2024,City/Other,Sandy Springs,Single-Family,4
@@ -1104,7 +1167,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Sandy Springs,Single-Family,4
 202509,Sep 2025,City/Other,Sandy Springs,Single-Family,8
 202510,Oct 2025,City/Other,Sandy Springs,Single-Family,5
-202406,Jun 2024,City/Other,Smyrna,Single-Family,2
+202511,Nov 2025,City/Other,Sandy Springs,Single-Family,6
+202512,Dec 2025,City/Other,Sandy Springs,Single-Family,5
 202407,Jul 2024,City/Other,Smyrna,Single-Family,2
 202408,Aug 2024,City/Other,Smyrna,Single-Family,12
 202409,Sep 2024,City/Other,Smyrna,Single-Family,5
@@ -1121,7 +1185,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Smyrna,Single-Family,0
 202509,Sep 2025,City/Other,Smyrna,Single-Family,59
 202510,Oct 2025,City/Other,Smyrna,Single-Family,9
-202406,Jun 2024,City/Other,Snellville,Single-Family,3
+202511,Nov 2025,City/Other,Smyrna,Single-Family,1
+202512,Dec 2025,City/Other,Smyrna,Single-Family,6
 202407,Jul 2024,City/Other,Snellville,Single-Family,3
 202408,Aug 2024,City/Other,Snellville,Single-Family,1
 202409,Sep 2024,City/Other,Snellville,Single-Family,1
@@ -1138,7 +1203,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Snellville,Single-Family,4
 202509,Sep 2025,City/Other,Snellville,Single-Family,7
 202510,Oct 2025,City/Other,Snellville,Single-Family,11
-202406,Jun 2024,City/Other,South Fulton,Single-Family,63
+202511,Nov 2025,City/Other,Snellville,Single-Family,0
+202512,Dec 2025,City/Other,Snellville,Single-Family,8
 202407,Jul 2024,City/Other,South Fulton,Single-Family,87
 202408,Aug 2024,City/Other,South Fulton,Single-Family,100
 202409,Sep 2024,City/Other,South Fulton,Single-Family,66
@@ -1155,7 +1221,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,South Fulton,Single-Family,74
 202509,Sep 2025,City/Other,South Fulton,Single-Family,55
 202510,Oct 2025,City/Other,South Fulton,Single-Family,48
-202406,Jun 2024,City/Other,Stockbridge,Single-Family,2
+202511,Nov 2025,City/Other,South Fulton,Single-Family,32
+202512,Dec 2025,City/Other,South Fulton,Single-Family,33
 202407,Jul 2024,City/Other,Stockbridge,Single-Family,7
 202408,Aug 2024,City/Other,Stockbridge,Single-Family,19
 202409,Sep 2024,City/Other,Stockbridge,Single-Family,13
@@ -1172,7 +1239,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Stockbridge,Single-Family,13
 202509,Sep 2025,City/Other,Stockbridge,Single-Family,2
 202510,Oct 2025,City/Other,Stockbridge,Single-Family,6
-202406,Jun 2024,City/Other,Stone Mountain,Single-Family,0
+202511,Nov 2025,City/Other,Stockbridge,Single-Family,34
+202512,Dec 2025,City/Other,Stockbridge,Single-Family,8
 202407,Jul 2024,City/Other,Stone Mountain,Single-Family,1
 202408,Aug 2024,City/Other,Stone Mountain,Single-Family,0
 202409,Sep 2024,City/Other,Stone Mountain,Single-Family,0
@@ -1189,7 +1257,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Stone Mountain,Single-Family,0
 202509,Sep 2025,City/Other,Stone Mountain,Single-Family,0
 202510,Oct 2025,City/Other,Stone Mountain,Single-Family,0
-202406,Jun 2024,City/Other,Stonecrest,Single-Family,12
+202511,Nov 2025,City/Other,Stone Mountain,Single-Family,0
+202512,Dec 2025,City/Other,Stone Mountain,Single-Family,0
 202407,Jul 2024,City/Other,Stonecrest,Single-Family,1
 202408,Aug 2024,City/Other,Stonecrest,Single-Family,20
 202409,Sep 2024,City/Other,Stonecrest,Single-Family,3
@@ -1206,7 +1275,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Stonecrest,Single-Family,0
 202509,Sep 2025,City/Other,Stonecrest,Single-Family,3
 202510,Oct 2025,City/Other,Stonecrest,Single-Family,75
-202406,Jun 2024,City/Other,Sugar Hill,Single-Family,80
+202511,Nov 2025,City/Other,Stonecrest,Single-Family,0
+202512,Dec 2025,City/Other,Stonecrest,Single-Family,3
 202407,Jul 2024,City/Other,Sugar Hill,Single-Family,3
 202408,Aug 2024,City/Other,Sugar Hill,Single-Family,11
 202409,Sep 2024,City/Other,Sugar Hill,Single-Family,9
@@ -1223,7 +1293,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Sugar Hill,Single-Family,18
 202509,Sep 2025,City/Other,Sugar Hill,Single-Family,5
 202510,Oct 2025,City/Other,Sugar Hill,Single-Family,17
-202406,Jun 2024,City/Other,Suwanee,Single-Family,0
+202511,Nov 2025,City/Other,Sugar Hill,Single-Family,8
+202512,Dec 2025,City/Other,Sugar Hill,Single-Family,16
 202407,Jul 2024,City/Other,Suwanee,Single-Family,7
 202408,Aug 2024,City/Other,Suwanee,Single-Family,0
 202409,Sep 2024,City/Other,Suwanee,Single-Family,1
@@ -1240,7 +1311,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Suwanee,Single-Family,2
 202509,Sep 2025,City/Other,Suwanee,Single-Family,0
 202510,Oct 2025,City/Other,Suwanee,Single-Family,0
-202406,Jun 2024,City/Other,Tucker,Single-Family,1
+202511,Nov 2025,City/Other,Suwanee,Single-Family,3
+202512,Dec 2025,City/Other,Suwanee,Single-Family,1
 202407,Jul 2024,City/Other,Tucker,Single-Family,3
 202408,Aug 2024,City/Other,Tucker,Single-Family,2
 202409,Sep 2024,City/Other,Tucker,Single-Family,1
@@ -1257,7 +1329,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Tucker,Single-Family,1
 202509,Sep 2025,City/Other,Tucker,Single-Family,3
 202510,Oct 2025,City/Other,Tucker,Single-Family,0
-202406,Jun 2024,City/Other,Tyrone,Single-Family,1
+202511,Nov 2025,City/Other,Tucker,Single-Family,0
+202512,Dec 2025,City/Other,Tucker,Single-Family,0
 202407,Jul 2024,City/Other,Tyrone,Single-Family,1
 202408,Aug 2024,City/Other,Tyrone,Single-Family,1
 202409,Sep 2024,City/Other,Tyrone,Single-Family,1
@@ -1274,7 +1347,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Tyrone,Single-Family,1
 202509,Sep 2025,City/Other,Tyrone,Single-Family,1
 202510,Oct 2025,City/Other,Tyrone,Single-Family,1
-202406,Jun 2024,City/Other,Union City,Single-Family,17
+202511,Nov 2025,City/Other,Tyrone,Single-Family,1
+202512,Dec 2025,City/Other,Tyrone,Single-Family,1
 202407,Jul 2024,City/Other,Union City,Single-Family,23
 202408,Aug 2024,City/Other,Union City,Single-Family,25
 202409,Sep 2024,City/Other,Union City,Single-Family,16
@@ -1291,7 +1365,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Union City,Single-Family,20
 202509,Sep 2025,City/Other,Union City,Single-Family,19
 202510,Oct 2025,City/Other,Union City,Single-Family,19
-202406,Jun 2024,City/Other,Woodstock,Single-Family,33
+202511,Nov 2025,City/Other,Union City,Single-Family,15
+202512,Dec 2025,City/Other,Union City,Single-Family,17
 202407,Jul 2024,City/Other,Woodstock,Single-Family,6
 202408,Aug 2024,City/Other,Woodstock,Single-Family,23
 202409,Sep 2024,City/Other,Woodstock,Single-Family,13
@@ -1308,7 +1383,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Woodstock,Single-Family,7
 202509,Sep 2025,City/Other,Woodstock,Single-Family,13
 202510,Oct 2025,City/Other,Woodstock,Single-Family,20
-202406,Jun 2024,City/Other,Acworth,Multi-Family,8
+202511,Nov 2025,City/Other,Woodstock,Single-Family,8
+202512,Dec 2025,City/Other,Woodstock,Single-Family,5
 202407,Jul 2024,City/Other,Acworth,Multi-Family,0
 202408,Aug 2024,City/Other,Acworth,Multi-Family,0
 202409,Sep 2024,City/Other,Acworth,Multi-Family,0
@@ -1325,7 +1401,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Acworth,Multi-Family,0
 202509,Sep 2025,City/Other,Acworth,Multi-Family,0
 202510,Oct 2025,City/Other,Acworth,Multi-Family,0
-202406,Jun 2024,City/Other,Alpharetta,Multi-Family,0
+202511,Nov 2025,City/Other,Acworth,Multi-Family,0
+202512,Dec 2025,City/Other,Acworth,Multi-Family,0
 202407,Jul 2024,City/Other,Alpharetta,Multi-Family,0
 202408,Aug 2024,City/Other,Alpharetta,Multi-Family,0
 202409,Sep 2024,City/Other,Alpharetta,Multi-Family,0
@@ -1342,7 +1419,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Alpharetta,Multi-Family,0
 202509,Sep 2025,City/Other,Alpharetta,Multi-Family,0
 202510,Oct 2025,City/Other,Alpharetta,Multi-Family,0
-202406,Jun 2024,City/Other,Atlanta,Multi-Family,402
+202511,Nov 2025,City/Other,Alpharetta,Multi-Family,0
+202512,Dec 2025,City/Other,Alpharetta,Multi-Family,0
 202407,Jul 2024,City/Other,Atlanta,Multi-Family,566
 202408,Aug 2024,City/Other,Atlanta,Multi-Family,363
 202409,Sep 2024,City/Other,Atlanta,Multi-Family,953
@@ -1359,7 +1437,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Atlanta,Multi-Family,158
 202509,Sep 2025,City/Other,Atlanta,Multi-Family,405
 202510,Oct 2025,City/Other,Atlanta,Multi-Family,469
-202406,Jun 2024,City/Other,Austell,Multi-Family,0
+202511,Nov 2025,City/Other,Atlanta,Multi-Family,387
+202512,Dec 2025,City/Other,Atlanta,Multi-Family,564
 202407,Jul 2024,City/Other,Austell,Multi-Family,0
 202408,Aug 2024,City/Other,Austell,Multi-Family,0
 202409,Sep 2024,City/Other,Austell,Multi-Family,0
@@ -1376,7 +1455,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Austell,Multi-Family,58
 202509,Sep 2025,City/Other,Austell,Multi-Family,0
 202510,Oct 2025,City/Other,Austell,Multi-Family,0
-202406,Jun 2024,City/Other,Avondale Estates,Multi-Family,0
+202511,Nov 2025,City/Other,Austell,Multi-Family,0
+202512,Dec 2025,City/Other,Austell,Multi-Family,0
 202407,Jul 2024,City/Other,Avondale Estates,Multi-Family,0
 202408,Aug 2024,City/Other,Avondale Estates,Multi-Family,0
 202409,Sep 2024,City/Other,Avondale Estates,Multi-Family,0
@@ -1393,7 +1473,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Avondale Estates,Multi-Family,0
 202509,Sep 2025,City/Other,Avondale Estates,Multi-Family,66
 202510,Oct 2025,City/Other,Avondale Estates,Multi-Family,0
-202406,Jun 2024,City/Other,Ball Ground,Multi-Family,0
+202511,Nov 2025,City/Other,Avondale Estates,Multi-Family,0
+202512,Dec 2025,City/Other,Avondale Estates,Multi-Family,0
 202407,Jul 2024,City/Other,Ball Ground,Multi-Family,0
 202408,Aug 2024,City/Other,Ball Ground,Multi-Family,0
 202409,Sep 2024,City/Other,Ball Ground,Multi-Family,0
@@ -1410,7 +1491,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Ball Ground,Multi-Family,0
 202509,Sep 2025,City/Other,Ball Ground,Multi-Family,0
 202510,Oct 2025,City/Other,Ball Ground,Multi-Family,0
-202406,Jun 2024,City/Other,Berkeley Lake,Multi-Family,0
+202511,Nov 2025,City/Other,Ball Ground,Multi-Family,0
+202512,Dec 2025,City/Other,Ball Ground,Multi-Family,0
 202407,Jul 2024,City/Other,Berkeley Lake,Multi-Family,0
 202408,Aug 2024,City/Other,Berkeley Lake,Multi-Family,0
 202409,Sep 2024,City/Other,Berkeley Lake,Multi-Family,0
@@ -1427,7 +1509,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Berkeley Lake,Multi-Family,0
 202509,Sep 2025,City/Other,Berkeley Lake,Multi-Family,0
 202510,Oct 2025,City/Other,Berkeley Lake,Multi-Family,0
-202406,Jun 2024,City/Other,Brookhaven,Multi-Family,0
+202511,Nov 2025,City/Other,Berkeley Lake,Multi-Family,0
+202512,Dec 2025,City/Other,Berkeley Lake,Multi-Family,0
 202407,Jul 2024,City/Other,Brookhaven,Multi-Family,0
 202408,Aug 2024,City/Other,Brookhaven,Multi-Family,0
 202409,Sep 2024,City/Other,Brookhaven,Multi-Family,0
@@ -1444,7 +1527,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Brookhaven,Multi-Family,0
 202509,Sep 2025,City/Other,Brookhaven,Multi-Family,0
 202510,Oct 2025,City/Other,Brookhaven,Multi-Family,0
-202406,Jun 2024,City/Other,Buford,Multi-Family,0
+202511,Nov 2025,City/Other,Brookhaven,Multi-Family,0
+202512,Dec 2025,City/Other,Brookhaven,Multi-Family,0
 202407,Jul 2024,City/Other,Buford,Multi-Family,0
 202408,Aug 2024,City/Other,Buford,Multi-Family,0
 202409,Sep 2024,City/Other,Buford,Multi-Family,0
@@ -1461,7 +1545,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Buford,Multi-Family,0
 202509,Sep 2025,City/Other,Buford,Multi-Family,0
 202510,Oct 2025,City/Other,Buford,Multi-Family,0
-202406,Jun 2024,City/Other,Canton,Multi-Family,2
+202511,Nov 2025,City/Other,Buford,Multi-Family,0
+202512,Dec 2025,City/Other,Buford,Multi-Family,0
 202407,Jul 2024,City/Other,Canton,Multi-Family,0
 202408,Aug 2024,City/Other,Canton,Multi-Family,308
 202409,Sep 2024,City/Other,Canton,Multi-Family,0
@@ -1478,7 +1563,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Canton,Multi-Family,0
 202509,Sep 2025,City/Other,Canton,Multi-Family,0
 202510,Oct 2025,City/Other,Canton,Multi-Family,0
-202406,Jun 2024,City/Other,Chamblee,Multi-Family,0
+202511,Nov 2025,City/Other,Canton,Multi-Family,0
+202512,Dec 2025,City/Other,Canton,Multi-Family,0
 202407,Jul 2024,City/Other,Chamblee,Multi-Family,14
 202408,Aug 2024,City/Other,Chamblee,Multi-Family,0
 202409,Sep 2024,City/Other,Chamblee,Multi-Family,0
@@ -1495,7 +1581,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Chamblee,Multi-Family,0
 202509,Sep 2025,City/Other,Chamblee,Multi-Family,300
 202510,Oct 2025,City/Other,Chamblee,Multi-Family,0
-202406,Jun 2024,City/Other,Chattahoochee Hills,Multi-Family,0
+202511,Nov 2025,City/Other,Chamblee,Multi-Family,0
+202512,Dec 2025,City/Other,Chamblee,Multi-Family,0
 202407,Jul 2024,City/Other,Chattahoochee Hills,Multi-Family,0
 202408,Aug 2024,City/Other,Chattahoochee Hills,Multi-Family,0
 202409,Sep 2024,City/Other,Chattahoochee Hills,Multi-Family,0
@@ -1512,7 +1599,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Chattahoochee Hills,Multi-Family,0
 202509,Sep 2025,City/Other,Chattahoochee Hills,Multi-Family,0
 202510,Oct 2025,City/Other,Chattahoochee Hills,Multi-Family,0
-202406,Jun 2024,County,Cherokee,Multi-Family,2
+202511,Nov 2025,City/Other,Chattahoochee Hills,Multi-Family,0
+202512,Dec 2025,City/Other,Chattahoochee Hills,Multi-Family,0
 202407,Jul 2024,County,Cherokee,Multi-Family,0
 202408,Aug 2024,County,Cherokee,Multi-Family,308
 202409,Sep 2024,County,Cherokee,Multi-Family,0
@@ -1529,7 +1617,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,County,Cherokee,Multi-Family,0
 202509,Sep 2025,County,Cherokee,Multi-Family,0
 202510,Oct 2025,County,Cherokee,Multi-Family,0
-202406,Jun 2024,City/Other,Clarkston,Multi-Family,0
+202511,Nov 2025,County,Cherokee,Multi-Family,2
+202512,Dec 2025,County,Cherokee,Multi-Family,0
 202407,Jul 2024,City/Other,Clarkston,Multi-Family,0
 202408,Aug 2024,City/Other,Clarkston,Multi-Family,0
 202409,Sep 2024,City/Other,Clarkston,Multi-Family,0
@@ -1546,7 +1635,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Clarkston,Multi-Family,0
 202509,Sep 2025,City/Other,Clarkston,Multi-Family,0
 202510,Oct 2025,City/Other,Clarkston,Multi-Family,0
-202406,Jun 2024,County,Clayton,Multi-Family,0
+202511,Nov 2025,City/Other,Clarkston,Multi-Family,0
+202512,Dec 2025,City/Other,Clarkston,Multi-Family,0
 202407,Jul 2024,County,Clayton,Multi-Family,0
 202408,Aug 2024,County,Clayton,Multi-Family,0
 202409,Sep 2024,County,Clayton,Multi-Family,0
@@ -1563,7 +1653,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,County,Clayton,Multi-Family,20
 202509,Sep 2025,County,Clayton,Multi-Family,5
 202510,Oct 2025,County,Clayton,Multi-Family,72
-202406,Jun 2024,County,Cobb,Multi-Family,16
+202511,Nov 2025,County,Clayton,Multi-Family,28
+202512,Dec 2025,County,Clayton,Multi-Family,5
 202407,Jul 2024,County,Cobb,Multi-Family,31
 202408,Aug 2024,County,Cobb,Multi-Family,8
 202409,Sep 2024,County,Cobb,Multi-Family,5
@@ -1580,7 +1671,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,County,Cobb,Multi-Family,80
 202509,Sep 2025,County,Cobb,Multi-Family,19
 202510,Oct 2025,County,Cobb,Multi-Family,25
-202406,Jun 2024,City/Other,College Park,Multi-Family,0
+202511,Nov 2025,County,Cobb,Multi-Family,17
+202512,Dec 2025,County,Cobb,Multi-Family,13
 202407,Jul 2024,City/Other,College Park,Multi-Family,0
 202408,Aug 2024,City/Other,College Park,Multi-Family,0
 202409,Sep 2024,City/Other,College Park,Multi-Family,0
@@ -1597,7 +1689,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,College Park,Multi-Family,0
 202509,Sep 2025,City/Other,College Park,Multi-Family,72
 202510,Oct 2025,City/Other,College Park,Multi-Family,0
-202406,Jun 2024,City/Other,Conyers,Multi-Family,0
+202511,Nov 2025,City/Other,College Park,Multi-Family,0
+202512,Dec 2025,City/Other,College Park,Multi-Family,0
 202407,Jul 2024,City/Other,Conyers,Multi-Family,0
 202408,Aug 2024,City/Other,Conyers,Multi-Family,0
 202409,Sep 2024,City/Other,Conyers,Multi-Family,0
@@ -1614,7 +1707,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Conyers,Multi-Family,0
 202509,Sep 2025,City/Other,Conyers,Multi-Family,0
 202510,Oct 2025,City/Other,Conyers,Multi-Family,0
-202406,Jun 2024,City/Other,Cumming,Multi-Family,0
+202511,Nov 2025,City/Other,Conyers,Multi-Family,0
+202512,Dec 2025,City/Other,Conyers,Multi-Family,0
 202407,Jul 2024,City/Other,Cumming,Multi-Family,0
 202408,Aug 2024,City/Other,Cumming,Multi-Family,428
 202409,Sep 2024,City/Other,Cumming,Multi-Family,0
@@ -1631,7 +1725,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Cumming,Multi-Family,0
 202509,Sep 2025,City/Other,Cumming,Multi-Family,0
 202510,Oct 2025,City/Other,Cumming,Multi-Family,0
-202406,Jun 2024,City/Other,Dacula,Multi-Family,0
+202511,Nov 2025,City/Other,Cumming,Multi-Family,0
+202512,Dec 2025,City/Other,Cumming,Multi-Family,10
 202407,Jul 2024,City/Other,Dacula,Multi-Family,0
 202408,Aug 2024,City/Other,Dacula,Multi-Family,0
 202409,Sep 2024,City/Other,Dacula,Multi-Family,0
@@ -1648,7 +1743,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Dacula,Multi-Family,0
 202509,Sep 2025,City/Other,Dacula,Multi-Family,0
 202510,Oct 2025,City/Other,Dacula,Multi-Family,0
-202406,Jun 2024,County,DeKalb,Multi-Family,0
+202511,Nov 2025,City/Other,Dacula,Multi-Family,0
+202512,Dec 2025,City/Other,Dacula,Multi-Family,0
 202407,Jul 2024,County,DeKalb,Multi-Family,14
 202408,Aug 2024,County,DeKalb,Multi-Family,0
 202409,Sep 2024,County,DeKalb,Multi-Family,0
@@ -1665,7 +1761,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,County,DeKalb,Multi-Family,0
 202509,Sep 2025,County,DeKalb,Multi-Family,368
 202510,Oct 2025,County,DeKalb,Multi-Family,0
-202406,Jun 2024,City/Other,Decatur,Multi-Family,0
+202511,Nov 2025,County,DeKalb,Multi-Family,0
+202512,Dec 2025,County,DeKalb,Multi-Family,5
 202407,Jul 2024,City/Other,Decatur,Multi-Family,0
 202408,Aug 2024,City/Other,Decatur,Multi-Family,0
 202409,Sep 2024,City/Other,Decatur,Multi-Family,0
@@ -1682,7 +1779,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Decatur,Multi-Family,0
 202509,Sep 2025,City/Other,Decatur,Multi-Family,0
 202510,Oct 2025,City/Other,Decatur,Multi-Family,0
-202406,Jun 2024,City/Other,Doraville,Multi-Family,0
+202511,Nov 2025,City/Other,Decatur,Multi-Family,0
+202512,Dec 2025,City/Other,Decatur,Multi-Family,0
 202407,Jul 2024,City/Other,Doraville,Multi-Family,0
 202408,Aug 2024,City/Other,Doraville,Multi-Family,0
 202409,Sep 2024,City/Other,Doraville,Multi-Family,0
@@ -1699,7 +1797,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Doraville,Multi-Family,0
 202509,Sep 2025,City/Other,Doraville,Multi-Family,0
 202510,Oct 2025,City/Other,Doraville,Multi-Family,0
-202406,Jun 2024,County,Douglas,Multi-Family,0
+202511,Nov 2025,City/Other,Doraville,Multi-Family,0
+202512,Dec 2025,City/Other,Doraville,Multi-Family,0
 202407,Jul 2024,County,Douglas,Multi-Family,0
 202408,Aug 2024,County,Douglas,Multi-Family,0
 202409,Sep 2024,County,Douglas,Multi-Family,0
@@ -1716,7 +1815,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,County,Douglas,Multi-Family,0
 202509,Sep 2025,County,Douglas,Multi-Family,0
 202510,Oct 2025,County,Douglas,Multi-Family,211
-202406,Jun 2024,City/Other,Douglasville,Multi-Family,0
+202511,Nov 2025,County,Douglas,Multi-Family,0
+202512,Dec 2025,County,Douglas,Multi-Family,0
 202407,Jul 2024,City/Other,Douglasville,Multi-Family,0
 202408,Aug 2024,City/Other,Douglasville,Multi-Family,0
 202409,Sep 2024,City/Other,Douglasville,Multi-Family,0
@@ -1733,7 +1833,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Douglasville,Multi-Family,0
 202509,Sep 2025,City/Other,Douglasville,Multi-Family,0
 202510,Oct 2025,City/Other,Douglasville,Multi-Family,0
-202406,Jun 2024,City/Other,Duluth,Multi-Family,0
+202511,Nov 2025,City/Other,Douglasville,Multi-Family,0
+202512,Dec 2025,City/Other,Douglasville,Multi-Family,0
 202407,Jul 2024,City/Other,Duluth,Multi-Family,0
 202408,Aug 2024,City/Other,Duluth,Multi-Family,0
 202409,Sep 2024,City/Other,Duluth,Multi-Family,0
@@ -1750,7 +1851,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Duluth,Multi-Family,0
 202509,Sep 2025,City/Other,Duluth,Multi-Family,0
 202510,Oct 2025,City/Other,Duluth,Multi-Family,0
-202406,Jun 2024,City/Other,Dunwoody,Multi-Family,0
+202511,Nov 2025,City/Other,Duluth,Multi-Family,0
+202512,Dec 2025,City/Other,Duluth,Multi-Family,0
 202407,Jul 2024,City/Other,Dunwoody,Multi-Family,0
 202408,Aug 2024,City/Other,Dunwoody,Multi-Family,0
 202409,Sep 2024,City/Other,Dunwoody,Multi-Family,0
@@ -1767,7 +1869,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Dunwoody,Multi-Family,0
 202509,Sep 2025,City/Other,Dunwoody,Multi-Family,0
 202510,Oct 2025,City/Other,Dunwoody,Multi-Family,0
-202406,Jun 2024,City/Other,East Point,Multi-Family,6
+202511,Nov 2025,City/Other,Dunwoody,Multi-Family,0
+202512,Dec 2025,City/Other,Dunwoody,Multi-Family,0
 202407,Jul 2024,City/Other,East Point,Multi-Family,6
 202408,Aug 2024,City/Other,East Point,Multi-Family,7
 202409,Sep 2024,City/Other,East Point,Multi-Family,5
@@ -1784,7 +1887,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,East Point,Multi-Family,6
 202509,Sep 2025,City/Other,East Point,Multi-Family,5
 202510,Oct 2025,City/Other,East Point,Multi-Family,7
-202406,Jun 2024,City/Other,Fairburn,Multi-Family,0
+202511,Nov 2025,City/Other,East Point,Multi-Family,5
+202512,Dec 2025,City/Other,East Point,Multi-Family,5
 202407,Jul 2024,City/Other,Fairburn,Multi-Family,0
 202408,Aug 2024,City/Other,Fairburn,Multi-Family,0
 202409,Sep 2024,City/Other,Fairburn,Multi-Family,0
@@ -1801,7 +1905,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Fairburn,Multi-Family,0
 202509,Sep 2025,City/Other,Fairburn,Multi-Family,0
 202510,Oct 2025,City/Other,Fairburn,Multi-Family,0
-202406,Jun 2024,County,Fayette,Multi-Family,0
+202511,Nov 2025,City/Other,Fairburn,Multi-Family,0
+202512,Dec 2025,City/Other,Fairburn,Multi-Family,0
 202407,Jul 2024,County,Fayette,Multi-Family,0
 202408,Aug 2024,County,Fayette,Multi-Family,0
 202409,Sep 2024,County,Fayette,Multi-Family,0
@@ -1818,7 +1923,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,County,Fayette,Multi-Family,0
 202509,Sep 2025,County,Fayette,Multi-Family,0
 202510,Oct 2025,County,Fayette,Multi-Family,0
-202406,Jun 2024,City/Other,Fayetteville,Multi-Family,0
+202511,Nov 2025,County,Fayette,Multi-Family,0
+202512,Dec 2025,County,Fayette,Multi-Family,0
 202407,Jul 2024,City/Other,Fayetteville,Multi-Family,0
 202408,Aug 2024,City/Other,Fayetteville,Multi-Family,0
 202409,Sep 2024,City/Other,Fayetteville,Multi-Family,0
@@ -1835,7 +1941,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Fayetteville,Multi-Family,0
 202509,Sep 2025,City/Other,Fayetteville,Multi-Family,0
 202510,Oct 2025,City/Other,Fayetteville,Multi-Family,0
-202406,Jun 2024,City/Other,Forest Park,Multi-Family,0
+202511,Nov 2025,City/Other,Fayetteville,Multi-Family,0
+202512,Dec 2025,City/Other,Fayetteville,Multi-Family,0
 202407,Jul 2024,City/Other,Forest Park,Multi-Family,0
 202408,Aug 2024,City/Other,Forest Park,Multi-Family,0
 202409,Sep 2024,City/Other,Forest Park,Multi-Family,0
@@ -1852,7 +1959,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Forest Park,Multi-Family,0
 202509,Sep 2025,City/Other,Forest Park,Multi-Family,0
 202510,Oct 2025,City/Other,Forest Park,Multi-Family,0
-202406,Jun 2024,County,Forsyth,Multi-Family,0
+202511,Nov 2025,City/Other,Forest Park,Multi-Family,0
+202512,Dec 2025,City/Other,Forest Park,Multi-Family,0
 202407,Jul 2024,County,Forsyth,Multi-Family,0
 202408,Aug 2024,County,Forsyth,Multi-Family,455
 202409,Sep 2024,County,Forsyth,Multi-Family,0
@@ -1869,7 +1977,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,County,Forsyth,Multi-Family,0
 202509,Sep 2025,County,Forsyth,Multi-Family,0
 202510,Oct 2025,County,Forsyth,Multi-Family,0
-202406,Jun 2024,County,Fulton,Multi-Family,408
+202511,Nov 2025,County,Forsyth,Multi-Family,0
+202512,Dec 2025,County,Forsyth,Multi-Family,10
 202407,Jul 2024,County,Fulton,Multi-Family,572
 202408,Aug 2024,County,Fulton,Multi-Family,370
 202409,Sep 2024,County,Fulton,Multi-Family,958
@@ -1886,7 +1995,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,County,Fulton,Multi-Family,236
 202509,Sep 2025,County,Fulton,Multi-Family,915
 202510,Oct 2025,County,Fulton,Multi-Family,531
-202406,Jun 2024,City/Other,Grayson,Multi-Family,0
+202511,Nov 2025,County,Fulton,Multi-Family,429
+202512,Dec 2025,County,Fulton,Multi-Family,596
 202407,Jul 2024,City/Other,Grayson,Multi-Family,0
 202408,Aug 2024,City/Other,Grayson,Multi-Family,0
 202409,Sep 2024,City/Other,Grayson,Multi-Family,0
@@ -1903,7 +2013,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Grayson,Multi-Family,0
 202509,Sep 2025,City/Other,Grayson,Multi-Family,0
 202510,Oct 2025,City/Other,Grayson,Multi-Family,0
-202406,Jun 2024,County,Gwinnett,Multi-Family,0
+202511,Nov 2025,City/Other,Grayson,Multi-Family,0
+202512,Dec 2025,City/Other,Grayson,Multi-Family,0
 202407,Jul 2024,County,Gwinnett,Multi-Family,6
 202408,Aug 2024,County,Gwinnett,Multi-Family,10
 202409,Sep 2024,County,Gwinnett,Multi-Family,12
@@ -1920,7 +2031,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,County,Gwinnett,Multi-Family,0
 202509,Sep 2025,County,Gwinnett,Multi-Family,87
 202510,Oct 2025,County,Gwinnett,Multi-Family,12
-202406,Jun 2024,City/Other,Hampton,Multi-Family,0
+202511,Nov 2025,County,Gwinnett,Multi-Family,0
+202512,Dec 2025,County,Gwinnett,Multi-Family,144
 202407,Jul 2024,City/Other,Hampton,Multi-Family,0
 202408,Aug 2024,City/Other,Hampton,Multi-Family,0
 202409,Sep 2024,City/Other,Hampton,Multi-Family,0
@@ -1937,7 +2049,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Hampton,Multi-Family,0
 202509,Sep 2025,City/Other,Hampton,Multi-Family,0
 202510,Oct 2025,City/Other,Hampton,Multi-Family,0
-202406,Jun 2024,City/Other,Hapeville,Multi-Family,0
+202511,Nov 2025,City/Other,Hampton,Multi-Family,0
+202512,Dec 2025,City/Other,Hampton,Multi-Family,0
 202407,Jul 2024,City/Other,Hapeville,Multi-Family,0
 202408,Aug 2024,City/Other,Hapeville,Multi-Family,0
 202409,Sep 2024,City/Other,Hapeville,Multi-Family,0
@@ -1954,7 +2067,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Hapeville,Multi-Family,0
 202509,Sep 2025,City/Other,Hapeville,Multi-Family,0
 202510,Oct 2025,City/Other,Hapeville,Multi-Family,0
-202406,Jun 2024,County,Henry,Multi-Family,26
+202511,Nov 2025,City/Other,Hapeville,Multi-Family,0
+202512,Dec 2025,City/Other,Hapeville,Multi-Family,0
 202407,Jul 2024,County,Henry,Multi-Family,0
 202408,Aug 2024,County,Henry,Multi-Family,0
 202409,Sep 2024,County,Henry,Multi-Family,22
@@ -1971,7 +2085,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,County,Henry,Multi-Family,0
 202509,Sep 2025,County,Henry,Multi-Family,0
 202510,Oct 2025,County,Henry,Multi-Family,0
-202406,Jun 2024,City/Other,Holly Springs,Multi-Family,0
+202511,Nov 2025,County,Henry,Multi-Family,0
+202512,Dec 2025,County,Henry,Multi-Family,0
 202407,Jul 2024,City/Other,Holly Springs,Multi-Family,0
 202408,Aug 2024,City/Other,Holly Springs,Multi-Family,0
 202409,Sep 2024,City/Other,Holly Springs,Multi-Family,0
@@ -1988,7 +2103,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Holly Springs,Multi-Family,0
 202509,Sep 2025,City/Other,Holly Springs,Multi-Family,0
 202510,Oct 2025,City/Other,Holly Springs,Multi-Family,0
-202406,Jun 2024,City/Other,Johns Creek,Multi-Family,0
+202511,Nov 2025,City/Other,Holly Springs,Multi-Family,2
+202512,Dec 2025,City/Other,Holly Springs,Multi-Family,0
 202407,Jul 2024,City/Other,Johns Creek,Multi-Family,0
 202408,Aug 2024,City/Other,Johns Creek,Multi-Family,0
 202409,Sep 2024,City/Other,Johns Creek,Multi-Family,0
@@ -2005,7 +2121,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Johns Creek,Multi-Family,0
 202509,Sep 2025,City/Other,Johns Creek,Multi-Family,0
 202510,Oct 2025,City/Other,Johns Creek,Multi-Family,0
-202406,Jun 2024,City/Other,Jonesboro,Multi-Family,0
+202511,Nov 2025,City/Other,Johns Creek,Multi-Family,0
+202512,Dec 2025,City/Other,Johns Creek,Multi-Family,0
 202407,Jul 2024,City/Other,Jonesboro,Multi-Family,0
 202408,Aug 2024,City/Other,Jonesboro,Multi-Family,0
 202409,Sep 2024,City/Other,Jonesboro,Multi-Family,0
@@ -2022,7 +2139,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Jonesboro,Multi-Family,0
 202509,Sep 2025,City/Other,Jonesboro,Multi-Family,0
 202510,Oct 2025,City/Other,Jonesboro,Multi-Family,0
-202406,Jun 2024,City/Other,Kennesaw,Multi-Family,0
+202511,Nov 2025,City/Other,Jonesboro,Multi-Family,0
+202512,Dec 2025,City/Other,Jonesboro,Multi-Family,0
 202407,Jul 2024,City/Other,Kennesaw,Multi-Family,0
 202408,Aug 2024,City/Other,Kennesaw,Multi-Family,0
 202409,Sep 2024,City/Other,Kennesaw,Multi-Family,0
@@ -2039,7 +2157,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Kennesaw,Multi-Family,0
 202509,Sep 2025,City/Other,Kennesaw,Multi-Family,0
 202510,Oct 2025,City/Other,Kennesaw,Multi-Family,0
-202406,Jun 2024,City/Other,Lake City,Multi-Family,0
+202511,Nov 2025,City/Other,Kennesaw,Multi-Family,0
+202512,Dec 2025,City/Other,Kennesaw,Multi-Family,0
 202407,Jul 2024,City/Other,Lake City,Multi-Family,0
 202408,Aug 2024,City/Other,Lake City,Multi-Family,0
 202409,Sep 2024,City/Other,Lake City,Multi-Family,0
@@ -2056,7 +2175,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Lake City,Multi-Family,0
 202509,Sep 2025,City/Other,Lake City,Multi-Family,0
 202510,Oct 2025,City/Other,Lake City,Multi-Family,0
-202406,Jun 2024,City/Other,Lawrenceville,Multi-Family,0
+202511,Nov 2025,City/Other,Lake City,Multi-Family,0
+202512,Dec 2025,City/Other,Lake City,Multi-Family,0
 202407,Jul 2024,City/Other,Lawrenceville,Multi-Family,0
 202408,Aug 2024,City/Other,Lawrenceville,Multi-Family,10
 202409,Sep 2024,City/Other,Lawrenceville,Multi-Family,0
@@ -2073,7 +2193,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Lawrenceville,Multi-Family,0
 202509,Sep 2025,City/Other,Lawrenceville,Multi-Family,75
 202510,Oct 2025,City/Other,Lawrenceville,Multi-Family,0
-202406,Jun 2024,City/Other,Lilburn,Multi-Family,0
+202511,Nov 2025,City/Other,Lawrenceville,Multi-Family,0
+202512,Dec 2025,City/Other,Lawrenceville,Multi-Family,0
 202407,Jul 2024,City/Other,Lilburn,Multi-Family,0
 202408,Aug 2024,City/Other,Lilburn,Multi-Family,0
 202409,Sep 2024,City/Other,Lilburn,Multi-Family,0
@@ -2090,7 +2211,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Lilburn,Multi-Family,0
 202509,Sep 2025,City/Other,Lilburn,Multi-Family,0
 202510,Oct 2025,City/Other,Lilburn,Multi-Family,0
-202406,Jun 2024,City/Other,Lithonia,Multi-Family,0
+202511,Nov 2025,City/Other,Lilburn,Multi-Family,0
+202512,Dec 2025,City/Other,Lilburn,Multi-Family,0
 202407,Jul 2024,City/Other,Lithonia,Multi-Family,0
 202408,Aug 2024,City/Other,Lithonia,Multi-Family,0
 202409,Sep 2024,City/Other,Lithonia,Multi-Family,0
@@ -2107,7 +2229,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Lithonia,Multi-Family,0
 202509,Sep 2025,City/Other,Lithonia,Multi-Family,0
 202510,Oct 2025,City/Other,Lithonia,Multi-Family,0
-202406,Jun 2024,City/Other,Locust Grove,Multi-Family,0
+202511,Nov 2025,City/Other,Lithonia,Multi-Family,0
+202512,Dec 2025,City/Other,Lithonia,Multi-Family,0
 202407,Jul 2024,City/Other,Locust Grove,Multi-Family,0
 202408,Aug 2024,City/Other,Locust Grove,Multi-Family,0
 202409,Sep 2024,City/Other,Locust Grove,Multi-Family,0
@@ -2124,7 +2247,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Locust Grove,Multi-Family,0
 202509,Sep 2025,City/Other,Locust Grove,Multi-Family,0
 202510,Oct 2025,City/Other,Locust Grove,Multi-Family,0
-202406,Jun 2024,City/Other,Lovejoy,Multi-Family,0
+202511,Nov 2025,City/Other,Locust Grove,Multi-Family,0
+202512,Dec 2025,City/Other,Locust Grove,Multi-Family,0
 202407,Jul 2024,City/Other,Lovejoy,Multi-Family,0
 202408,Aug 2024,City/Other,Lovejoy,Multi-Family,0
 202409,Sep 2024,City/Other,Lovejoy,Multi-Family,0
@@ -2141,7 +2265,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Lovejoy,Multi-Family,14
 202509,Sep 2025,City/Other,Lovejoy,Multi-Family,0
 202510,Oct 2025,City/Other,Lovejoy,Multi-Family,16
-202406,Jun 2024,City/Other,Marietta,Multi-Family,0
+202511,Nov 2025,City/Other,Lovejoy,Multi-Family,23
+202512,Dec 2025,City/Other,Lovejoy,Multi-Family,0
 202407,Jul 2024,City/Other,Marietta,Multi-Family,0
 202408,Aug 2024,City/Other,Marietta,Multi-Family,0
 202409,Sep 2024,City/Other,Marietta,Multi-Family,0
@@ -2158,7 +2283,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Marietta,Multi-Family,0
 202509,Sep 2025,City/Other,Marietta,Multi-Family,0
 202510,Oct 2025,City/Other,Marietta,Multi-Family,0
-202406,Jun 2024,City/Other,McDonough,Multi-Family,26
+202511,Nov 2025,City/Other,Marietta,Multi-Family,0
+202512,Dec 2025,City/Other,Marietta,Multi-Family,0
 202407,Jul 2024,City/Other,McDonough,Multi-Family,0
 202408,Aug 2024,City/Other,McDonough,Multi-Family,0
 202409,Sep 2024,City/Other,McDonough,Multi-Family,22
@@ -2175,7 +2301,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,McDonough,Multi-Family,0
 202509,Sep 2025,City/Other,McDonough,Multi-Family,0
 202510,Oct 2025,City/Other,McDonough,Multi-Family,0
-202406,Jun 2024,City/Other,Milton,Multi-Family,0
+202511,Nov 2025,City/Other,McDonough,Multi-Family,0
+202512,Dec 2025,City/Other,McDonough,Multi-Family,0
 202407,Jul 2024,City/Other,Milton,Multi-Family,0
 202408,Aug 2024,City/Other,Milton,Multi-Family,0
 202409,Sep 2024,City/Other,Milton,Multi-Family,0
@@ -2192,7 +2319,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Milton,Multi-Family,0
 202509,Sep 2025,City/Other,Milton,Multi-Family,0
 202510,Oct 2025,City/Other,Milton,Multi-Family,0
-202406,Jun 2024,City/Other,Morrow,Multi-Family,0
+202511,Nov 2025,City/Other,Milton,Multi-Family,0
+202512,Dec 2025,City/Other,Milton,Multi-Family,0
 202407,Jul 2024,City/Other,Morrow,Multi-Family,0
 202408,Aug 2024,City/Other,Morrow,Multi-Family,0
 202409,Sep 2024,City/Other,Morrow,Multi-Family,0
@@ -2209,7 +2337,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Morrow,Multi-Family,0
 202509,Sep 2025,City/Other,Morrow,Multi-Family,0
 202510,Oct 2025,City/Other,Morrow,Multi-Family,0
-202406,Jun 2024,City/Other,Mountain Park,Multi-Family,0
+202511,Nov 2025,City/Other,Morrow,Multi-Family,0
+202512,Dec 2025,City/Other,Morrow,Multi-Family,0
 202407,Jul 2024,City/Other,Mountain Park,Multi-Family,0
 202408,Aug 2024,City/Other,Mountain Park,Multi-Family,0
 202409,Sep 2024,City/Other,Mountain Park,Multi-Family,0
@@ -2226,7 +2355,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Mountain Park,Multi-Family,0
 202509,Sep 2025,City/Other,Mountain Park,Multi-Family,0
 202510,Oct 2025,City/Other,Mountain Park,Multi-Family,0
-202406,Jun 2024,City/Other,Nelson,Multi-Family,0
+202511,Nov 2025,City/Other,Mountain Park,Multi-Family,0
+202512,Dec 2025,City/Other,Mountain Park,Multi-Family,0
 202407,Jul 2024,City/Other,Nelson,Multi-Family,0
 202408,Aug 2024,City/Other,Nelson,Multi-Family,0
 202409,Sep 2024,City/Other,Nelson,Multi-Family,0
@@ -2243,7 +2373,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Nelson,Multi-Family,0
 202509,Sep 2025,City/Other,Nelson,Multi-Family,0
 202510,Oct 2025,City/Other,Nelson,Multi-Family,0
-202406,Jun 2024,City/Other,Norcross,Multi-Family,0
+202511,Nov 2025,City/Other,Nelson,Multi-Family,0
+202512,Dec 2025,City/Other,Nelson,Multi-Family,0
 202407,Jul 2024,City/Other,Norcross,Multi-Family,0
 202408,Aug 2024,City/Other,Norcross,Multi-Family,0
 202409,Sep 2024,City/Other,Norcross,Multi-Family,0
@@ -2260,7 +2391,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Norcross,Multi-Family,0
 202509,Sep 2025,City/Other,Norcross,Multi-Family,0
 202510,Oct 2025,City/Other,Norcross,Multi-Family,0
-202406,Jun 2024,City/Other,Palmetto,Multi-Family,0
+202511,Nov 2025,City/Other,Norcross,Multi-Family,0
+202512,Dec 2025,City/Other,Norcross,Multi-Family,0
 202407,Jul 2024,City/Other,Palmetto,Multi-Family,0
 202408,Aug 2024,City/Other,Palmetto,Multi-Family,0
 202409,Sep 2024,City/Other,Palmetto,Multi-Family,0
@@ -2277,7 +2409,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Palmetto,Multi-Family,0
 202509,Sep 2025,City/Other,Palmetto,Multi-Family,0
 202510,Oct 2025,City/Other,Palmetto,Multi-Family,0
-202406,Jun 2024,City/Other,Peachtree City,Multi-Family,0
+202511,Nov 2025,City/Other,Palmetto,Multi-Family,0
+202512,Dec 2025,City/Other,Palmetto,Multi-Family,0
 202407,Jul 2024,City/Other,Peachtree City,Multi-Family,0
 202408,Aug 2024,City/Other,Peachtree City,Multi-Family,0
 202409,Sep 2024,City/Other,Peachtree City,Multi-Family,0
@@ -2294,7 +2427,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Peachtree City,Multi-Family,0
 202509,Sep 2025,City/Other,Peachtree City,Multi-Family,0
 202510,Oct 2025,City/Other,Peachtree City,Multi-Family,0
-202406,Jun 2024,City/Other,Peachtree Corners,Multi-Family,0
+202511,Nov 2025,City/Other,Peachtree City,Multi-Family,0
+202512,Dec 2025,City/Other,Peachtree City,Multi-Family,0
 202407,Jul 2024,City/Other,Peachtree Corners,Multi-Family,0
 202408,Aug 2024,City/Other,Peachtree Corners,Multi-Family,0
 202409,Sep 2024,City/Other,Peachtree Corners,Multi-Family,0
@@ -2311,7 +2445,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Peachtree Corners,Multi-Family,0
 202509,Sep 2025,City/Other,Peachtree Corners,Multi-Family,0
 202510,Oct 2025,City/Other,Peachtree Corners,Multi-Family,0
-202406,Jun 2024,City/Other,Pine Lake,Multi-Family,0
+202511,Nov 2025,City/Other,Peachtree Corners,Multi-Family,0
+202512,Dec 2025,City/Other,Peachtree Corners,Multi-Family,0
 202407,Jul 2024,City/Other,Pine Lake,Multi-Family,0
 202408,Aug 2024,City/Other,Pine Lake,Multi-Family,0
 202409,Sep 2024,City/Other,Pine Lake,Multi-Family,0
@@ -2328,7 +2463,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Pine Lake,Multi-Family,0
 202509,Sep 2025,City/Other,Pine Lake,Multi-Family,0
 202510,Oct 2025,City/Other,Pine Lake,Multi-Family,0
-202406,Jun 2024,City/Other,Powder Springs,Multi-Family,8
+202511,Nov 2025,City/Other,Pine Lake,Multi-Family,0
+202512,Dec 2025,City/Other,Pine Lake,Multi-Family,0
 202407,Jul 2024,City/Other,Powder Springs,Multi-Family,6
 202408,Aug 2024,City/Other,Powder Springs,Multi-Family,8
 202409,Sep 2024,City/Other,Powder Springs,Multi-Family,5
@@ -2345,7 +2481,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Powder Springs,Multi-Family,22
 202509,Sep 2025,City/Other,Powder Springs,Multi-Family,19
 202510,Oct 2025,City/Other,Powder Springs,Multi-Family,25
-202406,Jun 2024,City/Other,Riverdale,Multi-Family,0
+202511,Nov 2025,City/Other,Powder Springs,Multi-Family,17
+202512,Dec 2025,City/Other,Powder Springs,Multi-Family,13
 202407,Jul 2024,City/Other,Riverdale,Multi-Family,0
 202408,Aug 2024,City/Other,Riverdale,Multi-Family,0
 202409,Sep 2024,City/Other,Riverdale,Multi-Family,0
@@ -2362,7 +2499,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Riverdale,Multi-Family,6
 202509,Sep 2025,City/Other,Riverdale,Multi-Family,5
 202510,Oct 2025,City/Other,Riverdale,Multi-Family,6
-202406,Jun 2024,County,Rockdale,Multi-Family,0
+202511,Nov 2025,City/Other,Riverdale,Multi-Family,5
+202512,Dec 2025,City/Other,Riverdale,Multi-Family,5
 202407,Jul 2024,County,Rockdale,Multi-Family,0
 202408,Aug 2024,County,Rockdale,Multi-Family,0
 202409,Sep 2024,County,Rockdale,Multi-Family,0
@@ -2379,7 +2517,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,County,Rockdale,Multi-Family,0
 202509,Sep 2025,County,Rockdale,Multi-Family,0
 202510,Oct 2025,County,Rockdale,Multi-Family,0
-202406,Jun 2024,City/Other,Roswell,Multi-Family,0
+202511,Nov 2025,County,Rockdale,Multi-Family,0
+202512,Dec 2025,County,Rockdale,Multi-Family,0
 202407,Jul 2024,City/Other,Roswell,Multi-Family,0
 202408,Aug 2024,City/Other,Roswell,Multi-Family,0
 202409,Sep 2024,City/Other,Roswell,Multi-Family,0
@@ -2396,7 +2535,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Roswell,Multi-Family,0
 202509,Sep 2025,City/Other,Roswell,Multi-Family,0
 202510,Oct 2025,City/Other,Roswell,Multi-Family,0
-202406,Jun 2024,City/Other,Sandy Springs,Multi-Family,0
+202511,Nov 2025,City/Other,Roswell,Multi-Family,0
+202512,Dec 2025,City/Other,Roswell,Multi-Family,0
 202407,Jul 2024,City/Other,Sandy Springs,Multi-Family,0
 202408,Aug 2024,City/Other,Sandy Springs,Multi-Family,0
 202409,Sep 2024,City/Other,Sandy Springs,Multi-Family,0
@@ -2413,7 +2553,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Sandy Springs,Multi-Family,21
 202509,Sep 2025,City/Other,Sandy Springs,Multi-Family,392
 202510,Oct 2025,City/Other,Sandy Springs,Multi-Family,0
-202406,Jun 2024,City/Other,Smyrna,Multi-Family,0
+202511,Nov 2025,City/Other,Sandy Springs,Multi-Family,0
+202512,Dec 2025,City/Other,Sandy Springs,Multi-Family,0
 202407,Jul 2024,City/Other,Smyrna,Multi-Family,0
 202408,Aug 2024,City/Other,Smyrna,Multi-Family,0
 202409,Sep 2024,City/Other,Smyrna,Multi-Family,0
@@ -2430,7 +2571,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Smyrna,Multi-Family,0
 202509,Sep 2025,City/Other,Smyrna,Multi-Family,0
 202510,Oct 2025,City/Other,Smyrna,Multi-Family,0
-202406,Jun 2024,City/Other,Snellville,Multi-Family,0
+202511,Nov 2025,City/Other,Smyrna,Multi-Family,0
+202512,Dec 2025,City/Other,Smyrna,Multi-Family,0
 202407,Jul 2024,City/Other,Snellville,Multi-Family,0
 202408,Aug 2024,City/Other,Snellville,Multi-Family,0
 202409,Sep 2024,City/Other,Snellville,Multi-Family,0
@@ -2447,7 +2589,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Snellville,Multi-Family,0
 202509,Sep 2025,City/Other,Snellville,Multi-Family,0
 202510,Oct 2025,City/Other,Snellville,Multi-Family,0
-202406,Jun 2024,City/Other,South Fulton,Multi-Family,0
+202511,Nov 2025,City/Other,Snellville,Multi-Family,0
+202512,Dec 2025,City/Other,Snellville,Multi-Family,0
 202407,Jul 2024,City/Other,South Fulton,Multi-Family,0
 202408,Aug 2024,City/Other,South Fulton,Multi-Family,0
 202409,Sep 2024,City/Other,South Fulton,Multi-Family,0
@@ -2464,7 +2607,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,South Fulton,Multi-Family,0
 202509,Sep 2025,City/Other,South Fulton,Multi-Family,0
 202510,Oct 2025,City/Other,South Fulton,Multi-Family,0
-202406,Jun 2024,City/Other,Stockbridge,Multi-Family,0
+202511,Nov 2025,City/Other,South Fulton,Multi-Family,0
+202512,Dec 2025,City/Other,South Fulton,Multi-Family,0
 202407,Jul 2024,City/Other,Stockbridge,Multi-Family,0
 202408,Aug 2024,City/Other,Stockbridge,Multi-Family,0
 202409,Sep 2024,City/Other,Stockbridge,Multi-Family,0
@@ -2481,7 +2625,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Stockbridge,Multi-Family,0
 202509,Sep 2025,City/Other,Stockbridge,Multi-Family,0
 202510,Oct 2025,City/Other,Stockbridge,Multi-Family,0
-202406,Jun 2024,City/Other,Stone Mountain,Multi-Family,0
+202511,Nov 2025,City/Other,Stockbridge,Multi-Family,0
+202512,Dec 2025,City/Other,Stockbridge,Multi-Family,0
 202407,Jul 2024,City/Other,Stone Mountain,Multi-Family,0
 202408,Aug 2024,City/Other,Stone Mountain,Multi-Family,0
 202409,Sep 2024,City/Other,Stone Mountain,Multi-Family,0
@@ -2498,7 +2643,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Stone Mountain,Multi-Family,0
 202509,Sep 2025,City/Other,Stone Mountain,Multi-Family,0
 202510,Oct 2025,City/Other,Stone Mountain,Multi-Family,0
-202406,Jun 2024,City/Other,Stonecrest,Multi-Family,0
+202511,Nov 2025,City/Other,Stone Mountain,Multi-Family,0
+202512,Dec 2025,City/Other,Stone Mountain,Multi-Family,0
 202407,Jul 2024,City/Other,Stonecrest,Multi-Family,0
 202408,Aug 2024,City/Other,Stonecrest,Multi-Family,0
 202409,Sep 2024,City/Other,Stonecrest,Multi-Family,0
@@ -2515,7 +2661,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Stonecrest,Multi-Family,0
 202509,Sep 2025,City/Other,Stonecrest,Multi-Family,0
 202510,Oct 2025,City/Other,Stonecrest,Multi-Family,0
-202406,Jun 2024,City/Other,Sugar Hill,Multi-Family,0
+202511,Nov 2025,City/Other,Stonecrest,Multi-Family,0
+202512,Dec 2025,City/Other,Stonecrest,Multi-Family,0
 202407,Jul 2024,City/Other,Sugar Hill,Multi-Family,0
 202408,Aug 2024,City/Other,Sugar Hill,Multi-Family,0
 202409,Sep 2024,City/Other,Sugar Hill,Multi-Family,12
@@ -2532,7 +2679,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Sugar Hill,Multi-Family,0
 202509,Sep 2025,City/Other,Sugar Hill,Multi-Family,12
 202510,Oct 2025,City/Other,Sugar Hill,Multi-Family,12
-202406,Jun 2024,City/Other,Suwanee,Multi-Family,0
+202511,Nov 2025,City/Other,Sugar Hill,Multi-Family,0
+202512,Dec 2025,City/Other,Sugar Hill,Multi-Family,0
 202407,Jul 2024,City/Other,Suwanee,Multi-Family,6
 202408,Aug 2024,City/Other,Suwanee,Multi-Family,0
 202409,Sep 2024,City/Other,Suwanee,Multi-Family,0
@@ -2549,7 +2697,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Suwanee,Multi-Family,0
 202509,Sep 2025,City/Other,Suwanee,Multi-Family,0
 202510,Oct 2025,City/Other,Suwanee,Multi-Family,0
-202406,Jun 2024,City/Other,Tucker,Multi-Family,0
+202511,Nov 2025,City/Other,Suwanee,Multi-Family,0
+202512,Dec 2025,City/Other,Suwanee,Multi-Family,0
 202407,Jul 2024,City/Other,Tucker,Multi-Family,0
 202408,Aug 2024,City/Other,Tucker,Multi-Family,0
 202409,Sep 2024,City/Other,Tucker,Multi-Family,0
@@ -2566,7 +2715,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Tucker,Multi-Family,0
 202509,Sep 2025,City/Other,Tucker,Multi-Family,0
 202510,Oct 2025,City/Other,Tucker,Multi-Family,0
-202406,Jun 2024,City/Other,Tyrone,Multi-Family,0
+202511,Nov 2025,City/Other,Tucker,Multi-Family,0
+202512,Dec 2025,City/Other,Tucker,Multi-Family,0
 202407,Jul 2024,City/Other,Tyrone,Multi-Family,0
 202408,Aug 2024,City/Other,Tyrone,Multi-Family,0
 202409,Sep 2024,City/Other,Tyrone,Multi-Family,0
@@ -2583,7 +2733,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Tyrone,Multi-Family,0
 202509,Sep 2025,City/Other,Tyrone,Multi-Family,0
 202510,Oct 2025,City/Other,Tyrone,Multi-Family,0
-202406,Jun 2024,City/Other,Union City,Multi-Family,0
+202511,Nov 2025,City/Other,Tyrone,Multi-Family,0
+202512,Dec 2025,City/Other,Tyrone,Multi-Family,0
 202407,Jul 2024,City/Other,Union City,Multi-Family,0
 202408,Aug 2024,City/Other,Union City,Multi-Family,0
 202409,Sep 2024,City/Other,Union City,Multi-Family,0
@@ -2600,7 +2751,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Union City,Multi-Family,51
 202509,Sep 2025,City/Other,Union City,Multi-Family,41
 202510,Oct 2025,City/Other,Union City,Multi-Family,55
-202406,Jun 2024,City/Other,Woodstock,Multi-Family,0
+202511,Nov 2025,City/Other,Union City,Multi-Family,37
+202512,Dec 2025,City/Other,Union City,Multi-Family,27
 202407,Jul 2024,City/Other,Woodstock,Multi-Family,0
 202408,Aug 2024,City/Other,Woodstock,Multi-Family,0
 202409,Sep 2024,City/Other,Woodstock,Multi-Family,0
@@ -2617,8 +2769,8 @@ year_month,date,Level,Name,Series,Permits
 202508,Aug 2025,City/Other,Woodstock,Multi-Family,0
 202509,Sep 2025,City/Other,Woodstock,Multi-Family,0
 202510,Oct 2025,City/Other,Woodstock,Multi-Family,0
-202406,Jun 2024,County,Metro,Multi-Family,452
-202406,Jun 2024,County,Metro,Single-Family,1362
+202511,Nov 2025,City/Other,Woodstock,Multi-Family,0
+202512,Dec 2025,City/Other,Woodstock,Multi-Family,0
 202407,Jul 2024,County,Metro,Multi-Family,623
 202407,Jul 2024,County,Metro,Single-Family,1454
 202408,Aug 2024,County,Metro,Multi-Family,1151
@@ -2651,3 +2803,7 @@ year_month,date,Level,Name,Series,Permits
 202509,Sep 2025,County,Metro,Single-Family,1001
 202510,Oct 2025,County,Metro,Multi-Family,851
 202510,Oct 2025,County,Metro,Single-Family,1299
+202511,Nov 2025,County,Metro,Multi-Family,476
+202511,Nov 2025,County,Metro,Single-Family,789
+202512,Dec 2025,County,Metro,Multi-Family,773
+202512,Dec 2025,County,Metro,Single-Family,794
