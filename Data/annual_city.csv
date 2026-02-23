@@ -89,6 +89,8 @@ Acworth,2023,Multi-family,0
 Acworth,2023,Single-family,58
 Acworth,2024,Multi-family,12
 Acworth,2024,Single-family,101
+Acworth,2025,Multi-family,0
+Acworth,2025,Single-family,64
 Alpharetta,1980,Multi-family,72
 Alpharetta,1980,Single-family,35
 Alpharetta,1981,Multi-family,114
@@ -179,6 +181,8 @@ Alpharetta,2023,Multi-family,0
 Alpharetta,2023,Single-family,201
 Alpharetta,2024,Multi-family,0
 Alpharetta,2024,Single-family,226
+Alpharetta,2025,Multi-family,0
+Alpharetta,2025,Single-family,340
 Atlanta,1980,Multi-family,921
 Atlanta,1980,Single-family,364
 Atlanta,1981,Multi-family,32
@@ -269,6 +273,8 @@ Atlanta,2023,Multi-family,6482
 Atlanta,2023,Single-family,1139
 Atlanta,2024,Multi-family,7318
 Atlanta,2024,Single-family,791
+Atlanta,2025,Multi-family,5061
+Atlanta,2025,Single-family,561
 Austell,1980,Multi-family,0
 Austell,1980,Single-family,2
 Austell,1981,Multi-family,2
@@ -359,6 +365,8 @@ Austell,2023,Multi-family,0
 Austell,2023,Single-family,38
 Austell,2024,Multi-family,0
 Austell,2024,Single-family,23
+Austell,2025,Multi-family,58
+Austell,2025,Single-family,109
 Avondale Estates,1980,Multi-family,0
 Avondale Estates,1980,Single-family,0
 Avondale Estates,1981,Multi-family,0
@@ -449,6 +457,8 @@ Avondale Estates,2023,Multi-family,0
 Avondale Estates,2023,Single-family,3
 Avondale Estates,2024,Multi-family,0
 Avondale Estates,2024,Single-family,2
+Avondale Estates,2025,Multi-family,66
+Avondale Estates,2025,Single-family,0
 Ball Ground,1980,Multi-family,0
 Ball Ground,1980,Single-family,0
 Ball Ground,1981,Multi-family,0
@@ -539,6 +549,8 @@ Ball Ground,2023,Multi-family,0
 Ball Ground,2023,Single-family,106
 Ball Ground,2024,Multi-family,0
 Ball Ground,2024,Single-family,77
+Ball Ground,2025,Multi-family,0
+Ball Ground,2025,Single-family,68
 Berkeley Lake,1980,Multi-family,0
 Berkeley Lake,1980,Single-family,0
 Berkeley Lake,1981,Multi-family,0
@@ -629,6 +641,8 @@ Berkeley Lake,2023,Multi-family,0
 Berkeley Lake,2023,Single-family,0
 Berkeley Lake,2024,Multi-family,0
 Berkeley Lake,2024,Single-family,2
+Berkeley Lake,2025,Multi-family,0
+Berkeley Lake,2025,Single-family,0
 Brookhaven,1980,Multi-family,0
 Brookhaven,1980,Single-family,0
 Brookhaven,1981,Multi-family,0
@@ -719,6 +733,8 @@ Brookhaven,2023,Multi-family,630
 Brookhaven,2023,Single-family,62
 Brookhaven,2024,Multi-family,0
 Brookhaven,2024,Single-family,117
+Brookhaven,2025,Multi-family,0
+Brookhaven,2025,Single-family,143
 Buford,1980,Multi-family,0
 Buford,1980,Single-family,0
 Buford,1981,Multi-family,0
@@ -809,6 +825,8 @@ Buford,2023,Multi-family,73
 Buford,2023,Single-family,37
 Buford,2024,Multi-family,0
 Buford,2024,Single-family,52
+Buford,2025,Multi-family,0
+Buford,2025,Single-family,61
 Canton,1980,Multi-family,0
 Canton,1980,Single-family,0
 Canton,1981,Multi-family,0
@@ -899,6 +917,8 @@ Canton,2023,Multi-family,30
 Canton,2023,Single-family,431
 Canton,2024,Multi-family,858
 Canton,2024,Single-family,286
+Canton,2025,Multi-family,7
+Canton,2025,Single-family,276
 Chamblee,1980,Multi-family,0
 Chamblee,1980,Single-family,0
 Chamblee,1981,Multi-family,0
@@ -989,6 +1009,8 @@ Chamblee,2023,Multi-family,184
 Chamblee,2023,Single-family,21
 Chamblee,2024,Multi-family,0
 Chamblee,2024,Single-family,20
+Chamblee,2025,Multi-family,367
+Chamblee,2025,Single-family,31
 Chattahoochee Hills,1980,Multi-family,0
 Chattahoochee Hills,1980,Single-family,0
 Chattahoochee Hills,1981,Multi-family,0
@@ -1079,6 +1101,8 @@ Chattahoochee Hills,2023,Multi-family,0
 Chattahoochee Hills,2023,Single-family,56
 Chattahoochee Hills,2024,Multi-family,0
 Chattahoochee Hills,2024,Single-family,64
+Chattahoochee Hills,2025,Multi-family,0
+Chattahoochee Hills,2025,Single-family,40
 Clarkston,1980,Multi-family,0
 Clarkston,1980,Single-family,0
 Clarkston,1981,Multi-family,0
@@ -1169,6 +1193,8 @@ Clarkston,2023,Multi-family,2
 Clarkston,2023,Single-family,0
 Clarkston,2024,Multi-family,0
 Clarkston,2024,Single-family,13
+Clarkston,2025,Multi-family,0
+Clarkston,2025,Single-family,6
 College Park,1980,Multi-family,0
 College Park,1980,Single-family,0
 College Park,1981,Multi-family,0
@@ -1259,6 +1285,8 @@ College Park,2023,Multi-family,0
 College Park,2023,Single-family,91
 College Park,2024,Multi-family,0
 College Park,2024,Single-family,64
+College Park,2025,Multi-family,252
+College Park,2025,Single-family,38
 Conyers,1980,Multi-family,0
 Conyers,1980,Single-family,0
 Conyers,1981,Multi-family,0
@@ -1349,6 +1377,8 @@ Conyers,2023,Multi-family,0
 Conyers,2023,Single-family,214
 Conyers,2024,Multi-family,0
 Conyers,2024,Single-family,179
+Conyers,2025,Multi-family,0
+Conyers,2025,Single-family,163
 Cumming,1980,Multi-family,0
 Cumming,1980,Single-family,0
 Cumming,1981,Multi-family,0
@@ -1439,6 +1469,8 @@ Cumming,2023,Multi-family,94
 Cumming,2023,Single-family,108
 Cumming,2024,Multi-family,782
 Cumming,2024,Single-family,283
+Cumming,2025,Multi-family,12
+Cumming,2025,Single-family,152
 Dacula,1980,Multi-family,0
 Dacula,1980,Single-family,18
 Dacula,1981,Multi-family,0
@@ -1529,6 +1561,8 @@ Dacula,2023,Multi-family,0
 Dacula,2023,Single-family,102
 Dacula,2024,Multi-family,224
 Dacula,2024,Single-family,217
+Dacula,2025,Multi-family,96
+Dacula,2025,Single-family,96
 Decatur,1980,Multi-family,0
 Decatur,1980,Single-family,3
 Decatur,1981,Multi-family,2
@@ -1619,6 +1653,8 @@ Decatur,2023,Multi-family,0
 Decatur,2023,Single-family,25
 Decatur,2024,Multi-family,370
 Decatur,2024,Single-family,18
+Decatur,2025,Multi-family,0
+Decatur,2025,Single-family,30
 Doraville,1980,Multi-family,0
 Doraville,1980,Single-family,0
 Doraville,1981,Multi-family,0
@@ -1709,6 +1745,8 @@ Doraville,2023,Multi-family,604
 Doraville,2023,Single-family,2
 Doraville,2024,Multi-family,0
 Doraville,2024,Single-family,5
+Doraville,2025,Multi-family,0
+Doraville,2025,Single-family,82
 Douglasville,1980,Multi-family,2
 Douglasville,1980,Single-family,70
 Douglasville,1981,Multi-family,4
@@ -1799,6 +1837,8 @@ Douglasville,2023,Multi-family,484
 Douglasville,2023,Single-family,193
 Douglasville,2024,Multi-family,72
 Douglasville,2024,Single-family,235
+Douglasville,2025,Multi-family,119
+Douglasville,2025,Single-family,243
 Duluth,1980,Multi-family,0
 Duluth,1980,Single-family,0
 Duluth,1981,Multi-family,0
@@ -1889,6 +1929,8 @@ Duluth,2023,Multi-family,0
 Duluth,2023,Single-family,245
 Duluth,2024,Multi-family,0
 Duluth,2024,Single-family,191
+Duluth,2025,Multi-family,0
+Duluth,2025,Single-family,101
 Dunwoody,1980,Multi-family,0
 Dunwoody,1980,Single-family,0
 Dunwoody,1981,Multi-family,0
@@ -1979,6 +2021,8 @@ Dunwoody,2023,Multi-family,0
 Dunwoody,2023,Single-family,12
 Dunwoody,2024,Multi-family,0
 Dunwoody,2024,Single-family,12
+Dunwoody,2025,Multi-family,0
+Dunwoody,2025,Single-family,14
 East Point,1980,Multi-family,0
 East Point,1980,Single-family,7
 East Point,1981,Multi-family,7
@@ -2069,6 +2113,8 @@ East Point,2023,Multi-family,89
 East Point,2023,Single-family,97
 East Point,2024,Multi-family,77
 East Point,2024,Single-family,101
+East Point,2025,Multi-family,67
+East Point,2025,Single-family,92
 Fairburn,1980,Multi-family,0
 Fairburn,1980,Single-family,26
 Fairburn,1981,Multi-family,0
@@ -2159,6 +2205,8 @@ Fairburn,2023,Multi-family,288
 Fairburn,2023,Single-family,4
 Fairburn,2024,Multi-family,0
 Fairburn,2024,Single-family,38
+Fairburn,2025,Multi-family,0
+Fairburn,2025,Single-family,86
 Fayetteville,1980,Multi-family,2
 Fayetteville,1980,Single-family,49
 Fayetteville,1981,Multi-family,45
@@ -2249,6 +2297,8 @@ Fayetteville,2023,Multi-family,0
 Fayetteville,2023,Single-family,87
 Fayetteville,2024,Multi-family,0
 Fayetteville,2024,Single-family,54
+Fayetteville,2025,Multi-family,0
+Fayetteville,2025,Single-family,141
 Forest Park,1980,Multi-family,0
 Forest Park,1980,Single-family,1
 Forest Park,1981,Multi-family,0
@@ -2339,6 +2389,8 @@ Forest Park,2023,Multi-family,0
 Forest Park,2023,Single-family,18
 Forest Park,2024,Multi-family,0
 Forest Park,2024,Single-family,15
+Forest Park,2025,Multi-family,0
+Forest Park,2025,Single-family,12
 Grayson,1980,Multi-family,0
 Grayson,1980,Single-family,0
 Grayson,1981,Multi-family,0
@@ -2429,6 +2481,8 @@ Grayson,2023,Multi-family,0
 Grayson,2023,Single-family,89
 Grayson,2024,Multi-family,0
 Grayson,2024,Single-family,111
+Grayson,2025,Multi-family,0
+Grayson,2025,Single-family,29
 Hampton,1980,Multi-family,0
 Hampton,1980,Single-family,0
 Hampton,1981,Multi-family,0
@@ -2519,6 +2573,8 @@ Hampton,2023,Multi-family,0
 Hampton,2023,Single-family,20
 Hampton,2024,Multi-family,0
 Hampton,2024,Single-family,35
+Hampton,2025,Multi-family,0
+Hampton,2025,Single-family,23
 Hapeville,1980,Multi-family,0
 Hapeville,1980,Single-family,2
 Hapeville,1981,Multi-family,0
@@ -2609,6 +2665,8 @@ Hapeville,2023,Multi-family,0
 Hapeville,2023,Single-family,24
 Hapeville,2024,Multi-family,305
 Hapeville,2024,Single-family,67
+Hapeville,2025,Multi-family,0
+Hapeville,2025,Single-family,65
 Holly Springs,1980,Multi-family,0
 Holly Springs,1980,Single-family,0
 Holly Springs,1981,Multi-family,0
@@ -2699,6 +2757,8 @@ Holly Springs,2023,Multi-family,0
 Holly Springs,2023,Single-family,173
 Holly Springs,2024,Multi-family,11
 Holly Springs,2024,Single-family,83
+Holly Springs,2025,Multi-family,26
+Holly Springs,2025,Single-family,136
 Johns Creek,1980,Multi-family,0
 Johns Creek,1980,Single-family,0
 Johns Creek,1981,Multi-family,0
@@ -2789,6 +2849,8 @@ Johns Creek,2023,Multi-family,0
 Johns Creek,2023,Single-family,128
 Johns Creek,2024,Multi-family,0
 Johns Creek,2024,Single-family,129
+Johns Creek,2025,Multi-family,440
+Johns Creek,2025,Single-family,43
 Jonesboro,1980,Multi-family,0
 Jonesboro,1980,Single-family,0
 Jonesboro,1981,Multi-family,2
@@ -2879,6 +2941,8 @@ Jonesboro,2023,Multi-family,0
 Jonesboro,2023,Single-family,1
 Jonesboro,2024,Multi-family,0
 Jonesboro,2024,Single-family,3
+Jonesboro,2025,Multi-family,0
+Jonesboro,2025,Single-family,4
 Kennesaw,1980,Multi-family,0
 Kennesaw,1980,Single-family,67
 Kennesaw,1981,Multi-family,0
@@ -2969,6 +3033,8 @@ Kennesaw,2023,Multi-family,1077
 Kennesaw,2023,Single-family,136
 Kennesaw,2024,Multi-family,0
 Kennesaw,2024,Single-family,80
+Kennesaw,2025,Multi-family,0
+Kennesaw,2025,Single-family,48
 Lake City,1980,Multi-family,0
 Lake City,1980,Single-family,4
 Lake City,1981,Multi-family,0
@@ -3059,6 +3125,8 @@ Lake City,2023,Multi-family,0
 Lake City,2023,Single-family,0
 Lake City,2024,Multi-family,0
 Lake City,2024,Single-family,0
+Lake City,2025,Multi-family,0
+Lake City,2025,Single-family,1
 Lawrenceville,1980,Multi-family,33
 Lawrenceville,1980,Single-family,189
 Lawrenceville,1981,Multi-family,23
@@ -3149,6 +3217,8 @@ Lawrenceville,2023,Multi-family,148
 Lawrenceville,2023,Single-family,139
 Lawrenceville,2024,Multi-family,315
 Lawrenceville,2024,Single-family,51
+Lawrenceville,2025,Multi-family,656
+Lawrenceville,2025,Single-family,41
 Lilburn,1980,Multi-family,0
 Lilburn,1980,Single-family,0
 Lilburn,1981,Multi-family,0
@@ -3239,6 +3309,8 @@ Lilburn,2023,Multi-family,0
 Lilburn,2023,Single-family,99
 Lilburn,2024,Multi-family,0
 Lilburn,2024,Single-family,60
+Lilburn,2025,Multi-family,0
+Lilburn,2025,Single-family,60
 Lithonia,1980,Multi-family,0
 Lithonia,1980,Single-family,0
 Lithonia,1981,Multi-family,0
@@ -3329,6 +3401,8 @@ Lithonia,2023,Multi-family,0
 Lithonia,2023,Single-family,0
 Lithonia,2024,Multi-family,0
 Lithonia,2024,Single-family,4
+Lithonia,2025,Multi-family,0
+Lithonia,2025,Single-family,0
 Locust Grove,1980,Multi-family,0
 Locust Grove,1980,Single-family,0
 Locust Grove,1981,Multi-family,0
@@ -3419,6 +3493,8 @@ Locust Grove,2023,Multi-family,0
 Locust Grove,2023,Single-family,204
 Locust Grove,2024,Multi-family,0
 Locust Grove,2024,Single-family,215
+Locust Grove,2025,Multi-family,0
+Locust Grove,2025,Single-family,222
 Lovejoy,1980,Multi-family,0
 Lovejoy,1980,Single-family,1
 Lovejoy,1981,Multi-family,0
@@ -3509,6 +3585,8 @@ Lovejoy,2023,Multi-family,25
 Lovejoy,2023,Single-family,214
 Lovejoy,2024,Multi-family,31
 Lovejoy,2024,Single-family,206
+Lovejoy,2025,Multi-family,184
+Lovejoy,2025,Single-family,64
 Marietta,1980,Multi-family,580
 Marietta,1980,Single-family,252
 Marietta,1981,Multi-family,305
@@ -3599,6 +3677,8 @@ Marietta,2023,Multi-family,0
 Marietta,2023,Single-family,22
 Marietta,2024,Multi-family,0
 Marietta,2024,Single-family,98
+Marietta,2025,Multi-family,0
+Marietta,2025,Single-family,112
 McDonough,1980,Multi-family,0
 McDonough,1980,Single-family,0
 McDonough,1981,Multi-family,0
@@ -3689,6 +3769,8 @@ McDonough,2023,Multi-family,378
 McDonough,2023,Single-family,158
 McDonough,2024,Multi-family,92
 McDonough,2024,Single-family,194
+McDonough,2025,Multi-family,0
+McDonough,2025,Single-family,132
 Milton,1980,Multi-family,0
 Milton,1980,Single-family,0
 Milton,1981,Multi-family,0
@@ -3779,6 +3861,8 @@ Milton,2023,Multi-family,0
 Milton,2023,Single-family,95
 Milton,2024,Multi-family,0
 Milton,2024,Single-family,117
+Milton,2025,Multi-family,0
+Milton,2025,Single-family,143
 Morrow,1980,Multi-family,0
 Morrow,1980,Single-family,11
 Morrow,1981,Multi-family,0
@@ -3869,6 +3953,8 @@ Morrow,2023,Multi-family,0
 Morrow,2023,Single-family,0
 Morrow,2024,Multi-family,0
 Morrow,2024,Single-family,0
+Morrow,2025,Multi-family,0
+Morrow,2025,Single-family,0
 Mountain Park,1980,Multi-family,0
 Mountain Park,1980,Single-family,5
 Mountain Park,1981,Multi-family,0
@@ -3959,6 +4045,8 @@ Mountain Park,2023,Multi-family,0
 Mountain Park,2023,Single-family,3
 Mountain Park,2024,Multi-family,0
 Mountain Park,2024,Single-family,0
+Mountain Park,2025,Multi-family,0
+Mountain Park,2025,Single-family,2
 Mountain View,1980,Multi-family,0
 Mountain View,1980,Single-family,0
 Mountain View,1981,Multi-family,0
@@ -4137,6 +4225,8 @@ Norcross,2023,Multi-family,280
 Norcross,2023,Single-family,6
 Norcross,2024,Multi-family,70
 Norcross,2024,Single-family,6
+Norcross,2025,Multi-family,0
+Norcross,2025,Single-family,3
 Palmetto,1980,Multi-family,0
 Palmetto,1980,Single-family,21
 Palmetto,1981,Multi-family,0
@@ -4227,6 +4317,8 @@ Palmetto,2023,Multi-family,0
 Palmetto,2023,Single-family,88
 Palmetto,2024,Multi-family,0
 Palmetto,2024,Single-family,59
+Palmetto,2025,Multi-family,0
+Palmetto,2025,Single-family,43
 Peachtree City,1980,Multi-family,22
 Peachtree City,1980,Single-family,232
 Peachtree City,1981,Multi-family,12
@@ -4317,6 +4409,8 @@ Peachtree City,2023,Multi-family,0
 Peachtree City,2023,Single-family,115
 Peachtree City,2024,Multi-family,0
 Peachtree City,2024,Single-family,163
+Peachtree City,2025,Multi-family,0
+Peachtree City,2025,Single-family,85
 Peachtree Corners,1980,Multi-family,0
 Peachtree Corners,1980,Single-family,0
 Peachtree Corners,1981,Multi-family,0
@@ -4407,6 +4501,8 @@ Peachtree Corners,2023,Multi-family,12
 Peachtree Corners,2023,Single-family,121
 Peachtree Corners,2024,Multi-family,0
 Peachtree Corners,2024,Single-family,10
+Peachtree Corners,2025,Multi-family,0
+Peachtree Corners,2025,Single-family,33
 Pine Lake,1980,Multi-family,0
 Pine Lake,1980,Single-family,0
 Pine Lake,1981,Multi-family,0
@@ -4497,6 +4593,8 @@ Pine Lake,2023,Multi-family,0
 Pine Lake,2023,Single-family,2
 Pine Lake,2024,Multi-family,0
 Pine Lake,2024,Single-family,1
+Pine Lake,2025,Multi-family,0
+Pine Lake,2025,Single-family,1
 Powder Springs,1980,Multi-family,0
 Powder Springs,1980,Single-family,67
 Powder Springs,1981,Multi-family,0
@@ -4587,6 +4685,8 @@ Powder Springs,2023,Multi-family,83
 Powder Springs,2023,Single-family,140
 Powder Springs,2024,Multi-family,304
 Powder Springs,2024,Single-family,184
+Powder Springs,2025,Multi-family,193
+Powder Springs,2025,Single-family,160
 Rest Haven,1980,Multi-family,0
 Rest Haven,1980,Single-family,0
 Rest Haven,1981,Multi-family,0
@@ -4767,6 +4867,8 @@ Riverdale,2023,Multi-family,0
 Riverdale,2023,Single-family,0
 Riverdale,2024,Multi-family,0
 Riverdale,2024,Single-family,0
+Riverdale,2025,Multi-family,47
+Riverdale,2025,Single-family,0
 Roswell,1980,Multi-family,382
 Roswell,1980,Single-family,527
 Roswell,1981,Multi-family,143
@@ -4857,6 +4959,8 @@ Roswell,2023,Multi-family,337
 Roswell,2023,Single-family,63
 Roswell,2024,Multi-family,2
 Roswell,2024,Single-family,165
+Roswell,2025,Multi-family,0
+Roswell,2025,Single-family,47
 Sandy Springs,1980,Multi-family,0
 Sandy Springs,1980,Single-family,0
 Sandy Springs,1981,Multi-family,0
@@ -4947,6 +5051,8 @@ Sandy Springs,2023,Multi-family,0
 Sandy Springs,2023,Single-family,78
 Sandy Springs,2024,Multi-family,286
 Sandy Springs,2024,Single-family,62
+Sandy Springs,2025,Multi-family,775
+Sandy Springs,2025,Single-family,71
 Smyrna,1980,Multi-family,220
 Smyrna,1980,Single-family,66
 Smyrna,1981,Multi-family,193
@@ -5037,6 +5143,8 @@ Smyrna,2023,Multi-family,0
 Smyrna,2023,Single-family,180
 Smyrna,2024,Multi-family,0
 Smyrna,2024,Single-family,96
+Smyrna,2025,Multi-family,0
+Smyrna,2025,Single-family,161
 Snellville,1980,Multi-family,38
 Snellville,1980,Single-family,85
 Snellville,1981,Multi-family,67
@@ -5127,6 +5235,8 @@ Snellville,2023,Multi-family,0
 Snellville,2023,Single-family,71
 Snellville,2024,Multi-family,18
 Snellville,2024,Single-family,42
+Snellville,2025,Multi-family,14
+Snellville,2025,Single-family,68
 South Fulton,1980,Multi-family,0
 South Fulton,1980,Single-family,0
 South Fulton,1981,Multi-family,0
@@ -5217,6 +5327,8 @@ South Fulton,2023,Multi-family,0
 South Fulton,2023,Single-family,640
 South Fulton,2024,Multi-family,0
 South Fulton,2024,Single-family,783
+South Fulton,2025,Multi-family,0
+South Fulton,2025,Single-family,540
 Stockbridge,1980,Multi-family,0
 Stockbridge,1980,Single-family,0
 Stockbridge,1981,Multi-family,0
@@ -5307,6 +5419,8 @@ Stockbridge,2023,Multi-family,0
 Stockbridge,2023,Single-family,185
 Stockbridge,2024,Multi-family,0
 Stockbridge,2024,Single-family,185
+Stockbridge,2025,Multi-family,0
+Stockbridge,2025,Single-family,205
 Stone Mountain,1980,Multi-family,0
 Stone Mountain,1980,Single-family,0
 Stone Mountain,1981,Multi-family,0
@@ -5397,6 +5511,8 @@ Stone Mountain,2023,Multi-family,0
 Stone Mountain,2023,Single-family,0
 Stone Mountain,2024,Multi-family,0
 Stone Mountain,2024,Single-family,1
+Stone Mountain,2025,Multi-family,0
+Stone Mountain,2025,Single-family,0
 Stonecrest,1980,Multi-family,0
 Stonecrest,1980,Single-family,0
 Stonecrest,1981,Multi-family,0
@@ -5487,6 +5603,8 @@ Stonecrest,2023,Multi-family,0
 Stonecrest,2023,Single-family,112
 Stonecrest,2024,Multi-family,0
 Stonecrest,2024,Single-family,66
+Stonecrest,2025,Multi-family,0
+Stonecrest,2025,Single-family,87
 Sugar Hill,1980,Multi-family,0
 Sugar Hill,1980,Single-family,0
 Sugar Hill,1981,Multi-family,0
@@ -5577,6 +5695,8 @@ Sugar Hill,2023,Multi-family,768
 Sugar Hill,2023,Single-family,106
 Sugar Hill,2024,Multi-family,12
 Sugar Hill,2024,Single-family,251
+Sugar Hill,2025,Multi-family,72
+Sugar Hill,2025,Single-family,129
 Suwanee,1980,Multi-family,0
 Suwanee,1980,Single-family,0
 Suwanee,1981,Multi-family,2
@@ -5667,6 +5787,8 @@ Suwanee,2023,Multi-family,0
 Suwanee,2023,Single-family,22
 Suwanee,2024,Multi-family,6
 Suwanee,2024,Single-family,10
+Suwanee,2025,Multi-family,14
+Suwanee,2025,Single-family,48
 Tucker,1980,Multi-family,0
 Tucker,1980,Single-family,0
 Tucker,1981,Multi-family,0
@@ -5757,6 +5879,8 @@ Tucker,2023,Multi-family,0
 Tucker,2023,Single-family,94
 Tucker,2024,Multi-family,0
 Tucker,2024,Single-family,39
+Tucker,2025,Multi-family,0
+Tucker,2025,Single-family,7
 Tyrone,1980,Multi-family,0
 Tyrone,1980,Single-family,0
 Tyrone,1981,Multi-family,0
@@ -5847,6 +5971,8 @@ Tyrone,2023,Multi-family,0
 Tyrone,2023,Single-family,15
 Tyrone,2024,Multi-family,0
 Tyrone,2024,Single-family,16
+Tyrone,2025,Multi-family,0
+Tyrone,2025,Single-family,14
 Unincorporated Cherokee County,1980,Multi-family,22
 Unincorporated Cherokee County,1980,Single-family,708
 Unincorporated Cherokee County,1981,Multi-family,105
@@ -5937,6 +6063,8 @@ Unincorporated Cherokee County,2023,Multi-family,0
 Unincorporated Cherokee County,2023,Single-family,1157
 Unincorporated Cherokee County,2024,Multi-family,0
 Unincorporated Cherokee County,2024,Single-family,1054
+Unincorporated Cherokee County,2025,Multi-family,0
+Unincorporated Cherokee County,2025,Single-family,789
 Unincorporated Clayton County,1980,Multi-family,0
 Unincorporated Clayton County,1980,Single-family,946
 Unincorporated Clayton County,1981,Multi-family,2
@@ -6027,6 +6155,8 @@ Unincorporated Clayton County,2023,Multi-family,0
 Unincorporated Clayton County,2023,Single-family,90
 Unincorporated Clayton County,2024,Multi-family,429
 Unincorporated Clayton County,2024,Single-family,181
+Unincorporated Clayton County,2025,Multi-family,140
+Unincorporated Clayton County,2025,Single-family,322
 Unincorporated Cobb County,1980,Multi-family,1014
 Unincorporated Cobb County,1980,Single-family,3298
 Unincorporated Cobb County,1981,Multi-family,1328
@@ -6117,6 +6247,8 @@ Unincorporated Cobb County,2023,Multi-family,644
 Unincorporated Cobb County,2023,Single-family,578
 Unincorporated Cobb County,2024,Multi-family,145
 Unincorporated Cobb County,2024,Single-family,582
+Unincorporated Cobb County,2025,Multi-family,548
+Unincorporated Cobb County,2025,Single-family,391
 Unincorporated DeKalb County,1980,Multi-family,959
 Unincorporated DeKalb County,1980,Single-family,1698
 Unincorporated DeKalb County,1981,Multi-family,416
@@ -6207,6 +6339,8 @@ Unincorporated DeKalb County,2023,Multi-family,145
 Unincorporated DeKalb County,2023,Single-family,378
 Unincorporated DeKalb County,2024,Multi-family,15
 Unincorporated DeKalb County,2024,Single-family,557
+Unincorporated DeKalb County,2025,Multi-family,88
+Unincorporated DeKalb County,2025,Single-family,390
 Unincorporated Douglas County,1980,Multi-family,4
 Unincorporated Douglas County,1980,Single-family,379
 Unincorporated Douglas County,1981,Multi-family,2
@@ -6297,6 +6431,8 @@ Unincorporated Douglas County,2023,Multi-family,0
 Unincorporated Douglas County,2023,Single-family,347
 Unincorporated Douglas County,2024,Multi-family,0
 Unincorporated Douglas County,2024,Single-family,288
+Unincorporated Douglas County,2025,Multi-family,211
+Unincorporated Douglas County,2025,Single-family,228
 Unincorporated Fayette County,1980,Multi-family,0
 Unincorporated Fayette County,1980,Single-family,411
 Unincorporated Fayette County,1981,Multi-family,0
@@ -6387,6 +6523,8 @@ Unincorporated Fayette County,2023,Multi-family,0
 Unincorporated Fayette County,2023,Single-family,137
 Unincorporated Fayette County,2024,Multi-family,0
 Unincorporated Fayette County,2024,Single-family,90
+Unincorporated Fayette County,2025,Multi-family,0
+Unincorporated Fayette County,2025,Single-family,195
 Unincorporated Forsyth County,1980,Multi-family,24
 Unincorporated Forsyth County,1980,Single-family,316
 Unincorporated Forsyth County,1981,Multi-family,14
@@ -6477,6 +6615,8 @@ Unincorporated Forsyth County,2023,Multi-family,156
 Unincorporated Forsyth County,2023,Single-family,1013
 Unincorporated Forsyth County,2024,Multi-family,51
 Unincorporated Forsyth County,2024,Single-family,1409
+Unincorporated Forsyth County,2025,Multi-family,300
+Unincorporated Forsyth County,2025,Single-family,1261
 Unincorporated Fulton County,1980,Multi-family,354
 Unincorporated Fulton County,1980,Single-family,1021
 Unincorporated Fulton County,1981,Multi-family,1422
@@ -6657,6 +6797,8 @@ Unincorporated Gwinnett County,2023,Multi-family,0
 Unincorporated Gwinnett County,2023,Single-family,3105
 Unincorporated Gwinnett County,2024,Multi-family,658
 Unincorporated Gwinnett County,2024,Single-family,3301
+Unincorporated Gwinnett County,2025,Multi-family,144
+Unincorporated Gwinnett County,2025,Single-family,2259
 Unincorporated Henry County,1980,Multi-family,2
 Unincorporated Henry County,1980,Single-family,373
 Unincorporated Henry County,1981,Multi-family,8
@@ -6747,6 +6889,8 @@ Unincorporated Henry County,2023,Multi-family,72
 Unincorporated Henry County,2023,Single-family,1114
 Unincorporated Henry County,2024,Multi-family,0
 Unincorporated Henry County,2024,Single-family,1268
+Unincorporated Henry County,2025,Multi-family,0
+Unincorporated Henry County,2025,Single-family,1185
 Unincorporated Rockdale County,1980,Multi-family,130
 Unincorporated Rockdale County,1980,Single-family,395
 Unincorporated Rockdale County,1981,Multi-family,6
@@ -6837,6 +6981,8 @@ Unincorporated Rockdale County,2023,Multi-family,0
 Unincorporated Rockdale County,2023,Single-family,171
 Unincorporated Rockdale County,2024,Multi-family,0
 Unincorporated Rockdale County,2024,Single-family,304
+Unincorporated Rockdale County,2025,Multi-family,0
+Unincorporated Rockdale County,2025,Single-family,176
 Union City,1980,Multi-family,0
 Union City,1980,Single-family,23
 Union City,1981,Multi-family,0
@@ -6927,6 +7073,8 @@ Union City,2023,Multi-family,0
 Union City,2023,Single-family,198
 Union City,2024,Multi-family,652
 Union City,2024,Single-family,259
+Union City,2025,Multi-family,380
+Union City,2025,Single-family,232
 Woodstock,1980,Multi-family,4
 Woodstock,1980,Single-family,56
 Woodstock,1981,Multi-family,0
@@ -7017,3 +7165,5 @@ Woodstock,2023,Multi-family,0
 Woodstock,2023,Single-family,329
 Woodstock,2024,Multi-family,0
 Woodstock,2024,Single-family,296
+Woodstock,2025,Multi-family,0
+Woodstock,2025,Single-family,222

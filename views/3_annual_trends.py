@@ -124,7 +124,7 @@ with col5:
     slider_value = st.slider(
         label="Issued since:",
         min_value=1980,
-        max_value=2024,
+        max_value=2025,
         value=1985,
         # key="starting_year_input",
     )

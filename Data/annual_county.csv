@@ -134,6 +134,9 @@ Atlanta,2023,Single-family,1139
 Atlanta,2024,All,8109
 Atlanta,2024,Multi-family,7318
 Atlanta,2024,Single-family,791
+Atlanta,2025,All,5622
+Atlanta,2025,Multi-family,5061
+Atlanta,2025,Single-family,561
 Cherokee,1980,All,790
 Cherokee,1980,Multi-family,26
 Cherokee,1980,Single-family,764
@@ -269,6 +272,9 @@ Cherokee,2023,Single-family,2196
 Cherokee,2024,All,2665
 Cherokee,2024,Multi-family,869
 Cherokee,2024,Single-family,1796
+Cherokee,2025,All,1524
+Cherokee,2025,Multi-family,33
+Cherokee,2025,Single-family,1491
 Clayton,1980,All,1033
 Clayton,1980,Multi-family,0
 Clayton,1980,Single-family,1033
@@ -404,6 +410,9 @@ Clayton,2023,Single-family,323
 Clayton,2024,All,865
 Clayton,2024,Multi-family,460
 Clayton,2024,Single-family,405
+Clayton,2025,All,774
+Clayton,2025,Multi-family,371
+Clayton,2025,Single-family,403
 Cobb,1980,All,5576
 Cobb,1980,Multi-family,1814
 Cobb,1980,Single-family,3762
@@ -539,6 +548,9 @@ Cobb,2023,Single-family,1152
 Cobb,2024,All,1625
 Cobb,2024,Multi-family,461
 Cobb,2024,Single-family,1164
+Cobb,2025,All,1844
+Cobb,2025,Multi-family,799
+Cobb,2025,Single-family,1045
 DeKalb,1980,All,2660
 DeKalb,1980,Multi-family,959
 DeKalb,1980,Single-family,1701
@@ -674,6 +686,9 @@ DeKalb,2023,Single-family,711
 DeKalb,2024,All,1240
 DeKalb,2024,Multi-family,385
 DeKalb,2024,Single-family,855
+DeKalb,2025,All,1312
+DeKalb,2025,Multi-family,521
+DeKalb,2025,Single-family,791
 Douglas,1980,All,455
 Douglas,1980,Multi-family,6
 Douglas,1980,Single-family,449
@@ -809,6 +824,9 @@ Douglas,2023,Single-family,540
 Douglas,2024,All,595
 Douglas,2024,Multi-family,72
 Douglas,2024,Single-family,523
+Douglas,2025,All,801
+Douglas,2025,Multi-family,330
+Douglas,2025,Single-family,471
 Fayette,1980,All,716
 Fayette,1980,Multi-family,24
 Fayette,1980,Single-family,692
@@ -944,6 +962,9 @@ Fayette,2023,Single-family,354
 Fayette,2024,All,323
 Fayette,2024,Multi-family,0
 Fayette,2024,Single-family,323
+Fayette,2025,All,435
+Fayette,2025,Multi-family,0
+Fayette,2025,Single-family,435
 Forsyth,1980,All,340
 Forsyth,1980,Multi-family,24
 Forsyth,1980,Single-family,316
@@ -1079,6 +1100,9 @@ Forsyth,2023,Single-family,1121
 Forsyth,2024,All,2525
 Forsyth,2024,Multi-family,833
 Forsyth,2024,Single-family,1692
+Forsyth,2025,All,1725
+Forsyth,2025,Multi-family,312
+Forsyth,2025,Single-family,1413
 Fulton,1980,All,3760
 Fulton,1980,Multi-family,1729
 Fulton,1980,Single-family,2031
@@ -1214,6 +1238,9 @@ Fulton,2023,Single-family,2905
 Fulton,2024,All,11565
 Fulton,2024,Multi-family,8640
 Fulton,2024,Single-family,2925
+Fulton,2025,All,9318
+Fulton,2025,Multi-family,6975
+Fulton,2025,Single-family,2343
 Fulton less Atlanta,1980,All,2475
 Fulton less Atlanta,1980,Multi-family,808
 Fulton less Atlanta,1980,Single-family,1667
@@ -1349,6 +1376,9 @@ Fulton less Atlanta,2023,Single-family,1766
 Fulton less Atlanta,2024,All,3456
 Fulton less Atlanta,2024,Multi-family,1322
 Fulton less Atlanta,2024,Single-family,2134
+Fulton less Atlanta,2025,All,3696
+Fulton less Atlanta,2025,Multi-family,1914
+Fulton less Atlanta,2025,Single-family,1782
 Gwinnett,1980,All,5032
 Gwinnett,1980,Multi-family,1064
 Gwinnett,1980,Single-family,3968
@@ -1484,6 +1514,9 @@ Gwinnett,2023,Single-family,4142
 Gwinnett,2024,All,5607
 Gwinnett,2024,Multi-family,1303
 Gwinnett,2024,Single-family,4304
+Gwinnett,2025,All,3924
+Gwinnett,2025,Multi-family,996
+Gwinnett,2025,Single-family,2928
 Henry,1980,All,375
 Henry,1980,Multi-family,2
 Henry,1980,Single-family,373
@@ -1619,6 +1652,9 @@ Henry,2023,Single-family,1681
 Henry,2024,All,1989
 Henry,2024,Multi-family,92
 Henry,2024,Single-family,1897
+Henry,2025,All,1767
+Henry,2025,Multi-family,0
+Henry,2025,Single-family,1767
 Metro,1980,All,21262
 Metro,1980,Multi-family,5778
 Metro,1980,Single-family,15484
@@ -1754,6 +1790,9 @@ Metro,2023,Single-family,15510
 Metro,2024,All,29482
 Metro,2024,Multi-family,13115
 Metro,2024,Single-family,16367
+Metro,2025,All,23763
+Metro,2025,Multi-family,10337
+Metro,2025,Single-family,13426
 Rockdale,1980,All,525
 Rockdale,1980,Multi-family,130
 Rockdale,1980,Single-family,395
@@ -1889,3 +1928,6 @@ Rockdale,2023,Single-family,385
 Rockdale,2024,All,483
 Rockdale,2024,Multi-family,0
 Rockdale,2024,Single-family,483
+Rockdale,2025,All,339
+Rockdale,2025,Multi-family,0
+Rockdale,2025,Single-family,339

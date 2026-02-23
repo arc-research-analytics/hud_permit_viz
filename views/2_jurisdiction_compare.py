@@ -122,7 +122,7 @@ if screen_width >= 500:
         slider = st.slider(
             label="Issued since:",
             min_value=1980,
-            max_value=2024,
+            max_value=2025,
             value=1990,
             key="starting_year_input",
         )
@@ -147,7 +147,7 @@ else:
         slider = st.slider(
             label="Issued since:",
             min_value=1980,
-            max_value=2024,
+            max_value=2025,
             value=1990,
             key="starting_year_input",
         )
