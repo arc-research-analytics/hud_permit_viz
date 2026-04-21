@@ -91,8 +91,6 @@ Acworth,2024,Multi-family,12,False
 Acworth,2024,Single-family,101,False
 Acworth,2025,Multi-family,0,True
 Acworth,2025,Single-family,64,True
-Acworth,2026,Multi-family,0,True
-Acworth,2026,Single-family,0,True
 Alpharetta,1980,Multi-family,72,False
 Alpharetta,1980,Single-family,35,False
 Alpharetta,1981,Multi-family,114,False
@@ -185,8 +183,6 @@ Alpharetta,2024,Multi-family,0,False
 Alpharetta,2024,Single-family,226,False
 Alpharetta,2025,Multi-family,0,True
 Alpharetta,2025,Single-family,316,True
-Alpharetta,2026,Multi-family,14,True
-Alpharetta,2026,Single-family,4,True
 Atlanta,1980,Multi-family,921,False
 Atlanta,1980,Single-family,364,False
 Atlanta,1981,Multi-family,32,False
@@ -279,8 +275,6 @@ Atlanta,2024,Multi-family,7318,False
 Atlanta,2024,Single-family,791,False
 Atlanta,2025,Multi-family,5061,True
 Atlanta,2025,Single-family,561,True
-Atlanta,2026,Multi-family,226,True
-Atlanta,2026,Single-family,41,True
 Austell,1980,Multi-family,0,False
 Austell,1980,Single-family,2,False
 Austell,1981,Multi-family,2,False
@@ -373,8 +367,6 @@ Austell,2024,Multi-family,0,False
 Austell,2024,Single-family,23,False
 Austell,2025,Multi-family,58,True
 Austell,2025,Single-family,105,True
-Austell,2026,Multi-family,0,True
-Austell,2026,Single-family,9,True
 Avondale Estates,1980,Multi-family,0,False
 Avondale Estates,1980,Single-family,0,False
 Avondale Estates,1981,Multi-family,0,False
@@ -467,8 +459,6 @@ Avondale Estates,2024,Multi-family,0,False
 Avondale Estates,2024,Single-family,0,False
 Avondale Estates,2025,Multi-family,66,True
 Avondale Estates,2025,Single-family,0,True
-Avondale Estates,2026,Multi-family,0,True
-Avondale Estates,2026,Single-family,0,True
 Ball Ground,1980,Multi-family,0,False
 Ball Ground,1980,Single-family,0,False
 Ball Ground,1981,Multi-family,0,False
@@ -561,8 +551,6 @@ Ball Ground,2024,Multi-family,0,False
 Ball Ground,2024,Single-family,77,False
 Ball Ground,2025,Multi-family,0,True
 Ball Ground,2025,Single-family,67,True
-Ball Ground,2026,Multi-family,0,True
-Ball Ground,2026,Single-family,2,True
 Berkeley Lake,1980,Multi-family,0,False
 Berkeley Lake,1980,Single-family,0,False
 Berkeley Lake,1981,Multi-family,0,False
@@ -655,8 +643,6 @@ Berkeley Lake,2024,Multi-family,0,False
 Berkeley Lake,2024,Single-family,2,False
 Berkeley Lake,2025,Multi-family,0,True
 Berkeley Lake,2025,Single-family,0,True
-Berkeley Lake,2026,Multi-family,0,True
-Berkeley Lake,2026,Single-family,0,True
 Brookhaven,1980,Multi-family,0,False
 Brookhaven,1980,Single-family,0,False
 Brookhaven,1981,Multi-family,0,False
@@ -749,8 +735,6 @@ Brookhaven,2024,Multi-family,0,False
 Brookhaven,2024,Single-family,117,False
 Brookhaven,2025,Multi-family,0,True
 Brookhaven,2025,Single-family,143,True
-Brookhaven,2026,Multi-family,53,True
-Brookhaven,2026,Single-family,3,True
 Buford,1980,Multi-family,0,False
 Buford,1980,Single-family,0,False
 Buford,1981,Multi-family,0,False
@@ -843,8 +827,6 @@ Buford,2024,Multi-family,0,False
 Buford,2024,Single-family,52,False
 Buford,2025,Multi-family,0,True
 Buford,2025,Single-family,61,True
-Buford,2026,Multi-family,0,True
-Buford,2026,Single-family,5,True
 Canton,1980,Multi-family,0,False
 Canton,1980,Single-family,0,False
 Canton,1981,Multi-family,0,False
@@ -937,8 +919,6 @@ Canton,2024,Multi-family,858,False
 Canton,2024,Single-family,286,False
 Canton,2025,Multi-family,7,True
 Canton,2025,Single-family,276,True
-Canton,2026,Multi-family,240,True
-Canton,2026,Single-family,13,True
 Chamblee,1980,Multi-family,0,False
 Chamblee,1980,Single-family,0,False
 Chamblee,1981,Multi-family,0,False
@@ -1031,8 +1011,6 @@ Chamblee,2024,Multi-family,0,False
 Chamblee,2024,Single-family,20,False
 Chamblee,2025,Multi-family,367,True
 Chamblee,2025,Single-family,32,True
-Chamblee,2026,Multi-family,0,True
-Chamblee,2026,Single-family,4,True
 Chattahoochee Hills,1980,Multi-family,0,False
 Chattahoochee Hills,1980,Single-family,0,False
 Chattahoochee Hills,1981,Multi-family,0,False
@@ -1125,8 +1103,6 @@ Chattahoochee Hills,2024,Multi-family,0,False
 Chattahoochee Hills,2024,Single-family,64,False
 Chattahoochee Hills,2025,Multi-family,0,True
 Chattahoochee Hills,2025,Single-family,40,True
-Chattahoochee Hills,2026,Multi-family,0,True
-Chattahoochee Hills,2026,Single-family,2,True
 Clarkston,1980,Multi-family,0,False
 Clarkston,1980,Single-family,0,False
 Clarkston,1981,Multi-family,0,False
@@ -1219,8 +1195,6 @@ Clarkston,2024,Multi-family,0,False
 Clarkston,2024,Single-family,13,False
 Clarkston,2025,Multi-family,0,True
 Clarkston,2025,Single-family,6,True
-Clarkston,2026,Multi-family,0,True
-Clarkston,2026,Single-family,0,True
 College Park,1980,Multi-family,0,False
 College Park,1980,Single-family,0,False
 College Park,1981,Multi-family,0,False
@@ -1313,8 +1287,6 @@ College Park,2024,Multi-family,0,False
 College Park,2024,Single-family,64,False
 College Park,2025,Multi-family,252,True
 College Park,2025,Single-family,31,True
-College Park,2026,Multi-family,0,True
-College Park,2026,Single-family,15,True
 Conyers,1980,Multi-family,0,False
 Conyers,1980,Single-family,0,False
 Conyers,1981,Multi-family,0,False
@@ -1407,8 +1379,6 @@ Conyers,2024,Multi-family,0,False
 Conyers,2024,Single-family,179,False
 Conyers,2025,Multi-family,0,True
 Conyers,2025,Single-family,167,True
-Conyers,2026,Multi-family,0,True
-Conyers,2026,Single-family,12,True
 Cumming,1980,Multi-family,0,False
 Cumming,1980,Single-family,0,False
 Cumming,1981,Multi-family,0,False
@@ -1501,8 +1471,6 @@ Cumming,2024,Multi-family,782,False
 Cumming,2024,Single-family,283,False
 Cumming,2025,Multi-family,12,True
 Cumming,2025,Single-family,152,True
-Cumming,2026,Multi-family,0,True
-Cumming,2026,Single-family,7,True
 Dacula,1980,Multi-family,0,False
 Dacula,1980,Single-family,18,False
 Dacula,1981,Multi-family,0,False
@@ -1595,8 +1563,6 @@ Dacula,2024,Multi-family,224,False
 Dacula,2024,Single-family,217,False
 Dacula,2025,Multi-family,96,True
 Dacula,2025,Single-family,96,True
-Dacula,2026,Multi-family,0,True
-Dacula,2026,Single-family,6,True
 Decatur,1980,Multi-family,0,False
 Decatur,1980,Single-family,3,False
 Decatur,1981,Multi-family,2,False
@@ -1689,8 +1655,6 @@ Decatur,2024,Multi-family,370,False
 Decatur,2024,Single-family,18,False
 Decatur,2025,Multi-family,0,True
 Decatur,2025,Single-family,30,True
-Decatur,2026,Multi-family,0,True
-Decatur,2026,Single-family,0,True
 Doraville,1980,Multi-family,0,False
 Doraville,1980,Single-family,0,False
 Doraville,1981,Multi-family,0,False
@@ -1783,8 +1747,6 @@ Doraville,2024,Multi-family,0,False
 Doraville,2024,Single-family,5,False
 Doraville,2025,Multi-family,0,True
 Doraville,2025,Single-family,82,True
-Doraville,2026,Multi-family,0,True
-Doraville,2026,Single-family,0,True
 Douglasville,1980,Multi-family,2,False
 Douglasville,1980,Single-family,70,False
 Douglasville,1981,Multi-family,4,False
@@ -1877,8 +1839,6 @@ Douglasville,2024,Multi-family,106,False
 Douglasville,2024,Single-family,244,False
 Douglasville,2025,Multi-family,162,True
 Douglasville,2025,Single-family,275,True
-Douglasville,2026,Multi-family,0,True
-Douglasville,2026,Single-family,2,True
 Duluth,1980,Multi-family,0,False
 Duluth,1980,Single-family,0,False
 Duluth,1981,Multi-family,0,False
@@ -1971,8 +1931,6 @@ Duluth,2024,Multi-family,0,False
 Duluth,2024,Single-family,191,False
 Duluth,2025,Multi-family,0,True
 Duluth,2025,Single-family,176,True
-Duluth,2026,Multi-family,0,True
-Duluth,2026,Single-family,12,True
 Dunwoody,1980,Multi-family,0,False
 Dunwoody,1980,Single-family,0,False
 Dunwoody,1981,Multi-family,0,False
@@ -2065,8 +2023,6 @@ Dunwoody,2024,Multi-family,0,False
 Dunwoody,2024,Single-family,12,False
 Dunwoody,2025,Multi-family,0,True
 Dunwoody,2025,Single-family,14,True
-Dunwoody,2026,Multi-family,0,True
-Dunwoody,2026,Single-family,1,True
 East Point,1980,Multi-family,0,False
 East Point,1980,Single-family,7,False
 East Point,1981,Multi-family,7,False
@@ -2159,8 +2115,6 @@ East Point,2024,Multi-family,77,False
 East Point,2024,Single-family,101,False
 East Point,2025,Multi-family,67,True
 East Point,2025,Single-family,92,True
-East Point,2026,Multi-family,8,True
-East Point,2026,Single-family,7,True
 Fairburn,1980,Multi-family,0,False
 Fairburn,1980,Single-family,26,False
 Fairburn,1981,Multi-family,0,False
@@ -2253,8 +2207,6 @@ Fairburn,2024,Multi-family,0,False
 Fairburn,2024,Single-family,38,False
 Fairburn,2025,Multi-family,36,True
 Fairburn,2025,Single-family,38,True
-Fairburn,2026,Multi-family,0,True
-Fairburn,2026,Single-family,2,True
 Fayetteville,1980,Multi-family,2,False
 Fayetteville,1980,Single-family,49,False
 Fayetteville,1981,Multi-family,45,False
@@ -2347,8 +2299,6 @@ Fayetteville,2024,Multi-family,0,False
 Fayetteville,2024,Single-family,54,False
 Fayetteville,2025,Multi-family,0,True
 Fayetteville,2025,Single-family,141,True
-Fayetteville,2026,Multi-family,0,True
-Fayetteville,2026,Single-family,12,True
 Forest Park,1980,Multi-family,0,False
 Forest Park,1980,Single-family,1,False
 Forest Park,1981,Multi-family,0,False
@@ -2441,8 +2391,6 @@ Forest Park,2024,Multi-family,0,False
 Forest Park,2024,Single-family,8,False
 Forest Park,2025,Multi-family,0,True
 Forest Park,2025,Single-family,12,True
-Forest Park,2026,Multi-family,0,True
-Forest Park,2026,Single-family,1,True
 Grayson,1980,Multi-family,0,False
 Grayson,1980,Single-family,0,False
 Grayson,1981,Multi-family,0,False
@@ -2535,8 +2483,6 @@ Grayson,2024,Multi-family,0,False
 Grayson,2024,Single-family,107,False
 Grayson,2025,Multi-family,0,True
 Grayson,2025,Single-family,29,True
-Grayson,2026,Multi-family,0,True
-Grayson,2026,Single-family,0,True
 Hampton,1980,Multi-family,0,False
 Hampton,1980,Single-family,0,False
 Hampton,1981,Multi-family,0,False
@@ -2629,8 +2575,6 @@ Hampton,2024,Multi-family,0,False
 Hampton,2024,Single-family,35,False
 Hampton,2025,Multi-family,0,True
 Hampton,2025,Single-family,23,True
-Hampton,2026,Multi-family,0,True
-Hampton,2026,Single-family,0,True
 Hapeville,1980,Multi-family,0,False
 Hapeville,1980,Single-family,2,False
 Hapeville,1981,Multi-family,0,False
@@ -2723,8 +2667,6 @@ Hapeville,2024,Multi-family,305,False
 Hapeville,2024,Single-family,67,False
 Hapeville,2025,Multi-family,0,True
 Hapeville,2025,Single-family,65,True
-Hapeville,2026,Multi-family,0,True
-Hapeville,2026,Single-family,0,True
 Holly Springs,1980,Multi-family,0,False
 Holly Springs,1980,Single-family,0,False
 Holly Springs,1981,Multi-family,0,False
@@ -2817,8 +2759,6 @@ Holly Springs,2024,Multi-family,11,False
 Holly Springs,2024,Single-family,83,False
 Holly Springs,2025,Multi-family,26,True
 Holly Springs,2025,Single-family,136,True
-Holly Springs,2026,Multi-family,0,True
-Holly Springs,2026,Single-family,6,True
 Johns Creek,1980,Multi-family,0,False
 Johns Creek,1980,Single-family,0,False
 Johns Creek,1981,Multi-family,0,False
@@ -2911,8 +2851,6 @@ Johns Creek,2024,Multi-family,0,False
 Johns Creek,2024,Single-family,129,False
 Johns Creek,2025,Multi-family,440,True
 Johns Creek,2025,Single-family,43,True
-Johns Creek,2026,Multi-family,0,True
-Johns Creek,2026,Single-family,0,True
 Jonesboro,1980,Multi-family,0,False
 Jonesboro,1980,Single-family,0,False
 Jonesboro,1981,Multi-family,2,False
@@ -3005,8 +2943,6 @@ Jonesboro,2024,Multi-family,0,False
 Jonesboro,2024,Single-family,3,False
 Jonesboro,2025,Multi-family,0,True
 Jonesboro,2025,Single-family,4,True
-Jonesboro,2026,Multi-family,0,True
-Jonesboro,2026,Single-family,0,True
 Kennesaw,1980,Multi-family,0,False
 Kennesaw,1980,Single-family,67,False
 Kennesaw,1981,Multi-family,0,False
@@ -3099,8 +3035,6 @@ Kennesaw,2024,Multi-family,0,False
 Kennesaw,2024,Single-family,80,False
 Kennesaw,2025,Multi-family,0,True
 Kennesaw,2025,Single-family,48,True
-Kennesaw,2026,Multi-family,0,True
-Kennesaw,2026,Single-family,5,True
 Lake City,1980,Multi-family,0,False
 Lake City,1980,Single-family,4,False
 Lake City,1981,Multi-family,0,False
@@ -3193,8 +3127,6 @@ Lake City,2024,Multi-family,0,False
 Lake City,2024,Single-family,2,False
 Lake City,2025,Multi-family,0,True
 Lake City,2025,Single-family,1,True
-Lake City,2026,Multi-family,0,True
-Lake City,2026,Single-family,0,True
 Lawrenceville,1980,Multi-family,33,False
 Lawrenceville,1980,Single-family,189,False
 Lawrenceville,1981,Multi-family,23,False
@@ -3287,8 +3219,6 @@ Lawrenceville,2024,Multi-family,315,False
 Lawrenceville,2024,Single-family,51,False
 Lawrenceville,2025,Multi-family,668,True
 Lawrenceville,2025,Single-family,22,True
-Lawrenceville,2026,Multi-family,88,True
-Lawrenceville,2026,Single-family,3,True
 Lilburn,1980,Multi-family,0,False
 Lilburn,1980,Single-family,0,False
 Lilburn,1981,Multi-family,0,False
@@ -3381,8 +3311,6 @@ Lilburn,2024,Multi-family,0,False
 Lilburn,2024,Single-family,60,False
 Lilburn,2025,Multi-family,0,True
 Lilburn,2025,Single-family,60,True
-Lilburn,2026,Multi-family,0,True
-Lilburn,2026,Single-family,2,True
 Lithonia,1980,Multi-family,0,False
 Lithonia,1980,Single-family,0,False
 Lithonia,1981,Multi-family,0,False
@@ -3475,8 +3403,6 @@ Lithonia,2024,Multi-family,0,False
 Lithonia,2024,Single-family,4,False
 Lithonia,2025,Multi-family,0,True
 Lithonia,2025,Single-family,0,True
-Lithonia,2026,Multi-family,0,True
-Lithonia,2026,Single-family,1,True
 Locust Grove,1980,Multi-family,0,False
 Locust Grove,1980,Single-family,0,False
 Locust Grove,1981,Multi-family,0,False
@@ -3569,8 +3495,6 @@ Locust Grove,2024,Multi-family,0,False
 Locust Grove,2024,Single-family,215,False
 Locust Grove,2025,Multi-family,0,True
 Locust Grove,2025,Single-family,222,True
-Locust Grove,2026,Multi-family,0,True
-Locust Grove,2026,Single-family,27,True
 Lovejoy,1980,Multi-family,0,False
 Lovejoy,1980,Single-family,1,False
 Lovejoy,1981,Multi-family,0,False
@@ -3663,8 +3587,6 @@ Lovejoy,2024,Multi-family,31,False
 Lovejoy,2024,Single-family,206,False
 Lovejoy,2025,Multi-family,184,True
 Lovejoy,2025,Single-family,64,True
-Lovejoy,2026,Multi-family,0,True
-Lovejoy,2026,Single-family,6,True
 Marietta,1980,Multi-family,580,False
 Marietta,1980,Single-family,252,False
 Marietta,1981,Multi-family,305,False
@@ -3757,8 +3679,6 @@ Marietta,2024,Multi-family,0,False
 Marietta,2024,Single-family,98,False
 Marietta,2025,Multi-family,0,True
 Marietta,2025,Single-family,112,True
-Marietta,2026,Multi-family,0,True
-Marietta,2026,Single-family,2,True
 McDonough,1980,Multi-family,0,False
 McDonough,1980,Single-family,0,False
 McDonough,1981,Multi-family,0,False
@@ -3851,8 +3771,6 @@ McDonough,2024,Multi-family,0,False
 McDonough,2024,Single-family,184,False
 McDonough,2025,Multi-family,30,True
 McDonough,2025,Single-family,144,True
-McDonough,2026,Multi-family,0,True
-McDonough,2026,Single-family,8,True
 Milton,1980,Multi-family,0,False
 Milton,1980,Single-family,0,False
 Milton,1981,Multi-family,0,False
@@ -3945,8 +3863,6 @@ Milton,2024,Multi-family,0,False
 Milton,2024,Single-family,117,False
 Milton,2025,Multi-family,0,True
 Milton,2025,Single-family,143,True
-Milton,2026,Multi-family,0,True
-Milton,2026,Single-family,8,True
 Morrow,1980,Multi-family,0,False
 Morrow,1980,Single-family,11,False
 Morrow,1981,Multi-family,0,False
@@ -4039,8 +3955,6 @@ Morrow,2024,Multi-family,0,False
 Morrow,2024,Single-family,0,False
 Morrow,2025,Multi-family,0,True
 Morrow,2025,Single-family,0,True
-Morrow,2026,Multi-family,0,True
-Morrow,2026,Single-family,0,True
 Mountain Park,1980,Multi-family,0,False
 Mountain Park,1980,Single-family,5,False
 Mountain Park,1981,Multi-family,0,False
@@ -4133,8 +4047,6 @@ Mountain Park,2024,Multi-family,0,False
 Mountain Park,2024,Single-family,2,False
 Mountain Park,2025,Multi-family,0,True
 Mountain Park,2025,Single-family,2,True
-Mountain Park,2026,Multi-family,0,True
-Mountain Park,2026,Single-family,0,True
 Mountain View,1980,Multi-family,0,False
 Mountain View,1980,Single-family,0,False
 Mountain View,1981,Multi-family,0,False
@@ -4225,8 +4137,6 @@ Mountain View,2023,Multi-family,0,False
 Mountain View,2023,Single-family,0,False
 Nelson,2025,Multi-family,0,True
 Nelson,2025,Single-family,3,True
-Nelson,2026,Multi-family,0,True
-Nelson,2026,Single-family,0,True
 Norcross,1980,Multi-family,0,False
 Norcross,1980,Single-family,0,False
 Norcross,1981,Multi-family,198,False
@@ -4319,8 +4229,6 @@ Norcross,2024,Multi-family,70,False
 Norcross,2024,Single-family,6,False
 Norcross,2025,Multi-family,17,True
 Norcross,2025,Single-family,3,True
-Norcross,2026,Multi-family,0,True
-Norcross,2026,Single-family,0,True
 Palmetto,1980,Multi-family,0,False
 Palmetto,1980,Single-family,21,False
 Palmetto,1981,Multi-family,0,False
@@ -4413,8 +4321,6 @@ Palmetto,2024,Multi-family,0,False
 Palmetto,2024,Single-family,59,False
 Palmetto,2025,Multi-family,0,True
 Palmetto,2025,Single-family,43,True
-Palmetto,2026,Multi-family,0,True
-Palmetto,2026,Single-family,0,True
 Peachtree City,1980,Multi-family,22,False
 Peachtree City,1980,Single-family,232,False
 Peachtree City,1981,Multi-family,12,False
@@ -4507,8 +4413,6 @@ Peachtree City,2024,Multi-family,0,False
 Peachtree City,2024,Single-family,163,False
 Peachtree City,2025,Multi-family,0,True
 Peachtree City,2025,Single-family,121,True
-Peachtree City,2026,Multi-family,0,True
-Peachtree City,2026,Single-family,11,True
 Peachtree Corners,1980,Multi-family,0,False
 Peachtree Corners,1980,Single-family,0,False
 Peachtree Corners,1981,Multi-family,0,False
@@ -4601,8 +4505,6 @@ Peachtree Corners,2024,Multi-family,0,False
 Peachtree Corners,2024,Single-family,10,False
 Peachtree Corners,2025,Multi-family,0,True
 Peachtree Corners,2025,Single-family,44,True
-Peachtree Corners,2026,Multi-family,0,True
-Peachtree Corners,2026,Single-family,8,True
 Pine Lake,1980,Multi-family,0,False
 Pine Lake,1980,Single-family,0,False
 Pine Lake,1981,Multi-family,0,False
@@ -4695,8 +4597,6 @@ Pine Lake,2024,Multi-family,0,False
 Pine Lake,2024,Single-family,1,False
 Pine Lake,2025,Multi-family,0,True
 Pine Lake,2025,Single-family,1,True
-Pine Lake,2026,Multi-family,0,True
-Pine Lake,2026,Single-family,0,True
 Powder Springs,1980,Multi-family,0,False
 Powder Springs,1980,Single-family,67,False
 Powder Springs,1981,Multi-family,0,False
@@ -4789,8 +4689,6 @@ Powder Springs,2024,Multi-family,304,False
 Powder Springs,2024,Single-family,184,False
 Powder Springs,2025,Multi-family,193,True
 Powder Springs,2025,Single-family,160,True
-Powder Springs,2026,Multi-family,31,True
-Powder Springs,2026,Single-family,12,True
 Rest Haven,1980,Multi-family,0,False
 Rest Haven,1980,Single-family,0,False
 Rest Haven,1981,Multi-family,0,False
@@ -4971,8 +4869,6 @@ Riverdale,2024,Multi-family,70,False
 Riverdale,2024,Single-family,0,False
 Riverdale,2025,Multi-family,47,True
 Riverdale,2025,Single-family,0,True
-Riverdale,2026,Multi-family,7,True
-Riverdale,2026,Single-family,0,True
 Roswell,1980,Multi-family,382,False
 Roswell,1980,Single-family,527,False
 Roswell,1981,Multi-family,143,False
@@ -5065,8 +4961,6 @@ Roswell,2024,Multi-family,2,False
 Roswell,2024,Single-family,165,False
 Roswell,2025,Multi-family,0,True
 Roswell,2025,Single-family,47,True
-Roswell,2026,Multi-family,0,True
-Roswell,2026,Single-family,5,True
 Sandy Springs,1980,Multi-family,0,False
 Sandy Springs,1980,Single-family,0,False
 Sandy Springs,1981,Multi-family,0,False
@@ -5159,8 +5053,6 @@ Sandy Springs,2024,Multi-family,286,False
 Sandy Springs,2024,Single-family,62,False
 Sandy Springs,2025,Multi-family,413,True
 Sandy Springs,2025,Single-family,71,True
-Sandy Springs,2026,Multi-family,0,True
-Sandy Springs,2026,Single-family,8,True
 Smyrna,1980,Multi-family,220,False
 Smyrna,1980,Single-family,66,False
 Smyrna,1981,Multi-family,193,False
@@ -5253,8 +5145,6 @@ Smyrna,2024,Multi-family,0,False
 Smyrna,2024,Single-family,99,False
 Smyrna,2025,Multi-family,0,True
 Smyrna,2025,Single-family,154,True
-Smyrna,2026,Multi-family,0,True
-Smyrna,2026,Single-family,4,True
 Snellville,1980,Multi-family,38,False
 Snellville,1980,Single-family,85,False
 Snellville,1981,Multi-family,67,False
@@ -5347,8 +5237,6 @@ Snellville,2024,Multi-family,18,False
 Snellville,2024,Single-family,42,False
 Snellville,2025,Multi-family,14,True
 Snellville,2025,Single-family,68,True
-Snellville,2026,Multi-family,0,True
-Snellville,2026,Single-family,12,True
 South Fulton,1980,Multi-family,0,False
 South Fulton,1980,Single-family,0,False
 South Fulton,1981,Multi-family,0,False
@@ -5441,8 +5329,6 @@ South Fulton,2024,Multi-family,0,False
 South Fulton,2024,Single-family,783,False
 South Fulton,2025,Multi-family,0,True
 South Fulton,2025,Single-family,540,True
-South Fulton,2026,Multi-family,0,True
-South Fulton,2026,Single-family,62,True
 Stockbridge,1980,Multi-family,0,False
 Stockbridge,1980,Single-family,0,False
 Stockbridge,1981,Multi-family,0,False
@@ -5535,8 +5421,6 @@ Stockbridge,2024,Multi-family,0,False
 Stockbridge,2024,Single-family,185,False
 Stockbridge,2025,Multi-family,0,True
 Stockbridge,2025,Single-family,205,True
-Stockbridge,2026,Multi-family,0,True
-Stockbridge,2026,Single-family,9,True
 Stone Mountain,1980,Multi-family,0,False
 Stone Mountain,1980,Single-family,0,False
 Stone Mountain,1981,Multi-family,0,False
@@ -5629,8 +5513,6 @@ Stone Mountain,2024,Multi-family,0,False
 Stone Mountain,2024,Single-family,1,False
 Stone Mountain,2025,Multi-family,0,True
 Stone Mountain,2025,Single-family,0,True
-Stone Mountain,2026,Multi-family,0,True
-Stone Mountain,2026,Single-family,0,True
 Stonecrest,1980,Multi-family,0,False
 Stonecrest,1980,Single-family,0,False
 Stonecrest,1981,Multi-family,0,False
@@ -5723,8 +5605,6 @@ Stonecrest,2024,Multi-family,0,False
 Stonecrest,2024,Single-family,66,False
 Stonecrest,2025,Multi-family,0,True
 Stonecrest,2025,Single-family,97,True
-Stonecrest,2026,Multi-family,0,True
-Stonecrest,2026,Single-family,1,True
 Sugar Hill,1980,Multi-family,0,False
 Sugar Hill,1980,Single-family,0,False
 Sugar Hill,1981,Multi-family,0,False
@@ -5817,8 +5697,6 @@ Sugar Hill,2024,Multi-family,12,False
 Sugar Hill,2024,Single-family,251,False
 Sugar Hill,2025,Multi-family,84,True
 Sugar Hill,2025,Single-family,150,True
-Sugar Hill,2026,Multi-family,0,True
-Sugar Hill,2026,Single-family,16,True
 Suwanee,1980,Multi-family,0,False
 Suwanee,1980,Single-family,0,False
 Suwanee,1981,Multi-family,2,False
@@ -5911,8 +5789,6 @@ Suwanee,2024,Multi-family,6,False
 Suwanee,2024,Single-family,10,False
 Suwanee,2025,Multi-family,14,True
 Suwanee,2025,Single-family,48,True
-Suwanee,2026,Multi-family,0,True
-Suwanee,2026,Single-family,0,True
 Tucker,1980,Multi-family,0,False
 Tucker,1980,Single-family,0,False
 Tucker,1981,Multi-family,0,False
@@ -6005,8 +5881,6 @@ Tucker,2024,Multi-family,0,False
 Tucker,2024,Single-family,39,False
 Tucker,2025,Multi-family,0,True
 Tucker,2025,Single-family,11,True
-Tucker,2026,Multi-family,0,True
-Tucker,2026,Single-family,0,True
 Tyrone,1980,Multi-family,0,False
 Tyrone,1980,Single-family,0,False
 Tyrone,1981,Multi-family,0,False
@@ -6099,8 +5973,6 @@ Tyrone,2024,Multi-family,0,False
 Tyrone,2024,Single-family,16,False
 Tyrone,2025,Multi-family,0,True
 Tyrone,2025,Single-family,14,True
-Tyrone,2026,Multi-family,0,True
-Tyrone,2026,Single-family,1,True
 Unincorporated Cherokee County,1980,Multi-family,22,False
 Unincorporated Cherokee County,1980,Single-family,708,False
 Unincorporated Cherokee County,1981,Multi-family,105,False
@@ -6193,8 +6065,6 @@ Unincorporated Cherokee County,2024,Multi-family,0,False
 Unincorporated Cherokee County,2024,Single-family,1054,False
 Unincorporated Cherokee County,2025,Multi-family,0,True
 Unincorporated Cherokee County,2025,Single-family,782,True
-Unincorporated Cherokee County,2026,Multi-family,0,True
-Unincorporated Cherokee County,2026,Single-family,59,True
 Unincorporated Clayton County,1980,Multi-family,0,False
 Unincorporated Clayton County,1980,Single-family,946,False
 Unincorporated Clayton County,1981,Multi-family,2,False
@@ -6287,8 +6157,6 @@ Unincorporated Clayton County,2024,Multi-family,429,False
 Unincorporated Clayton County,2024,Single-family,181,False
 Unincorporated Clayton County,2025,Multi-family,140,True
 Unincorporated Clayton County,2025,Single-family,322,True
-Unincorporated Clayton County,2026,Multi-family,0,True
-Unincorporated Clayton County,2026,Single-family,22,True
 Unincorporated Cobb County,1980,Multi-family,1014,False
 Unincorporated Cobb County,1980,Single-family,3298,False
 Unincorporated Cobb County,1981,Multi-family,1328,False
@@ -6381,8 +6249,6 @@ Unincorporated Cobb County,2024,Multi-family,145,False
 Unincorporated Cobb County,2024,Single-family,558,False
 Unincorporated Cobb County,2025,Multi-family,51,True
 Unincorporated Cobb County,2025,Single-family,392,True
-Unincorporated Cobb County,2026,Multi-family,0,True
-Unincorporated Cobb County,2026,Single-family,33,True
 Unincorporated DeKalb County,1980,Multi-family,959,False
 Unincorporated DeKalb County,1980,Single-family,1698,False
 Unincorporated DeKalb County,1981,Multi-family,416,False
@@ -6475,8 +6341,6 @@ Unincorporated DeKalb County,2024,Multi-family,15,False
 Unincorporated DeKalb County,2024,Single-family,557,False
 Unincorporated DeKalb County,2025,Multi-family,88,True
 Unincorporated DeKalb County,2025,Single-family,390,True
-Unincorporated DeKalb County,2026,Multi-family,0,True
-Unincorporated DeKalb County,2026,Single-family,56,True
 Unincorporated Douglas County,1980,Multi-family,4,False
 Unincorporated Douglas County,1980,Single-family,379,False
 Unincorporated Douglas County,1981,Multi-family,2,False
@@ -6569,8 +6433,6 @@ Unincorporated Douglas County,2024,Multi-family,0,False
 Unincorporated Douglas County,2024,Single-family,288,False
 Unincorporated Douglas County,2025,Multi-family,211,True
 Unincorporated Douglas County,2025,Single-family,228,True
-Unincorporated Douglas County,2026,Multi-family,0,True
-Unincorporated Douglas County,2026,Single-family,11,True
 Unincorporated Fayette County,1980,Multi-family,0,False
 Unincorporated Fayette County,1980,Single-family,411,False
 Unincorporated Fayette County,1981,Multi-family,0,False
@@ -6663,8 +6525,6 @@ Unincorporated Fayette County,2024,Multi-family,0,False
 Unincorporated Fayette County,2024,Single-family,90,False
 Unincorporated Fayette County,2025,Multi-family,0,True
 Unincorporated Fayette County,2025,Single-family,195,True
-Unincorporated Fayette County,2026,Multi-family,0,True
-Unincorporated Fayette County,2026,Single-family,10,True
 Unincorporated Forsyth County,1980,Multi-family,24,False
 Unincorporated Forsyth County,1980,Single-family,316,False
 Unincorporated Forsyth County,1981,Multi-family,14,False
@@ -6757,8 +6617,6 @@ Unincorporated Forsyth County,2024,Multi-family,51,False
 Unincorporated Forsyth County,2024,Single-family,1409,False
 Unincorporated Forsyth County,2025,Multi-family,300,True
 Unincorporated Forsyth County,2025,Single-family,1261,True
-Unincorporated Forsyth County,2026,Multi-family,0,True
-Unincorporated Forsyth County,2026,Single-family,64,True
 Unincorporated Fulton County,1980,Multi-family,354,False
 Unincorporated Fulton County,1980,Single-family,1021,False
 Unincorporated Fulton County,1981,Multi-family,1422,False
@@ -6939,8 +6797,6 @@ Unincorporated Gwinnett County,2024,Multi-family,658,False
 Unincorporated Gwinnett County,2024,Single-family,3301,False
 Unincorporated Gwinnett County,2025,Multi-family,144,True
 Unincorporated Gwinnett County,2025,Single-family,2259,True
-Unincorporated Gwinnett County,2026,Multi-family,0,True
-Unincorporated Gwinnett County,2026,Single-family,141,True
 Unincorporated Henry County,1980,Multi-family,2,False
 Unincorporated Henry County,1980,Single-family,373,False
 Unincorporated Henry County,1981,Multi-family,8,False
@@ -7033,8 +6889,6 @@ Unincorporated Henry County,2024,Multi-family,0,False
 Unincorporated Henry County,2024,Single-family,1268,False
 Unincorporated Henry County,2025,Multi-family,0,True
 Unincorporated Henry County,2025,Single-family,1135,True
-Unincorporated Henry County,2026,Multi-family,0,True
-Unincorporated Henry County,2026,Single-family,81,True
 Unincorporated Rockdale County,1980,Multi-family,130,False
 Unincorporated Rockdale County,1980,Single-family,395,False
 Unincorporated Rockdale County,1981,Multi-family,6,False
@@ -7127,8 +6981,6 @@ Unincorporated Rockdale County,2024,Multi-family,0,False
 Unincorporated Rockdale County,2024,Single-family,304,False
 Unincorporated Rockdale County,2025,Multi-family,0,True
 Unincorporated Rockdale County,2025,Single-family,176,True
-Unincorporated Rockdale County,2026,Multi-family,0,True
-Unincorporated Rockdale County,2026,Single-family,13,True
 Union City,1980,Multi-family,0,False
 Union City,1980,Single-family,23,False
 Union City,1981,Multi-family,0,False
@@ -7221,8 +7073,6 @@ Union City,2024,Multi-family,652,False
 Union City,2024,Single-family,269,False
 Union City,2025,Multi-family,380,True
 Union City,2025,Single-family,232,True
-Union City,2026,Multi-family,61,True
-Union City,2026,Single-family,18,True
 Woodstock,1980,Multi-family,4,False
 Woodstock,1980,Single-family,56,False
 Woodstock,1981,Multi-family,0,False
@@ -7315,5 +7165,3 @@ Woodstock,2024,Multi-family,0,False
 Woodstock,2024,Single-family,296,False
 Woodstock,2025,Multi-family,0,True
 Woodstock,2025,Single-family,222,True
-Woodstock,2026,Multi-family,0,True
-Woodstock,2026,Single-family,19,True

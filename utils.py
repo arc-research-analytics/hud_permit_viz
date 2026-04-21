@@ -135,8 +135,9 @@ def provisional_caption(provisional_years) -> str:
 
 MONTHLY_UNBENCHMARKED_CAPTION = (
     f"<p style='{_CAPTION_STYLE}'>"
-    "Monthly figures are BPS revised-monthly estimates and are not benchmarked "
-    "to annual totals. See Annual Trends for benchmarked annual data."
+    "Monthly figures are BPS revised-monthly estimates and are not "
+    "benchmarked to annual totals.<br>"
+    "See Annual Trends for benchmarked annual data."
     "</p>"
 )
 
