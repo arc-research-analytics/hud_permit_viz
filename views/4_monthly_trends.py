@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-from utils import county_color_map, city_list
+from utils import county_color_map, city_list, MONTHLY_UNBENCHMARKED_CAPTION
 from pandas.tseries.offsets import DateOffset
 from st_screen_stats import ScreenData
 
@@ -278,6 +278,8 @@ if screen_width >= 500:
         theme='streamlit',
         use_container_width=True
     )
+
+    col1.markdown(MONTHLY_UNBENCHMARKED_CAPTION, unsafe_allow_html=True)
 
     # KPI section
     singleFamily_total = df[df['Series'] ==

@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-from utils import county_color_map, city_list
+from utils import county_color_map, city_list, provisional_caption
 from st_screen_stats import ScreenData
 
 # set page configurations
@@ -283,6 +283,11 @@ if screen_width >= 500:
         theme='streamlit',
         use_container_width=True
     )
+
+    if 'provisional' in df.columns:
+        caption = provisional_caption(df.loc[df['provisional'] == True, 'Year'])
+        if caption:
+            st.markdown(caption, unsafe_allow_html=True)
 
     # download dataframe as CSV
     df = df.sort_values(by='Year', ascending=True)

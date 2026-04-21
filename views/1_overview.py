@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 from st_screen_stats import ScreenData
+from utils import provisional_caption
 
 # set page configurations
 st.set_page_config(
@@ -174,6 +175,11 @@ if screen_width >= 500:
         theme='streamlit',
         use_container_width=True
     )
+
+    if 'provisional' in df.columns:
+        caption = provisional_caption(df.loc[df['provisional'] == True, 'Year'])
+        if caption:
+            st.markdown(caption, unsafe_allow_html=True)
 
 
 # mobile view

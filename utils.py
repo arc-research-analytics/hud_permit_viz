@@ -108,6 +108,39 @@ def colorize_multiselect_options(selected_counties: list[str]) -> None:
     st.markdown(f"<style>{rules}</style>", unsafe_allow_html=True)
 
 
+_CAPTION_STYLE = (
+    "font-size: 13px; color: #a0a0a0; font-style: italic; "
+    "text-align: right; margin-top: -8px; margin-right: 4px;"
+)
+
+
+def provisional_caption(provisional_years) -> str:
+    years = sorted({int(y) for y in provisional_years})
+    if not years:
+        return ""
+    if len(years) == 1:
+        yr_str, verb = str(years[0]), "is"
+    elif len(years) == 2:
+        yr_str, verb = f"{years[0]} and {years[1]}", "are"
+    else:
+        yr_str = ", ".join(str(y) for y in years[:-1]) + f", and {years[-1]}"
+        verb = "are"
+    return (
+        f"<p style='{_CAPTION_STYLE}'>"
+        f"{yr_str} {verb} provisional (summed monthly estimates); "
+        "BPS releases benchmarked annual totals each May."
+        "</p>"
+    )
+
+
+MONTHLY_UNBENCHMARKED_CAPTION = (
+    f"<p style='{_CAPTION_STYLE}'>"
+    "Monthly figures are BPS revised-monthly estimates and are not benchmarked "
+    "to annual totals. See Annual Trends for benchmarked annual data."
+    "</p>"
+)
+
+
 # Callback functions for each widget to update session state
 def update_permit_type():
     st.session_state['permit_type'] = st.session_state['permit_type_input']
