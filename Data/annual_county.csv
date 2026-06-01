@@ -134,9 +134,9 @@ Atlanta,2023,Single-family,1139,False
 Atlanta,2024,All,8109,False
 Atlanta,2024,Multi-family,7318,False
 Atlanta,2024,Single-family,791,False
-Atlanta,2025,All,5622,True
-Atlanta,2025,Multi-family,5061,True
-Atlanta,2025,Single-family,561,True
+Atlanta,2025,All,5622,False
+Atlanta,2025,Multi-family,5061,False
+Atlanta,2025,Single-family,561,False
 Cherokee,1980,All,790,False
 Cherokee,1980,Multi-family,26,False
 Cherokee,1980,Single-family,764,False
@@ -272,9 +272,9 @@ Cherokee,2023,Single-family,2196,False
 Cherokee,2024,All,2665,False
 Cherokee,2024,Multi-family,869,False
 Cherokee,2024,Single-family,1796,False
-Cherokee,2025,All,1516,True
-Cherokee,2025,Multi-family,33,True
-Cherokee,2025,Single-family,1483,True
+Cherokee,2025,All,1524,False
+Cherokee,2025,Multi-family,33,False
+Cherokee,2025,Single-family,1491,False
 Clayton,1980,All,1033,False
 Clayton,1980,Multi-family,0,False
 Clayton,1980,Single-family,1033,False
@@ -410,9 +410,9 @@ Clayton,2023,Single-family,323,False
 Clayton,2024,All,930,False
 Clayton,2024,Multi-family,530,False
 Clayton,2024,Single-family,400,False
-Clayton,2025,All,774,True
-Clayton,2025,Multi-family,371,True
-Clayton,2025,Single-family,403,True
+Clayton,2025,All,793,False
+Clayton,2025,Multi-family,394,False
+Clayton,2025,Single-family,399,False
 Cobb,1980,All,5576,False
 Cobb,1980,Multi-family,1814,False
 Cobb,1980,Single-family,3762,False
@@ -548,9 +548,9 @@ Cobb,2023,Single-family,1152,False
 Cobb,2024,All,1604,False
 Cobb,2024,Multi-family,461,False
 Cobb,2024,Single-family,1143,False
-Cobb,2025,All,1337,True
-Cobb,2025,Multi-family,302,True
-Cobb,2025,Single-family,1035,True
+Cobb,2025,All,1787,False
+Cobb,2025,Multi-family,799,False
+Cobb,2025,Single-family,988,False
 DeKalb,1980,All,2660,False
 DeKalb,1980,Multi-family,959,False
 DeKalb,1980,Single-family,1701,False
@@ -686,9 +686,9 @@ DeKalb,2023,Single-family,711,False
 DeKalb,2024,All,1238,False
 DeKalb,2024,Multi-family,385,False
 DeKalb,2024,Single-family,853,False
-DeKalb,2025,All,1327,True
-DeKalb,2025,Multi-family,521,True
-DeKalb,2025,Single-family,806,True
+DeKalb,2025,All,1321,False
+DeKalb,2025,Multi-family,516,False
+DeKalb,2025,Single-family,805,False
 Douglas,1980,All,455,False
 Douglas,1980,Multi-family,6,False
 Douglas,1980,Single-family,449,False
@@ -824,9 +824,9 @@ Douglas,2023,Single-family,540,False
 Douglas,2024,All,638,False
 Douglas,2024,Multi-family,106,False
 Douglas,2024,Single-family,532,False
-Douglas,2025,All,876,True
-Douglas,2025,Multi-family,373,True
-Douglas,2025,Single-family,503,True
+Douglas,2025,All,801,False
+Douglas,2025,Multi-family,330,False
+Douglas,2025,Single-family,471,False
 Fayette,1980,All,716,False
 Fayette,1980,Multi-family,24,False
 Fayette,1980,Single-family,692,False
@@ -962,9 +962,9 @@ Fayette,2023,Single-family,354,False
 Fayette,2024,All,323,False
 Fayette,2024,Multi-family,0,False
 Fayette,2024,Single-family,323,False
-Fayette,2025,All,471,True
-Fayette,2025,Multi-family,0,True
-Fayette,2025,Single-family,471,True
+Fayette,2025,All,435,False
+Fayette,2025,Multi-family,0,False
+Fayette,2025,Single-family,435,False
 Forsyth,1980,All,340,False
 Forsyth,1980,Multi-family,24,False
 Forsyth,1980,Single-family,316,False
@@ -1100,9 +1100,9 @@ Forsyth,2023,Single-family,1121,False
 Forsyth,2024,All,2525,False
 Forsyth,2024,Multi-family,833,False
 Forsyth,2024,Single-family,1692,False
-Forsyth,2025,All,1725,True
-Forsyth,2025,Multi-family,312,True
-Forsyth,2025,Single-family,1413,True
+Forsyth,2025,All,1743,False
+Forsyth,2025,Multi-family,334,False
+Forsyth,2025,Single-family,1409,False
 Fulton,1980,All,3760,False
 Fulton,1980,Multi-family,1729,False
 Fulton,1980,Single-family,2031,False
@@ -1238,9 +1238,9 @@ Fulton,2023,Single-family,2905,False
 Fulton,2024,All,11577,False
 Fulton,2024,Multi-family,8640,False
 Fulton,2024,Single-family,2937,False
-Fulton,2025,All,8913,True
-Fulton,2025,Multi-family,6649,True
-Fulton,2025,Single-family,2264,True
+Fulton,2025,All,9660,False
+Fulton,2025,Multi-family,7316,False
+Fulton,2025,Single-family,2344,False
 Fulton less Atlanta,1980,All,2475,False
 Fulton less Atlanta,1980,Multi-family,808,False
 Fulton less Atlanta,1980,Single-family,1667,False
@@ -1376,9 +1376,9 @@ Fulton less Atlanta,2023,Single-family,1766,False
 Fulton less Atlanta,2024,All,3468,False
 Fulton less Atlanta,2024,Multi-family,1322,False
 Fulton less Atlanta,2024,Single-family,2146,False
-Fulton less Atlanta,2025,All,3291,True
-Fulton less Atlanta,2025,Multi-family,1588,True
-Fulton less Atlanta,2025,Single-family,1703,True
+Fulton less Atlanta,2025,All,4038,False
+Fulton less Atlanta,2025,Multi-family,2255,False
+Fulton less Atlanta,2025,Single-family,1783,False
 Gwinnett,1980,All,5032,False
 Gwinnett,1980,Multi-family,1064,False
 Gwinnett,1980,Single-family,3968,False
@@ -1514,9 +1514,9 @@ Gwinnett,2023,Single-family,4142,False
 Gwinnett,2024,All,5603,False
 Gwinnett,2024,Multi-family,1303,False
 Gwinnett,2024,Single-family,4300,False
-Gwinnett,2025,All,4053,True
-Gwinnett,2025,Multi-family,1037,True
-Gwinnett,2025,Single-family,3016,True
+Gwinnett,2025,All,3946,False
+Gwinnett,2025,Multi-family,996,False
+Gwinnett,2025,Single-family,2950,False
 Henry,1980,All,375,False
 Henry,1980,Multi-family,2,False
 Henry,1980,Single-family,373,False
@@ -1652,9 +1652,9 @@ Henry,2023,Single-family,1681,False
 Henry,2024,All,1887,False
 Henry,2024,Multi-family,0,False
 Henry,2024,Single-family,1887,False
-Henry,2025,All,1759,True
-Henry,2025,Multi-family,30,True
-Henry,2025,Single-family,1729,True
+Henry,2025,All,1666,False
+Henry,2025,Multi-family,0,False
+Henry,2025,Single-family,1666,False
 Metro,1980,All,21262,False
 Metro,1980,Multi-family,5778,False
 Metro,1980,Single-family,15484,False
@@ -1790,9 +1790,9 @@ Metro,2023,Single-family,15510,False
 Metro,2024,All,29473,False
 Metro,2024,Multi-family,13127,False
 Metro,2024,Single-family,16346,False
-Metro,2025,All,23094,True
-Metro,2025,Multi-family,9628,True
-Metro,2025,Single-family,13466,True
+Metro,2025,All,24015,False
+Metro,2025,Multi-family,10718,False
+Metro,2025,Single-family,13297,False
 Rockdale,1980,All,525,False
 Rockdale,1980,Multi-family,130,False
 Rockdale,1980,Single-family,395,False
@@ -1928,6 +1928,6 @@ Rockdale,2023,Single-family,385,False
 Rockdale,2024,All,483,False
 Rockdale,2024,Multi-family,0,False
 Rockdale,2024,Single-family,483,False
-Rockdale,2025,All,343,True
-Rockdale,2025,Multi-family,0,True
-Rockdale,2025,Single-family,343,True
+Rockdale,2025,All,339,False
+Rockdale,2025,Multi-family,0,False
+Rockdale,2025,Single-family,339,False
