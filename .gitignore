@@ -1,3 +1,8 @@
 .DS_Store
 
-backend/
+# Ignore everything in backend/ by default, but track the data-pipeline code
+# that GitHub Actions runs (fetch_permits.py, backend_query.py, requirements).
+backend/*
+!backend/fetch_permits.py
+!backend/backend_query.py
+!backend/requirements-pipeline.txt

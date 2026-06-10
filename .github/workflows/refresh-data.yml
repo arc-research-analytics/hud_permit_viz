@@ -1,0 +1,49 @@
+name: Refresh permit data
+
+# Pulls the latest BPS building-permit data from the Census Bureau, rebuilds the
+# dashboard CSVs, and commits any changes back to the repo. The commit triggers
+# the Heroku auto-deploy, so the live app refreshes with no manual steps.
+#
+# Schedule runs twice a month (19th and 26th) to absorb Census publication
+# slippage; runs are idempotent, so the commit step is a no-op when nothing
+# changed. The annual (benchmarked) files are fetched on every run, so the May
+# benchmark release is picked up automatically the first run after it lands.
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: '0 14 19,26 * *'  # 14:00 UTC on the 19th and 26th each month
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install pipeline dependencies
+        run: pip install -r backend/requirements-pipeline.txt
+
+      - name: Fetch permit data from Census
+        run: python backend/fetch_permits.py
+
+      - name: Rebuild dashboard CSVs
+        run: python backend/backend_query.py
+
+      - name: Get current date
+        id: date
+        run: echo "today=$(date +'%m-%d-%Y')" >> "$GITHUB_OUTPUT"
+
+      - name: Commit refreshed data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "new data collected ${{ steps.date.outputs.today }}"
+          file_pattern: "Data/**/*.csv"
