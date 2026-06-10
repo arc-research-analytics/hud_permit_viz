@@ -47,3 +47,60 @@ jobs:
         with:
           commit_message: "new data collected ${{ steps.date.outputs.today }}"
           file_pattern: "Data/**/*.csv"
+
+      - name: Notify Teams
+        if: always()
+        env:
+          TEAMS_WEBHOOK_URL: ${{ secrets.TEAMS_WEBHOOK_URL }}
+          PROJECT: "Building Permit Tracker"
+          STATUS: ${{ job.status }}
+          REPO: ${{ github.repository }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ -z "$TEAMS_WEBHOOK_URL" ]; then
+            echo "TEAMS_WEBHOOK_URL not set — skipping notification."
+            exit 0
+          fi
+
+          STAMP=$(date -u +'%B %-d, %Y at %I:%M %p UTC')
+
+          if [ "$STATUS" = "success" ]; then
+            HEAD="✅ Run succeeded"
+            COLOR="Good"
+            DETAIL="The scheduled run completed successfully."
+          else
+            HEAD="❌ Run FAILED"
+            COLOR="Attention"
+            DETAIL="The scheduled run failed. Check the logs and fix before the next run."
+          fi
+
+          jq -n \
+            --arg project "$PROJECT" \
+            --arg head "$HEAD" \
+            --arg detail "$DETAIL" \
+            --arg stamp "$STAMP" \
+            --arg repo "$REPO" \
+            --arg url "$RUN_URL" \
+            --arg color "$COLOR" \
+            '{
+              type: "message",
+              attachments: [{
+                contentType: "application/vnd.microsoft.card.adaptive",
+                content: {
+                  type: "AdaptiveCard",
+                  version: "1.4",
+                  body: [
+                    { type: "TextBlock", size: "Large", weight: "Bolder", text: $project, wrap: true },
+                    { type: "TextBlock", size: "Medium", weight: "Bolder", color: $color, text: $head, wrap: true },
+                    { type: "TextBlock", text: $detail, wrap: true },
+                    { type: "TextBlock", text: ($repo + "  •  " + $stamp), isSubtle: true, wrap: true }
+                  ],
+                  actions: [
+                    { type: "Action.OpenUrl", title: "View run logs", url: $url }
+                  ]
+                }
+              }]
+            }' > teams-payload.json
+
+          curl -sS --fail-with-body -H "Content-Type: application/json" \
+            -d @teams-payload.json "$TEAMS_WEBHOOK_URL"
