@@ -68,11 +68,12 @@ streamlit run main.py
 | [views/](views/) | The five dashboard pages (Overview, Compare, Annual Trends, Monthly Trends, About). |
 | [Data/](Data/) | The four dashboard CSVs the app reads. `Data/raw/` holds the fetched source masters. |
 | [backend/](backend/) | The data-refresh pipeline (see below). |
-| [.github/workflows/refresh-data.yml](.github/workflows/refresh-data.yml) | Scheduled GitHub Action that refreshes the data. |
+| [.github/workflows/refresh-data.yml](.github/workflows/refresh-data.yml) | Scheduled GitHub Action that refreshes the data and posts Teams notifications. |
 | [.streamlit/config.toml](.streamlit/config.toml) | Theme (colors, fonts). |
 | [assets/](assets/) | Logo images. |
 | `Procfile`, `setup.sh` | Heroku startup configuration. |
 | [.devcontainer/](.devcontainer/) | Codespaces / dev-container definition. |
+| [teams-notification.md](teams-notification.md) | Reference guide for the Teams webhook notification setup. |
 
 ---
 
@@ -96,6 +97,13 @@ Each run fetches **both** datasets:
 
 You can also trigger a run on demand from the repo's **Actions** tab: select
 **Refresh permit data → Run workflow** (`workflow_dispatch`).
+
+### Teams notifications
+
+After every run, the workflow posts an Adaptive Card to the designated Teams channel reporting
+success or failure, with a direct link to the run logs. The webhook URL is stored as the
+`TEAMS_WEBHOOK_URL` repository secret. See [teams-notification.md](teams-notification.md) for
+setup details and variations.
 
 ### What happens in a run
 
